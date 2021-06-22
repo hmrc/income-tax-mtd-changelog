@@ -1,7 +1,6 @@
+**Note: Please read before raising an issue**. 
 
-# income-tax-mtd-changelog
-
-The following Income Tax MTD services are supported:
+This repository's issues are reserved for **Technical** queries relating to the Income Tax MTD APIs Only. Services currently supported are:
 
 * [self-assessment-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-api/2.0)
 * [individual-losses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api/2.0)
@@ -22,14 +21,30 @@ The following Income Tax MTD services are supported:
 * [individuals-charges-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api/1.0)
 * [individuals-business-eops-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-business-eops-api/1.0)
 
-### Changelog
+If your issue falls into any of the below categories please contact SDST at SDSTeam@hmrc.gov.uk:
+* Issues relating to subscribing/registering to use the API Platform, MTD enrolment / de enrolment  / registration for VAT / BETA etc
+* Issues relating to OAuth2
+* Issues relating to integrating with the API Platform (setting up an application/access)
+* Vendor application software questions (code examples in .NET / VB6 etc.)
+* Business related questions
+* Scheduled maintenance days / windows
+* Onboarding 
+* Performance metrics
+* Questions relating to the process pre MTD
 
-You can see our changelog [here](https://github.com/hmrc/income-tax-mtd-changelog/wiki)
+Please provide the following information:
 
-### Support and Reporting Issues
+* **I'm submitting a ...**
+  - [ ] Bug - API
+  - [ ] Bug - Documentation
+  - [ ] Improvement
+  - [ ] Feature request
+  - [ ] Support request
 
-You can create a GitHub issue [here](https://github.com/hmrc/income-tax-mtd-changelog/issues)
+* **Which API is the issue related to?**
 
-### License
+* **What is the current behaviour?**
 
-This code is open source software licensed under the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
+* **What is the expected behaviour?**
+
+* **Other information** (e.g. detailed explanation, screenshots, stacktraces, related issues, suggestions how to fix, links for us to have context, eg. stackoverflow, gitter, etc)
