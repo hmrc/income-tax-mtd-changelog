@@ -32,10 +32,21 @@ The following changes are now available in the Sandbox environment:
 
 * Error codes have been added to the following APIs and endpoints. *New Gov-Test-Scenario header values have been added to support the new errors where applicable*:
   - Applicable to tax years from 2023-24 onwards:
+    - individual-calculations-api v3.0
+      - `Trigger a Self Assessment Tax Calculation`: RULE_INCOME_SOURCES_CHANGED, RULE_RESIDENCY_CHANGED, RULE_TAX_YEAR_NOT_ENDED, RULE_RECENT_SUBMISSIONS_EXIST, RULE_CALCULATION_IN_PROGRESS, and RULE_BUSINESS_VALIDATION_FAILURE
     - self-employment-business api v1.0
+      - `Create Self-Employment Period Summary`: RULE_TAX_YEAR_NOT_SUPPORTED, RULE_DUPLICATE_SUBMISSION
+      - `Amend Self-Employment Period Summary`: FORMAT_TAX_YEAR, RULE_TAX_YEAR_NOT_SUPPORTED, RULE_TAX_YEAR_RANGE_INVALID
     - individuals-business-eops-api v2.0
+      - `Submit End of Period Statement for a Business`: RULE_TAX_YEAR_NOT_SUPPORTED
+    - self-assessment-bsas-api v3.0
+      - `Submit Foreign Property Accounting Adjustments`, `Submit UK Property Accounting Adjustments`, `Submit Self-Employment Accounting Adjustments`, `Retrieve a Foreign Property Business Source Adjustable Summary`, `Retrieve a Self-Employment Business Source Adjustable Summary`, and `Retrieve a UK Property Business Source Adjustable Summary`: FORMAT_TAX_YEAR, RULE_TAX_YEAR_NOT_SUPPORTED, RULE_TAX_YEAR_RANGE_INVALID
+      - `Trigger a Business Source Adjustable Summary`: RULE_TAX_YEAR_NOT_SUPPORTED
   - Applicable to tax years *before* 2023-24:
     - self-employment-business api v1.0
+      - `Amend Self-Employment Period Summary`: INVALID_TAX_YEAR_PARAMETER
+    - self-assessment-bsas-api v3.0
+      - `Submit Foreign Property Accounting Adjustments`, `Submit UK Property Accounting Adjustments`, and `Submit Self-Employment Accounting Adjustments`, `Retrieve a Foreign Property Business Source Adjustable Summary`, `Retrieve a Self-Employment Business Source Adjustable Summary`, and `Retrieve a UK Property Business Source Adjustable Summary`: INVALID_TAX_YEAR_PARAMETER
 * Changes to individual-losses-api v3.0:
   - List Loss Claims endpoint: `taxYearClaimedFor` is mandatory for returning data related to tax years from 2023-24
   - List Brought Forward Losses endpoint: `taxYearBroughtForwardFrom` is mandatory for returning data related to tax years from 2023-24
