@@ -26,43 +26,19 @@ This page contains the latest changes for the following Income Tax MTD API servi
 
 See the above list for links to the relevant API documentation.
 
-### 1 December 2022
+To be notified whenever an MTD API change is deployed to the Sandbox or Production, follow these steps while logged-in to your Github account:
 
-The following changes are now available in the Sandbox environment:
+1. Go to: https://github.com/hmrc/income-tax-mtd-changelog
+2. Click the "Watch" drop-down at the top right, and choose "Custom.. Releases"
+3. Go to: https://github.com/settings/notifications
+4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
-* Error codes have been added to the following APIs and endpoints. *New Gov-Test-Scenario header values have been added to support the new errors where applicable*:
-  - Applicable to tax years from 2023-24 onwards:
-    - individual-calculations-api v3.0
-      - `Trigger a Self Assessment Tax Calculation`: RULE_INCOME_SOURCES_CHANGED, RULE_RESIDENCY_CHANGED, RULE_TAX_YEAR_NOT_ENDED, RULE_RECENT_SUBMISSIONS_EXIST, RULE_CALCULATION_IN_PROGRESS, and RULE_BUSINESS_VALIDATION_FAILURE
-    - self-employment-business api v1.0
-      - `Create Self-Employment Period Summary`: RULE_TAX_YEAR_NOT_SUPPORTED, RULE_DUPLICATE_SUBMISSION
-      - `Amend Self-Employment Period Summary`: FORMAT_TAX_YEAR, RULE_TAX_YEAR_NOT_SUPPORTED, RULE_TAX_YEAR_RANGE_INVALID
-    - individuals-business-eops-api v2.0
-      - `Submit End of Period Statement for a Business`: RULE_TAX_YEAR_NOT_SUPPORTED
-    - self-assessment-bsas-api v3.0
-      - `Submit Foreign Property Accounting Adjustments`, `Submit UK Property Accounting Adjustments`, `Submit Self-Employment Accounting Adjustments`, `Retrieve a Foreign Property Business Source Adjustable Summary`, `Retrieve a Self-Employment Business Source Adjustable Summary`, and `Retrieve a UK Property Business Source Adjustable Summary`: FORMAT_TAX_YEAR, RULE_TAX_YEAR_NOT_SUPPORTED, RULE_TAX_YEAR_RANGE_INVALID
-      - `Trigger a Business Source Adjustable Summary`: RULE_TAX_YEAR_NOT_SUPPORTED
-  - Applicable to tax years *before* 2023-24:
-    - self-employment-business api v1.0
-      - `Amend Self-Employment Period Summary`: INVALID_TAX_YEAR_PARAMETER
-    - self-assessment-bsas-api v3.0
-      - `Submit Foreign Property Accounting Adjustments`, `Submit UK Property Accounting Adjustments`, and `Submit Self-Employment Accounting Adjustments`, `Retrieve a Foreign Property Business Source Adjustable Summary`, `Retrieve a Self-Employment Business Source Adjustable Summary`, and `Retrieve a UK Property Business Source Adjustable Summary`: INVALID_TAX_YEAR_PARAMETER
-* Changes to individual-losses-api v3.0:
-  - List Loss Claims endpoint: `taxYearClaimedFor` is mandatory for returning data related to tax years from 2023-24
-  - List Brought Forward Losses endpoint: `taxYearBroughtForwardFrom` is mandatory for returning data related to tax years from 2023-24
+You should now receive an email whenever the changelog is updated.
 
-* Changes to self-assessment-bsas-api v3.0: A new `taxYear` query parameter has been added that must be supplied only for tax years from 2023-24, for the following endpoints:
-  - Retrieve a Foreign Property Business Source Adjustable Summary
-  - Retrieve a Self-Employment Business Source Adjustable Summary
-  - Retrieve a UK Property Business Source Adjustable Summary
 
-* RULE_TAX_YEAR_NOT_SUPPORTED error code: the message in the response and the description in the API documentation have both been updated for clarity, in endpoints across the following APIs. The error code itself is unchanged:
-  - individual-calculations-api v3.0
-  - self-employment-business api v1.0
-  - property-business-api v2.0
-  - self-assessment-biss-api v2.0
-  - individual-losses-api v3.0
-  - self-assessment-bsas-api v3.0
+### 3 January 2023
+
+New changes to the MTD APIs will be listed here.
 
 
 ## Previous updates
