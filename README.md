@@ -39,7 +39,19 @@ You should now receive an email whenever the changelog is updated.
 
 The following changes were deployed into sandbox.
 
-#### Individual-income-recieved-api
+#### Property-business-api
+
+Endpoint: `Retrieve a UK Property Income & Expenses Period Summary`
+
+* Added periodCreationDate field
+
+Endpoint: `Create a UK Property Income & Expenses Period Summary`
+
+* Added TYS downstream error codes for endpoint
+
+
+
+#### Individuals-income-recieved-api
 
 Endpoint: `Retrieve an Employment and its Financial Details`
 
