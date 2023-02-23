@@ -38,22 +38,28 @@ You should now receive an email whenever the changelog is updated.
 
 The following changes were deployed into sandbox.
 
-#### Self-employment-business-api V2
+#### Self-employment-business-api
+
+New API Version `v2.0`
 
 Endpoint: `Retrieve a self-employment period summary`
 
-* Removed all references to 'allowable' from all fields and objects.
-  * e.g periodAllowableExpenses → periodExpenses 
+* Renamed periodAllowableExpenses and all its properties, removing ‘allowable’
+  * e.g periodAllowableExpenses → periodExpenses
 
 Endpoint: `Amend a self-employment period summary`
 
-* Removed all references to 'allowable' from all fields and objects.
-    * e.g periodAllowableExpenses → periodExpenses
+* Renamed periodAllowableExpenses and all its properties, removing ‘allowable’
+  * e.g periodAllowableExpenses → periodExpenses
 
 Endpoint: `Create a self-employment period summary`
 
-* Removed all references to 'allowable' from all fields and objects.
-    * e.g periodAllowableExpenses → periodExpenses
+* Renamed periodAllowableExpenses and all its properties, removing ‘allowable’
+  * e.g periodAllowableExpenses → periodExpenses
+
+#### Self-assessment-api
+
+self-assessments-api `v2.0` has now been deprecated
 
 ### 25 January 2023
 
