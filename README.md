@@ -38,7 +38,7 @@ You should now receive an email whenever the changelog is updated.
 
 The following changes were deployed into sandbox.
 
-#### Self-employment-business-api
+#### Self-employment-business-api V2
 
 Endpoint: `Retrieve a self-employment period summary`
 
