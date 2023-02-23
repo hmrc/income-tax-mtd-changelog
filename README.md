@@ -34,6 +34,26 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+### 23 February 2023
+
+The following changes were deployed into sandbox.
+
+#### Self-employment-business-api
+
+Endpoint: `Retrieve a self-employment period summary`
+
+* Removed all references to 'allowable' from all fields and objects.
+  * e.g periodAllowableExpenses → periodExpenses 
+
+Endpoint: `Amend a self-employment period summary`
+
+* Removed all references to 'allowable' from all fields and objects.
+    * e.g periodAllowableExpenses → periodExpenses
+
+Endpoint: `Create a self-employment period summary`
+
+* Removed all references to 'allowable' from all fields and objects.
+    * e.g periodAllowableExpenses → periodExpenses
 
 ### 25 January 2023
 
