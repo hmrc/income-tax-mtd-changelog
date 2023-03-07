@@ -36,6 +36,8 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 You should now receive an email whenever the changelog is updated.
 ### 7 March 2023
 
+The following changes were deployed into sandbox.
+
 #### Individuals-income-received-api
 
 Endpoint: `Retrieve an Employment and its Financial Details`
