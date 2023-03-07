@@ -34,6 +34,21 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+
+### 8 March 2023
+
+The following changes were deployed into sandbox.
+
+#### Individuals-calculations-api
+
+Endpoint: `Submit Self Assessment Final Declaration`
+
+* New error coded added:
+  * RULE_FINAL_DECLARATION_TAX_YEAR
+  * RULE_FINAL_DECLARATION_IN_PROGRESS
+  
+* New Gov-Test-Scenario header values added to support new errors.
+
 ### 23 February 2023
 
 The following changes were deployed into sandbox.
