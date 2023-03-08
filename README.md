@@ -49,7 +49,7 @@ Endpoint: `Retrieve an Employment and its Financial Details`
 
 Endpoint: `Submit Self Assessment Final Declaration`
 
-* New error coded added:
+* New error codes added:
   * RULE_FINAL_DECLARATION_TAX_YEAR
   * RULE_FINAL_DECLARATION_IN_PROGRESS
   
