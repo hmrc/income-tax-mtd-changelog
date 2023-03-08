@@ -61,6 +61,30 @@ Endpoint: `Create a self-employment period summary`
 
 self-assessments-api `v2.0` has now been deprecated
 
+### 22 February 2023
+
+The following changes were deployed into sandbox.
+
+#### Individuals-charges-api
+
+Endpoint: `Create and Amend Pension Charges`
+
+* Created isAnnualAllowanceReduced data field that can be retrieved from pensionSavingsTaxCharges Object
+* Created moneyPurchasedAllowance data field that can be retrieved from pensionSavingsTaxCharges Object
+* Created taperedAnnualAllowance data field that can be retrieved from pensionSavingsTaxCharges Object
+* Removed isAnnualAllowanceReduced data field from pensionContributions Object
+* Removed moneyPurchasedAllowance data field from pensionContributions Object
+* Removed taperedAnnualAllowance data field from  pensionContributions Object
+
+Endpoint: `Retrieve Pensions Charges`
+
+* Created isAnnualAllowanceReduced data field that can be retrieved from pensionSavingsTaxCharges Object
+* Created moneyPurchasedAllowance data field that can be retrieved from pensionSavingsTaxCharges Object
+* Created taperedAnnualAllowance data field that can be retrieved from pensionSavingsTaxCharges Object
+* Removed isAnnualAllowanceReduced data field from pensionContributions Object
+* Removed moneyPurchasedAllowance data field from pensionContributions Object
+* Removed taperedAnnualAllowance data field from  pensionContributions Object
+
 ### 25 January 2023
 
 The following changes were deployed into sandbox.
