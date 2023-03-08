@@ -96,6 +96,22 @@ Endpoint: `Create a Self-Employment Period Summary`
 
 self-assessments-api `v2.0` has now been deprecated
 
+### 22 February 2023
+
+The following changes were deployed into sandbox.
+
+#### Individuals-charges-api
+
+Endpoint: `Create and Amend Pension Charges`
+
+* Fields added to the `pensionSavingsTaxCharges` object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+* Fields removed from the `pensionContributions` object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+
+Endpoint: `Retrieve Pensions Charges`
+
+* Fields added to the `pensionSavingsTaxCharges` object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+* Fields removed from the `pensionContributions` object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+
 ### 25 January 2023
 
 The following changes were deployed into sandbox.
@@ -110,17 +126,15 @@ Endpoint: `Create a UK Property Income & Expenses Period Summary`
 
 * Added TYS downstream error codes for endpoint
 
-
-
-#### Individuals-income-recieved-api
+#### Individuals-income-received-api
 
 Endpoint: `Retrieve an Employment and its Financial Details`
 
-* Added new data field called `offPayrollWorker` to employment
+* New field `offPayrollWorker` added to the `employment` object
 
 Endpoint: `Create and Amend Employment Financial Details`
 
-* Added new data field called `offPayrollWorker` to Amendemployment
+* New field `offPayrollWorker` added to the `employment` object
 
 ### 3 January 2023
 
