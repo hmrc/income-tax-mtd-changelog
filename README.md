@@ -34,7 +34,7 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
-### 7 March 2023
+### 8 March 2023
 
 The following changes were deployed into sandbox.
 
