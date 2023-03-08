@@ -104,21 +104,13 @@ The following changes were deployed into sandbox.
 
 Endpoint: `Create and Amend Pension Charges`
 
-* Created isAnnualAllowanceReduced data field that can be retrieved from pensionSavingsTaxCharges Object
-* Created moneyPurchasedAllowance data field that can be retrieved from pensionSavingsTaxCharges Object
-* Created taperedAnnualAllowance data field that can be retrieved from pensionSavingsTaxCharges Object
-* Removed isAnnualAllowanceReduced data field from pensionContributions Object
-* Removed moneyPurchasedAllowance data field from pensionContributions Object
-* Removed taperedAnnualAllowance data field from  pensionContributions Object
+* Fields added to the pensionSavingsTaxCharges object: isAnnualAllowanceReduced, moneyPurchasedAllowance, taperedAnnualAllowance
+* Fields removed from the pensionContributions object: isAnnualAllowanceReduced, moneyPurchasedAllowance, taperedAnnualAllowance
 
 Endpoint: `Retrieve Pensions Charges`
 
-* Created isAnnualAllowanceReduced data field that can be retrieved from pensionSavingsTaxCharges Object
-* Created moneyPurchasedAllowance data field that can be retrieved from pensionSavingsTaxCharges Object
-* Created taperedAnnualAllowance data field that can be retrieved from pensionSavingsTaxCharges Object
-* Removed isAnnualAllowanceReduced data field from pensionContributions Object
-* Removed moneyPurchasedAllowance data field from pensionContributions Object
-* Removed taperedAnnualAllowance data field from pensionContributions Object
+*  Fields added to the pensionSavingsTaxCharges object: isAnnualAllowanceReduced, moneyPurchasedAllowance, taperedAnnualAllowance
+* Fields removed from the pensionContributions object: isAnnualAllowanceReduced, moneyPurchasedAllowance, taperedAnnualAllowance
 
 ### 25 January 2023
 
