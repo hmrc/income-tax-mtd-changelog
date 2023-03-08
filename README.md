@@ -130,11 +130,11 @@ Endpoint: `Create a UK Property Income & Expenses Period Summary`
 
 Endpoint: `Retrieve an Employment and its Financial Details`
 
-* Added new data field called `offPayrollWorker` to `employment` object
+* New field `offPayrollWorker` added to the `employment` object
 
 Endpoint: `Create and Amend Employment Financial Details`
 
-* Added new data field called `offPayrollWorker` to `employment` object
+* New field `offPayrollWorker` added to the `employment` object
 
 ### 3 January 2023
 
