@@ -83,7 +83,7 @@ Endpoint: `Retrieve Pensions Charges`
 * Created taperedAnnualAllowance data field that can be retrieved from pensionSavingsTaxCharges Object
 * Removed isAnnualAllowanceReduced data field from pensionContributions Object
 * Removed moneyPurchasedAllowance data field from pensionContributions Object
-* Removed taperedAnnualAllowance data field from  pensionContributions Object
+* Removed taperedAnnualAllowance data field from pensionContributions Object
 
 ### 25 January 2023
 
@@ -99,17 +99,15 @@ Endpoint: `Create a UK Property Income & Expenses Period Summary`
 
 * Added TYS downstream error codes for endpoint
 
-
-
-#### Individuals-income-recieved-api
+#### Individuals-income-received-api
 
 Endpoint: `Retrieve an Employment and its Financial Details`
 
-* Added new data field called `offPayrollWorker` to employment
+* Added new data field called `offPayrollWorker` to employment Object
 
 Endpoint: `Create and Amend Employment Financial Details`
 
-* Added new data field called `offPayrollWorker` to Amendemployment
+* Added new data field called `offPayrollWorker` to employment Object
 
 ### 3 January 2023
 
