@@ -34,6 +34,41 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+
+### 8 March 2023
+
+The following changes were deployed into sandbox.
+
+#### Individual-losses-api
+
+New API Version `v4.0`
+
+New endpoints in v4:
+ * `List Loss Claims`
+ * `List Brought Forward Losses`
+
+Both endpoints replace their respective v3 equivalents, which are now deprecated, and not available in v4. Please use the new v4 endpoints instead.
+
+The new endpoints require a tax year path parameter; previously this was an optional query parameter.
+
+In v3, if either endpoint is called without the tax year query param, the array returned will include losses for all available tax years up to the latest completed tax year.
+
+#### Individuals-income-received-api
+
+Endpoint: `Retrieve an Employment and its Financial Details`
+
+* Updated response data field `offPayrollWorker` to be optional
+
+#### Individual-calculations-api
+
+Endpoint: `Submit a Self Assessment Final Declaration`
+
+* New error codes added:
+  * RULE_FINAL_DECLARATION_TAX_YEAR
+  * RULE_FINAL_DECLARATION_IN_PROGRESS
+  
+* New Gov-Test-Scenario header values added to support new errors.
+
 ### 23 February 2023
 
 The following changes were deployed into sandbox.
@@ -42,17 +77,17 @@ The following changes were deployed into sandbox.
 
 New API Version `v2.0`
 
-Endpoint: `Retrieve a self-employment period summary`
+Endpoint: `Retrieve a Self-Employment Period Summary`
 
 * Renamed periodAllowableExpenses and all its properties, removing ‘allowable’
   * e.g periodAllowableExpenses → periodExpenses
 
-Endpoint: `Amend a self-employment period summary`
+Endpoint: `Amend a Self-Employment Period Summary`
 
 * Renamed periodAllowableExpenses and all its properties, removing ‘allowable’
   * e.g periodAllowableExpenses → periodExpenses
 
-Endpoint: `Create a self-employment period summary`
+Endpoint: `Create a Self-Employment Period Summary`
 
 * Renamed periodAllowableExpenses and all its properties, removing ‘allowable’
   * e.g periodAllowableExpenses → periodExpenses
