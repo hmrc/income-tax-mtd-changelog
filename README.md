@@ -104,13 +104,13 @@ The following changes were deployed into sandbox.
 
 Endpoint: `Create and Amend Pension Charges`
 
-* Fields added to the pensionSavingsTaxCharges object: isAnnualAllowanceReduced, moneyPurchasedAllowance, taperedAnnualAllowance
-* Fields removed from the pensionContributions object: isAnnualAllowanceReduced, moneyPurchasedAllowance, taperedAnnualAllowance
+* Fields added to the `pensionSavingsTaxCharges` object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+* Fields removed from the `pensionContributions` object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
 
 Endpoint: `Retrieve Pensions Charges`
 
-*  Fields added to the pensionSavingsTaxCharges object: isAnnualAllowanceReduced, moneyPurchasedAllowance, taperedAnnualAllowance
-* Fields removed from the pensionContributions object: isAnnualAllowanceReduced, moneyPurchasedAllowance, taperedAnnualAllowance
+* Fields added to the `pensionSavingsTaxCharges` object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+* Fields removed from the `pensionContributions` object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
 
 ### 25 January 2023
 
@@ -130,11 +130,11 @@ Endpoint: `Create a UK Property Income & Expenses Period Summary`
 
 Endpoint: `Retrieve an Employment and its Financial Details`
 
-* Added new data field called `offPayrollWorker` to employment Object
+* Added new data field called `offPayrollWorker` to `employment` object
 
 Endpoint: `Create and Amend Employment Financial Details`
 
-* Added new data field called `offPayrollWorker` to employment Object
+* Added new data field called `offPayrollWorker` to `employment` object
 
 ### 3 January 2023
 
