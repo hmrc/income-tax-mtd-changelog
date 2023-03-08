@@ -39,6 +39,12 @@ You should now receive an email whenever the changelog is updated.
 
 The following changes were deployed into sandbox.
 
+#### Individuals-income-received-api
+
+Endpoint: `Retrieve an Employment and its Financial Details`
+
+* Updated response data field `offPayrollWorker` to be optional
+
 #### Individual-calculations-api
 
 Endpoint: `Submit Self Assessment Final Declaration`
