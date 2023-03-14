@@ -35,6 +35,15 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 
 You should now receive an email whenever the changelog is updated.
 
+
+### 14 March 2023 
+
+The following changes were deployed into sandbox. 
+
+#### property-business-api
+
+* For versions 2.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of INCORRECT_GOV_TEST_SCENARIO. 
+
 ### 8 March 2023
 
 The following changes were deployed into sandbox.
