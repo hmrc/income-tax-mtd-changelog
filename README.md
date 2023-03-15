@@ -35,6 +35,23 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 
 You should now receive an email whenever the changelog is updated.
 
+### 15 March 2023
+
+The following changes were deployed into sandbox.
+
+#### individuals-charges-api
+
+New API Version `v2.0`
+
+Updated Endpoint: `Create and Amend Pension Charges (V2)`
+
+* Fields added to the `pensionContributions` request object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+* Fields removed from the `pensionSavingsTaxCharges` request object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+
+Updated Endpoint: `Retrieve Pension Charges (V2)`
+
+* Fields added to the `pensionContributions` response object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+* Fields removed from the `pensionSavingsTaxCharges` response object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
 
 ### 14 March 2023 
 
