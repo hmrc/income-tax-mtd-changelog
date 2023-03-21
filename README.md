@@ -35,6 +35,38 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 
 You should now receive an email whenever the changelog is updated.
 
+### 22 March 2023
+
+The following changes were deployed into sandbox.
+
+#### individuals-income-received-api
+
+Minor clarifications made to developer hub documentation:
+
+* Update description of `grossAmount` field in Create And Amend Savings Income Request and Retrieve Savings Income Response.
+* Update description of `specialWithholdingTax` field in Create And Amend Savings Income Request and Retrieve Savings Income Response.
+* Update description of `specialWithholdingTax` field in Create And Amend Dividends Income Request and Retrieve Dividends Income Response.
+
+#### individual-losses-api
+
+Minor clarifications made to developer hub documentation:
+
+* Update description of Create Loss Claims endpoint.
+
+Updated Endpoint: `Amend Loss Claims Order`
+
+* Fix HATEOAS links in response
+
+Updated Endpoint: `List Loss Claims`
+
+* Fix HATEOAS links in response
+
+#### self-employment-business-api
+
+Minor clarifications made to developer hub documentation:
+
+* Update description of `periodExpenses` field in multiple endpoints.
+
 ### 15 March 2023
 
 The following changes were deployed into sandbox.
