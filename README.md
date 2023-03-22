@@ -41,17 +41,17 @@ The following changes were deployed into sandbox.
 
 #### individuals-income-received-api
 
-Minor clarifications made to developer hub documentation:
+Minor clarifications made to developer hub documentation. The following descriptions were updated:
 
-* Update description of `grossAmount` field in Create And Amend Savings Income Request and Retrieve Savings Income Response.
-* Update description of `specialWithholdingTax` field in Create And Amend Savings Income Request and Retrieve Savings Income Response.
-* Update description of `specialWithholdingTax` field in Create And Amend Dividends Income Request and Retrieve Dividends Income Response.
+* `grossAmount` field in Create And Amend Savings Income Request and Retrieve Savings Income Response.
+* `specialWithholdingTax` field in Create And Amend Savings Income Request and Retrieve Savings Income Response.
+* `specialWithholdingTax` field in Create And Amend Dividends Income Request and Retrieve Dividends Income Response.
 
 #### individual-losses-api
 
 Minor clarifications made to developer hub documentation:
 
-* Update description of Create Loss Claims endpoint.
+* Updated description of Create Loss Claims endpoint.
 
 Updated Endpoint: `Amend Loss Claims Order`
 
@@ -65,7 +65,7 @@ Updated Endpoint: `List Loss Claims`
 
 Minor clarifications made to developer hub documentation:
 
-* Update description of `periodExpenses` field in multiple endpoints.
+* Updated description of `periodExpenses` field in multiple endpoints.
 
 ### 15 March 2023
 
