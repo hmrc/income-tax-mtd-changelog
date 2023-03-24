@@ -35,6 +35,46 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 
 You should now receive an email whenever the changelog is updated.
 
+### DATE TBC (R8A Changes)
+
+The following changes were deployed into production.
+
+### business-details-api
+
+### cis-deductions-api
+
+### individual-calculations-api
+
+### individual-losses-api
+
+### individuals-business-eops-api
+
+### individuals-charges-api
+
+### individuals-disclosures-api
+
+### individuals-expenses-api
+
+### individuals-income-received-api
+
+### individuals-reliefs-api
+
+### individuals-state-benefits-api
+
+### obligations-api
+
+### other-deductions-api
+
+### property-business-api
+
+### self-assessment-accounts-api
+
+### self-assessment-biss-api
+
+### self-assessment-bsas-api
+
+### self-employment-business-api
+
 ### 22 March 2023
 
 The following changes were deployed into sandbox.
