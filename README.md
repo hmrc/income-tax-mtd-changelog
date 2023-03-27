@@ -40,6 +40,9 @@ You should now receive an email whenever the changelog is updated.
 The following changes were deployed into production.
 
 ### business-details-api
+In OAS documentation:
+* Added missing `message` attribute to all example error codes 
+* Added missing `correlationId` header requirement to mandatory
 
 ### cis-deductions-api
 
