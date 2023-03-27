@@ -43,7 +43,7 @@ The following changes were deployed into production.
 
 ### cis-deductions-api
 
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
 Updated Endpoint: `Amend CIS Deductions for Subcontractor`
 
@@ -57,6 +57,12 @@ Updated Endpoint: `Create CIS Deductions for Subcontractor`
 ### individual-calculations-api
 
 ### individual-losses-api
+
+Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+
+New API Version `v4.0` is available, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api-1).
+
+Minor clarifications made to developer hub documentaton, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api).
 
 ### individuals-business-eops-api
 
