@@ -56,6 +56,19 @@ Updated Endpoint: `Create CIS Deductions for Subcontractor`
 
 ### individual-calculations-api
 
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Version 2.0 has been deprecated see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
+* New Gov-Test-Scenario header values added for `Trigger a Self Assessment Tax Calculation` endpoint [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#1-december-2022)
+* New fields have been added for `Retrieve a Self Assessment Tax Calculation` endpoint [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#5th-january-2023)
+* New error code has been added for `Submit a Self Assessment Final Declaration` endpoint [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#8-march-2023)
+
+Updated Endpoint: `List Self Assessment Tax Calculations`
+
+* Updated description for the endpoint
+* Updated description for `calculationTimestamp` field
+* Removed `biss` from `	calculationType` field
+
+
 ### individual-losses-api
 
 ### individuals-business-eops-api
