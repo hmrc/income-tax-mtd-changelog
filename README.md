@@ -93,6 +93,18 @@ The following changes are now available in production:
 ### individuals-reliefs-api
 
 ### individuals-state-benefits-api
+The following changes are now available in production:
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Added new `RULE_TAX_YEAR_NOT_SUPPORTED` error, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Updated Endpoint: `Amend State Benefit Amounts`
+  * Updated name and description for the endpoint
+  * Updated error message for `RULE_UPDATE_FORBIDDEN`
+* Updated Endpoint: `Ignore State Benefit`
+  * Updated description for the endpoint
+* Updated Endpoint: `Unignore State Benefit`
+  * Updated description for the endpoint
+* In OAS documentation:
+  * Updated `correlationId` header requirement to mandatory
 
 ### obligations-api
 
