@@ -46,20 +46,30 @@ In OAS documentation:
 
 ### cis-deductions-api
 
+The following changes are now available in production:
+
 * Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
-Updated Endpoint: `Amend CIS Deductions for Subcontractor`
+* Updated Endpoint: `Amend CIS Deductions for Subcontractor`
 
-* New error added: `RULE_TAX_YEAR_NOT_SUPPORTED`
-* Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
+  * New error added: `RULE_TAX_YEAR_NOT_SUPPORTED`
+  * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
 
-Updated Endpoint: `Create CIS Deductions for Subcontractor`
+* Updated Endpoint: `Create CIS Deductions for Subcontractor`
 
-* Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
+  * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
 
 ### individual-calculations-api
 
 ### individual-losses-api
+
+The following changes are now available in production:
+
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+
+* New API Version `v4.0` is available, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api-1).
+
+* Minor clarifications made to developer hub documentation, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api).
 
 ### individuals-business-eops-api
 
