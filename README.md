@@ -62,7 +62,7 @@ Some error response status codes corrected from 403 to 400, see [sandbox changel
 
 New API Version `v4.0` is available, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api-1).
 
-Minor clarifications made to developer hub documentaton, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api).
+Minor clarifications made to developer hub documentation, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api).
 
 ### individuals-business-eops-api
 
