@@ -84,7 +84,7 @@ The following changes are now available in production:
 ### individuals-charges-api
 
 ### individuals-disclosures-api
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
 ### individuals-expenses-api
 
@@ -95,6 +95,16 @@ The following changes are now available in production:
 ### individuals-state-benefits-api
 
 ### obligations-api
+The following changes are now available in production:
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Updated the description for `ruleFromDateNotSupported` error
+* Updated Endpoint: `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+  * Renamed endpoint from `Retrieve Income Tax (Self Assessment) Crystallisation Obligations` to `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+  * Updated description for the endpoint
+* In the OAS documentation:
+  * Updated `correlationId` header requirement to mandatory
+  * Updated the downstream URL for all three endpoints
+
 
 ### other-deductions-api
 
