@@ -66,6 +66,7 @@ Updated Endpoint: `Create CIS Deductions for Subcontractor`
 ### individuals-charges-api
 
 ### individuals-disclosures-api
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
 ### individuals-expenses-api
 
