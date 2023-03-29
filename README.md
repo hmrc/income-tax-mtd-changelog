@@ -56,10 +56,11 @@ The following changes are now available in production:
   * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
 
 ### individual-calculations-api
+
 The following changes are now available in production:
+
 * Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 * Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
-* New Gov-Test-Scenario header values added for `Trigger a Self Assessment Tax Calculation` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#1-december-2022)
 * New fields have been added for `Retrieve a Self Assessment Tax Calculation` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#5th-january-2023)
 * New error code has been added for `Submit a Self Assessment Final Declaration` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#8-march-2023)
 
@@ -101,12 +102,16 @@ The following changes are now available in production:
 ### property-business-api
 
 ### self-assessment-accounts-api
+
 The following changes are now available in production:
+
+* Version 1.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
+* Updated description and message for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 * Updated Endpoint:`List Self Assessment Payments & Allocation Details`
-  * Updated description for the endpoint
-  * Added `MISSING_PAYMENT_LOT_ITEM` and `RULE_INCONSISTENT_QUERY_PARAMS` errors
+  - Updated description
+  - Added `MISSING_PAYMENT_LOT_ITEM` and `RULE_INCONSISTENT_QUERY_PARAMS` errors
 * In OAS documentation:
-  * Updated `correlationId` header requirement to mandatory
+  - Updated `correlationId` header requirement to mandatory
 
 ### self-assessment-biss-api
 
