@@ -106,12 +106,10 @@ The following changes are now available in production:
 The following changes are now available in production:
 
 * Version 1.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
-* Updated description and message for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Updated description and message for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
 * Updated Endpoint:`List Self Assessment Payments & Allocation Details`
   - Updated description
   - Added `MISSING_PAYMENT_LOT_ITEM` and `RULE_INCONSISTENT_QUERY_PARAMS` errors
-* In OAS documentation:
-  - Updated `correlationId` header requirement to mandatory
 
 ### self-assessment-biss-api
 
