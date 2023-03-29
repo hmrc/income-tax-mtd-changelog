@@ -46,20 +46,38 @@ In OAS documentation:
 
 ### cis-deductions-api
 
+The following changes are now available in production:
+
 * Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
-
-Updated Endpoint: `Amend CIS Deductions for Subcontractor`
-
-* New error added: `RULE_TAX_YEAR_NOT_SUPPORTED`
-* Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
-
-Updated Endpoint: `Create CIS Deductions for Subcontractor`
-
-* Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
+* Updated Endpoint: `Amend CIS Deductions for Subcontractor`
+  * New error added: `RULE_TAX_YEAR_NOT_SUPPORTED`
+  * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
+* Updated Endpoint: `Create CIS Deductions for Subcontractor`
+  * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
 
 ### individual-calculations-api
+The following changes are now available in production:
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
+* New Gov-Test-Scenario header values added for `Trigger a Self Assessment Tax Calculation` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#1-december-2022)
+* New fields have been added for `Retrieve a Self Assessment Tax Calculation` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#5th-january-2023)
+* New error code has been added for `Submit a Self Assessment Final Declaration` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#8-march-2023)
+
+* Updated Endpoint: `List Self Assessment Tax Calculations`
+  * Updated description for the endpoint
+  * Updated description for `calculationTimestamp` field
+  * Removed `biss` option from `calculationType` field
+
 
 ### individual-losses-api
+
+The following changes are now available in production:
+
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+
+* New API Version `v4.0` is available, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api-1).
+
+* Minor clarifications made to developer hub documentation, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api).
 
 ### individuals-business-eops-api
 
@@ -92,6 +110,7 @@ Updated Endpoint: `Retrieve Pension Charges`
 New API Version `v2.0`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#15th-march-2023).
 
 ### individuals-disclosures-api
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
 ### individuals-expenses-api
 
