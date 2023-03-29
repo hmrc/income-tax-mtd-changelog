@@ -101,6 +101,12 @@ The following changes are now available in production:
 ### property-business-api
 
 ### self-assessment-accounts-api
+The following changes are now available in production:
+* Updated Endpoint:`List Self Assessment Payments & Allocation Details`
+  * Updated description for the endpoint
+  * Added `MISSING_PAYMENT_LOT_ITEM` and `RULE_INCONSISTENT_QUERY_PARAMS` errors
+* In OAS documentation:
+  * Updated `correlationId` header requirement to mandatory
 
 ### self-assessment-biss-api
 
