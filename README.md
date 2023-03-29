@@ -90,18 +90,19 @@ The following changes are now available in production:
 The following changes are now available in production:
 * `RULE_TAX_YEAR_NOT_SUPPORTED` description and message have been updated to indicate that there could be a maximum as well as a minimum supported tax year, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
 
+* The descriptions of these endpoints are updated in the developer hub documentation:
+  - `Create And Amend Employment Expenses`
+  - `Ignore Employment Expenses`
+  - `Create And Amend Other Expenses`
+  - `Delete Other Expenses`
+  - `Retrieve Other Expenses`
+
 * Updated Endpoint: `Create And Amend Employment Expenses`
-  * Updated endpoint name to include `Create`.
-  * Updated description in developer hub documentation.
-* Updated Endpoint: `Ignore Employment Expenses`
-  * Updated description in developer hub documentation.
+  * Name updated to include `Create`.
+
 * Updated Endpoint: `Create And Amend Other Expenses`
-  * Updated endpoint name to include `Create`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
-  * Updated description in developer hub documentation.
-* Updated Endpoint: `Delete Other Expenses`
-  * Updated description in developer hub documentation.
-* Updated Endpoint: `Retrieve Other Expenses`
-  * Updated description in developer hub documentation.
+  * Name updated to include `Create`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
+
 ### individuals-income-received-api
 
 ### individuals-reliefs-api
