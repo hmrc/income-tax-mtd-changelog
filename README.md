@@ -40,7 +40,9 @@ You should now receive an email whenever the changelog is updated.
 The following changes were deployed into production.
 
 ### business-details-api
+
 In OAS documentation:
+
 * Added missing `message` attribute to all example error codes 
 * Added missing `correlationId` header requirement to mandatory
 
@@ -56,7 +58,9 @@ The following changes are now available in production:
   * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
 
 ### individual-calculations-api
+
 The following changes are now available in production:
+
 * Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 * Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
 * New Gov-Test-Scenario header values added for `Trigger a Self Assessment Tax Calculation` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#1-december-2022)
@@ -95,14 +99,15 @@ Some error response status codes corrected from 403 to 400, see [sandbox changel
 ### individuals-state-benefits-api
 
 ### obligations-api
+
 The following changes are now available in production:
+
 * Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 * Updated the description for `ruleFromDateNotSupported` error
 * Updated Endpoint: `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
   * Renamed endpoint from `Retrieve Income Tax (Self Assessment) Crystallisation Obligations` to `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
-  * Updated description for the endpoint
-* In the OAS documentation:
-  * Updated `correlationId` header requirement to mandatory
+  * Updated description
+* In the Developer Hub Documentation:
   * Updated the downstream URL for all three endpoints
 
 
