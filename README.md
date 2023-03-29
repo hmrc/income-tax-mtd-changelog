@@ -65,6 +65,32 @@ Updated Endpoint: `Create CIS Deductions for Subcontractor`
 
 ### individuals-charges-api
 
+New Endpoint: `Delete Pension Charges` - Tax Year Specific 
+
+Updated Endpoint: `Amend Pension Charges`
+
+* Fields added to the `pensionContributions` request object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+* Fields removed from the `pensionSavingsTaxCharges` request object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+
+Updated Endpoint: `Retrieve Pension Charges`
+
+* Fields added to the `pensionContributions` request object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+* Fields removed from the `pensionSavingsTaxCharges` request object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+
+Minor clarifications made to developer hub documentation:
+
+* Updated description of Delete Pension Charges endpoint.
+
+Minor clarifications made to developer hub documentation:
+
+* Added missing `message` attribute to all example error codes
+
+Updated Endpoint: `Retrieve Pension Charges`
+
+* Removed `submittedOn` field from response object `properties`.
+
+New API Version `v2.0`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#15th-march-2023).
+
 ### individuals-disclosures-api
 
 ### individuals-expenses-api
