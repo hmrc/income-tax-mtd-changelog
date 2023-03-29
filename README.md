@@ -153,6 +153,9 @@ The following changes are now available in production:
 ### self-assessment-biss-api
 
 ### self-assessment-bsas-api
+The following changes are now available in production:
+
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
 ### self-employment-business-api
 
