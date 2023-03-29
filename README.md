@@ -163,6 +163,9 @@ The following changes are now available in production:
   * Added `MISSING_PAYMENT_LOT_ITEM` and `RULE_INCONSISTENT_QUERY_PARAMS` errors
 
 ### self-assessment-biss-api
+The following changes are now available in production:
+
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
 ### self-assessment-bsas-api
 The following changes are now available in production:
