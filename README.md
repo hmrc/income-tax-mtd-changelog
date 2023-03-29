@@ -88,6 +88,18 @@ The following changes are now available in production:
 
 ### individuals-charges-api
 
+The following changes are now available in production:
+
+* Updated Endpoint: `Delete Pension Charges`
+  * New error added: `RULE_TAX_YEAR_NOT_SUPPORTED`
+* Updated Endpoint: `Create and Amend Pension Charges`
+  * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#22-february-2023).
+* Updated Endpoint: `Retrieve Pension Charges`
+  * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#22-february-2023).
+* Minor clarifications made to developer hub documentation:
+  * Updated description of Delete Pension Charges endpoint
+  * Added missing `message` attribute to all example error codes
+
 ### individuals-disclosures-api
 Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
