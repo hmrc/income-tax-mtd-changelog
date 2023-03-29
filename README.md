@@ -81,6 +81,8 @@ The following changes are now available in production:
 
 ### individuals-business-eops-api
 
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+
 ### individuals-charges-api
 
 ### individuals-disclosures-api
