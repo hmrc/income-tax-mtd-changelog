@@ -85,15 +85,9 @@ The following changes are now available in production:
 
 New Endpoint: `Delete Pension Charges` - Tax Year Specific 
 
-Updated Endpoint: `Amend Pension Charges`
+Updated Endpoint: `Amend Pension Charges`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#22nd-february-2023).
 
-* Fields added to the `pensionContributions` request object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
-* Fields removed from the `pensionSavingsTaxCharges` request object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
-
-Updated Endpoint: `Retrieve Pension Charges`
-
-* Fields added to the `pensionContributions` request object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
-* Fields removed from the `pensionSavingsTaxCharges` request object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+Updated Endpoint: `Retrieve Pension Charges`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#22nd-february-2023).
 
 Minor clarifications made to developer hub documentation:
 
