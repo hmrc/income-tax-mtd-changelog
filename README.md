@@ -35,6 +35,14 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 
 You should now receive an email whenever the changelog is updated.
 
+### 30 March 2023
+
+The following changes were deployed into sandbox.
+
+#### individuals-income-received-api
+
+* For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of INCORRECT_GOV_TEST_SCENARIO.
+
 ### 22 March 2023
 
 The following changes were deployed into sandbox.
