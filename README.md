@@ -122,6 +122,18 @@ The following changes are now available in production:
 
 ### individuals-income-received-api
 
+The following changes are now available in production:
+* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Updated Endpoint: `Create and Amend Employment Financial Details`
+  *  New error added: `NOT_ALLOWED_OFF_PAYROLL_WORKER`
+* The descriptions and names of all `Capital Gains on Residential Property Disposals` resources are updated in the developer hub documentation.
+* The descriptions of these endpoints are updated in the developer hub documentation:
+  * `Create and Amend Employment Financial Details`
+  * `Delete Employment Financial Details`
+  * `Ignore Employment`
+  * `Unignore Employment`
+* Other minor clarifications made to developer hub documentation, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individuals-income-received-api).
+
 ### individuals-reliefs-api
 
 ### individuals-state-benefits-api
