@@ -151,6 +151,12 @@ The following changes are now available in production:
 
 ### other-deductions-api
 
+The following changes are now available in production:
+
+* Updated description and message for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
+* Updated Endpoint: `Create And Amend Other Deductions`
+  * Renamed endpoint from `Amend Other Deductions`
+
 ### property-business-api
 
 ### self-assessment-accounts-api
