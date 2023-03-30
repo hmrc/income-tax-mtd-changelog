@@ -182,7 +182,7 @@ The following changes are now available in production:
 The following changes are now available in production:
 
 * Updated Endpoint: `List Self-Employment Period Summaries`
-  * New field `periodCreationDate` added to the response object
+  * New optional field `periodCreationDate` added to the response object
 
 * Updated Endpoint: `Create a Self-Employment Period Summary`
   * Added `RULE_INVALID_SUBMISSION_PERIOD` and `RULE_INVALID_SUBMISSION_END_DATE` errors
