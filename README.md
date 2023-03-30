@@ -173,6 +173,24 @@ The following changes are now available in production:
 * Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
 ### self-employment-business-api
+The following changes are now available in production:
+
+* Updated Endpoint: `List Self-Employment Period Summaries`
+  * New field `periodCreationDate` added to the response object
+
+* Updated Endpoint: `Create a Self-Employment Period Summary`
+  * Added `RULE_INVALID_SUBMISSION_PERIOD` and `RULE_INVALID_SUBMISSION_END_DATE` errors
+
+* New API Version `v2.0`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#23-february-2023).
+
+* Updated Endpoint: `Retrieve a Self-Employment Period Summary`
+  * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#23-february-2023)
+
+* Updated Endpoint: `Amend a Self-Employment Period Summary`
+  * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#23-february-2023)
+
+* Minor clarifications made to developer hub documentation:
+  * Updated description of `periodExpenses` field
 
 ### 22 March 2023
 
