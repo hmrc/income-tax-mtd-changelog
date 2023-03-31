@@ -159,6 +159,13 @@ The following changes are now available in production:
 
 ### property-business-api
 
+The following changes are now available in production:
+
+* Minor clarifications made to the following endpoint descriptions in the developer hub documentation:
+  * `Amend a Historic FHL UK Property Income & Expenses Period Summary`
+  * `Create a Historic FHL UK Property Income & Expenses Period Summary`
+  * `Create a Historic Non-FHL UK Property Income & Expenses Period Summary`
+
 ### self-assessment-accounts-api
 
 The following changes are now available in production:
