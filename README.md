@@ -123,7 +123,15 @@ The following changes are now available in production:
 ### individuals-income-received-api
 
 The following changes are now available in production:
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* For the following endpoints, some error response status codes have been corrected from 403 Forbidden to 400 Bad Request:
+  * Add a UK Savings Account
+  * Create and Amend ‘Report and Pay Capital Gains Tax on Property’ Overrides (PPD)
+  * Ignore Employment
+  * Unignore Employment
+  * Amend Custom Employment
+  * Delete Custom Employment
+* Updated Endpoint: `Create and Amend Savings Income`
+  * `foreignTaxCreditRelief` changed from mandatory to optional
 * Updated Endpoint: `Create and Amend Employment Financial Details`
   *  New error added: `NOT_ALLOWED_OFF_PAYROLL_WORKER`
 * The descriptions and names of all `Capital Gains on Residential Property Disposals` resources are updated in the developer hub documentation.
@@ -132,7 +140,13 @@ The following changes are now available in production:
   * `Delete Employment Financial Details`
   * `Ignore Employment`
   * `Unignore Employment`
-* Other minor clarifications made to developer hub documentation, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individuals-income-received-api).
+* Minor clarifications made to developer hub documentation. The following descriptions were updated:
+  * `taxedUkInterest` field in Create and Amend a UK Savings Account Annual Summary and Retrieve UK Savings Account Annual Summary.
+  * `untaxedUkInterest` field in Create and Amend a UK Savings Account Annual Summary and Retrieve UK Savings Account Annual Summary.
+  * `taxableAmount` field in Create and Amend Pensions Income and Retrieve Pensions Income.
+  * `grossAmount` field in Create And Amend Savings Income Request and Retrieve Savings Income Response.
+  * `specialWithholdingTax` field in Create And Amend Savings Income Request and Retrieve Savings Income Response.
+  * `specialWithholdingTax` field in Create And Amend Dividends Income Request and Retrieve Dividends Income Response.
 
 ### individuals-reliefs-api
 
