@@ -131,7 +131,7 @@ The following changes are now available in production:
 * Updated description and message for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
 
 * Updated Endpoint: `Create And Amend Relief Investments`
-  * Updated `knowledgeIntensive` field to be Optional.
+  * `knowledgeIntensive` field is now optional.
 
 
 ### individuals-state-benefits-api
