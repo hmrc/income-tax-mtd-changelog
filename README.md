@@ -22,7 +22,7 @@ This page contains the latest changes for the following Income Tax MTD API servi
 * [self-employment-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api)
 
 
- ## Changelog
+## Changelog
 
 See the above list for links to the relevant API documentation.
 
@@ -34,153 +34,151 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+<!--
+The following APIs have now been deprecated in production
+individual-calculations-api
+* Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
 
-### DATE TBC (R8A Changes)
+-->
+### 17 April 2023
 
-The following changes were deployed into production.
+### Improved documentation
+We have switched to a new tool for publishing API documentation. The details of API endpoints are now presented in an improved format in production and the sandbox.
+
+We have also updated the descriptions of a number of properties across the APIs to make them easier to understand.
 
 ### business-details-api
+The following changes have been made to the documentation:
 
-In OAS documentation:
-
-* Added missing `message` attribute to all example error codes 
+* Added missing `message` attribute to all example error codes
 * Added missing `correlationId` header requirement to mandatory
 
 ### cis-deductions-api
 
 The following changes are now available in production:
 
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
-* Updated Endpoint: `Amend CIS Deductions for Subcontractor`
-  * New error added: `RULE_TAX_YEAR_NOT_SUPPORTED`
-  * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
-* Updated Endpoint: `Create CIS Deductions for Subcontractor`
-  * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error.
+* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Updated Endpoint `Amend CIS Deductions for Subcontractor`
+  * New error `RULE_TAX_YEAR_NOT_SUPPORTED` added
+  * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error
+* Updated Endpoint `Create CIS Deductions for Subcontractor`
+  * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error
 
 ### individual-calculations-api
 
 The following changes are now available in production:
 
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
-* Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
-* New fields have been added for `Retrieve a Self Assessment Tax Calculation` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#5th-january-2023)
-* New error code has been added for `Submit a Self Assessment Final Declaration` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#8-march-2023)
+* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023)
 
-* Updated Endpoint: `List Self Assessment Tax Calculations`
-  * Updated description for the endpoint
-  * Updated description for `calculationTimestamp` field
-  * Removed `biss` option from `calculationType` field
+* New fields are added to `Retrieve a Self Assessment Tax Calculation` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#5th-january-2023)
+* New error code is added for `Submit a Self Assessment Final Declaration` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#8-march-2023)
 
+* The `biss` option of the `calculationType` field is removed from `List Self Assessment Tax Calculations`
+
+* Documentation has been updated for `List Self Assessment Tax Calculations`
+  * Description of the endpoint
+  * Description of the `calculationTimestamp` field
 
 ### individual-losses-api
 
 The following changes are now available in production:
 
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023)
 
-* New API Version `v4.0` is available, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api-1).
+* New API Version `v4.0` is available, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api-1)
 
-* Minor clarifications made to developer hub documentation, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api).
+* Documentation is updated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api).
 
 ### individuals-business-eops-api
 
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+The following changes are now available in production:
+* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
 ### individuals-charges-api
 
 The following changes are now available in production:
 
-* Updated Endpoint: `Delete Pension Charges`
-  * New error added: `RULE_TAX_YEAR_NOT_SUPPORTED`
-* Updated Endpoint: `Create and Amend Pension Charges`
+* Updated Endpoint `Delete Pension Charges`
+  * New error `RULE_TAX_YEAR_NOT_SUPPORTED` added
+* Updated Endpoint `Create and Amend Pension Charges`
   * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#22-february-2023).
-* Updated Endpoint: `Retrieve Pension Charges`
-  * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#22-february-2023).
-* Minor clarifications made to developer hub documentation:
-  * Updated description of Delete Pension Charges endpoint
-  * Added missing `message` attribute to all example error codes
+* Updated Endpoint `Retrieve Pension Charges`
+  * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#22-february-2023)
+* Documentation for `Delete Pension Charges` is updated with the missing `message` attribute added to all example error codes
 
 ### individuals-disclosures-api
-Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+The following changes are now available in production:
+Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
 
 ### individuals-expenses-api
 The following changes are now available in production:
-* `RULE_TAX_YEAR_NOT_SUPPORTED` description and message have been updated to indicate that there could be a maximum as well as a minimum supported tax year, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
+* `RULE_TAX_YEAR_NOT_SUPPORTED` description and message are updated to indicate that there could be a maximum as well as a minimum supported tax year, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
 
-* The descriptions of these endpoints are updated in the developer hub documentation:
+* Updated documentation:
+  The descriptions of these endpoints are updated:
   - `Create And Amend Employment Expenses`
   - `Ignore Employment Expenses`
   - `Create And Amend Other Expenses`
   - `Delete Other Expenses`
   - `Retrieve Other Expenses`
 
-* Updated Endpoint: `Create And Amend Employment Expenses`
-  * Name updated to include `Create`.
+* The name of `Create And Amend Employment Expenses` is updated to include `Create`.
 
-* Updated Endpoint: `Create And Amend Other Expenses`
-  * Name updated to include `Create`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
+* The name of `Create And Amend Other Expenses` is updated to include `Create`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
 
 ### individuals-income-received-api
 
 The following changes are now available in production:
-* For the following endpoints, some error response status codes have been corrected from 403 Forbidden to 400 Bad Request:
-  * Add a UK Savings Account
-  * Create and Amend ‘Report and Pay Capital Gains Tax on Property’ Overrides (PPD)
-  * Ignore Employment
-  * Unignore Employment
-  * Amend Custom Employment
-  * Delete Custom Employment
-* Updated Endpoint: `Create and Amend Savings Income`
-  * `foreignTaxCreditRelief` changed from mandatory to optional
-* Updated Endpoint: `Create and Amend Employment Financial Details`
-  *  New error added: `NOT_ALLOWED_OFF_PAYROLL_WORKER`
-* The descriptions and names of all `Capital Gains on Residential Property Disposals` resources are updated in the developer hub documentation.
-* The descriptions of these endpoints are updated in the developer hub documentation:
-  * `Create and Amend Employment Financial Details`
-  * `Delete Employment Financial Details`
+* For the following endpoints, some error response status codes are corrected from 403 Forbidden to 400 Bad Request:
+  * `Add a UK Savings Account`
+  * `Create and Amend ‘Report and Pay Capital Gains Tax on Property’ Overrides (PPD)`
   * `Ignore Employment`
   * `Unignore Employment`
-* Minor clarifications made to developer hub documentation. The following descriptions were updated:
-  * `taxedUkInterest` field in Create and Amend a UK Savings Account Annual Summary and Retrieve UK Savings Account Annual Summary.
-  * `untaxedUkInterest` field in Create and Amend a UK Savings Account Annual Summary and Retrieve UK Savings Account Annual Summary.
-  * `taxableAmount` field in Create and Amend Pensions Income and Retrieve Pensions Income.
-  * `grossAmount` field in Create And Amend Savings Income Request and Retrieve Savings Income Response.
-  * `specialWithholdingTax` field in Create And Amend Savings Income Request and Retrieve Savings Income Response.
-  * `specialWithholdingTax` field in Create And Amend Dividends Income Request and Retrieve Dividends Income Response.
+  * `Amend Custom Employment`
+  * `Delete Custom Employment`
+* Updated Endpoint `Create and Amend Savings Income`
+  * `foreignTaxCreditRelief` is changed from mandatory to optional
+* Updated Endpoint `Create and Amend Employment Financial Details`
+  *  New error `NOT_ALLOWED_OFF_PAYROLL_WORKER` is added
+* Documentation is updated:
+* `Capital Gains on Residential Property Disposals` resources are updated
+* `Create and Amend Employment Financial Details` description is updated
+* `Delete Employment Financial Details` description is updated
+* `Ignore Employment` description is updated
+* `Unignore Employment` description is updated
+* `Create and Amend a UK Savings Account Annual Summary` and `Retrieve UK Savings Account Annual Summary`, the `taxedUkInterest` field  is updated
+* `Create and Amend Pensions Income` and `Retrieve Pensions Income`, the `taxableAmount` field is updated
+* `Create And Amend Savings Income` request and `Retrieve Savings Income` response, the `grossAmount` field is updated
+* `Create And Amend Savings Income` request and `Retrieve Savings Income` response, the `specialWithholdingTax` field is updated
+* `Create And Amend Dividends Income` request and `Retrieve Dividends Income` response, the `specialWithholdingTax` field is updated
 
 ### individuals-reliefs-api
 
 The following changes are now available in production:
 
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
-* Updated description and message for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
+* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023)
+* Description and message are updated for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1)
 
-* Updated Endpoint: `Create And Amend Relief Investments`
-  * `knowledgeIntensive` field is now optional.
-
+* Updated Endpoint `Create And Amend Relief Investments`, `knowledgeIntensive` field is now optional
 
 ### individuals-state-benefits-api
 
 The following changes are now available in production:
 
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
-* Updated Endpoint: `Amend State Benefit Amounts`
-  * Updated name and description for the endpoint
-* Updated Endpoint: `Ignore State Benefit`
-  * Updated description for the endpoint
-* Updated Endpoint: `Unignore State Benefit`
-  * Updated description for the endpoint
+* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023)
+* Updated Documentation:
+* Updated name and description for the endpoint `Amend State Benefit Amounts`
+* Updated description for `Ignore State Benefit`
+* Updated description for `Unignore State Benefit`
 
 ### obligations-api
 
 The following changes are now available in production:
 
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
-* Updated the description for `ruleFromDateNotSupported` error
-* Updated Endpoint: `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023)
+* Updated documentation:
+  * Updated the description for `ruleFromDateNotSupported` error
   * Renamed endpoint from `Retrieve Income Tax (Self Assessment) Crystallisation Obligations` to `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
-  * Updated description
-* In the Developer Hub Documentation:
   * Updated the downstream URL for all three endpoints
 
 
@@ -188,15 +186,16 @@ The following changes are now available in production:
 
 The following changes are now available in production:
 
-* Updated description and message for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
-* Updated Endpoint: `Create And Amend Other Deductions`
-  * Renamed endpoint from `Amend Other Deductions`
+* Updated the description and message for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
+  Updated documentation:
+* Endpoint `Create And Amend Other Deductions` renamed from
+  `Amend Other Deductions`
 
 ### property-business-api
 
 The following changes are now available in production:
 
-* Minor clarifications made to the following endpoint descriptions in the developer hub documentation:
+* Updated the descriptions of:
   * `Amend a Historic FHL UK Property Income & Expenses Period Summary`
   * `Create a Historic FHL UK Property Income & Expenses Period Summary`
   * `Create a Historic Non-FHL UK Property Income & Expenses Period Summary`
@@ -204,41 +203,40 @@ The following changes are now available in production:
 ### self-assessment-accounts-api
 
 The following changes are now available in production:
+* Updated `List Self Assessment Payments & Allocation Details`, added `MISSING_PAYMENT_LOT_ITEM` and `RULE_INCONSISTENT_QUERY_PARAMS` errors
 
-* Updated description and message for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1).
-* Updated Endpoint:`List Self Assessment Payments & Allocation Details`
-  * Updated description
-  * Added `MISSING_PAYMENT_LOT_ITEM` and `RULE_INCONSISTENT_QUERY_PARAMS` errors
+* Updated documentation:
+  * Updated the description of `List Self Assessment Payments & Allocation Details`
+  * Updated the description and message for `RULE_TAX_YEAR_NOT_SUPPORTED`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023-1)
 
 ### self-assessment-biss-api
 The following changes are now available in production:
 
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023)
 
 ### self-assessment-bsas-api
 The following changes are now available in production:
 
-* Some error response status codes corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023)
 
 ### self-employment-business-api
 The following changes are now available in production:
 
-* Updated Endpoint: `List Self-Employment Period Summaries`
+* Updated Endpoint `List Self-Employment Period Summaries`
   * New optional field `periodCreationDate` added to the response object
 
-* Updated Endpoint: `Create a Self-Employment Period Summary`
+* Updated Endpoint `Create a Self-Employment Period Summary`
   * Added `RULE_INVALID_SUBMISSION_PERIOD` and `RULE_INVALID_SUBMISSION_END_DATE` errors
 
 * New API Version `v2.0`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#23-february-2023).
 
-* Updated Endpoint: `Retrieve a Self-Employment Period Summary`
+* Updated Endpoint `Retrieve a Self-Employment Period Summary`
   * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#23-february-2023)
 
-* Updated Endpoint: `Amend a Self-Employment Period Summary`
+* Updated Endpoint `Amend a Self-Employment Period Summary`
   * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#23-february-2023)
 
-* Minor clarifications made to developer hub documentation:
-  * Updated description of `periodExpenses` field
+* Updated documentation, updated the description of `periodExpenses` field
 
 ### 22 March 2023
 
@@ -290,13 +288,13 @@ Updated Endpoint: `Retrieve Pension Charges (V2)`
 * Fields added to the `pensionContributions` response object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
 * Fields removed from the `pensionSavingsTaxCharges` response object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
 
-### 14 March 2023 
+### 14 March 2023
 
-The following changes were deployed into sandbox. 
+The following changes were deployed into sandbox.
 
 #### property-business-api
 
-* For versions 2.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of INCORRECT_GOV_TEST_SCENARIO. 
+* For versions 2.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of INCORRECT_GOV_TEST_SCENARIO.
 
 ### 8 March 2023
 
@@ -307,8 +305,8 @@ The following changes were deployed into sandbox.
 New API Version `v4.0`
 
 New endpoints in v4:
- * `List Loss Claims`
- * `List Brought Forward Losses`
+* `List Loss Claims`
+* `List Brought Forward Losses`
 
 Both endpoints replace their respective v3 equivalents, which are now deprecated, and not available in v4. Please use the new v4 endpoints instead.
 
@@ -329,7 +327,7 @@ Endpoint: `Submit a Self Assessment Final Declaration`
 * New error codes added:
   * RULE_FINAL_DECLARATION_TAX_YEAR
   * RULE_FINAL_DECLARATION_IN_PROGRESS
-  
+
 * New Gov-Test-Scenario header values added to support new errors.
 
 ### 23 February 2023
