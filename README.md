@@ -71,7 +71,7 @@ The following changes are now available in production:
 
 The following changes are now available in production:
 
-* Some error response status codes are corrected from 403 to 400 for the following endpoints:
+* Some error response status codes are corrected from 403 to 400 for the following `v3.0` endpoints:
   * `Submit a Self Assessment Final Declaration`
   * `Trigger a Self Assessment Tax Calculation`
 * A new field is added to `Retrieve a Self Assessment Tax Calculation` endpoint:
@@ -91,7 +91,7 @@ The following changes are now available in production:
 
 The following changes are now available in production:
 
-* Some error response status codes are corrected from 403 to 400 for the following endpoints:
+* Some error response status codes are corrected from 403 to 400 for the following `v4.0` endpoints:
   * `Amend a Brought Forward Loss Amount`
   * `Create a Brought Forward Loss`
   * `Create a Loss Claim`
@@ -112,7 +112,7 @@ In v3, if either endpoint is called without the tax year query parameter, the ar
 ### individuals-business-eops-api
 
 The following changes are now available in production:
-* An error response status code is corrected from 403 to 400 for `Submit End of Period Statement for a Business`
+* An error response status code is corrected from 403 to 400 for `Submit End of Period Statement for a Business` `v2.0`
 
 ### individuals-charges-api
 
@@ -187,9 +187,9 @@ The following changes are now available in production:
 The following changes are now available in production:
 
 * Some error response status codes are corrected from 403 to 400 for the following endpoints:
-    * `Create State Benefit`
-    * `Ignore State Benefit`
-    * `Unignore State Benefit`
+  * `Create State Benefit`
+  * `Ignore State Benefit`
+  * `Unignore State Benefit`
 * Updated documentation:
   * Updated name and description for the endpoint `Amend State Benefit Amounts`
   * Updated description for `Ignore State Benefit`
@@ -242,7 +242,7 @@ The following changes are now available in production:
 ### self-assessment-bsas-api
 The following changes are now available in production:
 
-* Some error response status codes are corrected from 403 to 400 for the following endpoints:
+* Some error response status codes are corrected from 403 to 400 for the `v3.0` following endpoints:
   * Submit Foreign Property Accounting Adjustments
   * Submit Self-Employment Accounting Adjustments
   * Submit UK Property Accounting Adjustments
@@ -253,17 +253,14 @@ The following changes are now available in production:
 
 * New API Version `v2.0`.
 
-* Updated endpoint `List Self-Employment Period Summaries`
-  * New optional field `periodCreationDate` added to the response object
-
-* Updated endpoint `Create a Self-Employment Period Summary`
+* Updated `v2.0` endpoint `Create a Self-Employment Period Summary`
   * Added `RULE_INVALID_SUBMISSION_PERIOD` and `RULE_INVALID_SUBMISSION_END_DATE` errors
   * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
 
-* Updated endpoint `Retrieve a Self-Employment Period Summary`
+* Updated `v2.0` endpoint `Retrieve a Self-Employment Period Summary`
   * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
 
-* Updated endpoint `Amend a Self-Employment Period Summary`
+* Updated `v2.0` endpoint `Amend a Self-Employment Period Summary`
   * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
 
 * Updated documentation, updated the description of `periodExpenses` field
