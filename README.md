@@ -51,13 +51,16 @@ We have also updated the descriptions of a number of properties across the APIs 
 The following changes have been made to the documentation:
 
 * Added missing `message` attribute to all example error codes
-* Added missing `correlationId` header requirement to mandatory
+* Added missing `correlationId` header to documentation
 
 ### cis-deductions-api
 
 The following changes are now available in production:
 
-* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* Some error response status codes are corrected from 403 to 400:
+  * `Amend CIS Deductions For Subcontractor`
+  * `Create CIS Deductions For Subcontractor`
+  * `Retrieve CIS Deductions For Subcontractor`
 * Updated Endpoint `Amend CIS Deductions for Subcontractor`
   * New error `RULE_TAX_YEAR_NOT_SUPPORTED` added
   * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error
@@ -68,10 +71,15 @@ The following changes are now available in production:
 
 The following changes are now available in production:
 
-* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023)
-
-* New fields are added to `Retrieve a Self Assessment Tax Calculation` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#5th-january-2023)
-* New error code is added for `Submit a Self Assessment Final Declaration` endpoint, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#8-march-2023)
+* Some error response status codes are corrected from 403 to 400:
+  * `Submit a Self Assessment Final Declaration`
+  * `Trigger a Self Assessment Tax Calculation`
+* A new field is added to `Retrieve a Self Assessment Tax Calculation` endpoint:
+  * `underLowerProfitThreshold to section calculation.taxCalculation.nics.class2Nics`
+* New error codes are added for `Submit a Self Assessment Final Declaration` endpoint:
+  * `RULE_FINAL_DECLARATION_TAX_YEAR`
+  * `RULE_FINAL_DECLARATION_IN_PROGRESS`
+* A new Gov-Test-Scenario header values added to support new errors
 
 * The `biss` option of the `calculationType` field is removed from `List Self Assessment Tax Calculations`
 
@@ -83,16 +91,27 @@ The following changes are now available in production:
 
 The following changes are now available in production:
 
-* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023)
+* Some error response status codes are corrected from 403 to 400:
+  * `Amend a Brought Forward Loss Amount`
+  * `Create a Brought Forward Loss`
+  * `Create a Loss Claim`
+  * `Delete a Brought Forward Loss`
 
-* New API Version `v4.0` is available, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api-1)
+* New API Version `v4.0` is available with the following endpoints:
+  * `List Loss Claims`
+  * `List Brought Forward Losses`
+Both endpoints replace their respective v3 equivalents, which are now deprecated, and not available in v4. Please use the new v4 endpoints instead.
 
-* Documentation is updated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api).
+The new endpoints require a tax year path parameter; previously this was an optional query parameter.
+
+In v3, if either endpoint is called without the tax year query param, the array returned will include losses for all available tax years up to the latest completed tax year.
+
+* The documentation is updated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#individual-losses-api).
 
 ### individuals-business-eops-api
 
 The following changes are now available in production:
-* Some error response status codes are corrected from 403 to 400, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#10th-january-2023).
+* An error response status code is corrected from 403 to 400 for `Submit End of Period Statement for a Business`
 
 ### individuals-charges-api
 
@@ -100,10 +119,7 @@ The following changes are now available in production:
 
 * Updated Endpoint `Delete Pension Charges`
   * New error `RULE_TAX_YEAR_NOT_SUPPORTED` added
-* Updated Endpoint `Create and Amend Pension Charges`
-  * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#22-february-2023).
-* Updated Endpoint `Retrieve Pension Charges`
-  * See [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#22-february-2023)
+* Updated API `v2.0` is available
 * Documentation for `Delete Pension Charges` is updated with the missing `message` attribute added to all example error codes
 
 ### individuals-disclosures-api
@@ -180,7 +196,6 @@ The following changes are now available in production:
   * Updated the description for `ruleFromDateNotSupported` error
   * Renamed endpoint from `Retrieve Income Tax (Self Assessment) Crystallisation Obligations` to `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
   * Updated the downstream URL for all three endpoints
-
 
 ### other-deductions-api
 
