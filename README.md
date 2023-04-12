@@ -160,7 +160,7 @@ The following changes are now available in production:
 * Updated endpoint `Create and Amend Savings Income`
   * `foreignTaxCreditRelief` is changed from mandatory to optional
 * Updated endpoint `Create and Amend Employment Financial Details`
-  *  New error `NOT_ALLOWED_OFF_PAYROLL_WORKER` is added
+  * New error `NOT_ALLOWED_OFF_PAYROLL_WORKER` is added
 * Documentation is updated:
 * `Capital Gains on Residential Property Disposals` resources are updated
 * `Create and Amend Employment Financial Details` description is updated
@@ -253,15 +253,17 @@ The following changes are now available in production:
 
 * New API Version `v2.0`.
 
-* Updated `v2.0` endpoint `Create a Self-Employment Period Summary`
+* Updated endpoint `Create a Self-Employment Period Summary`
   * Added `RULE_INVALID_SUBMISSION_PERIOD` and `RULE_INVALID_SUBMISSION_END_DATE` errors
   * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
 
-* Updated `v2.0` endpoint `Retrieve a Self-Employment Period Summary`
+* Updated endpoint `Retrieve a Self-Employment Period Summary`
   * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
 
-* Updated `v2.0` endpoint `Amend a Self-Employment Period Summary`
+* Updated endpoint `Amend a Self-Employment Period Summary`
   * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
+
+These endpoints replace their respective v1 equivalents, which will be deprecated. Please use the new v2 endpoints instead.
 
 * Updated documentation - updated the description of `periodExpenses` field
 
