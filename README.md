@@ -42,18 +42,18 @@ individual-calculations-api
 -->
 ### 17 April 2023
 
-### Improved documentation
+#### Improved documentation
 We have switched to a new tool for publishing API documentation. The details of API endpoints are now presented in an improved format in production and the sandbox.
 
 We have also updated the descriptions of a number of properties across the APIs to make them easier to understand.
 
-### business-details-api
+#### business-details-api
 The following changes have been made to the documentation:
 
 * Added missing `message` attribute to all example error codes
 * Documented that `correlationId` is mandatory
 
-### cis-deductions-api
+#### cis-deductions-api
 
 The following changes are now available in production:
 
@@ -67,7 +67,7 @@ The following changes are now available in production:
 * Updated endpoint `Create CIS Deductions for Subcontractor`
   * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error
 
-### individual-calculations-api
+#### individual-calculations-api
 
 The following changes are now available in production:
 
@@ -87,7 +87,7 @@ The following changes are now available in production:
   * Description of the endpoint
   * Description of the `calculationTimestamp` field
 
-### individual-losses-api
+#### individual-losses-api
 
 The following changes are now available in production:
 
@@ -109,12 +109,12 @@ In v3, if either endpoint is called without the tax year query parameter, the ar
 
 * Documentation updated to clarify description of `Create Loss Claims` endpoint.
 
-### individuals-business-eops-api
+#### individuals-business-eops-api
 
 The following changes are now available in production:
 * An error response status code is corrected from 403 to 400 for `Submit End of Period Statement for a Business` `v2.0`
 
-### individuals-charges-api
+#### individuals-charges-api
 
 The following changes are now available in production:
 
@@ -123,7 +123,7 @@ The following changes are now available in production:
 * Updated API `v2.0` is available
 * Documentation for `Delete Pension Charges` is updated with the missing `message` attribute added to all example error codes
 
-### individuals-disclosures-api
+#### individuals-disclosures-api
 The following changes are now available in production:
 
 * Some error response status codes are corrected from 403 to 400 for these endpoints:
@@ -131,7 +131,7 @@ The following changes are now available in production:
   * `Create Marriage Allowance Claim`
   * `Delete Disclosures`
 
-### individuals-expenses-api
+#### individuals-expenses-api
 The following changes are now available in production:
 * `RULE_TAX_YEAR_NOT_SUPPORTED` description and message are updated to indicate that there could be a maximum as well as a minimum supported tax year
 
@@ -147,7 +147,7 @@ The following changes are now available in production:
 
 * `Amend Other Expenses` renamed to `Create And Amend Other Expenses`
 
-### individuals-income-received-api
+#### individuals-income-received-api
 
 The following changes are now available in production:
 * Some error response status codes are corrected from 403 to 400 for the following endpoints:
@@ -173,7 +173,7 @@ The following changes are now available in production:
 * `Create And Amend Savings Income` request and `Retrieve Savings Income` response - `specialWithholdingTax` field is updated
 * `Create And Amend Dividends Income` request and `Retrieve Dividends Income` response - `specialWithholdingTax` field is updated
 
-### individuals-reliefs-api
+#### individuals-reliefs-api
 
 The following changes are now available in production:
 
@@ -182,7 +182,7 @@ The following changes are now available in production:
 
 * Updated endpoint `Create And Amend Relief Investments` - `knowledgeIntensive` field is now optional
 
-### individuals-state-benefits-api
+#### individuals-state-benefits-api
 
 The following changes are now available in production:
 
@@ -195,7 +195,7 @@ The following changes are now available in production:
   * Updated description for `Ignore State Benefit`
   * Updated description for `Unignore State Benefit`
 
-### obligations-api
+#### obligations-api
 
 The following changes are now available in production:
 
@@ -208,7 +208,7 @@ The following changes are now available in production:
   * Renamed endpoint from `Retrieve Income Tax (Self Assessment) Crystallisation Obligations` to `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
   * Updated the downstream URL for all three endpoints
 
-### other-deductions-api
+#### other-deductions-api
 
 The following changes are now available in production:
 
@@ -216,7 +216,7 @@ The following changes are now available in production:
 * Updated documentation
 * Endpoint `Amend Other Deductions` renamed to `Create And Amend Other Deductions`
 
-### property-business-api
+#### property-business-api
 
 The following changes are now available in production:
 
@@ -225,21 +225,21 @@ The following changes are now available in production:
   * `Create a Historic FHL UK Property Income & Expenses Period Summary`
   * `Create a Historic Non-FHL UK Property Income & Expenses Period Summary`
 
-### self-assessment-accounts-api
+#### self-assessment-accounts-api
 
 The following changes are now available in production:
-* Updated `List Self Assessment Payments & Allocation Details`, added `MISSING_PAYMENT_LOT_ITEM` and `RULE_INCONSISTENT_QUERY_PARAMS` errors
+* Updated `List Self Assessment Payments & Allocation Details` - added `MISSING_PAYMENT_LOT_ITEM` and `RULE_INCONSISTENT_QUERY_PARAMS` errors
 
 * Updated documentation:
   * Updated the description of `List Self Assessment Payments & Allocation Details`
   * Updated the description and message for `RULE_TAX_YEAR_NOT_SUPPORTED` to indicate that there could be a maximum as well as a minimum supported tax year
 
-### self-assessment-biss-api
+#### self-assessment-biss-api
 The following changes are now available in production:
 
 * Error response status code corrected from 403 to 400 for `Retrieve a Business Income Source Summary`
 
-### self-assessment-bsas-api
+#### self-assessment-bsas-api
 The following changes are now available in production:
 
 * Some error response status codes are corrected from 403 to 400 for the `v3.0` following endpoints:
@@ -248,7 +248,7 @@ The following changes are now available in production:
   * Submit UK Property Accounting Adjustments
   * Trigger a Business Source Adjustable Summary
 
-### self-employment-business-api
+#### self-employment-business-api
 The following changes are now available in production:
 
 * New API Version `v2.0`.
@@ -263,7 +263,9 @@ The following changes are now available in production:
 * Updated `v2.0` endpoint `Amend a Self-Employment Period Summary`
   * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
 
-* Updated documentation, updated the description of `periodExpenses` field
+* Updated documentation - updated the description of `periodExpenses` field
+
+---
 
 ### 22 March 2023
 
@@ -297,6 +299,8 @@ Minor clarifications made to developer hub documentation:
 
 * Updated description of `periodExpenses` field in multiple endpoints.
 
+---
+
 ### 15 March 2023
 
 The following changes were deployed into sandbox.
@@ -315,6 +319,8 @@ Updated Endpoint: `Retrieve Pension Charges (V2)`
 * Fields added to the `pensionContributions` response object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
 * Fields removed from the `pensionSavingsTaxCharges` response object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
 
+---
+
 ### 14 March 2023
 
 The following changes were deployed into sandbox.
@@ -322,6 +328,8 @@ The following changes were deployed into sandbox.
 #### property-business-api
 
 * For versions 2.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of INCORRECT_GOV_TEST_SCENARIO.
+
+---
 
 ### 8 March 2023
 
@@ -357,6 +365,8 @@ Endpoint: `Submit a Self Assessment Final Declaration`
 
 * New Gov-Test-Scenario header values added to support new errors.
 
+---
+
 ### 23 February 2023
 
 The following changes were deployed into sandbox.
@@ -384,6 +394,8 @@ Endpoint: `Create a Self-Employment Period Summary`
 
 self-assessments-api `v2.0` has now been deprecated
 
+---
+
 ### 22 February 2023
 
 The following changes were deployed into sandbox.
@@ -399,6 +411,8 @@ Endpoint: `Retrieve Pensions Charges`
 
 * Fields added to the `pensionSavingsTaxCharges` object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
 * Fields removed from the `pensionContributions` object: `isAnnualAllowanceReduced`, `moneyPurchasedAllowance`, `taperedAnnualAllowance`
+
+---
 
 ### 25 January 2023
 
@@ -423,6 +437,8 @@ Endpoint: `Retrieve an Employment and its Financial Details`
 Endpoint: `Create and Amend Employment Financial Details`
 
 * New field `offPayrollWorker` added to the `employment` object
+
+---
 
 ### 3 January 2023
 
