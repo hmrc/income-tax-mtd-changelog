@@ -43,7 +43,7 @@ The following changes were deployed into sandbox.
 
 Minor clarifications made to the developer hub documentation for the Create and Amend Pension Charges endpoint:
 
-* Updated the `isAnnualAllowanceReduced` description to clarify that it's a mandatory field
+* Fixed the `isAnnualAllowanceReduced` description to clarify that it's a mandatory field
 * Updated the `formatProviderName` and `formatProviderAddress` error descriptions
 
 ### 30 March 2023
