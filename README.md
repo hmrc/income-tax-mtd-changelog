@@ -251,16 +251,16 @@ The following changes are now available in production:
 #### self-employment-business-api
 The following changes are now available in production:
 
-* New API Version `v2.0`. The following endpoints replace their respective v1 equivalents, which will be deprecated. Please use the new v2 endpoints instead.
+* New API Version `v2.0`. The following endpoints have been updated to replace their respective v1 equivalents. Please use the new v2 endpoints instead.
 
-* Updated endpoint `Create a Self-Employment Period Summary`
+* `Create a Self-Employment Period Summary`
   * Added `RULE_INVALID_SUBMISSION_PERIOD` and `RULE_INVALID_SUBMISSION_END_DATE` errors
   * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
 
-* Updated endpoint `Retrieve a Self-Employment Period Summary`
+* `Retrieve a Self-Employment Period Summary`
   * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
 
-* Updated endpoint `Amend a Self-Employment Period Summary`
+* `Amend a Self-Employment Period Summary`
   * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
 
 * Updated documentation - updated the description of `periodExpenses` field
