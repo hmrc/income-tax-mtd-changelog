@@ -194,6 +194,7 @@ The following changes are now available in production:
   * Updated name and description for the endpoint `Amend State Benefit Amounts`
   * Updated description for `Ignore State Benefit`
   * Updated description for `Unignore State Benefit`
+* Added new Gov-Test-Scenario header values for `Ignore State Benefit`, `Unignore State Benefit`, `Amend State Benefit` and `Create State Benefit`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#13-april-2023)
 
 #### obligations-api
 
