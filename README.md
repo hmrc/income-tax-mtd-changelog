@@ -35,6 +35,18 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 
 You should now receive an email whenever the changelog is updated.
 
+### 13 April 2023
+
+The following changes were deployed into sandbox.
+
+#### individuals-state-benefits-api
+
+* New Gov-Test-Scenario header values added to `Amend State Benefit` and `Create State Benefit`
+  * START_DATE_AFTER_TAX_YEAR_END
+  * END_DATE_BEFORE_TAX_YEAR_START
+* New Gov-Test-Scenario header values added to `Ignore State Benefit`, `Unignore State Benefit` and `Create State Benefit`
+  * TAX_YEAR_NOT_ENDED
+
 ### 30 March 2023
 
 The following changes were deployed into sandbox.
