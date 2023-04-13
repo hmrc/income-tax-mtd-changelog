@@ -255,14 +255,8 @@ The following changes are now available in production:
 
 * `Create a Self-Employment Period Summary`
   * Added `RULE_INVALID_SUBMISSION_PERIOD` and `RULE_INVALID_SUBMISSION_END_DATE` errors
-  * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
-
-* `Retrieve a Self-Employment Period Summary`
-  * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
-
-* `Amend a Self-Employment Period Summary`
-  * Renamed `periodAllowableExpenses` and all its properties, removing 'allowable', for example `periodAllowableExpenses` becomes `periodExpenses`
-
+ * `Create a Self-Employment Period Summary`, `Retrieve a Self-Employment Period Summary`, `Amend a Self-Employment Period Summary`
+* In all 3 endpoints, renamed `periodAllowableExpenses` and all its properties to remove the word "allowable"; e.g. `periodAllowableExpenses` becomes `periodExpenses`.
 * Updated documentation - updated the description of `periodExpenses` field
 
 ---
