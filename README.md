@@ -35,6 +35,17 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 
 You should now receive an email whenever the changelog is updated.
 
+### 14 April 2023 
+
+The following changes were deployed into sandbox.
+
+#### individuals-charges-api
+
+Minor clarifications made to the developer hub documentation for the Create and Amend Pension Charges endpoint:
+
+* Fixed the `isAnnualAllowanceReduced` description to clarify that it's a mandatory field
+* Updated the `formatProviderName` and `formatProviderAddress` error descriptions
+
 ### 13 April 2023
 
 The following changes were deployed into sandbox:
