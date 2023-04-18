@@ -264,6 +264,45 @@ For versions 1.0 and later, Gov-Test-Scenario values that are not supported by t
 
 ---
 
+### 18 April 2023
+
+The following changes were deployed into sandbox.
+
+#### self-employment-business-api
+
+* For versions 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
+### 14 April 2023 
+
+The following changes were deployed into sandbox.
+
+#### individuals-charges-api
+
+Minor clarifications made to the developer hub documentation for the Create and Amend Pension Charges endpoint:
+
+* Fixed the `isAnnualAllowanceReduced` description to clarify that it's a mandatory field
+* Updated the `formatProviderName` and `formatProviderAddress` error descriptions
+
+### 13 April 2023
+
+The following changes were deployed into sandbox:
+
+#### individuals-state-benefits-api
+
+* New Gov-Test-Scenario header values added to `Amend State Benefit` and `Create State Benefit`:
+  * START_DATE_AFTER_TAX_YEAR_END
+  * END_DATE_BEFORE_TAX_YEAR_START
+* New Gov-Test-Scenario header value added to `Ignore State Benefit`, `Unignore State Benefit` and `Create State Benefit`:
+  * TAX_YEAR_NOT_ENDED
+
+### 30 March 2023
+
+The following changes were deployed into sandbox:
+
+#### individuals-income-received-api
+
+* For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of INCORRECT_GOV_TEST_SCENARIO.
+
 ### 22 March 2023
 
 The following changes were deployed into sandbox.
