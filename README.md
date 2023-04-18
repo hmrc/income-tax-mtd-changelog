@@ -40,7 +40,7 @@ individual-calculations-api
 * Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
 
 -->
-### 17 April 2023
+### 18 April 2023
 
 #### Improved documentation
 We have switched to a new tool for publishing API documentation. The details of API endpoints are now presented in an improved format in production and the sandbox.
@@ -120,7 +120,6 @@ The following changes are now available in production:
 
 * Updated endpoint `Delete Pension Charges`
   * New error `RULE_TAX_YEAR_NOT_SUPPORTED` added
-* Updated API `v2.0` is available
 * Documentation for `Delete Pension Charges` is updated with the missing `message` attribute added to all example error codes
 
 #### individuals-disclosures-api
@@ -259,6 +258,9 @@ The following changes are now available in production:
  * `Create a Self-Employment Period Summary`, `Retrieve a Self-Employment Period Summary`, `Amend a Self-Employment Period Summary`
 * In all 3 endpoints, renamed `periodAllowableExpenses` and all its properties to remove the word "allowable"; e.g. `periodAllowableExpenses` becomes `periodExpenses`.
 * Updated documentation - updated the description of `periodExpenses` field
+
+The following change was deployed into sandbox:
+For versions 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
 
 ---
 
