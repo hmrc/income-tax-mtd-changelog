@@ -40,6 +40,16 @@ individual-calculations-api
 * Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
 
 -->
+
+### 20 April 2023
+
+The following changes were deployed into sandbox.
+
+#### individuals-charges-api
+
+* For versions 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
+
 ### 18 April 2023
 
 #### Improved documentation
