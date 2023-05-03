@@ -41,6 +41,21 @@ individual-calculations-api
 
 -->
 
+### 3 May 2023
+
+The following changes were deployed into sandbox.
+
+#### obligations-api
+
+New API Version `v2.0`
+
+Updated Endpoint: `Retrieve Income Tax (Self Assessment) Final Declaration Obligations (V2)`
+
+* Response body updated to be an array of obligations
+* Error `RULE_TAX_YEAR_NOT_SUPPORTED` description and message updated
+* Error `RULE_TAX_YEAR_TOO_LONG` replaced with `RULE_TAX_YEAR_RANGE_INVALID`
+* Gov-Test-Scenario `MULTIPLE` added
+
 ### 27 April 2023
 
 The following changes were deployed into sandbox.
