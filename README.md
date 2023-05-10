@@ -41,6 +41,14 @@ individual-calculations-api
 
 -->
 
+### ? ?? 2023
+
+The following changes were deployed into sandbox.
+
+#### individual-losses-api
+
+* For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
 ### 3 May 2023
 
 The following changes were deployed into sandbox.
