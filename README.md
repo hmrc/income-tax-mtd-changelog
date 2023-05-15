@@ -40,6 +40,17 @@ individual-calculations-api
 * Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
 
 -->
+### 15 May 2023
+
+The following changes were deployed into sandbox.
+
+### property-business-api
+
+* Added new `PROPERTY_INCOME_ALLOWANCE` Gov-Test-Scenario to the following endpoints:
+  * Create and Amend a Foreign Property Annual Submission
+  * Create and Amend a UK Property Annual Submission
+* Added new `DUPLICATE_COUNTRY_CODE` Gov-Test-Scenario to the following endpoints:
+  * Create and Amend a Foreign Property Annual Submission
 
 ### 12 May 2023
 
