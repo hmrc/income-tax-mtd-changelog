@@ -42,6 +42,15 @@ individual-calculations-api
 -->
 ### 16 May 2023
 
+The following changes were deployed into production.
+
+### individuals-income-received-api
+
+* Added new TAX_YEAR_NOT_ENDED Gov-Test-Scenario to the following endpoints:
+  * Ignore Employment
+  * Unignore Employment
+  * Create and Amend Employment Financial Details
+
 The following changes were deployed into sandbox and production.
 
 ### property-business-api
