@@ -42,7 +42,7 @@ individual-calculations-api
 -->
 ### 16 May 2023
 
-The following changes were deployed into production.
+The following changes were deployed into sandbox and production.
 
 ### individuals-income-received-api
 
@@ -50,8 +50,6 @@ The following changes were deployed into production.
   * Ignore Employment
   * Unignore Employment
   * Create and Amend Employment Financial Details
-
-The following changes were deployed into sandbox and production.
 
 ### property-business-api
 
@@ -68,17 +66,6 @@ The following changes were deployed into sandbox.
 #### other-deductions-api
 
 * For version 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
-
-### 12 May 2023
-
-The following changes were deployed into sandbox.
-
-### individuals-income-received-api
-
-* Added new TAX_YEAR_NOT_ENDED Gov-Test-Scenario to the following endpoints: 
-  * Ignore Employment
-  * Unignore Employment
-  * Create and Amend Employment Financial Details
 
 ### 11 May 2023
 
