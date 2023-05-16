@@ -41,6 +41,36 @@ individual-calculations-api
 
 -->
 
+### 16 May 2023
+
+The following changes were deployed into sandbox and production.
+
+#### individuals-income-received-api
+
+* RULE_LOSSES_GREATER_THAN_GAIN error was removed for following endpoints:
+  * Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+  * Create and Amend CGT Residential Property Disposals (non-PPD)
+
+* RULE_COMPLETION_DATE_BEFORE_DISPOSAL_DATE error was removed for the following endpoint:
+  * Create and Amend CGT Residential Property Disposals (non-PPD)
+
+The following changes were deployed into sandbox.
+
+#### individuals-income-received-api
+
+* New gov-test-scenarios were added for Create and Amend Other Capital Gains and Disposals endpoint:
+  * INVALID_DISPOSAL_DATE
+  * INVALID_ACQUISITION_DATE
+
+* New gov-test-scenarios were added for Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD) endpoint:
+  * RULE_DUPLICATED_PPD_SUBMISSION_ID
+  * RULE_TAX_YEAR_NOT_ENDED
+
+* New gov-test-scenarios were added for Create and Amend CGT Residential Property Disposals (non-PPD) endpoint:
+  * RULE_ACQUISITION_DATE_AFTER_DISPOSAL_DATE
+  * RULE_COMPLETION_DATE
+  * RULE_DISPOSAL_DATE
+
 ### 15 May 2023
 
 The following changes were deployed into sandbox.
