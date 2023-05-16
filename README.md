@@ -40,7 +40,7 @@ individual-calculations-api
 * Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
 
 -->
-### 15 May 2023
+### 16 May 2023
 
 The following changes were deployed into sandbox and production.
 
