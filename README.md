@@ -42,7 +42,7 @@ individual-calculations-api
 -->
 ### 15 May 2023
 
-The following changes were deployed into sandbox.
+The following changes were deployed into sandbox and production.
 
 ### property-business-api
 
