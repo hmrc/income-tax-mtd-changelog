@@ -46,7 +46,7 @@ The following changes were deployed into sandbox and production.
 
 ### individuals-income-received-api
 
-* Added new TAX_YEAR_NOT_ENDED Gov-Test-Scenario to the following endpoints:
+* Added new `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario to the following endpoints:
   * Ignore Employment
   * Unignore Employment
   * Create and Amend Employment Financial Details
