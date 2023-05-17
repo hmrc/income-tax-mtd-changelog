@@ -40,25 +40,6 @@ individual-calculations-api
 * Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
 
 -->
-### 16 May 2023
-
-The following changes were deployed into sandbox and production.
-
-### individuals-income-received-api
-
-* Added new `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario to the following endpoints:
-  * Ignore Employment
-  * Unignore Employment
-  * Create and Amend Employment Financial Details
-
-### property-business-api
-
-* Added new `PROPERTY_INCOME_ALLOWANCE` Gov-Test-Scenario to the following endpoints:
-  * Create and Amend a Foreign Property Annual Submission
-  * Create and Amend a UK Property Annual Submission
-* Added new `DUPLICATE_COUNTRY_CODE` Gov-Test-Scenario to the following endpoints:
-  * Create and Amend a Foreign Property Annual Submission
-
 ### 17 May 2023
 
 The following changes were deployed into sandbox and production.
@@ -88,6 +69,25 @@ The following changes were deployed into sandbox.
   * RULE_ACQUISITION_DATE_AFTER_DISPOSAL_DATE
   * RULE_COMPLETION_DATE
   * RULE_DISPOSAL_DATE
+
+### 16 May 2023
+
+The following changes were deployed into sandbox and production.
+
+### individuals-income-received-api
+
+* Added new `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario to the following endpoints:
+  * Ignore Employment
+  * Unignore Employment
+  * Create and Amend Employment Financial Details
+
+### property-business-api
+
+* Added new `PROPERTY_INCOME_ALLOWANCE` Gov-Test-Scenario to the following endpoints:
+  * Create and Amend a Foreign Property Annual Submission
+  * Create and Amend a UK Property Annual Submission
+* Added new `DUPLICATE_COUNTRY_CODE` Gov-Test-Scenario to the following endpoints:
+  * Create and Amend a Foreign Property Annual Submission
 
 ### 15 May 2023
 
