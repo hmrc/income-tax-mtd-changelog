@@ -75,13 +75,19 @@ The following changes were deployed into sandbox:
 
 * New `ALL_SCHEME_PLANS` Gov-Test-Scenario was added to the `Retrieve Other Employment Income` endpoint.
 
+#### mtd-sa-test-support-api
+
+* A new microservice `Self-Assessment Test Support API` has been released and is available to developers in the
+  sandbox environment. The current version (1.0) of this API provides a means for developers to delete all
+  vendor-supplied stateful test data in the sandbox environment.
+
 ### 17 May 2023
 
 The following changes were deployed into sandbox and production.
 
 #### individuals-income-received-api
 
-* `RULE_LOSSES_GREATER_THAN_GAIN error` was removed for following endpoints:
+* `RULE_LOSSES_GREATER_THAN_GAIN` error was removed for following endpoints:
     * `Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)`
     * `Create and Amend CGT Residential Property Disposals (non-PPD)`
 
@@ -92,16 +98,16 @@ The following changes were deployed into sandbox.
 
 #### individuals-income-received-api
 
-* New gov-test-scenarios were added for Create and Amend Other Capital Gains and Disposals endpoint:
+* New gov-test-scenarios were added for `Create and Amend Other Capital Gains and Disposals` endpoint:
     * `INVALID_DISPOSAL_DATE`
     * `INVALID_ACQUISITION_DATE`
 
-* New gov-test-scenarios were added for Create and Amend 'Report and Pay Capital Gains Tax on Residential Property'
-  Overrides (PPD) endpoint:
+* New gov-test-scenarios were added for `Create and Amend 'Report and Pay Capital Gains Tax on Residential Property'
+  Overrides (PPD)` endpoint:
     * `RULE_DUPLICATED_PPD_SUBMISSION_ID`
     * `RULE_TAX_YEAR_NOT_ENDED`
 
-* New gov-test-scenarios were added for Create and Amend CGT Residential Property Disposals (non-PPD) endpoint:
+* New gov-test-scenarios were added for `Create and Amend CGT Residential Property Disposals (non-PPD)` endpoint:
     * `RULE_ACQUISITION_DATE_AFTER_DISPOSAL_DATE`
     * `RULE_COMPLETION_DATE`
     * `RULE_DISPOSAL_DATE`
@@ -113,9 +119,9 @@ The following changes were deployed into sandbox and production.
 ### individuals-income-received-api
 
 * Added new `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario to the following endpoints:
-    * Ignore Employment
-    * Unignore Employment
-    * Create and Amend Employment Financial Details
+    * `Ignore Employment`
+    * `Unignore Employment`
+    * `Create and Amend Employment Financial Details`
 
 ### property-business-api
 
