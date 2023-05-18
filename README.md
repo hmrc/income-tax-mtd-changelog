@@ -65,7 +65,7 @@ The following changes were deployed into sandbox:
 
 #### individual-losses-api
 
-* New `DYNAMIC` Gov-Test-Scenarios was added to the `List Brought Forward Losses` endpoint.
+* New `DYNAMIC` Gov-Test-Scenario was added to the `List Brought Forward Losses` endpoint.
 
 #### business-details-api
 
