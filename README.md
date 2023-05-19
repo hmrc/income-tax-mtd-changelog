@@ -34,12 +34,23 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
-<!--
-The following APIs have now been deprecated in production
-individual-calculations-api
-* Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
 
--->
+### 18 May 2023
+
+**✂️ Deprecation of API versions** 
+
+The following API versions have been deprecated in Production and Sandbox:
+
+#### individual-losses-api
+  * **Individual Losses API V3.0**
+
+#### self-employment-business-api
+  * **Self Employment Business API V1.0**
+
+These deprecated versions cannot be subscribed to any longer. However, they can be called if the subscription was made before this status change.
+
+
+
 ### 17 May 2023
 
 The following changes were deployed into sandbox and production.
