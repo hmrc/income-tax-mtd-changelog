@@ -49,13 +49,16 @@ The following changes were deployed into sandbox:
 #### property-business-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
-    * `Create and Amend`, `Retrieve` and `Delete UK Property Business Annual Submission`
-    * `Create and Amend`, `Retrieve` and `Delete Historic non-FHL UK Property Business Annual Submission`
-    * `Create and Amend`, `Retrieve` and `Delete Historic FHL UK Property Business Annual Submission`
-    * `Create and Amend`, `Retrieve` and `Delete Foreign Property Annual Submission`
-    * `Create`, `Amend`, `List` and `Retrieve Historic non-FHL UK Property Income & Expenses Period Summary`
-    * `Create`, `Amend`, `List` and `Retrieve Historic FHL UK Property Income & Expenses Period Summary`
-    * `Create`, `Amend`, `List` and `Retrieve Foreign Property Income & Expenses Period Summary`
+    * `Create and Amend` and `Retrieve UK Property Business Annual Submission`
+    * `Create and Amend` and `Retrieve a Foreign Property Annual Submission`
+    * `Delete a Property Annual Submission`
+    * `Create and Amend`, `Retrieve` and `Delete a Historic non-FHL UK Property Business Annual Submission`
+    * `Create and Amend`, `Retrieve` and `Delete a Historic FHL UK Property Business Annual Submission`
+    * `Create`, `Amend`, `List` and `Retrieve a Historic non-FHL UK Property Income & Expenses Period Summary`
+    * `Create`, `Amend`, `List` and `Retrieve a Historic FHL UK Property Income & Expenses Period Summary`
+    * `Create`, `Amend` and `Retrieve a Foreign Property Income & Expenses Period Summary`
+    * `Create`, `Amend` and `Retrieve UK Property Income & Expenses Period Summary`
+    * `List Property Income & Expenses Period Summaries`
 
 #### obligations-api
 
