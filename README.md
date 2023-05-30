@@ -35,6 +35,30 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 
 You should now receive an email whenever the changelog is updated.
 
+### 30 May 2023
+
+The following changes were deployed into sandbox.
+
+#### cis-deductions-api
+
+New API Version `v2.0`
+
+* Added a new error `TAX_YEAR_NOT_ALIGNED` to the "Retrieve CIS Deductions for Subcontractor" endpoint.
+
+#### self-employment-business-api
+
+* Added new `BOTH_EXPENSES_SUPPLIED` Gov-Test-Scenario to the following endpoints:
+  * Create a Self-Employment Period Summary
+  * Amend a Self-Employment Period Summary
+* Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
+
+#### individuals-expenses-api
+
+* Added new `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario to the following endpoints:
+  * Create and Amend Employment Expenses
+  * Ignore Employment Expenses
+* Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
+
 ### 24 May 2023
 
 The following changes were deployed into sandbox.
@@ -56,8 +80,6 @@ The following API versions have been deprecated in Production and Sandbox:
   * **Self Employment Business API V1.0**
 
 These deprecated versions cannot be subscribed to any longer. However, they can be called if the subscription was made before this status change.
-
-
 
 ### 17 May 2023
 
@@ -138,30 +160,6 @@ Updated Endpoint: `Retrieve Income Tax (Self Assessment) Final Declaration Oblig
 * Error `RULE_TAX_YEAR_NOT_SUPPORTED` description and message updated
 * Error `RULE_TAX_YEAR_TOO_LONG` replaced with `RULE_TAX_YEAR_RANGE_INVALID`
 * Gov-Test-Scenario `MULTIPLE` added
-
-### 26 May 2023
-
-The following changes were deployed into sandbox.
-
-#### cis-deductions-api
-
-New API Version `v2.0`
-
-* Added a new error `TAX_YEAR_NOT_ALIGNED` to the "Retrieve CIS Deductions for Subcontractor" endpoint.
-
-#### self-employment-business-api
-
-* Added new `BOTH_EXPENSES_SUPPLIED` Gov-Test-Scenario to the following endpoints:
-  * Create a Self-Employment Period Summary
-  * Amend a Self-Employment Period Summary
-* Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
-
-#### individuals-expenses-api
-
-* Added new `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario to the following endpoints:
-  * Create and Amend Employment Expenses
-  * Ignore Employment Expenses
-* Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
 
 ### 27 April 2023
 
