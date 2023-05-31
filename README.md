@@ -35,7 +35,7 @@ To be notified whenever an MTD API change is deployed to the Sandbox or Producti
 
 You should now receive an email whenever the changelog is updated.
 
-### 30 May 2023
+### 31 May 2023
 
 The following changes were deployed into sandbox and production.
 
