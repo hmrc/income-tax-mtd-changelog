@@ -37,14 +37,6 @@ You should now receive an email whenever the changelog is updated.
 
 ### 31 May 2023
 
-The following changes were deployed into sandbox and production.
-
-#### cis-deductions-api
-
-New API Version `v2.0`
-
-* Added a new error `TAX_YEAR_NOT_ALIGNED` to the "Retrieve CIS Deductions for Subcontractor" endpoint.
-
 The following changes were deployed into sandbox.
 
 #### self-employment-business-api
