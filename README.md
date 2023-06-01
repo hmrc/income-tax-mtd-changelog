@@ -74,10 +74,6 @@ The following changes were deployed into sandbox:
 
 * New `CASH` and `ACCRUALS` Gov-Test-Scenarios were added to the `Retrieve Business Details` endpoint.
 
-#### individuals-income-received-api
-
-* New `ALL_SCHEME_PLANS` Gov-Test-Scenario was added to the `Retrieve Other Employment Income` endpoint.
-
 #### mtd-sa-test-support-api
 
 * A new microservice `Self-Assessment Test Support API` has been released and is available to developers in the
