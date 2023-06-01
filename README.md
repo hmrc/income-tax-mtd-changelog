@@ -121,7 +121,7 @@ The following API versions have been deprecated in Production and Sandbox:
   * **Self Employment Business API V1.0**
 
 These deprecated versions cannot be subscribed to any longer. However, they can be called if the subscription was made before this status change.
->>>>>>> origin/main
+
 
 ### 17 May 2023
 
