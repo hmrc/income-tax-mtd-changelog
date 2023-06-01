@@ -57,7 +57,7 @@ The following changes were deployed into sandbox:
 
 #### obligations-api
 
-* For version 1.0, New `DYNAMIC` Gov-Test-Scenarios were added to the following endpoints:
+* For version 1.0, new `DYNAMIC` Gov-Test-Scenarios were added to the following endpoints:
     * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
     * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
 
