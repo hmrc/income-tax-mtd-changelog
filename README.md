@@ -35,14 +35,9 @@ to your Github account:
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
-<!--
-The following APIs have now been deprecated in production
-individual-calculations-api
-* Version 2.0 has been deprecated, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog/wiki#9th-january-2023)
 
--->
 
-### ?? ??? 2023
+### 1 June 2023
 
 The following changes were deployed into sandbox:
 
@@ -79,6 +74,54 @@ The following changes were deployed into sandbox:
 * A new microservice `Self-Assessment Test Support API` has been released and is available to developers in the
   sandbox environment. The current version (1.0) of this API provides a means for developers to delete all
   vendor-supplied stateful test data in the sandbox environment.
+
+### 31 May 2023
+
+The following changes were deployed into sandbox.
+
+#### self-employment-business-api
+
+* Added new `BOTH_EXPENSES_SUPPLIED` Gov-Test-Scenario to the following endpoints:
+  * Create a Self-Employment Period Summary
+  * Amend a Self-Employment Period Summary
+* Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
+
+#### individuals-expenses-api
+* Added new `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario to the following endpoints:
+  * Create and Amend Employment Expenses
+  * Ignore Employment Expenses
+* Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
+
+### 26 May 2023
+
+The following changes were deployed into sandbox.
+
+#### self-assessment-bsas-api
+
+* For version 2.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
+### 24 May 2023
+
+The following changes were deployed into sandbox.
+
+#### self-assessment-biss-api
+
+* For version 2.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
+### 18 May 2023
+
+**✂️ Deprecation of API versions** 
+
+The following API versions have been deprecated in Production and Sandbox:
+
+#### individual-losses-api
+  * **Individual Losses API V3.0**
+
+#### self-employment-business-api
+  * **Self Employment Business API V1.0**
+
+These deprecated versions cannot be subscribed to any longer. However, they can be called if the subscription was made before this status change.
+>>>>>>> origin/main
 
 ### 17 May 2023
 
