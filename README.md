@@ -36,6 +36,14 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 
+### 6 June 2023
+
+The following changes were deployed into sandbox.
+
+#### cis-deductions-api
+
+* For version 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
 
 ### 1 June 2023
 
