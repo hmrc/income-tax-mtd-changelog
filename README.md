@@ -37,9 +37,9 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 
-### 6 June 2023
+### 7 June 2023
 
-The following changes were deployed into sandbox.
+The following changes were deployed into sandbox:
 
 #### cis-deductions-api
 
