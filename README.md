@@ -37,6 +37,14 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 
+### 6 June 2023
+The following change was deployed into sandbox:
+
+#### self-assessment-assist (HMRC Assist API)
+
+* Renamed from transactional-risking to self-assessment-assist and taxyear included as part of URL
+  * Error codes and description updated and additional error codes added please refer to [endpoint documentation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-assist) for details.
+
 
 ### 1 June 2023
 
@@ -95,12 +103,7 @@ The following changes were deployed into sandbox.
 
 ### 26 May 2023
 
-The following changes were deployed into sandbox.
-
-#### self-assessment-assist (HMRC Assist API)
-
-* Renamed from transactional-risking to self-assessment-assist and taxyear included as part of url
-  * Error codes and description updated and additional error codes added please refer documentation
+The following change was deployed into sandbox.
 
 #### self-assessment-bsas-api
 
