@@ -21,6 +21,7 @@ This page contains the latest changes for the following Income Tax MTD API servi
 * [self-assessment-biss-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api)
 * [self-assessment-bsas-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api)
 * [self-employment-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api)
+* [self-assessment-assist (HMRC Assist API)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-assist)
 
 ## Changelog
 
@@ -35,6 +36,14 @@ to your Github account:
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+
+### 6 June 2023
+The following change was deployed into sandbox:
+
+#### self-assessment-assist (HMRC Assist API)
+
+* Renamed from transactional-risking to self-assessment-assist and taxyear included as part of URL
+  * Error codes and description updated and additional error codes added please refer to [endpoint documentation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-assist) for details.
 
 
 ### 1 June 2023
@@ -94,11 +103,13 @@ The following changes were deployed into sandbox.
 
 ### 26 May 2023
 
-The following changes were deployed into sandbox.
+The following change was deployed into sandbox.
 
 #### self-assessment-bsas-api
 
 * For version 2.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
+
 
 ### 24 May 2023
 
