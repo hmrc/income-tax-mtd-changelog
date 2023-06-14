@@ -37,6 +37,26 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 
+---
+### 14 June 2023
+The following changes were deployed into sandbox:
+#### individuals-income-received-api
+New API Version `v2.0`
+Updated Endpoint: `Create and Amend Dividends Income`
+* The field `foreignTaxCreditRelief`  in request  objects: `dividendIncomeReceivedWhilstAbroad` and  `foreignDividend` is now optional.
+
+Updated Endpoint: `Create and Amend Pensions Income`
+* The field `foreignTaxCreditRelief`  in request  object: `foreignPension` is now optional.
+
+Updated Endpoint: `Retrieve Savings Income`
+* The field `foreignTaxCreditRelief`  in request  object: `foreignInterest` is now optional.
+
+#### individuals-calculations-api
+New API Version `v4.0`
+Updated Endpoint: `List Self Assessment Tax Calculations`
+* The field `totalIncomeTaxAndNicsDue`  in request  object: `taxCalculations` is now optional.
+
+---
 ### 7 June 2023
 The following changes were deployed into sandbox:
 
@@ -44,6 +64,7 @@ The following changes were deployed into sandbox:
 
 * For version 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
 
+---
 ### 6 June 2023
 The following change was deployed into sandbox:
 
@@ -51,7 +72,7 @@ The following change was deployed into sandbox:
 
 * Renamed from transactional-risking to self-assessment-assist and taxyear included as part of URL
   * Error codes and description updated and additional error codes added please refer to [endpoint documentation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-assist) for details.
-
+---
 ### 1 June 2023
 
 The following changes were deployed into sandbox:
@@ -89,7 +110,7 @@ The following changes were deployed into sandbox:
 * A new microservice `Self-Assessment Test Support API` has been released and is available to developers in the
   sandbox environment. The current version (1.0) of this API provides a means for developers to delete all
   vendor-supplied stateful test data in the sandbox environment.
-
+---
 ### 31 May 2023
 
 The following changes were deployed into sandbox.
@@ -106,7 +127,7 @@ The following changes were deployed into sandbox.
   * Create and Amend Employment Expenses
   * Ignore Employment Expenses
 * Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
-
+---
 ### 26 May 2023
 
 The following change was deployed into sandbox.
@@ -116,7 +137,7 @@ The following change was deployed into sandbox.
 * For version 2.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
 
 
-
+---
 ### 24 May 2023
 
 The following changes were deployed into sandbox.
@@ -124,7 +145,7 @@ The following changes were deployed into sandbox.
 #### self-assessment-biss-api
 
 * For version 2.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
-
+---
 ### 18 May 2023
 
 **✂️ Deprecation of API versions** 
@@ -139,7 +160,7 @@ The following API versions have been deprecated in Production and Sandbox:
 
 These deprecated versions cannot be subscribed to any longer. However, they can be called if the subscription was made before this status change.
 
-
+---
 ### 17 May 2023
 
 The following changes were deployed into sandbox and production.
@@ -170,7 +191,7 @@ The following changes were deployed into sandbox.
     * `RULE_ACQUISITION_DATE_AFTER_DISPOSAL_DATE`
     * `RULE_COMPLETION_DATE`
     * `RULE_DISPOSAL_DATE`
-
+---
 ### 16 May 2023
 
 The following changes were deployed into sandbox and production.
@@ -190,6 +211,7 @@ The following changes were deployed into sandbox and production.
 * Added new `DUPLICATE_COUNTRY_CODE` Gov-Test-Scenario to the following endpoints:
     * `Create and Amend a Foreign Property Annual Submission`
 
+---
 ### 15 May 2023
 
 The following changes were deployed into sandbox.
@@ -199,6 +221,7 @@ The following changes were deployed into sandbox.
 * For version 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status
   code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
 
+---
 ### 11 May 2023
 
 The following changes were deployed into sandbox.
@@ -208,6 +231,7 @@ The following changes were deployed into sandbox.
 * For version 3.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status
   code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
 
+---
 ### 3 May 2023
 
 The following changes were deployed into sandbox.
@@ -223,6 +247,7 @@ Updated Endpoint: `Retrieve Income Tax (Self Assessment) Final Declaration Oblig
 * Error `RULE_TAX_YEAR_TOO_LONG` replaced with `RULE_TAX_YEAR_RANGE_INVALID`
 * Gov-Test-Scenario `MULTIPLE` added
 
+---
 ### 27 April 2023
 
 The following changes were deployed into sandbox.
@@ -237,6 +262,7 @@ The following changes were deployed into sandbox.
 * For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400
   response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
 
+---
 ### 20 April 2023
 
 The following changes were deployed into sandbox.
@@ -245,7 +271,7 @@ The following changes were deployed into sandbox.
 
 * For versions 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status
   code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
-
+---
 ### 18 April 2023
 
 #### Improved documentation
@@ -573,6 +599,7 @@ The following changes were deployed into sandbox.
 #### individuals-charges-api
 
 New API Version `v2.0`
+
 
 Updated Endpoint: `Create and Amend Pension Charges (V2)`
 
