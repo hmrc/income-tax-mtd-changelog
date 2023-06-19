@@ -38,6 +38,20 @@ to your Github account:
 You should now receive an email whenever the changelog is updated.
 
 ---
+### XX June 2023
+The following changes were deployed into sandbox:
+
+#### individuals-income-received-api
+
+* Updated endpoint `Create and Amend other income`:
+  * Creation of new field `postCessationReceipts` in request object
+  * Added a new `RULE_UNALIGNED_CESSATION_TAX_YEAR`
+* For `Retrieve other income`:
+  * Creation of new field `postCessationReceipts` in response object
+  
+---
+
+---
 ### 16 June 2023
 The following changes were deployed into sandbox:
 
