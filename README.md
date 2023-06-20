@@ -38,7 +38,7 @@ to your Github account:
 You should now receive an email whenever the changelog is updated.
 
 ---
-### XX June 2023
+### 20 June 2023
 The following changes were deployed into sandbox:
 
 #### individuals-income-received-api
