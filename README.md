@@ -46,7 +46,7 @@ The following changes were deployed into sandbox:
 * Updated endpoint `Create and Amend other income`:
   * Creation of new field `postCessationReceipts` in request object
   * Added a new `RULE_UNALIGNED_CESSATION_TAX_YEAR`
-* For `Retrieve other income`:
+* Updated endpoint `Retrieve other income`:
   * Creation of new field `postCessationReceipts` in response object
   
 ---
