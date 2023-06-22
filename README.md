@@ -38,6 +38,17 @@ to your Github account:
 You should now receive an email whenever the changelog is updated.
 
 ---
+### 22 June 2023
+The following changes were deployed into sandbox and production:
+
+#### cis-deductions-api
+
+* Updated the `periodData` field description in the API documentation for:
+  * `Create CIS Deductions for Subcontractor`
+  * `Amend CIS Deductions for Subcontractor`
+  * `Retrieve CIS Deductions for Subcontractor`
+  
+---
 ### 20 June 2023
 The following changes were deployed into sandbox:
 
@@ -48,8 +59,6 @@ The following changes were deployed into sandbox:
   * Added a new `RULE_UNALIGNED_CESSATION_TAX_YEAR`
 * Updated endpoint `Retrieve other income`:
   * Creation of new field `postCessationReceipts` in response object
-  
----
 
 ---
 ### 16 June 2023
