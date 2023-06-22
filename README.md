@@ -43,10 +43,10 @@ The following changes were deployed into sandbox and production:
 
 #### cis-deductions-api
 
-* Updated `periodData` field description in API documentation for:
+* Updated the `periodData` field description in the API documentation for:
   * `Create CIS Deductions for Subcontractor`
   * `Amend CIS Deductions for Subcontractor`
-  * `Retrieve CIS Deductions for subcontractor.`
+  * `Retrieve CIS Deductions for Subcontractor.`
   
 ---
 ### 20 June 2023
