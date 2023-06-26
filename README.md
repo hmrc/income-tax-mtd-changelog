@@ -38,13 +38,13 @@ to your Github account:
 You should now receive an email whenever the changelog is updated.
 
 ---
-### 25 June 2023
+### 26 June 2023
 The following changes are now available in sandbox:
 
 #### obligations-api
 
 * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`:
-  * New, optional `status` query parameter. This may specify either Open or Fulfilled. If the `status` isn't provided, both Open and Fulfilled obligations will be returned.
+  * New, optional `status` query parameter. This may specify either Open or Fulfilled. If `status` isn't provided, both Open and Fulfilled obligations will be returned.
   * A new error code has been added: FORMAT_STATUS.
   * govTestScenarios removed: OPEN and FULFILLED.
   * The `taxYear` query parameter's default behaviour has changed. If `taxYear` isn't provided, data will be returned for the last 5 years, i.e. current tax year and up to 4 years previously.
