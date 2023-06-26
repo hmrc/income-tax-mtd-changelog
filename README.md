@@ -86,6 +86,7 @@ The following changes were deployed into sandbox:
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
     * `Create and Amend`, `Retrieve` and `Delete Relief Investments`
     * `Create and Amend`, `Retrieve` and `Delete Other Reliefs`
+    * `Create and Amend`, `Retrieve` and `Delete Foreign Reliefs`
     * `Create and Amend`, `Retrieve` and `Delete Pensions Reliefs`
     * `Create and Amend`, `Retrieve` and `Delete Charitable Giving Tax Reliefs`
 
