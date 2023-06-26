@@ -37,7 +37,7 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 
-### ?? ? 2023
+### 26 June 2023
 
 The following changes were deployed into sandbox:
 
@@ -88,13 +88,6 @@ The following changes were deployed into sandbox:
     * `Create and Amend`, `Retrieve` and `Delete Other Reliefs`
     * `Create and Amend`, `Retrieve` and `Delete Pensions Reliefs`
     * `Create and Amend`, `Retrieve` and `Delete Charitable Giving Tax Reliefs`
-
-#### obligations-api (_TO BE CONFIRMED AS TO INCLUDE IN RELEASE 2 OR 3_)
-
-* New `DYNAMIC` Gov-Test-Scenarios were added to the following endpoints:
-    * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
-    * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
-    * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
 
 #### business-details-api
 
