@@ -81,6 +81,11 @@ The following changes were deployed into sandbox:
 * New `STATEFUL` Gov-Test-Scenario was added to the following endpoint:
     * `Create and Amend`, `Retrieve` and `Delete Deductions`
 
+#### obligations-api
+
+* New `DYNAMIC` Gov-Test-Scenario was added to the following v1.0 endpoint:
+  * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+  
 #### individuals-reliefs-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
