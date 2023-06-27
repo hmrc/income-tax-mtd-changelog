@@ -41,7 +41,7 @@ You should now receive an email whenever the changelog is updated.
 
 The following changes were deployed into sandbox:
 
-#### cis-deductions-api
+#### obligations-api
 
 * Updated the `status` query parameter description in the v1.0 API documentation for endpoints:
   * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
