@@ -39,7 +39,7 @@ You should now receive an email whenever the changelog is updated.
 
 ### 27 June 2023
 
-The following changes were deployed into sandbox and production:
+The following changes were deployed into sandbox:
 
 #### cis-deductions-api
 
