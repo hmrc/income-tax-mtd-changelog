@@ -43,8 +43,8 @@ The following changes were deployed into sandbox:
 
 #### self-assessment-individual-details-api
 
-* New API `self-assessment-individual-details-api` v1
-  * New endpoint `Retrieve Itsa Status`
+* New API `self-assessment-individual-details-api` v1 created
+  * New endpoint `Retrieve Itsa Status` created
 
 #### obligations-api
 
