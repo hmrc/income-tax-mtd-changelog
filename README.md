@@ -37,6 +37,16 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 
+### 27 June 2023
+
+The following changes were deployed into sandbox and production:
+
+#### cis-deductions-api
+
+* Updated the `status` query parameter description in the v1.0 API documentation for endpoints:
+  * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
+  * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
+
 ### 26 June 2023
 
 The following changes were deployed into sandbox:
@@ -121,7 +131,6 @@ The following changes are now available in sandbox:
   * A new error code has been added: FORMAT_STATUS.
   * govTestScenarios removed: OPEN and FULFILLED.
   * The `taxYear` query parameter's default behaviour has changed. If `taxYear` isn't provided, data will be returned for the last 5 years, i.e. current tax year and up to 4 years previously.
-
 
 ---
 ### 22 June 2023
