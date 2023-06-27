@@ -38,7 +38,7 @@ to your Github account:
 You should now receive an email whenever the changelog is updated.
 ### 27 June 2023
 The following changes were deployed into sandbox:
-### individuals-income-received-api
+#### individuals-income-received-api
    * The error `RULE_DISPOSAL_DATE` was removed, and a new error, `RULE_DISPOSAL_DATE_NOT_FUTURE` added to `Create and Amend Other Capital Gains and Disposals`.
    * Updated the description for the error `RULE_DISPOSAL_DATE` in `Create and Amend CGT Residential Property Disposals (non-PPD)`.
    * The property `foreignTaxCreditRelief` is now optional for `Retrieve Dividends Income`, `Retrieve Pensions Income`, `Retrieve Other Income` and `Create and Amend Other Income`.
