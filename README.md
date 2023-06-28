@@ -37,6 +37,28 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 ---
+### 3 July 2023
+The following changes are now available in production:
+
+### individuals-charges-api
+
+New API Version V2.0 is now available
+
+ * `Retrieve Pensions Charges` and `Create and Amend Pensions Charges` have been updated with `isAnnualAllowanceReduced`, `moneyPurchasedAllowance` and `taperedAnnualAllowance` removed from  `pensionSavingsTaxCharges` and added to  `pensionContributions`
+
+All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints instead.
+### individuals-calculations-api
+
+New API version V4.0 is now available in production
+  * `List Self Assessment Tax Calculations` has been updated with, `biss` and `POA` removed from the `calculationType`, `totalIncomeTaxAndNicsDue` is now optional and
+    `calculationTimeStamp` now has three digits for milliseconds instead of two 
+  * `Retrieve a Self Assessment Tax Calculation` has new properties `totalAnnualAllowancesAndDeductions`, `totalBaseRateExtension`, `giftAidRelief`, `pensionsContributionRelief` and `offPayrollWorker`
+
+All endpoints replace their respective v3 equivalents, which are now deprecated. Please use the new v4 endpoints instead.
+
+### individuals-income-received-api 
+  * The property `offPayrollWorker` has been added to `Create and Amend Employment Financial Details` and `Retrieve an Employment and its Financial Details` 
+---
 ### 27 June 2023
 The following changes were deployed into sandbox:
 ### individuals-income-received-api
