@@ -39,7 +39,6 @@ You should now receive an email whenever the changelog is updated.
 ---
 ### 27 June 2023
 The following changes were deployed into sandbox:
-<<<<<<< HEAD
 ### individuals-income-received-api
    * The error `RULE_DISPOSAL_DATE` was removed, and a new error, `RULE_DISPOSAL_DATE_NOT_FUTURE` added to `Create and Amend Other Capital Gains and Disposals`
    * The description for the error `RULE_DISPOSAL_DATE` in `Create and Amend CGT Residential Property Disposals (non-PPD)` was updated
@@ -50,12 +49,6 @@ The following changes were deployed into sandbox:
 * Updated the `status` query parameter description in the v1.0 API documentation for endpoints:
   * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
   * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
-=======
-#### individuals-income-received-api
-   * The error `RULE_DISPOSAL_DATE` was removed, and a new error, `RULE_DISPOSAL_DATE_NOT_FUTURE` added to `Create and Amend Other Capital Gains and Disposals`
-   * Updated the description for the error `RULE_DISPOSAL_DATE` in `Create and Amend CGT Residential Property Disposals (non-PPD)`
-   * The property `foreignTaxCreditRelief` is now optional for `Retrieve Dividends Income`, `Retrieve Pensions Income`, `Retrieve Other Income` and `Create and Amend Other Income`
->>>>>>> 0248502 (Updated changelog for individuals-income-received-api)
 
 ---
 ### 26 June 2023
