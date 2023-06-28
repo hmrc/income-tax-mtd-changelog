@@ -36,6 +36,16 @@ to your Github account:
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+
+### XX June 2023 (<-TO BE UPDATED)
+
+The following changes are now available in the sandbox:
+
+#### self-assessment-individual-details-api
+
+* New API `self-assessment-individual-details-api` v1 created
+  * New endpoint `Retrieve Itsa Status` created
+
 ---
 ### 28 June 2023
 
