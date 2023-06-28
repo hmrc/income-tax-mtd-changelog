@@ -36,6 +36,7 @@ to your Github account:
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+---
 ### 28 June 2023
 
 The following changes were deployed into sandbox:
