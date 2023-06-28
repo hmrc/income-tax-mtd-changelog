@@ -39,7 +39,7 @@ You should now receive an email whenever the changelog is updated.
 
 ### XX June 2023 (<-TO BE UPDATED)
 
-The following changes were deployed into sandbox:
+The following changes are now available in the sandbox
 
 #### self-assessment-individual-details-api
 
@@ -48,6 +48,8 @@ The following changes were deployed into sandbox:
 
 ---
 ### 27 June 2023
+
+The following changes are now available in the sandbox
 
 #### obligations-api
 
