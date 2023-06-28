@@ -37,7 +37,7 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 
-### 27 June 2023
+### XX June 2023 (<-TO BE UPDATED)
 
 The following changes were deployed into sandbox:
 
@@ -45,6 +45,8 @@ The following changes were deployed into sandbox:
 
 * New API `self-assessment-individual-details-api` v1 created
   * New endpoint `Retrieve Itsa Status` created
+
+### 27 June 2023
 
 #### obligations-api
 
