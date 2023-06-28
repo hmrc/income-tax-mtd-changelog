@@ -37,6 +37,18 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 ---
+### 28 June 2023
+
+The following changes were deployed into sandbox:
+
+#### cis-deductions-api
+
+New API Version `v2.0`
+Updated Endpoint: `Retrieve Cis Deductions for Subcontractor`
+  * Updated endpoint URL
+  * Removed `DATE_RANGE_OUT_OF_DATE` gov-test-scenario
+  * Added `TAX_YEAR_RANGE_INVALID` gov-test-scenario
+---
 ### 27 June 2023
 The following changes were deployed into sandbox:
 ### individuals-income-received-api
