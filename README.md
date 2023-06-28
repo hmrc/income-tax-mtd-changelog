@@ -36,18 +36,21 @@ to your Github account:
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
-### 27 June 2023
-The following changes were deployed into sandbox:
-#### individuals-income-received-api
-   * The error `RULE_DISPOSAL_DATE` was removed, and a new error, `RULE_DISPOSAL_DATE_NOT_FUTURE` added to `Create and Amend Other Capital Gains and Disposals`
-   * Updated the description for the error `RULE_DISPOSAL_DATE` in `Create and Amend CGT Residential Property Disposals (non-PPD)`
-   * The property `foreignTaxCreditRelief` is now optional for `Retrieve Dividends Income`, `Retrieve Pensions Income`, `Retrieve Other Income` and `Create and Amend Other Income`
 
----
+### 27 June 2023
+
+The following changes were deployed into sandbox:
+
+#### obligations-api
+
+* Updated the `status` query parameter description in the v1.0 API documentation for endpoints:
+  * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
+  * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
+
 ### 26 June 2023
 
 The following changes were deployed into sandbox:
-  
+
 #### self-employment-business-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
@@ -128,7 +131,6 @@ The following changes are now available in sandbox:
   * A new error code has been added: FORMAT_STATUS.
   * govTestScenarios removed: OPEN and FULFILLED.
   * The `taxYear` query parameter's default behaviour has changed. If `taxYear` isn't provided, data will be returned for the last 5 years, i.e. current tax year and up to 4 years previously.
-
 
 ---
 ### 22 June 2023
