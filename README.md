@@ -36,6 +36,24 @@ to your Github account:
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+### 28 June 2023
+
+The following changes were deployed into sandbox:
+
+#### cis-deductions-api
+
+New API Version `v2.0`
+Updated Endpoint: `Retrieve Cis Deductions for Subcontractor`
+
+* `API#1572`-`Retrieve Cis Deductions for Subcontractor`:
+  * Added `taxYear` and `source` path parameters
+  * Added `TAX_YEAR_RANGE_INVALID` gov-test-scenarios
+  * Removed `DATE_RANGE_OUT_OF_DATE` gov-test-scenario
+* `API#1792`-`Retrieve Cis Deductions for Subcontractor`:
+  * Added `taxYear` and `source` path parameters
+  * Updated  scenario for `TAX_YEAR_RANGE_INVALID` gov-test-scenario: 
+      * `Simulates the scenario where specified tax year is outside the allowable tax years (the current tax year minus four years).`
+
 ---
 ### 27 June 2023
 The following changes were deployed into sandbox:
