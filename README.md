@@ -46,6 +46,7 @@ The following changes were deployed into sandbox:
 * New API `self-assessment-individual-details-api` v1 created
   * New endpoint `Retrieve Itsa Status` created
 
+---
 ### 27 June 2023
 
 #### obligations-api
