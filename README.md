@@ -59,6 +59,18 @@ All endpoints replace their respective v3 equivalents, which are now deprecated.
 ### individuals-income-received-api 
   * The property `offPayrollWorker` has been added to `Create and Amend Employment Financial Details` and `Retrieve an Employment and its Financial Details` 
 ---
+### 28 June 2023
+
+The following changes were deployed into sandbox:
+
+#### cis-deductions-api
+
+New API Version `v2.0`
+Updated Endpoint: `Retrieve Cis Deductions for Subcontractor`
+  * Updated endpoint URL
+  * Removed `DATE_RANGE_OUT_OF_DATE` gov-test-scenario
+  * Added `TAX_YEAR_RANGE_INVALID` gov-test-scenario
+---
 ### 27 June 2023
 The following changes were deployed into sandbox:
 ### individuals-income-received-api
