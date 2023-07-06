@@ -36,6 +36,14 @@ to your Github account:
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+
+---
+### 6 July 2023
+The following changes were deployed into sandbox:
+
+####  individuals-state-benefits
+
+* For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
 ---
 ### 3 July 2023
 The following changes are now available in production:
