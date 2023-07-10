@@ -38,6 +38,14 @@ to your Github account:
 You should now receive an email whenever the changelog is updated.
 
 ---
+### 10 July 2023
+The following changes were deployed into sandbox:
+
+####  individuals-reliefs-api
+
+* `Delete Charitable Giving Tax Relief` STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
+
+---
 ### 6 July 2023
 The following changes were deployed into sandbox:
 
