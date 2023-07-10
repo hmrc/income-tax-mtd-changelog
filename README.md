@@ -43,7 +43,7 @@ The following changes were deployed into sandbox:
 
 ####  individuals-reliefs-api
 
-* `Delete Charitable Giving Tax Relief` STATEFUL_DELETE gov test scenario will be deprecated and no longer available on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
+* `Delete Charitable Giving Tax Relief` STATEFUL_DELETE gov test scenario is deprecated and will be removed in a future version. It will be replaced by the STATEFUL Gov-Test-Scenario.
 
 ---
 ### 6 July 2023
