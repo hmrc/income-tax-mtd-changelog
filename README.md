@@ -41,6 +41,10 @@ You should now receive an email whenever the changelog is updated.
 ### 10 July 2023
 The following changes were deployed into sandbox:
 
+####  obligations-api
+
+* For version 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
 ####  individuals-reliefs-api
 
 * `Delete Charitable Giving Tax Relief` STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
