@@ -38,7 +38,7 @@ to your Github account:
 You should now receive an email whenever the changelog is updated.
 
 ---
-### 7 July 2023
+### 10 July 2023
 The following changes were deployed into sandbox:
 
 ####  individuals-reliefs-api
