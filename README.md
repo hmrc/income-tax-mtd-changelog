@@ -38,6 +38,21 @@ to your Github account:
 You should now receive an email whenever the changelog is updated.
 
 ---
+### 11 July 2023
+The following changes are available in sandbox:
+
+#### individuals-income-received-api v2
+
+* A new error `RULE_INVALID_SUBMISSION_PENSION_SCHEME` has been added to `Create and Amend Employment Expenses`.
+
+#### individuals-expenses-api v2
+
+* A new error `RULE_INVALID_SUBMISSION_PENSION_SCHEME` has been added to `Create and Amend Financial Details`.
+
+#### individuals-calculations-api v4
+
+* Updated the `totalIncomeTaxAndNicsDue` to optional in the V4.0 API documentation for endpoint `List Self Assessment Tax Calculations`.
+
 ### 10 July 2023
 The following changes were deployed into sandbox:
 
