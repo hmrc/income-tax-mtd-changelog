@@ -41,10 +41,6 @@ You should now receive an email whenever the changelog is updated.
 
 The following changes were deployed into sandbox:
 
-#### cis-deductions-api
-
-* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve CIS Deductions for Subcontractor` endpoint
-
 #### individual-losses-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
@@ -57,7 +53,6 @@ The following changes were deployed into sandbox:
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
     * `Add`, `Amend` and `Delete Custom Employment`
     * `Retrieve` and `List Employments`
-    * `Amend Loss Claims Order`
     * `Create and Amend`, `Retrieve` and `Delete Non-PAYE Employment Income`
     * `Create and Amend`, `Retrieve` and `Delete Other Employment Income`
     * `Create and Amend`, `Retrieve` and `Delete Dividends Income`
@@ -65,11 +60,6 @@ The following changes were deployed into sandbox:
     * `Create and Amend`, `Retrieve` and `Delete Foreign Income`
 
 * New `DYNAMIC` Gov-Test-Scenario added to `Retrieve Other Income` endpoint
-
-#### mtd-sa-test-support-api
-
-* New `Delete Stateful Test Data` endpoint. This endpoint allows a developer to delete stateful test data supplied by
-  them in the sandbox environment.
 
 #### obligations-api
 
@@ -80,7 +70,7 @@ The following changes were deployed into sandbox:
 
 #### individuals-calculations-api
 
-* New `DYNAMIC` Gov-Test-Scenario added to `List Self Assessment Tax Calculation` endpoint
+* New `DYNAMIC` Gov-Test-Scenario added to `List Self Assessment Tax Calculatiosn` endpoint
 
 #### individuals-expenses-api
 
@@ -90,6 +80,14 @@ The following changes were deployed into sandbox:
 
 * New `DYNAMIC` Gov-Test-Scenario added to `List Self-Employment Period Summaries` endpoint
 
+#### cis-deductions-api
+
+* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve CIS Deductions for Subcontractor` endpoint
+
+#### mtd-sa-test-support-api
+
+* New `Delete Stateful Test Data` endpoint. This endpoint allows a developer to delete stateful test data supplied by
+  them in the sandbox environment.
 ---
 
 ### 11 July 2023
