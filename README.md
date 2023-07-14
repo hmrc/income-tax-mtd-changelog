@@ -70,7 +70,7 @@ The following changes were deployed into sandbox:
 
 #### individuals-calculations-api
 
-* New `DYNAMIC` Gov-Test-Scenario added to `List Self Assessment Tax Calculatiosn` endpoint
+* New `DYNAMIC` Gov-Test-Scenario added to `List Self Assessment Tax Calculations` endpoint
 
 #### individuals-expenses-api
 
