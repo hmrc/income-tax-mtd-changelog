@@ -36,6 +36,13 @@ to your Github account:
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+---
+### ?? July 2023
+The following changes are available in sandbox:
+
+####  self-employment-business-api
+
+* `Delete a Self-Employment Annual Submission` STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
 
 ---
 ### 18 July 2023
