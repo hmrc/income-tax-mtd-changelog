@@ -43,15 +43,18 @@ The following changes are now available in sandbox:
 
 #### self-employment-business-api v3
 
-* A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` has been added to `Create a Self-Employment Period Summary`.
+* A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` has been added to `Create a Self-Employment Period Summary`. 
+* Added `BUSINESS_INCOME_PERIOD_RESTRICTION` gov-test-scenario
 
 #### property-business-api v3
 
 * A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` has been added to `Create a UK Property Income & Expenses Period Summary`.
+* Added `BUSINESS_INCOME_PERIOD_RESTRICTION` gov-test-scenario
 
 #### individuals-business-eops-api v3
 
 * A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` has been added to `Submit End of Period Statement for a Business`.
+* Added `BUSINESS_INCOME_PERIOD_RESTRICTION` gov-test-scenario
 
 ---
 ### 11 July 2023
