@@ -38,6 +38,14 @@ to your Github account:
 You should now receive an email whenever the changelog is updated.
 
 ---
+### 18 July 2023
+The following changes are available in sandbox:
+
+#### individuals-business-eops-api v3
+
+* A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` has been added to `Submit End of Period Statement`.
+
+---
 ### 11 July 2023
 The following changes are available in sandbox:
 
@@ -53,6 +61,7 @@ The following changes are available in sandbox:
 
 * Updated the `totalIncomeTaxAndNicsDue` to optional in the V4.0 API documentation for endpoint `List Self Assessment Tax Calculations`.
 
+---
 ### 10 July 2023
 The following changes were deployed into sandbox:
 
