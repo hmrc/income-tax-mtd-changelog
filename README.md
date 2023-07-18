@@ -41,13 +41,13 @@ You should now receive an email whenever the changelog is updated.
 ### 18 July 2023
 The following changes are now available in sandbox:
 
-#### property-business-api v3
-
-* A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` has been added to `Create a UK Property Income & Expenses Period Summary`.
-
 #### self-employment-business-api v3
 
 * A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` has been added to `Create a Self-Employment Period Summary`.
+
+#### property-business-api v3
+
+* A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` has been added to `Create a UK Property Income & Expenses Period Summary`.
 
 #### individuals-business-eops-api v3
 
