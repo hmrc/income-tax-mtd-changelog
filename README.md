@@ -44,10 +44,6 @@ The following changes are available in sandbox:
 
 * `Delete a Self-Employment Annual Submission` STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
 
----
-### ?? July 2023
-The following changes are available in sandbox:
-
 ####  property-business-api
 
 * `Delete a Historic FHL UK Property Business Annual Submission` & ` Delete a Historic Non-FHL UK Property Business Annual Submission`  STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
