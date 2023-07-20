@@ -37,7 +37,7 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 ---
-### ?? July 2023
+### 20 July 2023
 The following changes are available in sandbox:
 
 ####  self-employment-business-api
