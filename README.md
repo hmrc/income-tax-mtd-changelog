@@ -37,6 +37,59 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 ---
+### 24 July 2023
+
+The following changes were deployed into sandbox:
+
+#### individual-losses-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v4.0 endpoints:
+  * `Create`, `Retrieve`, `List` and `Delete Loss Claims`
+  * `Amend a Loss Claims Type`
+  * `Amend Loss Claims Order`
+
+#### individuals-income-received-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
+  * `Add`, `Amend` and `Delete Custom Employment`
+  * `Retrieve` and `List Employments`
+  * `Create and Amend`, `Retrieve` and `Delete Non-PAYE Employment Income`
+  * `Create and Amend`, `Retrieve` and `Delete Other Employment Income`
+  * `Create and Amend`, `Retrieve` and `Delete Dividends Income`
+  * `Create and Amend`, `Retrieve` and `Delete UK Dividends Income`
+  * `Create and Amend`, `Retrieve` and `Delete Foreign Income`
+
+* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve Other Income` endpoint
+
+#### obligations-api
+
+* New `DYNAMIC` Gov-Test-Scenarios added to v2.0 endpoints:
+  * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
+  * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+  * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
+
+#### individuals-calculations-api
+
+* New `DYNAMIC` Gov-Test-Scenario added to v3.0 `List Self Assessment Tax Calculations` endpoint
+
+#### individuals-expenses-api
+
+* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve Employment Expenses` endpoint
+
+#### self-employment-business-api
+
+* New `DYNAMIC` Gov-Test-Scenario added to `List Self-Employment Period Summaries` endpoint
+
+#### cis-deductions-api
+
+* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve CIS Deductions for Subcontractor` endpoint
+
+#### mtd-sa-test-support-api
+
+* New feature in the `Delete Stateful Test Data` endpoint. This endpoint allows a developer to delete stateful test data using a nino supplied by
+  them in the sandbox environment.
+
+---
 ### 20 July 2023
 The following changes are available in sandbox:
 
@@ -61,59 +114,6 @@ New API Version v3.0 is now available for:
   * `Create a Self-Employment Period Summary` for `self-employment-business-api v3`
   * `Create a UK Property Income & Expenses Period Summary` for `property-business-api v3`
   * `Submit End of Period Statement for a Business` for `individuals-business-eops-api v3`
-
-### ?? ?? 2023
-
-The following changes were deployed into sandbox:
-
-#### individual-losses-api
-
-* New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
-    * `Create`, `Retrieve`, `List` and `Delete Loss Claims`
-    * `Amend a Loss Claims Type`
-    * `Amend Loss Claims Order`
-
-#### individuals-income-received-api
-
-* New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
-    * `Add`, `Amend` and `Delete Custom Employment`
-    * `Retrieve` and `List Employments`
-    * `Create and Amend`, `Retrieve` and `Delete Non-PAYE Employment Income`
-    * `Create and Amend`, `Retrieve` and `Delete Other Employment Income`
-    * `Create and Amend`, `Retrieve` and `Delete Dividends Income`
-    * `Create and Amend`, `Retrieve` and `Delete UK Dividends Income`
-    * `Create and Amend`, `Retrieve` and `Delete Foreign Income`
-
-* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve Other Income` endpoint
-
-#### obligations-api
-
-* New `DYNAMIC` Gov-Test-Scenarios added to v2.0 endpoints:
-    * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
-    * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
-    * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
-
-#### individuals-calculations-api
-
-* New `DYNAMIC` Gov-Test-Scenario added to `List Self Assessment Tax Calculations` endpoint
-
-#### individuals-expenses-api
-
-* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve Employment Expenses` endpoint
-
-#### self-employment-business-api
-
-* New `DYNAMIC` Gov-Test-Scenario added to `List Self-Employment Period Summaries` endpoint
-
-#### cis-deductions-api
-
-* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve CIS Deductions for Subcontractor` endpoint
-
-#### mtd-sa-test-support-api
-
-* New `Delete Stateful Test Data` endpoint. This endpoint allows a developer to delete stateful test data supplied by
-  them in the sandbox environment.
----
 
 ### 11 July 2023
 
