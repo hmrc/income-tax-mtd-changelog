@@ -36,6 +36,31 @@ to your Github account:
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
 You should now receive an email whenever the changelog is updated.
+---
+### 20 July 2023
+The following changes are available in sandbox:
+
+####  self-employment-business-api
+
+* `Delete a Self-Employment Annual Submission` STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
+
+####  property-business-api
+
+* `Delete a Historic FHL UK Property Business Annual Submission` & ` Delete a Historic Non-FHL UK Property Business Annual Submission`  STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
+
+---
+### 18 July 2023
+The following changes are now available in sandbox:
+
+New API Version v3.0 is now available for:
+* `self-employment-business-api`
+* `property-business-api`
+* `individuals-business-eops-api`
+
+* A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` and gov-test-scenario `BUSINESS_INCOME_PERIOD_RESTRICTION` has been added to the following API endpoints:
+  * `Create a Self-Employment Period Summary` for `self-employment-business-api v3`
+  * `Create a UK Property Income & Expenses Period Summary` for `property-business-api v3`
+  * `Submit End of Period Statement for a Business` for `individuals-business-eops-api v3`
 
 ### ?? ?? 2023
 
@@ -107,6 +132,7 @@ The following changes are available in sandbox:
 * Updated the `totalIncomeTaxAndNicsDue` to optional in the V4.0 API documentation for
   endpoint `List Self Assessment Tax Calculations`.
 
+---
 ### 10 July 2023
 
 The following changes were deployed into sandbox:
