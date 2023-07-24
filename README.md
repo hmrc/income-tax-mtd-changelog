@@ -37,6 +37,59 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 ---
+### 24 July 2023
+
+The following changes were deployed into sandbox:
+
+#### individual-losses-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v4.0 endpoints:
+  * `Create`, `Retrieve`, `List` and `Delete Loss Claims`
+  * `Amend a Loss Claims Type`
+  * `Amend Loss Claims Order`
+
+#### individuals-income-received-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
+  * `Add`, `Amend` and `Delete Custom Employment`
+  * `Retrieve` and `List Employments`
+  * `Create and Amend`, `Retrieve` and `Delete Non-PAYE Employment Income`
+  * `Create and Amend`, `Retrieve` and `Delete Other Employment Income`
+  * `Create and Amend`, `Retrieve` and `Delete Dividends Income`
+  * `Create and Amend`, `Retrieve` and `Delete UK Dividends Income`
+  * `Create and Amend`, `Retrieve` and `Delete Foreign Income`
+
+* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve Other Income` endpoint
+
+#### obligations-api
+
+* New `DYNAMIC` Gov-Test-Scenarios added to v2.0 endpoints:
+  * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
+  * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+  * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
+
+#### individuals-calculations-api
+
+* New `DYNAMIC` Gov-Test-Scenario added to v3.0 `List Self Assessment Tax Calculations` endpoint
+
+#### individuals-expenses-api
+
+* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve Employment Expenses` endpoint
+
+#### self-employment-business-api
+
+* New `DYNAMIC` Gov-Test-Scenario added to `List Self-Employment Period Summaries` endpoint
+
+#### cis-deductions-api
+
+* New `DYNAMIC` Gov-Test-Scenario added to `Retrieve CIS Deductions for Subcontractor` endpoint
+
+#### mtd-sa-test-support-api
+
+* New feature in the `Delete Stateful Test Data` endpoint. This endpoint allows a developer to delete stateful test data using a nino supplied by
+  them in the sandbox environment.
+
+---
 ### 20 July 2023
 The following changes are available in sandbox:
 
@@ -62,8 +115,8 @@ New API Version v3.0 is now available for:
   * `Create a UK Property Income & Expenses Period Summary` for `property-business-api v3`
   * `Submit End of Period Statement for a Business` for `individuals-business-eops-api v3`
 
----
 ### 11 July 2023
+
 The following changes are available in sandbox:
 
 #### individuals-income-received-api v2
@@ -76,50 +129,73 @@ The following changes are available in sandbox:
 
 #### individuals-calculations-api v4
 
-* Updated the `totalIncomeTaxAndNicsDue` to optional in the V4.0 API documentation for endpoint `List Self Assessment Tax Calculations`.
+* Updated the `totalIncomeTaxAndNicsDue` to optional in the V4.0 API documentation for
+  endpoint `List Self Assessment Tax Calculations`.
 
 ---
 ### 10 July 2023
+
 The following changes were deployed into sandbox:
 
-####  obligations-api
+#### obligations-api
 
-* For version 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+* For version 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status
+  code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
 
-####  individuals-reliefs-api
+#### individuals-reliefs-api
 
-* `Delete Charitable Giving Tax Relief` STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
+* `Delete Charitable Giving Tax Relief` STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05
+  September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
 
 ---
+
 ### 6 July 2023
+
 The following changes were deployed into sandbox:
 
-####  individuals-state-benefits
+#### individuals-state-benefits
 
-* For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+* For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400
+  response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
 ---
+
 ### 3 July 2023
+
 The following changes are now available in production:
 
 ### individuals-charges-api
 
 New API Version v2.0 is now available
 
- * `Retrieve Pensions Charges` and `Create and Amend Pensions Charges` have been updated with `isAnnualAllowanceReduced`, `moneyPurchasedAllowance` and `taperedAnnualAllowance` removed from  `pensionSavingsTaxCharges` and added to  `pensionContributions`
+* `Retrieve Pensions Charges` and `Create and Amend Pensions Charges` have been updated
+  with `isAnnualAllowanceReduced`, `moneyPurchasedAllowance` and `taperedAnnualAllowance` removed
+  from  `pensionSavingsTaxCharges` and added to  `pensionContributions`
 
-All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints instead.
+All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints
+instead.
+
 ### individuals-calculations-api
 
 New API version v4.0 is now available in production
-  * `List Self Assessment Tax Calculations` has been updated: `biss` and `POA` removed from the `calculationType`, `totalIncomeTaxAndNicsDue` is now optional and
-    `calculationTimeStamp` now has three digits for milliseconds instead of two 
-  * `Retrieve a Self Assessment Tax Calculation` has new properties `totalAnnualAllowancesAndDeductions`, `totalBaseRateExtension`, `giftAidRelief`, `pensionsContributionRelief` and `offPayrollWorker`
 
-All endpoints replace their respective v3 equivalents, which are now deprecated. Please use the new v4 endpoints instead.
+* `List Self Assessment Tax Calculations` has been updated: `biss` and `POA` removed from
+  the `calculationType`, `totalIncomeTaxAndNicsDue` is now optional and
+  `calculationTimeStamp` now has three digits for milliseconds instead of two
+* `Retrieve a Self Assessment Tax Calculation` has new
+  properties `totalAnnualAllowancesAndDeductions`, `totalBaseRateExtension`, `giftAidRelief`, `pensionsContributionRelief`
+  and `offPayrollWorker`
 
-### individuals-income-received-api 
-  * The property `offPayrollWorker` has been added to `Create and Amend Employment Financial Details` and `Retrieve an Employment and its Financial Details` 
+All endpoints replace their respective v3 equivalents, which are now deprecated. Please use the new v4 endpoints
+instead.
+
+### individuals-income-received-api
+
+* The property `offPayrollWorker` has been added to `Create and Amend Employment Financial Details`
+  and `Retrieve an Employment and its Financial Details`
+
 ---
+
 ### 28 June 2023
 
 The following changes were deployed into sandbox:
@@ -128,28 +204,39 @@ The following changes were deployed into sandbox:
 
 New API Version `v2.0`
 Updated Endpoint: `Retrieve Cis Deductions for Subcontractor`
-  * Updated endpoint URL
-  * Removed `DATE_RANGE_OUT_OF_DATE` gov-test-scenario
-  * Added `TAX_YEAR_RANGE_INVALID` gov-test-scenario
+
+* Updated endpoint URL
+* Removed `DATE_RANGE_OUT_OF_DATE` gov-test-scenario
+* Added `TAX_YEAR_RANGE_INVALID` gov-test-scenario
+
 ---
+
 ### 27 June 2023
+
 The following changes were deployed into sandbox:
+
 ### individuals-income-received-api
-   * The error `RULE_DISPOSAL_DATE` was removed, and a new error, `RULE_DISPOSAL_DATE_NOT_FUTURE` added to `Create and Amend Other Capital Gains and Disposals`
-   * The description for the error `RULE_DISPOSAL_DATE` in `Create and Amend CGT Residential Property Disposals (non-PPD)` was updated
-   * The property `foreignTaxCreditRelief` is now optional for `Retrieve Dividends Income`, `Retrieve Pensions Income`, `Retrieve Other Income` and `Create and Amend Other Income`
+
+* The error `RULE_DISPOSAL_DATE` was removed, and a new error, `RULE_DISPOSAL_DATE_NOT_FUTURE` added
+  to `Create and Amend Other Capital Gains and Disposals`
+* The description for the error `RULE_DISPOSAL_DATE` in `Create and Amend CGT Residential Property Disposals (non-PPD)`
+  was updated
+* The property `foreignTaxCreditRelief` is now optional
+  for `Retrieve Dividends Income`, `Retrieve Pensions Income`, `Retrieve Other Income`
+  and `Create and Amend Other Income`
 
 #### obligations-api
 
 * Updated the `status` query parameter description in the v1.0 API documentation for endpoints:
-  * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
-  * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
+    * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
+    * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
 
 ---
+
 ### 26 June 2023
 
 The following changes were deployed into sandbox:
-  
+
 #### self-employment-business-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
@@ -193,8 +280,8 @@ The following changes were deployed into sandbox:
 #### obligations-api
 
 * New `DYNAMIC` Gov-Test-Scenario was added to the following v1.0 endpoint:
-  * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
-  
+    * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+
 #### individuals-reliefs-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
@@ -220,49 +307,61 @@ The following changes were deployed into sandbox:
     * `List State Benefits`
 
 ---
+
 ### 26 June 2023
+
 The following changes are now available in sandbox:
 
 #### obligations-api
 
 * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`:
-  * New, optional `status` query parameter. This may specify either Open or Fulfilled. If `status` isn't provided, both Open and Fulfilled obligations will be returned.
-  * A new error code has been added: FORMAT_STATUS.
-  * govTestScenarios removed: OPEN and FULFILLED.
-  * The `taxYear` query parameter's default behaviour has changed. If `taxYear` isn't provided, data will be returned for the last 5 years, i.e. current tax year and up to 4 years previously.
+    * New, optional `status` query parameter. This may specify either Open or Fulfilled. If `status` isn't provided,
+      both Open and Fulfilled obligations will be returned.
+    * A new error code has been added: FORMAT_STATUS.
+    * govTestScenarios removed: OPEN and FULFILLED.
+    * The `taxYear` query parameter's default behaviour has changed. If `taxYear` isn't provided, data will be returned
+      for the last 5 years, i.e. current tax year and up to 4 years previously.
 
 ---
+
 ### 22 June 2023
+
 The following changes were deployed into sandbox and production:
 
 #### cis-deductions-api
 
 * Updated the `periodData` field description in the API documentation for:
-  * `Create CIS Deductions for Subcontractor`
-  * `Amend CIS Deductions for Subcontractor`
-  * `Retrieve CIS Deductions for Subcontractor`
-  
+    * `Create CIS Deductions for Subcontractor`
+    * `Amend CIS Deductions for Subcontractor`
+    * `Retrieve CIS Deductions for Subcontractor`
+
 ---
+
 ### 20 June 2023
+
 The following changes were deployed into sandbox:
 
 #### individuals-income-received-api
 
 * Updated endpoint `Create and Amend other income`:
-  * Creation of new field `postCessationReceipts` in request object
-  * Added a new `RULE_UNALIGNED_CESSATION_TAX_YEAR`
+    * Creation of new field `postCessationReceipts` in request object
+    * Added a new `RULE_UNALIGNED_CESSATION_TAX_YEAR`
 * Updated endpoint `Retrieve other income`:
-  * Creation of new field `postCessationReceipts` in response object
+    * Creation of new field `postCessationReceipts` in response object
 
 ---
+
 ### 16 June 2023
+
 The following changes were deployed into sandbox:
 
 #### individuals-reliefs-api
 
-* For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+* For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400
+  response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
 
 ---
+
 ### 14 June 2023
 
 The following changes were deployed into sandbox:
