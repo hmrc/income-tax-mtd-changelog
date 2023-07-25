@@ -78,7 +78,7 @@ The following changes were deployed into sandbox:
 
 #### self-employment-business-api
 
-* New `DYNAMIC` Gov-Test-Scenario added to `List Self-Employment Period Summaries` endpoint
+* New `DYNAMIC` Gov-Test-Scenario added to v2.0 `List Self-Employment Period Summaries` endpoint
 
 #### cis-deductions-api
 
