@@ -47,7 +47,11 @@ New API Version v3.0 is now available
 
 * Updated data fields within the `periodExpenses` & `periodDisallowableExpenses` objects to accept negative values in the following endpoints:
   * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
-
+* A new data field `taxTakenOffTradingIncome` has been added to the `incomesType` object in the following endpoints: 
+  * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
+  
+### individuals-charges-api
+* Version 1.0 is has been deprecated in production and the sandbox and will no longer accept new subscriptions to this version. Existing subscriptions will continue to work.
 ---
 ### 24 July 2023
 
