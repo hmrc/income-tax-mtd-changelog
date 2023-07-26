@@ -37,16 +37,17 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 ---
-### 25 July 2023
+### 26 July 2023
 
 The following changes are now available in sandbox:
 
 #### self-employment-business-api
 
-New API Version v3.0 is now available
+New API Version `v3.0` is now available
 
-* Updated data fields within the `periodExpenses` & `periodDisallowableExpenses` objects to accept negative values in the following endpoints:
-  * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
+*  For `v2.0` and `v3.0`: 
+  * Updated data fields within the `periodExpenses` & `periodDisallowableExpenses` objects to accept negative values in the following endpoints:
+    * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
 
 ---
 ### 24 July 2023
