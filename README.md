@@ -37,7 +37,7 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 ---
-### 25 July 2023
+### 26 July 2023
 
 The following changes are now available in sandbox:
 
@@ -45,6 +45,7 @@ The following changes are now available in sandbox:
 
 New API Version v3.0 is now available
 
+*  For `v2.0` and `v3.0`:
 * Updated data fields within the `periodExpenses` & `periodDisallowableExpenses` objects to accept negative values in the following endpoints:
   * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
 * A new data field `taxTakenOffTradingIncome` has been added to the `incomesType` object in the following endpoints: 
@@ -130,6 +131,11 @@ New API Version v3.0 is now available for:
   * `Create a Self-Employment Period Summary` for `self-employment-business-api v3`
   * `Create a UK Property Income & Expenses Period Summary` for `property-business-api v3`
   * `Submit End of Period Statement for a Business` for `individuals-business-eops-api v3`
+
+### 14 July 2023
+
+#### individuals-calculations-api
+* Version 3.0 is has been deprecated in production and the sandbox and will no longer accept new subscriptions to this version. Existing subscriptions will continue to work.
 
 ### 11 July 2023
 
