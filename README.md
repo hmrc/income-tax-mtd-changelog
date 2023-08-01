@@ -37,6 +37,15 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 ---
+### 1 Aug 2023
+
+The following changes are now available in sandbox:
+
+#### self-assessment-individual-details-api
+
+* Added `Income Source Latency Changes` value to `statusReason` data field for `v1.0 API#1878- Retrieve ITSA status`
+
+---
 ### 26 July 2023
 
 The following changes are now available in sandbox:
