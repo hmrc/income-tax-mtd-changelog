@@ -1,6 +1,6 @@
 # Income Tax (Making Tax Digital) Changelog
 
-This page contains the latest changes for the following Income Tax MTD API services:
+This page contains the dates and the latest changes for the following Income Tax MTD API services:
 
 * [business-details-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/business-details-api)
 * [cis-deductions-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/cis-deductions-api)
@@ -27,7 +27,7 @@ This page contains the latest changes for the following Income Tax MTD API servi
 
 See the above list for links to the relevant API documentation.
 
-To be notified whenever an MTD API change is deployed to the Sandbox or Production, follow these steps while logged-in
+To be notified when an MTD API change is deployed to the Sandbox or Production, follow these steps while logged-in
 to your Github account:
 
 1. Go to: https://github.com/hmrc/income-tax-mtd-changelog
@@ -35,7 +35,9 @@ to your Github account:
 3. Go to: https://github.com/settings/notifications
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
-You should now receive an email whenever the changelog is updated.
+You should now receive an email approximately every two weeks containing the changes made to the APIs since the last update.
+
+* Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 ---
 ### 26 July 2023
 
