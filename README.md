@@ -38,6 +38,22 @@ to your Github account:
 You should now receive an email approximately every two weeks containing the changes made to the APIs since the last update.
 
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
+
+
+---
+### 2 August 2023
+
+The following changes were deployed into sandbox:
+
+#### self-assessment-accounts
+
+* For version 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status
+  code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
+#### business-details-api
+
+* For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status
+  code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
 ---
 ### 26 July 2023
 
