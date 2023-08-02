@@ -45,7 +45,7 @@ You should now receive an email approximately every two weeks containing the cha
 
 The following changes were deployed into sandbox:
 
-#### self-assessment-accounts
+#### self-assessment-accounts-api
 
 * For version 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status
   code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
