@@ -37,7 +37,7 @@ to your Github account:
 
 You should now receive an email whenever the changelog is updated.
 ---
-### XX Aug 2023 (TBC)
+### 2 Aug 2023
 
 The following changes are now available in sandbox:
 
