@@ -55,6 +55,22 @@ The following changes were deployed into sandbox:
 * For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status
   code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
 ---
+### 1 August 2023
+
+#### self-assessment-bsas-api
+* Version 2.0 is has been retired in production and the sandbox.
+
+### 3 August 2023
+
+#### individuals-business-eops-api
+* Version 1.0 is has been retired in production and the sandbox.
+
+#### self-assessment-accounts-api
+* Version 1.0 is has been retired in production and the sandbox.
+
+#### individuals-calculations-api
+* Version 2.0 is has been retired in production and the sandbox.
+
 ### 26 July 2023
 
 The following changes are now available in sandbox:
