@@ -66,7 +66,7 @@ The following changes were deployed into sandbox:
 * Version 1.0 is has been retired in production and the sandbox.
 
 #### self-assessment-accounts-api
-* Version 1.0 is has been retired in production and the sandbox.
+* Version 1.0 is has been retired in the sandbox.
 
 #### individuals-calculations-api
 * Version 2.0 is has been retired in production and the sandbox.
