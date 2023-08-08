@@ -41,16 +41,15 @@ You should now receive an email approximately every two weeks containing the cha
 
 
 ---
-### XX August 2023 (TBC)
+### 08 August 2023
 
 The following changes were deployed into sandbox:
 
 #### individual-calculations-api
 
 * For `Retrieve a Self Assessment Tax v4.0` endpoint:
-  * New data field `cessationDate` has been added to the `businessIncomeSources` response object.
+  * New data fields `cessationDate`and `commencementDate` has been added to the `businessIncomeSources` response object.
   * New object `otherIncome` has been added to the `calculation` response object.
-  * New data field `commencementDate` has been added to the `businessIncomeSources` response object.
   * New data field `taxTakenOffTradingIncome` has been added to the `taxDeductedAtSource` response object.
   * New data field `itsaStatus` has been added to the `personalInformation` response object.
     
