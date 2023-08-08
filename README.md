@@ -41,6 +41,16 @@ You should now receive an email approximately every two weeks containing the cha
 
 
 ---
+### XX August 2023
+
+The following changes were deployed into sandbox:
+
+#### individual-calculations-api
+
+*  For `v4.0`:
+* A new data field `cessationDate` has been added to the `inputs.incomeSources.businessIncomeSources` object for `Retrieve a Self Assessment Tax` endpoint.
+
+---
 ### 2 August 2023
 
 The following changes were deployed into sandbox:
