@@ -52,7 +52,26 @@ The following changes are available in sandbox:
   * New object `otherIncome` has been added to the `calculation` response object.
   * New data field `taxTakenOffTradingIncome` has been added to the `taxDeductedAtSource` response object.
   * New data field `itsaStatus` has been added to the `personalInformation` response object.
-    
+
+#### business-details-api
+
+Updated Endpoint: `Retrieve Business Details`
+
+* Fields added to the response object: `yearOfMigration`, `firstAccountingPeriodStartDate`, `firstAccountingPeriodEndDate`
+  and `latencyDetails` array with fields `latencyEndDate`, `taxYear1`, `latencyIndicator1`, `taxYear2`, `latencyIndicator2`
+
+---
+### 3 August 2023
+
+#### individuals-business-eops-api
+* Version 1.0 is has been retired in production and the sandbox.
+
+#### self-assessment-accounts-api
+* Version 1.0 is has been retired in the sandbox.
+
+#### individuals-calculations-api
+* Version 2.0 is has been retired in production and the sandbox.
+
 ---
 ### 2 August 2023
 
@@ -73,17 +92,7 @@ The following changes were deployed into sandbox:
 #### self-assessment-bsas-api
 * Version 2.0 is has been retired in production and the sandbox.
 
-### 3 August 2023
-
-#### individuals-business-eops-api
-* Version 1.0 is has been retired in production and the sandbox.
-
-#### self-assessment-accounts-api
-* Version 1.0 is has been retired in the sandbox.
-
-#### individuals-calculations-api
-* Version 2.0 is has been retired in production and the sandbox.
-
+---
 ### 26 July 2023
 
 The following changes are now available in sandbox:
