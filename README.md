@@ -43,7 +43,7 @@ You should now receive an email approximately every two weeks containing the cha
 ---
 ### 08 August 2023
 
-The following changes were deployed into sandbox:
+The following changes are available in sandbox:
 
 #### individual-calculations-api
 
