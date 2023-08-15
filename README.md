@@ -38,7 +38,11 @@ to your Github account:
 You should now receive an email approximately every two weeks containing the changes made to the APIs since the last update.
 
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
-
+---
+### 14 August 2023
+The following change was deployed into sandbox:
+### business-details-api
+* The properties `yearOfMigration`, `firstAccountingPeriodStartDate`, `firstAccountingPeriodEndDate` and the object `latencyDetails` were added to the `Retrieve Business Details` endpoint.
 
 ---
 ### 2 August 2023
@@ -223,7 +227,7 @@ New API version v4.0 is now available in production
   the `calculationType`, `totalIncomeTaxAndNicsDue` is now optional and
   `calculationTimeStamp` now has three digits for milliseconds instead of two
 * `Retrieve a Self Assessment Tax Calculation` has new
-  properties `totalAnnualAllowancesAndDeductions`, `totalBaseRateExtension`, `giftAidRelief`, `pensionsContributionRelief`
+  properties `totalAnnualAllowancesAndDeductions`, `totalBasicRateExtension`, `giftAidRelief`, `pensionsContributionRelief`
   and `offPayrollWorker`
 
 All endpoints replace their respective v3 equivalents, which are now deprecated. Please use the new v4 endpoints
