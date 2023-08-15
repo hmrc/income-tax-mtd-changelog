@@ -38,7 +38,11 @@ to your Github account:
 You should now receive an email approximately every two weeks containing the changes made to the APIs since the last update.
 
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
-
+---
+### 14 August 2023
+The following change was deployed into sandbox:
+### business-details-api
+* The properties `yearOfMigration`, `firstAccountingPeriodStartDate`, `firstAccountingPeriodEndDate` and the object `latencyDetails` were added to the `Retrieve Business Details` endpoint.
 
 ---
 ### 08 August 2023
