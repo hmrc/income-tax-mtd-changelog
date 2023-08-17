@@ -41,11 +41,9 @@ You should now receive an email approximately every two weeks containing the cha
 ---
 ### 16 August 2023
 
-The following changes are now available in sandbox:
-
 #### self-assessment-bsas-api
 
-New API Version v4.0 is now available
+New version 4.0 is now available in sandbox. Currently there are no differences with 3.0, but the changes will start to appear in sandbox soon.
 
 ---
 ### 14 August 2023
