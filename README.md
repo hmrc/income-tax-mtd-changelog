@@ -39,13 +39,6 @@ You should now receive an email approximately every two weeks containing the cha
 
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 ---
-### 16 August 2023
-
-#### self-assessment-bsas-api
-
-New version 4.0 is now available in sandbox. Currently there are no differences with 3.0, but the changes will start to appear in sandbox soon.
-
----
 ### 14 August 2023
 The following change was deployed into sandbox:
 ### business-details-api
