@@ -39,6 +39,18 @@ You should now receive an email approximately every two weeks containing the cha
 
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 ---
+### XX August 2023 (TBC)
+
+The following change was deployed into sandbox:
+
+#### self-assessment-bsas-api
+
+New API Version v4.0 is now available
+
+* For `v4.0`:
+  * Updated data fields within the `adjustableSummaryCalculation` object to accept both positive and negative values for the`Retrieve Self-Employment BSAS` endpoint.
+
+---
 ### 14 August 2023
 The following change was deployed into sandbox:
 ### business-details-api
