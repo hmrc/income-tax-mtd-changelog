@@ -39,6 +39,20 @@ You should now receive an email approximately every two weeks containing the cha
 
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 ---
+### 21 August 2023
+The following change was deployed into sandbox:
+### self-assessment-biss-api
+* The following properties are now mandatory in the retrieve a business income source summary:
+  * `total`
+	   * `income`
+	   * `expenses`
+  * `profit`
+	   * `net`
+	   * `taxable`
+  * `loss`
+	   * `net`
+	   * `taxable`
+---
 ### 14 August 2023
 The following change was deployed into sandbox:
 ### business-details-api
