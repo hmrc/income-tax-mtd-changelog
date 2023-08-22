@@ -39,6 +39,12 @@ You should now receive an email approximately every two weeks containing the cha
 
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 ---
+### 22 August 2023
+
+#### self-assessment-api
+* Version 2.0 is has been retired in production and the sandbox.
+
+---
 ### 14 August 2023
 The following change was deployed into sandbox:
 ### business-details-api
