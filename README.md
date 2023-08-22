@@ -40,15 +40,18 @@ You should now receive an email approximately every two weeks containing the cha
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 ---
 ### 22 August 2023
-The following change was deployed into production:
+
+#### property-business-api
+* Version 1.0 is has been retired in production and the sandbox.
+
 ### self-assessment-biss-api
-* The following properties are now mandatory in the retrieve a business income source summary endpoint response:
-   * `total.income`
-   * `total.expenses`
-   * `profit.income`
-   * `profit.expenses`
-   * `loss.net`
-   * `loss.taxable`
+* In production, the following properties are now mandatory in the retrieve a business income source summary endpoint response:
+    * `total.income`
+    * `total.expenses`
+    * `profit.income`
+    * `profit.expenses`
+    * `loss.net`
+    * `loss.taxable`
 ---
 ### 14 August 2023
 The following change was deployed into sandbox:
