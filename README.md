@@ -44,6 +44,9 @@ You should now receive an email approximately every two weeks containing the cha
 #### self-assessment-api
 * Version 2.0 is has been retired in production and the sandbox.
 
+#### property-business-api
+* Version 1.0 is has been retired in production and the sandbox.
+
 ---
 ### 14 August 2023
 The following change was deployed into sandbox:
