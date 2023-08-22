@@ -46,8 +46,8 @@ You should now receive an email approximately every two weeks containing the cha
 
 #### self-assessment-bsas-api
 
-New API Version v4.0 is now available in the sandbox with the following changes:
-  * `Retrieve Self-Employment BSAS` endpoint: Data fields within the `adjustableSummaryCalculation` response object can now return negative values.
+Version 4.0 is now available in the sandbox with the following changes:
+* `Retrieve Self-Employment BSAS` endpoint: Data fields within the `adjustableSummaryCalculation` response object can now return negative values.
 
 ---
 ### 14 August 2023
