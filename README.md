@@ -39,7 +39,7 @@ You should now receive an email approximately every two weeks containing the cha
 
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 ---
-### 21 August 2023
+### 22 August 2023
 The following change was deployed into production:
 ### self-assessment-biss-api
 * The following properties are now mandatory in the retrieve a business income source summary endpoint response:
