@@ -41,8 +41,15 @@ You should now receive an email approximately every two weeks containing the cha
 ---
 ### 22 August 2023
 
+#### self-assessment-api
+* Version 2.0 is has been retired in production and the sandbox.
+
 #### property-business-api
 * Version 1.0 is has been retired in production and the sandbox.
+
+#### self-assessment-bsas-api
+Version 4.0 is now available in the sandbox with the following changes:
+* `Retrieve Self-Employment BSAS` endpoint: Data fields within the `adjustableSummaryCalculation` response object can now return negative values.
 
 #### self-assessment-biss-api
 * In production, the following properties are now mandatory in the retrieve a business income source summary endpoint response:
