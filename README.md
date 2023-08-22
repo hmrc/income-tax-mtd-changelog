@@ -44,7 +44,7 @@ You should now receive an email approximately every two weeks containing the cha
 #### property-business-api
 * Version 1.0 is has been retired in production and the sandbox.
 
-### self-assessment-biss-api
+#### self-assessment-biss-api
 * In production, the following properties are now mandatory in the retrieve a business income source summary endpoint response:
     * `total.income`
     * `total.expenses`
