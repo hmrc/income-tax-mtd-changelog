@@ -41,12 +41,15 @@ You should now receive an email approximately every two weeks containing the cha
 ---
 ### 22 August 2023
 
+#### property-business-api
+* Version 1.0 is has been retired in production and the sandbox.
+
 The following changes are now available in sandbox:
 
 #### self-assessment-bsas-api
 
 New API Version v4.0 is now available with the following changes:
-  *  `Retrieve Self-Employment BSAS` endpoint: Data fields within the `adjustableSummaryCalculation` response object can now return negative values.
+  * `Retrieve Self-Employment BSAS` endpoint: Data fields within the `adjustableSummaryCalculation` response object can now return negative values.
 
 ---
 ### 14 August 2023
@@ -57,7 +60,7 @@ The following change was deployed into sandbox:
 ---
 ### 08 August 2023
 
-The following changes are now available in sandbox:
+The following changes are available in sandbox:
 
 #### individual-calculations-api
 
@@ -70,7 +73,7 @@ The following changes are now available in sandbox:
 ---
 ### 2 August 2023
 
-The following changes are now available in sandbox:
+The following changes were deployed into sandbox:
 
 #### self-assessment-accounts-api
 
