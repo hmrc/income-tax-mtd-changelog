@@ -44,14 +44,14 @@ You should now receive an email approximately every two weeks containing the cha
 
 The following changes are available in sandbox:
 
-### business-details-api
+#### business-details-api
 * For `Retrieve Business Details` endpoint:
   * Updated `taxYear1` and `taxYear2` fields in `Latency Details` response object to the format YYYY-YY (e.g 2018-19)
 
 ---
 ### 14 August 2023
 The following change was deployed into sandbox:
-### business-details-api
+#### business-details-api
 * The properties `yearOfMigration`, `firstAccountingPeriodStartDate`, `firstAccountingPeriodEndDate` and the object `latencyDetails` were added to the `Retrieve Business Details` endpoint.
 
 ---
