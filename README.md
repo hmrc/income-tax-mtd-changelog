@@ -40,13 +40,13 @@ You should now receive an email approximately every two weeks containing the cha
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
-### 21 August 2023
+### 23 August 2023
 
 The following changes are available in sandbox:
 
 ### business-details-api
 * For `Retrieve Business Details` endpoint:
-  * Updated `taxYear1` and `taxYear2` fields in `Latency Details` object to the format YYYY-YY (e.g 2018-19)
+  * Updated `taxYear1` and `taxYear2` fields in `Latency Details` response object to the format YYYY-YY (e.g 2018-19)
 
 ---
 ### 14 August 2023
