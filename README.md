@@ -47,12 +47,15 @@ The following changes are available in sandbox:
 #### individuals-income-received-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
-  * `Create`, `Amend`, `Retrieve` and `Delete Employment Financial Details`
-  * `Create`, `Amend`, `Retrieve` and `Delete Insurance Policies Income`
-  * `Create`, `Amend`, `Retrieve` and `Delete Pensions Income`
-  * `Add`, `List`, `Create`, `Amend` and `Retrieve UK Savings Account`
-  * `Create`, `Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (non-PPD)`
-  * `Create`, `Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (PPD)`
+  * `Create and Amend`, `Retrieve` and `Delete Employment Financial Details`
+  * `Create and Amend`, `Retrieve` and `Delete Insurance Policies Income`
+  * `Create and Amend`, `Retrieve` and `Delete Pensions Income`
+  * `Add`, `List`, `Create and Amend` and `Retrieve UK Savings Account`
+  * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (non-PPD)`
+  * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (PPD)`
+
+* Code improvement for breaking change, The code changes are for V2:
+  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error as been added.
 
 #### individual-calculations-api
 
@@ -63,6 +66,12 @@ The following changes are available in sandbox:
 
 * New `DYNAMIC` Gov-Test-Scenarios added to v3.0 endpoint:
   * `Retrieve a Self-Employment Period Summary`
+
+#### individuals-expenses-api
+
+* Code improvement for breaking change, The code changes are for V2:
+  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error as been added.
+
 
 #### mtd-sa-test-support-api
 
