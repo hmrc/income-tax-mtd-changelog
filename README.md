@@ -54,7 +54,7 @@ The following changes are available in sandbox:
   * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (non-PPD)`
   * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (PPD)`
 
-* Code improvement for breaking change, The code changes are for V2:
+* Code improvement for breaking change, The code changes are for v2:
   * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
 
 #### individual-calculations-api
@@ -69,17 +69,17 @@ The following changes are available in sandbox:
 
 #### individuals-expenses-api
 
-* Code improvement for breaking change, The code changes are for V2:
+* Code improvement for breaking change, The code changes are for v2:
   * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
 
 
 #### mtd-sa-test-support-api
 
-* New feature `Create`, `Restore`, `List` and `Delete Checkpoint`. These endpoints allow a developer to create, restore, list and delete a checkpoint for the stateful data for a particular NINO.
-* New feature `Create`,  `Delete Test Business`. These endpoints will be used by vendors to create & delete test businesses of their preferred choice.
+* New feature `Create`, `Restore`, `List` and `Delete Checkpoint`. These endpoints enable you to create, restore, list and delete a checkpoint for the stateful data for a particular NINO.
+* New feature `Create`,  `Delete Test Business`. These endpoints enable you to create and delete test businesses as required.
 
 * Upgrade `HTTP Client` to Version 2
-* New `Auto delete checkpoint` feature, this feature will auto delete checkpoints after 7 days.
+* New `Auto delete checkpoint` feature. This feature will auto delete checkpoints after 7 days.
 
 ---
 ### 23 August 2023
