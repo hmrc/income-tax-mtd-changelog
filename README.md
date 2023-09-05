@@ -55,7 +55,7 @@ The following changes are available in sandbox:
   * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (PPD)`
 
 * Code improvement for breaking change, The code changes are for V2:
-  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error as been added.
+  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
 
 #### individual-calculations-api
 
@@ -70,7 +70,7 @@ The following changes are available in sandbox:
 #### individuals-expenses-api
 
 * Code improvement for breaking change, The code changes are for V2:
-  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error as been added.
+  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
 
 
 #### mtd-sa-test-support-api
