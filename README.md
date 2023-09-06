@@ -57,11 +57,6 @@ The following changes are available in sandbox:
 * Code improvement for breaking change, The code changes are for v2:
   * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
 
-#### individual-calculations-api
-
-* New `DYNAMIC` Gov-Test-Scenarios added to v4.0 endpoint:
-  * `Retrieve a Self Assessment Tax Calculation`
-
 #### self-employment-business-api
 
 * New `DYNAMIC` Gov-Test-Scenarios added to v3.0 endpoint:
