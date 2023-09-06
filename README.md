@@ -46,7 +46,7 @@ The following changes are available in sandbox:
 
 #### individuals-income-received-api
 
-* New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints in v2:
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v2 endpoints:
   * `Create and Amend`, `Retrieve` and `Delete Employment Financial Details`
   * `Create and Amend`, `Retrieve` and `Delete Insurance Policies Income`
   * `Create and Amend`, `Retrieve` and `Delete Pensions Income`
