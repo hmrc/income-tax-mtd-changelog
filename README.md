@@ -40,6 +40,43 @@ You should now receive an email approximately every two weeks containing the cha
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
+### 6 September 2023
+
+The following changes are available in sandbox:
+
+#### individuals-income-received-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v2 endpoints:
+  * `Create and Amend`, `Retrieve` and `Delete Employment Financial Details`
+  * `Create and Amend`, `Retrieve` and `Delete Insurance Policies Income`
+  * `Create and Amend`, `Retrieve` and `Delete Pensions Income`
+  * `Add`, `List`, `Create and Amend` and `Retrieve UK Savings Account`
+  * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (non-PPD)`
+  * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (PPD)`
+
+* Code improvement for breaking change, The code changes are for v2:
+  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
+
+#### self-employment-business-api
+
+* New `DYNAMIC` Gov-Test-Scenarios added to v3.0 endpoint:
+  * `Retrieve a Self-Employment Period Summary`
+
+#### individuals-expenses-api
+
+* Code improvement for breaking change, The code changes are for v2:
+  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
+
+
+#### mtd-sa-test-support-api
+
+* New feature `Create`, `Restore`, `List` and `Delete Checkpoint`. These endpoints enable you to create, restore, list and delete a checkpoint for the stateful data for a particular NINO.
+* New feature `Create`,  `Delete Test Business`. These endpoints enable you to create and delete test businesses as required.
+
+* Upgrade `HTTP Client` to Version 2
+* New `Auto delete checkpoint` feature. This feature will auto delete checkpoints after 7 days.
+
+---
 ### 23 August 2023
 
 The following changes are available in sandbox:
