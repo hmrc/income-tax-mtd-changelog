@@ -40,6 +40,18 @@ You should now receive an email approximately every two weeks containing the cha
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
+### 14 September 2023
+
+The following changes are available in sandbox:
+
+#### mtd-sa-test-support-api
+
+* A number of corrections have been made to the Developer Hub documentation for this API. In particular, some `List Checkpoints` endpoint fields were incorrectly named:
+  * `Checkpoints` should have been `checkpoints`, and
+  * `checkpointcreationTimestamp` should have been `checkpointCreationTimestamp`.
+  
+* All endpoints on this test-support API now use application-restricted authorisation. They will still also allow valid user-restricted OAuth 2.0 access tokens.
+
 ### 6 September 2023
 
 The following changes are available in sandbox:
