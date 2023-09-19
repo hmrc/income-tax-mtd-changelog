@@ -42,7 +42,7 @@ You should now receive an email approximately every two weeks containing the cha
 ---
 ### 19 September 2023
 
-The following changes are available in sandbox:
+Version 5.0 is now available in the sandbox with the following changes:
 
 #### individual-calculations-api
 
