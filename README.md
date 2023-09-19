@@ -40,6 +40,14 @@ You should now receive an email approximately every two weeks containing the cha
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
+### 19 September 2023
+
+The following changes are available in sandbox:
+
+#### individual-calculations-api
+
+* The format of the `calculation.taxCalculation.totalAnnuityPaymentsTaxCharged` field has been changed from Integer to Decimal (decimal places <= 2).
+
 ### 14 September 2023
 
 The following changes are available in sandbox:
