@@ -47,9 +47,10 @@ The following changes are available in sandbox:
 
 #### individual-calculations-api
 * Data field taxTakenOffTradingIncome has been removed from the taxDeductedAtSource response body in Retrieve a Self Assessment Tax (v4.0 and v5.0) endpoint.
+  (This field will be reinstated in a future release).
 
 #### self-employment-business-api
-* Data field taxTakenOffTradingIncome has been removed from the periodIncome object in the following endpoints:
+* Data field taxTakenOffTradingIncome has been removed from the periodIncome object in the following endpoints (This field will be reinstated in a future release):
   * Create, Retrieve, and Amend a Self-Employment Period Summary (v3.0)
 
 ### 20 September 2023
