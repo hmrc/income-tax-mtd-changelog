@@ -40,6 +40,18 @@ You should now receive an email approximately every two weeks containing the cha
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
+
+### 21 September 2023
+
+The following changes are available in sandbox:
+
+#### individual-calculations-api
+* Data field taxTakenOffTradingIncome has been removed from the taxDeductedAtSource response body in Retrieve a Self Assessment Tax (v4.0 and v5.0) endpoint.
+
+#### self-employment-business-api
+* Data field taxTakenOffTradingIncome has been removed from the periodIncome object in the following endpoints:
+  * Create, Retrieve, and Amend a Self-Employment Period Summary (v3.0)
+
 ### 20 September 2023
 
 #### individual-calculations-api
