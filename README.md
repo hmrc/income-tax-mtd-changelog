@@ -35,31 +35,92 @@ to your Github account:
 3. Go to: https://github.com/settings/notifications
 4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
 
-You should now receive an email approximately every two weeks containing the changes made to the APIs since the last update.
+You should now receive an email approximately every two weeks containing the changes made to the APIs since the last
+update.
 
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
 
+### xx September 2023
+
+The following changes are available in sandbox:
+
+#### individuals-income-received-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v2.0 endpoints:
+    * `Create and Amend`, `Retrieve` and `Delete Other Income`
+    * `Create and Amend`, `Retrieve` and `Delete Savings Income`
+    * `Create and Amend`, `Retrieve` and `Delete Other Capital Gains and Disposals`
+
+#### individuals-state-benefits-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v1.0 endpoints:
+    * `Create`, `Amend`, `List` and `Delete State Benefit`
+    * `Amend` and `Delete State Benefit Amounts`
+
+#### self-assessment-accounts-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v2.0 endpoints:
+    * `Create or Amend`, `Retrieve` and `Delete Coding Out Underpayments and Debt Amounts`
+
+#### cis-deductions-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v2.0 endpoints:
+    * `Create` `Amend`, `Retrieve` and `Delete CIS Deductions for Subcontractor`
+
+#### self-assessment-bsas-api
+
+* New dynamic Gov-Test-Scenarios were added to the following v4.0 endpoints:
+    * `Retrieve a Foreign Property Business Source Adjustable Summary (BSAS)`
+    * `Retrieve a UK Property Business Source Adjustable Summary (BSAS)`
+    * `Retrieve a Self-Employment Business Source Adjustable Summary (BSAS)`
+
+#### individual-calculations-api
+
+* New `DYNAMIC` Gov-Test-Scenario was added to the following v5.0 endpoint:
+    * `Retrieve a Self Assessment Tax Calculation`
+
+#### self-assessment-test-support-api
+
+* All endpoints within the API have been made application-restricted (with support to valid user-restricted access
+  tokens still in place).
+
+* Additional validation error codes added to `Create a Test Business` endpoint:
+    * `MISSING_FIRST_ACCOUNTING_PERIOD_START_DATE`
+    * `MISSING_FIRST_ACCOUNTING_PERIOD_END_DATE`
+    * `RULE_FIRST_ACCOUNTING_DATE_RANGE_INVALID`
+    * `RULE_UNEXPECTED_BUSINESS_ADDRESS`
+    * `RULE_MISSING_BUSINESS_ADDRESS`
+    * `RULE_UNEXPECTED_TRADING_NAME`
+    * `RULE_MISSING_TRADING_NAME`
+  
 ### 21 September 2023
 
 The following changes are available in sandbox:
 
 #### individual-calculations-api
-* Data field taxTakenOffTradingIncome has been removed from the taxDeductedAtSource response body in Retrieve a Self Assessment Tax Calculation (v4.0 and v5.0) endpoint.
+
+* Data field taxTakenOffTradingIncome has been removed from the taxDeductedAtSource response body in Retrieve a Self
+  Assessment Tax Calculation (v4.0 and v5.0) endpoint.
   (This field will be reinstated in a future release).
 
 #### self-employment-business-api
-* Data field taxTakenOffTradingIncome has been removed from the periodIncome object in the following v3.0 endpoints (This field will be reinstated in a future release):
-  * Create a Self-Employment Period Summary
-  * Amend a Self-Employment Period Summary
-  * Retrieve a Self-Employment Period Summary
+
+* Data field taxTakenOffTradingIncome has been removed from the periodIncome object in the following v3.0 endpoints (
+  This field will be reinstated in a future release):
+    * Create a Self-Employment Period Summary
+    * Amend a Self-Employment Period Summary
+    * Retrieve a Self-Employment Period Summary
 
 ### 20 September 2023
 
 #### individual-calculations-api
+
 Version 5.0 is now available in the sandbox with the following changes:
-* The format of the `calculation.taxCalculation.totalAnnuityPaymentsTaxCharged` field has been changed from Integer to Decimal (decimal places <= 2).
+
+* The format of the `calculation.taxCalculation.totalAnnuityPaymentsTaxCharged` field has been changed from Integer to
+  Decimal (decimal places <= 2).
 
 ### 14 September 2023
 
@@ -67,11 +128,13 @@ The following changes are available in sandbox:
 
 #### mtd-sa-test-support-api
 
-* A number of corrections have been made to the Developer Hub documentation for this API. In particular, some `List Checkpoints` endpoint fields were incorrectly named:
-  * `Checkpoints` should have been `checkpoints`, and
-  * `checkpointcreationTimestamp` should have been `checkpointCreationTimestamp`.
-  
-* All endpoints on this test-support API now use application-restricted authorisation. They will still also allow valid user-restricted OAuth 2.0 access tokens.
+* A number of corrections have been made to the Developer Hub documentation for this API. In particular,
+  some `List Checkpoints` endpoint fields were incorrectly named:
+    * `Checkpoints` should have been `checkpoints`, and
+    * `checkpointcreationTimestamp` should have been `checkpointCreationTimestamp`.
+
+* All endpoints on this test-support API now use application-restricted authorisation. They will still also allow valid
+  user-restricted OAuth 2.0 access tokens.
 
 ### 6 September 2023
 
@@ -80,72 +143,90 @@ The following changes are available in sandbox:
 #### individuals-income-received-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following v2 endpoints:
-  * `Create and Amend`, `Retrieve` and `Delete Employment Financial Details`
-  * `Create and Amend`, `Retrieve` and `Delete Insurance Policies Income`
-  * `Create and Amend`, `Retrieve` and `Delete Pensions Income`
-  * `Add`, `List`, `Create and Amend` and `Retrieve UK Savings Account`
-  * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (non-PPD)`
-  * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (PPD)`
+    * `Create and Amend`, `Retrieve` and `Delete Employment Financial Details`
+    * `Create and Amend`, `Retrieve` and `Delete Insurance Policies Income`
+    * `Create and Amend`, `Retrieve` and `Delete Pensions Income`
+    * `Add`, `List`, `Create and Amend` and `Retrieve UK Savings Account`
+    * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (non-PPD)`
+    * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (PPD)`
 
 * Code improvement for breaking change, The code changes are for v2:
-  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
+    * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
 
 #### self-employment-business-api
 
 * New `DYNAMIC` Gov-Test-Scenarios added to v3.0 endpoint:
-  * `Retrieve a Self-Employment Period Summary`
+    * `Retrieve a Self-Employment Period Summary`
 
 #### individuals-expenses-api
 
 * Code improvement for breaking change, The code changes are for v2:
-  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
-
+    * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
 
 #### mtd-sa-test-support-api
 
-* New feature `Create`, `Restore`, `List` and `Delete Checkpoint`. These endpoints enable you to create, restore, list and delete a checkpoint for the stateful data for a particular NINO.
-* New feature `Create`,  `Delete Test Business`. These endpoints enable you to create and delete test businesses as required.
+* New feature `Create`, `Restore`, `List` and `Delete Checkpoint`. These endpoints enable you to create, restore, list
+  and delete a checkpoint for the stateful data for a particular NINO.
+* New feature `Create`,  `Delete Test Business`. These endpoints enable you to create and delete test businesses as
+  required.
 
 * Upgrade `HTTP Client` to Version 2
 * New `Auto delete checkpoint` feature. This feature will auto delete checkpoints after 7 days.
 
 ---
+
 ### 23 August 2023
 
 The following changes are available in sandbox:
 
 #### business-details-api
+
 * For `Retrieve Business Details` endpoint:
-  * Updated `taxYear1` and `taxYear2` fields in `Latency Details` response object to the format YYYY-YY (e.g 2018-19)
+    * Updated `taxYear1` and `taxYear2` fields in `Latency Details` response object to the format YYYY-YY (e.g 2018-19)
 
 ---
+
 ### 22 August 2023
 
 #### self-assessment-api
+
 * Version 2.0 is has been retired in production and the sandbox.
 
 #### property-business-api
+
 * Version 1.0 is has been retired in production and the sandbox.
 
 #### self-assessment-bsas-api
+
 Version 4.0 is now available in the sandbox with the following changes:
-* `Retrieve Self-Employment BSAS` endpoint: Data fields within the `adjustableSummaryCalculation` response object can now return negative values.
+
+* `Retrieve Self-Employment BSAS` endpoint: Data fields within the `adjustableSummaryCalculation` response object can
+  now return negative values.
 
 #### self-assessment-biss-api
-* In production, the following properties are now mandatory in the retrieve a business income source summary endpoint response:
+
+* In production, the following properties are now mandatory in the retrieve a business income source summary endpoint
+  response:
     * `total.income`
     * `total.expenses`
     * `profit.income`
     * `profit.expenses`
     * `loss.net`
     * `loss.taxable`
----
-### 14 August 2023
-The following change was deployed into sandbox:
-#### business-details-api
-* The properties `yearOfMigration`, `firstAccountingPeriodStartDate`, `firstAccountingPeriodEndDate` and the object `latencyDetails` were added to the `Retrieve Business Details` endpoint.
 
 ---
+
+### 14 August 2023
+
+The following change was deployed into sandbox:
+
+#### business-details-api
+
+* The properties `yearOfMigration`, `firstAccountingPeriodStartDate`, `firstAccountingPeriodEndDate` and the
+  object `latencyDetails` were added to the `Retrieve Business Details` endpoint.
+
+---
+
 ### 08 August 2023
 
 The following changes are available in sandbox:
@@ -153,12 +234,14 @@ The following changes are available in sandbox:
 #### individual-calculations-api
 
 * For `Retrieve a Self Assessment Tax v4.0` endpoint:
-  * New data fields `cessationDate`and `commencementDate` have been added to the `businessIncomeSources` response object.
-  * New object `otherIncome` has been added to the `calculation` response object.
-  * New data field `taxTakenOffTradingIncome` has been added to the `taxDeductedAtSource` response object.
-  * New data field `itsaStatus` has been added to the `personalInformation` response object.
-    
+    * New data fields `cessationDate`and `commencementDate` have been added to the `businessIncomeSources` response
+      object.
+    * New object `otherIncome` has been added to the `calculation` response object.
+    * New data field `taxTakenOffTradingIncome` has been added to the `taxDeductedAtSource` response object.
+    * New data field `itsaStatus` has been added to the `personalInformation` response object.
+
 ---
+
 ### 2 August 2023
 
 The following changes were deployed into sandbox:
@@ -172,21 +255,27 @@ The following changes were deployed into sandbox:
 
 * For version 1.0, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status
   code 400 response with an error code of RULE_INCORRECT_GOV_TEST_SCENARIO.
+
 ---
+
 ### 1 August 2023
 
 #### self-assessment-bsas-api
+
 * Version 2.0 is has been retired in production and the sandbox.
 
 ### 3 August 2023
 
 #### individuals-business-eops-api
+
 * Version 1.0 is has been retired in production and the sandbox.
 
 #### self-assessment-accounts-api
+
 * Version 1.0 is has been retired in the sandbox.
 
 #### individuals-calculations-api
+
 * Version 2.0 is has been retired in production and the sandbox.
 
 ### 26 July 2023
@@ -197,15 +286,20 @@ The following changes are now available in sandbox:
 
 New API Version v3.0 is now available
 
-*  For `v2.0` and `v3.0`:
-* Updated data fields within the `periodExpenses` & `periodDisallowableExpenses` objects to accept negative values in the following endpoints:
-  * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
-* A new data field `taxTakenOffTradingIncome` has been added to the `incomesType` object in the following endpoints: 
-  * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
-  
+* For `v2.0` and `v3.0`:
+* Updated data fields within the `periodExpenses` & `periodDisallowableExpenses` objects to accept negative values in
+  the following endpoints:
+    * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
+* A new data field `taxTakenOffTradingIncome` has been added to the `incomesType` object in the following endpoints:
+    * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
+
 ### individuals-charges-api
-* Version 1.0 is has been deprecated in production and the sandbox and will no longer accept new subscriptions to this version. Existing subscriptions will continue to work.
+
+* Version 1.0 is has been deprecated in production and the sandbox and will no longer accept new subscriptions to this
+  version. Existing subscriptions will continue to work.
+
 ---
+
 ### 24 July 2023
 
 The following changes were deployed into sandbox:
@@ -213,29 +307,29 @@ The following changes were deployed into sandbox:
 #### individual-losses-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following v4.0 endpoints:
-  * `Create`, `Retrieve`, `List` and `Delete Loss Claims`
-  * `Amend a Loss Claims Type`
-  * `Amend Loss Claims Order`
+    * `Create`, `Retrieve`, `List` and `Delete Loss Claims`
+    * `Amend a Loss Claims Type`
+    * `Amend Loss Claims Order`
 
 #### individuals-income-received-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
-  * `Add`, `Amend` and `Delete Custom Employment`
-  * `Retrieve` and `List Employments`
-  * `Create and Amend`, `Retrieve` and `Delete Non-PAYE Employment Income`
-  * `Create and Amend`, `Retrieve` and `Delete Other Employment Income`
-  * `Create and Amend`, `Retrieve` and `Delete Dividends Income`
-  * `Create and Amend`, `Retrieve` and `Delete UK Dividends Income`
-  * `Create and Amend`, `Retrieve` and `Delete Foreign Income`
+    * `Add`, `Amend` and `Delete Custom Employment`
+    * `Retrieve` and `List Employments`
+    * `Create and Amend`, `Retrieve` and `Delete Non-PAYE Employment Income`
+    * `Create and Amend`, `Retrieve` and `Delete Other Employment Income`
+    * `Create and Amend`, `Retrieve` and `Delete Dividends Income`
+    * `Create and Amend`, `Retrieve` and `Delete UK Dividends Income`
+    * `Create and Amend`, `Retrieve` and `Delete Foreign Income`
 
 * New `DYNAMIC` Gov-Test-Scenario added to `Retrieve Other Income` endpoint
 
 #### obligations-api
 
 * New `DYNAMIC` Gov-Test-Scenarios added to v2.0 endpoints:
-  * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
-  * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
-  * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
+    * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
+    * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+    * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
 
 #### individuals-calculations-api
 
@@ -255,39 +349,51 @@ The following changes were deployed into sandbox:
 
 #### mtd-sa-test-support-api
 
-* New feature in the `Delete Stateful Test Data` endpoint. This endpoint allows a developer to delete stateful test data using a nino supplied by
+* New feature in the `Delete Stateful Test Data` endpoint. This endpoint allows a developer to delete stateful test data
+  using a nino supplied by
   them in the sandbox environment.
 
 ---
+
 ### 20 July 2023
+
 The following changes are available in sandbox:
 
-####  self-employment-business-api
+#### self-employment-business-api
 
-* `Delete a Self-Employment Annual Submission` STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
+* `Delete a Self-Employment Annual Submission` STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05
+  September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
 
-####  property-business-api
+#### property-business-api
 
-* `Delete a Historic FHL UK Property Business Annual Submission` & ` Delete a Historic Non-FHL UK Property Business Annual Submission`  STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the STATEFUL Gov-Test-Scenario.
+* `Delete a Historic FHL UK Property Business Annual Submission` & ` Delete a Historic Non-FHL UK Property Business Annual Submission`
+  STATEFUL_DELETE gov test scenario is deprecated and will be removed on 05 September 2023. It will be replaced by the
+  STATEFUL Gov-Test-Scenario.
 
 ---
+
 ### 18 July 2023
+
 The following changes are now available in sandbox:
 
 New API Version v3.0 is now available for:
+
 * `self-employment-business-api`
 * `property-business-api`
 * `individuals-business-eops-api`
 
-* A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` and gov-test-scenario `BUSINESS_INCOME_PERIOD_RESTRICTION` has been added to the following API endpoints:
-  * `Create a Self-Employment Period Summary` for `self-employment-business-api v3`
-  * `Create a UK Property Income & Expenses Period Summary` for `property-business-api v3`
-  * `Submit End of Period Statement for a Business` for `individuals-business-eops-api v3`
+* A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` and gov-test-scenario `BUSINESS_INCOME_PERIOD_RESTRICTION` has
+  been added to the following API endpoints:
+    * `Create a Self-Employment Period Summary` for `self-employment-business-api v3`
+    * `Create a UK Property Income & Expenses Period Summary` for `property-business-api v3`
+    * `Submit End of Period Statement for a Business` for `individuals-business-eops-api v3`
 
 ### 14 July 2023
 
 #### individuals-calculations-api
-* Version 3.0 is has been deprecated in production and the sandbox and will no longer accept new subscriptions to this version. Existing subscriptions will continue to work.
+
+* Version 3.0 is has been deprecated in production and the sandbox and will no longer accept new subscriptions to this
+  version. Existing subscriptions will continue to work.
 
 ### 11 July 2023
 
@@ -307,6 +413,7 @@ The following changes are available in sandbox:
   endpoint `List Self Assessment Tax Calculations`.
 
 ---
+
 ### 10 July 2023
 
 The following changes were deployed into sandbox:
