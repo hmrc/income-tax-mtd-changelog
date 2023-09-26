@@ -13,6 +13,7 @@ This page contains the dates and the latest changes for the following Income Tax
 * [individuals-income-received-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api)
 * [individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api)
 * [individuals-state-benefits-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api)
+* [mtd-sa-test-support-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-sa-test-support-api)
 * [obligations-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api)
 * [other-deductions-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/other-deductions-api)
 * [property-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api)
@@ -21,7 +22,6 @@ This page contains the dates and the latest changes for the following Income Tax
 * [self-assessment-biss-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api)
 * [self-assessment-bsas-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api)
 * [self-employment-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api)
-* [self-assessment-assist (HMRC Assist API)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-assist)
 
 ## Changelog
 
@@ -81,7 +81,7 @@ The following changes are available in sandbox:
 * New `DYNAMIC` Gov-Test-Scenario was added to the following v5.0 endpoint:
     * `Retrieve a Self Assessment Tax Calculation`
 
-#### self-assessment-test-support-api
+#### mtd-sa-test-support-api
 
 * Additional validation error codes added to `Create a Test Business` endpoint:
     * `MISSING_FIRST_ACCOUNTING_PERIOD_START_DATE`
