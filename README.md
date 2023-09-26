@@ -83,9 +83,6 @@ The following changes are available in sandbox:
 
 #### self-assessment-test-support-api
 
-* All endpoints within the API have been made application-restricted (with support for valid user-restricted access
-  tokens still in place).
-
 * Additional validation error codes added to `Create a Test Business` endpoint:
     * `MISSING_FIRST_ACCOUNTING_PERIOD_START_DATE`
     * `MISSING_FIRST_ACCOUNTING_PERIOD_END_DATE`
