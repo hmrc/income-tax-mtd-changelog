@@ -22,6 +22,7 @@ This page contains the dates and the latest changes for the following Income Tax
 * [self-assessment-biss-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api)
 * [self-assessment-bsas-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api)
 * [self-employment-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api)
+* [self-assessment-assist (HMRC Assist API)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-assist)
 
 ## Changelog
 
