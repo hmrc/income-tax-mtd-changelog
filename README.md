@@ -43,7 +43,7 @@ update.
 
 ---
 
-### xx September 2023
+### 28 September 2023
 
 The following changes are available in sandbox:
 
