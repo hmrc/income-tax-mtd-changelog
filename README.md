@@ -40,7 +40,15 @@ You should now receive an email approximately every two weeks containing the cha
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
+### 28 September 2023
+The following changes are available in sandbox:
 
+#### business-details-api
+* A new error `INVALID_IDTYPE` has been added to the following API endpoints:
+  * `List All Businesses`
+  * `Retrieve Business Details`
+
+---
 ### 21 September 2023
 
 The following changes are available in sandbox:
@@ -55,12 +63,14 @@ The following changes are available in sandbox:
   * Amend a Self-Employment Period Summary
   * Retrieve a Self-Employment Period Summary
 
+---
 ### 20 September 2023
 
 #### individual-calculations-api
 Version 5.0 is now available in the sandbox with the following changes:
 * The format of the `calculation.taxCalculation.totalAnnuityPaymentsTaxCharged` field has been changed from Integer to Decimal (decimal places <= 2).
 
+---
 ### 14 September 2023
 
 The following changes are available in sandbox:
@@ -73,6 +83,7 @@ The following changes are available in sandbox:
   
 * All endpoints on this test-support API now use application-restricted authorisation. They will still also allow valid user-restricted OAuth 2.0 access tokens.
 
+---
 ### 6 September 2023
 
 The following changes are available in sandbox:
