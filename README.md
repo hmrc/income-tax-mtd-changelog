@@ -76,6 +76,7 @@ The following changes are available in sandbox:
     * `Retrieve a Foreign Property Business Source Adjustable Summary (BSAS)`
     * `Retrieve a UK Property Business Source Adjustable Summary (BSAS)`
     * `Retrieve a Self-Employment Business Source Adjustable Summary (BSAS)`
+    * `List Business Source Adjustable Summaries (BSAS)`
 
 #### individual-calculations-api
 
