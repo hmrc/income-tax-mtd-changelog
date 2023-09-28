@@ -79,7 +79,7 @@ The following changes are available in sandbox:
 
 #### individual-calculations-api
 
-* New `DYNAMIC` Gov-Test-Scenario was added to the following v5.0 endpoint:
+* New `DYNAMIC` Gov-Test-Scenario was added to the following endpoints in v4.0 and later:
     * `Retrieve a Self Assessment Tax Calculation`
 
 #### mtd-sa-test-support-api
@@ -92,7 +92,13 @@ The following changes are available in sandbox:
     * `RULE_MISSING_BUSINESS_ADDRESS`
     * `RULE_UNEXPECTED_TRADING_NAME`
     * `RULE_MISSING_TRADING_NAME`
-  
+
+
+#### business-details-api
+* A new error `INVALID_IDTYPE` has been added to the following API endpoints:
+  * `List All Businesses`
+  * `Retrieve Business Details`
+
 ### 21 September 2023
 
 The following changes are available in sandbox:
@@ -111,6 +117,7 @@ The following changes are available in sandbox:
     * Amend a Self-Employment Period Summary
     * Retrieve a Self-Employment Period Summary
 
+---
 ### 20 September 2023
 
 #### individual-calculations-api
@@ -120,6 +127,7 @@ Version 5.0 is now available in the sandbox with the following changes:
 * The format of the `calculation.taxCalculation.totalAnnuityPaymentsTaxCharged` field has been changed from Integer to
   Decimal (decimal places <= 2).
 
+---
 ### 14 September 2023
 
 The following changes are available in sandbox:
@@ -134,6 +142,7 @@ The following changes are available in sandbox:
 * All endpoints on this test-support API now use application-restricted authorisation. They will still also allow valid
   user-restricted OAuth 2.0 access tokens.
 
+---
 ### 6 September 2023
 
 The following changes are available in sandbox:
