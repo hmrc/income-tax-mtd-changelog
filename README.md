@@ -13,6 +13,7 @@ This page contains the dates and the latest changes for the following Income Tax
 * [individuals-income-received-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api)
 * [individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api)
 * [individuals-state-benefits-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api)
+* [mtd-sa-test-support-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-sa-test-support-api)
 * [obligations-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api)
 * [other-deductions-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/other-deductions-api)
 * [property-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api)
@@ -64,14 +65,62 @@ The following changes are available in sandbox:
 
 ---
 ### 28 September 2023
+
 The following changes are available in sandbox:
+
+#### individuals-income-received-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v2.0 endpoints:
+    * `Create and Amend`, `Retrieve` and `Delete Other Income`
+    * `Create and Amend`, `Retrieve` and `Delete Savings Income`
+    * `Create and Amend`, `Retrieve` and `Delete Other Capital Gains and Disposals`
+
+#### individuals-state-benefits-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v1.0 endpoints:
+    * `Create`, `Amend`, `List` and `Delete State Benefit`
+    * `Amend` and `Delete State Benefit Amounts`
+
+#### self-assessment-accounts-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v2.0 endpoints:
+    * `Create or Amend`, `Retrieve` and `Delete Coding Out Underpayments and Debt Amounts`
+
+#### cis-deductions-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v2.0 endpoints:
+    * `Create` `Amend`, `Retrieve` and `Delete CIS Deductions for Subcontractor`
+
+#### self-assessment-bsas-api
+
+* New dynamic Gov-Test-Scenarios were added to the following v4.0 endpoints:
+    * `Retrieve a Foreign Property Business Source Adjustable Summary (BSAS)`
+    * `Retrieve a UK Property Business Source Adjustable Summary (BSAS)`
+    * `Retrieve a Self-Employment Business Source Adjustable Summary (BSAS)`
+    * `List Business Source Adjustable Summaries (BSAS)`
+
+#### individual-calculations-api
+
+* New `DYNAMIC` Gov-Test-Scenario was added to the following endpoints in v4.0 and later:
+    * `Retrieve a Self Assessment Tax Calculation`
+
+#### mtd-sa-test-support-api
+
+* Additional validation error codes added to `Create a Test Business` endpoint:
+    * `MISSING_FIRST_ACCOUNTING_PERIOD_START_DATE`
+    * `MISSING_FIRST_ACCOUNTING_PERIOD_END_DATE`
+    * `RULE_FIRST_ACCOUNTING_DATE_RANGE_INVALID`
+    * `RULE_UNEXPECTED_BUSINESS_ADDRESS`
+    * `RULE_MISSING_BUSINESS_ADDRESS`
+    * `RULE_UNEXPECTED_TRADING_NAME`
+    * `RULE_MISSING_TRADING_NAME`
+
 
 #### business-details-api
 * A new error `INVALID_IDTYPE` has been added to the following API endpoints:
   * `List All Businesses`
   * `Retrieve Business Details`
 
----
 ### 21 September 2023
 
 The following changes are available in sandbox:
