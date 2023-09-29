@@ -42,7 +42,28 @@ update.
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
+### 29 September 2023
 
+The following changes are available in sandbox:
+
+#### self-employment-business-api
+
+* Support for the `STATEFUL_DELETE` Gov-Test-Scenario for `Delete a Self-Employment Annual Submission` endpoint has
+  been removed in v3.0. This has been replaced with the `STATEFUL` Gov-Test-Scenario.
+
+#### property-business-api
+
+* Support for the `STATEFUL_DELETE` Gov-Test-Scenarios for
+  endpoints `Delete a Historic FHL UK Property Business Annual Submission`
+  and `Delete a Historic Non-FHL UK Property Business Annual Submission` has
+  been removed in v3.0. This has been replaced with the `STATEFUL` Gov-Test-Scenario.
+
+#### individuals-reliefs-api
+
+* Support for the `STATEFUL_DELETE` Gov-Test-Scenario for `Delete Charitable Giving Tax Relief` endpoint has been
+  removed in v1.0. This has been replaced with the `STATEFUL` Gov-Test-Scenario.
+
+---
 ### 28 September 2023
 
 The following changes are available in sandbox:
