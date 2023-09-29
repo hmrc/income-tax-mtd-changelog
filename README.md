@@ -41,7 +41,7 @@ update.
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
-### xx xx 2023
+### 29 September 2023
 
 The following changes are available in sandbox:
 
