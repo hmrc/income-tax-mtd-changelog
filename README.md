@@ -42,6 +42,23 @@ update.
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
+### 3 October 2023
+
+The following changes are available in sandbox:
+
+#### self-assessment-test-support
+
+* The final letter of a National Insurance number is now optional for the following API endpoints:
+  * `Create a Test Business`
+  * `Delete a Test Business`
+
+#### business-details-api
+
+* The final letter of a National Insurance number is now optional for the following API endpoints:
+  * `List All Businesses`
+  * `Retrieve Business Details`
+  
+---
 ### 29 September 2023
 
 The following changes are available in sandbox:
