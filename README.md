@@ -52,6 +52,12 @@ The following changes are available in sandbox:
   * `List All Businesses`
   * `Retrieve Business Details`
 
+#### self-assessment-test-support
+
+* The final letter of a National Insurance number is now optional for the following API endpoints:
+  * `Create a Test Business`
+  * `Delete a Test Business`
+  
 ---
 ### 29 September 2023
 
