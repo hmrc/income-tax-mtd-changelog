@@ -42,6 +42,15 @@ update.
 * Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
 
 ---
+### 6 October 2023
+
+The following changes are available in sandbox and production:
+
+#### ALL MTD-APIS
+
+* Date fields only accept within the range of 1900-01-01 and 2100-01-01.
+
+---
 ### 3 October 2023
 
 The following changes are available in sandbox:
