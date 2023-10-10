@@ -28,7 +28,7 @@ This page contains the dates and the latest changes for the following Income Tax
 
 See the above list for links to the relevant API documentation.
 
-To be notified when an MTD API change is released to the Sandbox or Production, follow these steps while logged-in
+To be notified when an MTD API change is released to the Sandbox or Production environments, follow these steps while logged-in
 to your Github account:
 
 1. Go to: https://github.com/hmrc/income-tax-mtd-changelog
@@ -44,7 +44,7 @@ update.
 ---
 ### 9 October 2023
 
-The following changes are available in sandbox and Production:
+The following changes are now available in Sandbox and Production:
 
 #### ALL MTD-APIS
 
@@ -53,7 +53,7 @@ The following changes are available in sandbox and Production:
 ---
 ### 3 October 2023
 
-The following changes are available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### self-assessment-test-support
 
@@ -70,7 +70,7 @@ The following changes are available in sandbox:
 ---
 ### 29 September 2023
 
-The following changes are available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### self-employment-business-api
 
@@ -92,7 +92,7 @@ The following changes are available in sandbox:
 ---
 ### 28 September 2023
 
-The following changes are available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### individuals-income-received-api
 
@@ -149,7 +149,7 @@ The following changes are available in sandbox:
 
 ### 21 September 2023
 
-The following changes are available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### individual-calculations-api
 
@@ -178,7 +178,7 @@ Version 5.0 is now available in the sandbox with the following changes:
 ---
 ### 14 September 2023
 
-The following changes are available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### mtd-sa-test-support-api
 
@@ -193,7 +193,7 @@ The following changes are available in sandbox:
 ---
 ### 6 September 2023
 
-The following changes are available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### individuals-income-received-api
 
@@ -232,7 +232,7 @@ The following changes are available in sandbox:
 
 ### 23 August 2023
 
-The following changes are available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### business-details-api
 
@@ -284,7 +284,7 @@ The following change is now available in the Sandbox:
 
 ### 08 August 2023
 
-The following changes are available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### individual-calculations-api
 
@@ -335,7 +335,7 @@ The following changes are now available in the Sandbox:
 
 ### 26 July 2023
 
-The following changes are now available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### self-employment-business-api
 
@@ -412,7 +412,7 @@ The following changes are now available in the Sandbox:
 
 ### 20 July 2023
 
-The following changes are available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### self-employment-business-api
 
@@ -429,7 +429,7 @@ The following changes are available in sandbox:
 
 ### 18 July 2023
 
-The following changes are now available in sandbox:
+The following changes are now available in the Sandbox:
 
 New API Version v3.0 is now available for:
 
@@ -452,7 +452,7 @@ New API Version v3.0 is now available for:
 
 ### 11 July 2023
 
-The following changes are available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### individuals-income-received-api v2
 
@@ -646,7 +646,7 @@ The following changes are now available in the Sandbox:
 
 ### 26 June 2023
 
-The following changes are now available in sandbox:
+The following changes are now available in the Sandbox:
 
 #### obligations-api
 
