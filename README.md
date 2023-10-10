@@ -28,7 +28,7 @@ This page contains the dates and the latest changes for the following Income Tax
 
 See the above list for links to the relevant API documentation.
 
-To be notified when an MTD API change is deployed to the Sandbox or Production, follow these steps while logged-in
+To be notified when an MTD API change is released to the Sandbox or Production, follow these steps while logged-in
 to your Github account:
 
 1. Go to: https://github.com/hmrc/income-tax-mtd-changelog
@@ -39,12 +39,12 @@ to your Github account:
 You should now receive an email approximately every two weeks containing the changes made to the APIs since the last
 update.
 
-* Please note that the date shown is the date that the change was deployed to the Sandbox or Production.
+* Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
 ### 9 October 2023
 
-The following changes are available in sandbox and production:
+The following changes are available in sandbox and Production:
 
 #### ALL MTD-APIS
 
@@ -245,11 +245,11 @@ The following changes are available in sandbox:
 
 #### self-assessment-api
 
-* Version 2.0 is has been retired in production and the sandbox.
+* Version 2.0 is has been retired in Production and the sandbox.
 
 #### property-business-api
 
-* Version 1.0 is has been retired in production and the sandbox.
+* Version 1.0 is has been retired in Production and the sandbox.
 
 #### self-assessment-bsas-api
 
@@ -260,7 +260,7 @@ Version 4.0 is now available in the sandbox with the following changes:
 
 #### self-assessment-biss-api
 
-* In production, the following properties are now mandatory in the retrieve a business income source summary endpoint
+* In Production, the following properties are now mandatory in the retrieve a business income source summary endpoint
   response:
     * `total.income`
     * `total.expenses`
@@ -273,7 +273,7 @@ Version 4.0 is now available in the sandbox with the following changes:
 
 ### 14 August 2023
 
-The following change was deployed into sandbox:
+The following change is now available in the Sandbox:
 
 #### business-details-api
 
@@ -299,7 +299,7 @@ The following changes are available in sandbox:
 
 ### 2 August 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### self-assessment-accounts-api
 
@@ -317,13 +317,13 @@ The following changes were deployed into sandbox:
 
 #### self-assessment-bsas-api
 
-* Version 2.0 is has been retired in production and the sandbox.
+* Version 2.0 is has been retired in Production and the sandbox.
 
 ### 3 August 2023
 
 #### individuals-business-eops-api
 
-* Version 1.0 is has been retired in production and the sandbox.
+* Version 1.0 is has been retired in Production and the sandbox.
 
 #### self-assessment-accounts-api
 
@@ -331,7 +331,7 @@ The following changes were deployed into sandbox:
 
 #### individuals-calculations-api
 
-* Version 2.0 is has been retired in production and the sandbox.
+* Version 2.0 is has been retired in Production and the sandbox.
 
 ### 26 July 2023
 
@@ -350,14 +350,14 @@ New API Version v3.0 is now available
 
 ### individuals-charges-api
 
-* Version 1.0 is has been deprecated in production and the sandbox and will no longer accept new subscriptions to this
+* Version 1.0 is has been deprecated in Production and the sandbox and will no longer accept new subscriptions to this
   version. Existing subscriptions will continue to work.
 
 ---
 
 ### 24 July 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### individual-losses-api
 
@@ -447,7 +447,7 @@ New API Version v3.0 is now available for:
 
 #### individuals-calculations-api
 
-* Version 3.0 is has been deprecated in production and the sandbox and will no longer accept new subscriptions to this
+* Version 3.0 is has been deprecated in Production and the sandbox and will no longer accept new subscriptions to this
   version. Existing subscriptions will continue to work.
 
 ### 11 July 2023
@@ -471,7 +471,7 @@ The following changes are available in sandbox:
 
 ### 10 July 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### obligations-api
 
@@ -487,7 +487,7 @@ The following changes were deployed into sandbox:
 
 ### 6 July 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### individuals-state-benefits
 
@@ -498,7 +498,7 @@ The following changes were deployed into sandbox:
 
 ### 3 July 2023
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 ### individuals-charges-api
 
@@ -513,7 +513,7 @@ instead.
 
 ### individuals-calculations-api
 
-New API version v4.0 is now available in production
+New API version v4.0 is now available in Production
 
 * `List Self Assessment Tax Calculations` has been updated: `biss` and `POA` removed from
   the `calculationType`, `totalIncomeTaxAndNicsDue` is now optional and
@@ -534,7 +534,7 @@ instead.
 
 ### 28 June 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### cis-deductions-api
 
@@ -549,7 +549,7 @@ Updated Endpoint: `Retrieve Cis Deductions for Subcontractor`
 
 ### 27 June 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 ### individuals-income-received-api
 
@@ -571,7 +571,7 @@ The following changes were deployed into sandbox:
 
 ### 26 June 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### self-employment-business-api
 
@@ -662,7 +662,7 @@ The following changes are now available in sandbox:
 
 ### 22 June 2023
 
-The following changes were deployed into sandbox and production:
+The following changes are now available in the Sandbox and Production:
 
 #### cis-deductions-api
 
@@ -675,7 +675,7 @@ The following changes were deployed into sandbox and production:
 
 ### 20 June 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### individuals-income-received-api
 
@@ -689,7 +689,7 @@ The following changes were deployed into sandbox:
 
 ### 16 June 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### individuals-reliefs-api
 
@@ -700,7 +700,7 @@ The following changes were deployed into sandbox:
 
 ### 14 June 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### individuals-income-received-api
 
@@ -729,7 +729,7 @@ Updated Endpoint: `List Self Assessment Tax Calculations`
 
 ### 7 June 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### cis-deductions-api
 
@@ -740,7 +740,7 @@ The following changes were deployed into sandbox:
 
 ### 6 June 2023
 
-The following change was deployed into sandbox:
+The following change is now available in the Sandbox:
 
 #### self-assessment-assist (HMRC Assist API)
 
@@ -753,7 +753,7 @@ The following change was deployed into sandbox:
 
 ### 1 June 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### property-business-api
 
@@ -793,7 +793,7 @@ The following changes were deployed into sandbox:
 
 ### 31 May 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### self-employment-business-api
 
@@ -815,7 +815,7 @@ The following changes were deployed into sandbox.
 
 ### 26 May 2023
 
-The following change was deployed into sandbox.
+The following change is now available in the Sandbox.
 
 #### self-assessment-bsas-api
 
@@ -826,7 +826,7 @@ The following change was deployed into sandbox.
 
 ### 24 May 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### self-assessment-biss-api
 
@@ -856,7 +856,7 @@ before this status change.
 
 ### 17 May 2023
 
-The following changes were deployed into sandbox and production.
+The following changes are now available in the Sandbox and Production.
 
 #### individuals-income-received-api
 
@@ -867,7 +867,7 @@ The following changes were deployed into sandbox and production.
 * `RULE_COMPLETION_DATE_BEFORE_DISPOSAL_DATE` error was removed for the following endpoint:
     * `Create and Amend CGT Residential Property Disposals (non-PPD)`
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### individuals-income-received-api
 
@@ -889,7 +889,7 @@ The following changes were deployed into sandbox.
 
 ### 16 May 2023
 
-The following changes were deployed into sandbox and production.
+The following changes are now available in the Sandbox and Production.
 
 ### individuals-income-received-api
 
@@ -910,7 +910,7 @@ The following changes were deployed into sandbox and production.
 
 ### 15 May 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### other-deductions-api
 
@@ -921,7 +921,7 @@ The following changes were deployed into sandbox.
 
 ### 11 May 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### individual-losses-api
 
@@ -932,7 +932,7 @@ The following changes were deployed into sandbox.
 
 ### 3 May 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### obligations-api
 
@@ -949,7 +949,7 @@ Updated Endpoint: `Retrieve Income Tax (Self Assessment) Final Declaration Oblig
 
 ### 27 April 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### individuals-disclosures-api
 
@@ -965,7 +965,7 @@ The following changes were deployed into sandbox.
 
 ### 20 April 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### individuals-charges-api
 
@@ -979,7 +979,7 @@ The following changes were deployed into sandbox.
 #### Improved documentation
 
 We have switched to a new tool for publishing API documentation. The details of API endpoints are now presented in an
-improved format in production and the sandbox.
+improved format in Production and the sandbox.
 
 We have also updated the descriptions of a number of properties across the APIs to make them easier to understand.
 
@@ -992,7 +992,7 @@ The following changes have been made to the documentation:
 
 #### cis-deductions-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following endpoints:
     * `Amend CIS Deductions For Subcontractor`
@@ -1006,7 +1006,7 @@ The following changes are now available in production:
 
 #### individual-calculations-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following `v3.0` endpoints:
     * `Submit a Self Assessment Final Declaration`
@@ -1026,7 +1026,7 @@ The following changes are now available in production:
 
 #### individual-losses-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following `v4.0` endpoints:
     * `Amend a Brought Forward Loss Amount`
@@ -1050,13 +1050,13 @@ available tax years up to the latest completed tax year.
 
 #### individuals-business-eops-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * An error response status code is corrected from 403 to 400 for `Submit End of Period Statement for a Business` `v2.0`
 
 #### individuals-charges-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Updated endpoint `Delete Pension Charges`
     * New error `RULE_TAX_YEAR_NOT_SUPPORTED` added
@@ -1065,7 +1065,7 @@ The following changes are now available in production:
 
 #### individuals-disclosures-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for these endpoints:
     * `Create and Amend Disclosures`
@@ -1074,7 +1074,7 @@ The following changes are now available in production:
 
 #### individuals-expenses-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * `RULE_TAX_YEAR_NOT_SUPPORTED` description and message are updated to indicate that there could be a maximum as well as
   a minimum supported tax year
@@ -1093,7 +1093,7 @@ The following changes are now available in production:
 
 #### individuals-income-received-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following endpoints:
     * `Add a UK Savings Account`
@@ -1123,7 +1123,7 @@ The following changes are now available in production:
 
 #### individuals-reliefs-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Error response status codes are corrected from 403 to 400 for `Create and Amend Other Reliefs`.
 * Description and message are updated for `RULE_TAX_YEAR_NOT_SUPPORTED` to indicate that there could be a maximum as
@@ -1133,7 +1133,7 @@ The following changes are now available in production:
 
 #### individuals-state-benefits-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following endpoints:
     * `Create State Benefit`
@@ -1148,7 +1148,7 @@ The following changes are now available in production:
 
 #### obligations-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following endpoints:
     * `Retrieve Income Tax (Self Assessment) Crystallisation Obligations`
@@ -1162,7 +1162,7 @@ The following changes are now available in production:
 
 #### other-deductions-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Updated the description and message for `RULE_TAX_YEAR_NOT_SUPPORTED` to indicate that there could be a maximum as
   well as a minimum supported tax year
@@ -1171,7 +1171,7 @@ The following changes are now available in production:
 
 #### property-business-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Updated the descriptions of:
     * `Amend a Historic FHL UK Property Income & Expenses Period Summary`
@@ -1180,7 +1180,7 @@ The following changes are now available in production:
 
 #### self-assessment-accounts-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Updated `List Self Assessment Payments & Allocation Details` - added `MISSING_PAYMENT_LOT_ITEM`
   and `RULE_INCONSISTENT_QUERY_PARAMS` errors
@@ -1192,13 +1192,13 @@ The following changes are now available in production:
 
 #### self-assessment-biss-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Error response status code corrected from 403 to 400 for `Retrieve a Business Income Source Summary`
 
 #### self-assessment-bsas-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the `v3.0` following endpoints:
     * `Submit Foreign Property Accounting Adjustments`
@@ -1208,7 +1208,7 @@ The following changes are now available in production:
 
 #### self-employment-business-api
 
-The following changes are now available in production:
+The following changes are now available in Production:
 
 * New API Version `v2.0`. The following endpoints have been updated to replace their respective v1 equivalents. Please
   use the new v2 endpoints instead.
@@ -1220,7 +1220,7 @@ The following changes are now available in production:
   e.g. `periodAllowableExpenses` becomes `periodExpenses`.
 * Updated documentation - updated the description of `periodExpenses` field
 
-The following change was deployed into sandbox:
+The following change is now available in the Sandbox:
 
 For versions 1.0 and later, Gov-Test-Scenario values that are not supported by the sandbox will now result in a status
 code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
@@ -1229,7 +1229,7 @@ code 400 response with an error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
 
 ### 14 April 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### individuals-charges-api
 
@@ -1240,7 +1240,7 @@ Minor clarifications made to the developer hub documentation for the `Create and
 
 ### 13 April 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### individuals-state-benefits-api
 
@@ -1253,7 +1253,7 @@ The following changes were deployed into sandbox:
 
 ### 30 March 2023
 
-The following changes were deployed into sandbox:
+The following changes are now available in the Sandbox:
 
 #### individuals-income-received-api
 
@@ -1262,7 +1262,7 @@ The following changes were deployed into sandbox:
 
 ### 22 March 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### individuals-income-received-api
 
@@ -1296,7 +1296,7 @@ Minor clarifications made to developer hub documentation:
 
 ### 15 March 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### individuals-charges-api
 
@@ -1320,7 +1320,7 @@ Updated Endpoint: `Retrieve Pension Charges (V2)`
 
 ### 14 March 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### property-business-api
 
@@ -1331,7 +1331,7 @@ The following changes were deployed into sandbox.
 
 ### 8 March 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### Individual-losses-api
 
@@ -1370,7 +1370,7 @@ Endpoint: `Submit a Self Assessment Final Declaration`
 
 ### 23 February 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### Self-employment-business-api
 
@@ -1399,7 +1399,7 @@ self-assessments-api `v2.0` has now been deprecated
 
 ### 22 February 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### Individuals-charges-api
 
@@ -1421,7 +1421,7 @@ Endpoint: `Retrieve Pensions Charges`
 
 ### 25 January 2023
 
-The following changes were deployed into sandbox.
+The following changes are now available in the Sandbox.
 
 #### Property-business-api
 
