@@ -40,6 +40,20 @@ You should now receive an email approximately every two weeks containing the cha
 update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
+---
+### 27 October 2023
+
+A previous update made the final letter of a National Insurance number optional for the following API endpoints in sandbox:
+
+#### business-details-api
+  * `List All Businesses`
+  * `Retrieve Business Details`
+
+#### self-assessment-test-support
+  * `Create a Test Business`
+  * `Delete a Test Business`
+
+This change has been reverted and a full 9 digit National Insurance number format is now required.
 
 ---
 ### 9 October 2023
