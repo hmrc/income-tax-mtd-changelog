@@ -41,6 +41,18 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
+### 31 October 2023
+
+An issue has been fixed whereby the taxYear 2017-18 was incorrectly not accepted for the following endpoints:
+
+#### property-business-api
+  * `Retrieve a Historic FHL UK Property Business Annual Submission`
+  * `Create and Amend a Historic FHL UK Property Business Annual Submission`
+  * `Delete a Historic FHL UK Property Business Annual Submission`
+  * `Retrieve a Historic Non-FHL UK Property Business Annual Submission`
+  * `Create and Amend a Historic Non-FHL UK Property Business Annual Submission`
+  * `Delete a Historic Non-FHL UK Property Business Annual Submission`
+
 ### 30 October 2023
 
 An issue has been fixed whereby the supplied periodId was not being accepted for Q4 of tax year 2021-22, but was, incorrectly, being accepted for Q4 of tax year 2016-17. This affects the following endpoints:
