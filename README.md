@@ -41,6 +41,16 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
+### 30 October 2023
+
+An issue has been fixed whereby the supplied periodId was not being accepted for Q4 of tax year 2021-22, but was, incorrectly, being accepted for Q4 of tax year 2016-17. This affects the following endpoints:
+
+#### property-business-api
+  * `Retrieve a Historic Non-FHL UK Property Income & Expenses Period Summary`
+  * `Retrieve a Historic FHL UK Property Income & Expenses Period Summary`
+  * `Amend a Historic Non-FHL UK Property Income & Expenses Period Summary`
+  * `Amend a Historic FHL UK Property Income & Expenses Period Summary`
+  
 ### 27 October 2023
 
 A previous update made the final letter of a National Insurance number optional for the following API endpoints in sandbox:
