@@ -43,7 +43,7 @@ update.
 ---
 ### 30 October 2023
 
-An issue has been fixed whereby the supplied periodId was not being accepted for Q4 of tax year 2021-22, but was, incorrectly, being accepted for Q4 ot tax year 2016-17. This affects the following endpoints:
+An issue has been fixed whereby the supplied periodId was not being accepted for Q4 of tax year 2021-22, but was, incorrectly, being accepted for Q4 of tax year 2016-17. This affects the following endpoints:
 
 #### property-business-api
   * `Retrieve a Historic Non-FHL UK Property Income & Expenses Period Summary`
