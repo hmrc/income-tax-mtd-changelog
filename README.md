@@ -41,6 +41,12 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
+
+### xx November 2023
+
+#### property-business-api
+ * version 4 now available in Sandbox; changes will follow at a later date. 
+
 ### 31 October 2023
 
 An issue has been fixed whereby the taxYear 2017-18 was incorrectly not accepted for the following endpoints:
