@@ -41,6 +41,15 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
+### 14 November 2023
+
+#### property-business-api
+
+New API Version `v4.0` is now available
+  * A new error `RULE_SUBMISSION_DATE_ISSUE` has been added to the following API endpoints:
+    * `Create a UK Property Income & Expenses Period Summary`
+    * `Create a Foreign Property Income & Expenses Period Summary`
+
 ### 31 October 2023
 
 An issue has been fixed whereby the taxYear 2017-18 was incorrectly not accepted for the following endpoints:
