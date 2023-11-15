@@ -44,14 +44,14 @@ update.
 
 ### 15 November 2023
 
-The following changes are now available in Sandbox:
+The following change is now available in Sandbox:
 
 #### self-assessment-bsas-api
-* The error message for 404 MATCHING_RESOURCE_NOT_FOUND has been updated in Trigger a Business Source Adjustable Summary
+* The error message for 404 `MATCHING_RESOURCE_NOT_FOUND` has been updated in `Trigger a Business Source Adjustable Summary`
 
 ### 31 October 2023
 
-An issue has been fixed whereby the taxYear 2017-18 was incorrectly not accepted for the following endpoints:
+An issue has been fixed in Production whereby the taxYear 2017-18 was incorrectly not accepted for the following endpoints:
 
 #### property-business-api
   * `Retrieve a Historic FHL UK Property Business Annual Submission`
@@ -63,7 +63,7 @@ An issue has been fixed whereby the taxYear 2017-18 was incorrectly not accepted
 
 ### 30 October 2023
 
-An issue has been fixed whereby the supplied periodId was not being accepted for Q4 of tax year 2021-22, but was, incorrectly, being accepted for Q4 of tax year 2016-17. This affects the following endpoints:
+An issue has been fixed in Production whereby the supplied periodId was not being accepted for Q4 of tax year 2021-22, but was, incorrectly, being accepted for Q4 of tax year 2016-17. This affects the following endpoints:
 
 #### property-business-api
   * `Retrieve a Historic Non-FHL UK Property Income & Expenses Period Summary`
