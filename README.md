@@ -41,6 +41,14 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
+
+### 15 November 2023
+
+The following changes are now available in Sandbox:
+
+#### self-assessment-bsas-api
+* The error message for 404 MATCHING_RESOURCE_NOT_FOUND has been updated in Trigger a Business Source Adjustable Summary
+
 ### 31 October 2023
 
 An issue has been fixed whereby the taxYear 2017-18 was incorrectly not accepted for the following endpoints:
