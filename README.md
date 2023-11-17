@@ -41,13 +41,13 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
-### 16 November 2023
+### 17 November 2023
 
 The following change is now available in Sandbox:
 
 #### individual-calculations-api
 The following items have been added to the response of `Retrieve a Self Assessment Tax Calculation` endpoint:
-* `calculation.reliefts.giftAidTaxReductionWhereBasicRateDiffers` object
+* `calculation.reliefs.giftAidTaxReductionWhereBasicRateDiffers` object
 * `calculation.taxCalculation.incomeTax.giftAidTaxChargeWhereBasicRateDiffers` field
 
 ### 15 November 2023
