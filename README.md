@@ -591,9 +591,12 @@ The following changes are now available in the Sandbox:
 #### cis-deductions-api
 
 New API Version `v2.0`
-Updated Endpoint: `Retrieve Cis Deductions for Subcontractor`
+Updated Endpoint: `Retrieve CIS Deductions for Subcontractor`
 
 * Updated endpoint URL
+  * Added `taxYear` as path parameter
+  * Added `source` as path parameter
+  * Removed `fromDate` and `toDate` from query parameters as they are replaced by `taxYear` path parameter
 * Removed `DATE_RANGE_OUT_OF_DATE` gov-test-scenario
 * Added `TAX_YEAR_RANGE_INVALID` gov-test-scenario
 
