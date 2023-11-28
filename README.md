@@ -41,6 +41,14 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
+### 28 November 2023
+
+The following change is now available in Sandbox:
+
+#### self-assessment-accounts-api
+New API version 3.0 with the following change:
+* `Retrieve Balance and Transactions` response field `documentDueDate` is now optional. 
+
 ### 17 November 2023
 
 The following change is now available in Sandbox:
