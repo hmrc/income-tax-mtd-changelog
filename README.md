@@ -41,6 +41,21 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
+### 30 November 2023
+
+The following change is now available in Sandbox:
+
+#### self-employment-business-api
+
+New data field taxTakenOffTradingIncome has been added to the periodIncome object in the following v3.0 endpoints:
+  * Create a Self-Employment Period Summary
+  * Amend a Self-Employment Period Summary
+  * Retrieve a Self-Employment Period Summary
+
+#### individual-calculations-api
+
+New data field taxTakenOffTradingIncome has been added to the taxDeductedAtSource response body in Retrieve a Self Assessment Tax Calculation (v4.0 and v5.0) endpoint.
+
 ### 29 November 2023
 
 The following change is now available in Sandbox:
