@@ -41,13 +41,103 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
+### 14 December 2023
+
+The following changes are now available in Production:
+
+#### business-details-api
+For `Retrieve Business Details` endpoint:
+* New optional fields `yearOfMigration`, `firstAccountingPeriodStartDate` and `firstAccountingPeriodEndDate`
+* New array `latencyDetails` added
+
+#### cis-deductions-api
+New API Version v2.0 is now available
+
+#### individuals-business-eops-api
+New API Version v3.0 is now available
+
+#### individual-calculations-api
+New API Version v5.0 is now available
+
+For `Retrieve a Self Assessment Tax Calculation` endpoint:
+* New field `cessationDate` added
+* New object `statePension` added in all versions
+
+For `Retrieve a Self Assessment Tax Calculation (TYS)` endpoint:
+* New fields `cessationDate`, `commencementDate` and `taxTakenOffTradingIncome`added
+* New objects `otherIncome` and `statePension` added
+* Updated field `totalAnnuityPaymentsTaxCharged` from integer to number
+
+For `Retrieve a Self Assessment Tax Calculation` endpoint:
+* The field `totalAnnuityPaymentsTaxCharged` is returned as decimal in both non-TYS and TYS request.
+
+#### individuals-expenses-api
+New API Version v2.0 is now available
+
+For `Create and Amend Employment Expenses (TYS)` endpoint:
+* New error `RULE_INVALID_SUBMISSION_PENSION_SCHEME` added
+
+#### individuals-income-received-api
+New API Version v2.0 is now available 
+
+For `Create and Amend Employment Financial Details` endpoint:
+* New error `RULE_INVALID_SUBMISSION_PENSION_SCHEME` added 
+
+For `Create and Amend Other Income (TYS)` endpoint:
+* New error `RULE_UNALIGNED_CESSATION_TAX_YEAR` added
+* The field `foreignTaxCreditRelief` is now optional
+
+For `Retrieve Other Income (TYS)` endpoint:
+* New object `postCessationReceipts` added
+* The field `foreignTaxCreditRelief` is now optional
+
+#### obligations-api
+New API Version v2.0 is now available
+
+For `Retrieve Income Tax Final Declaration Obligations` endpoint:
+* Response now returns last four tax years if tax year is not supplied
+
+#### property-business-api
+New API Version v3.0 is now available
+
+The field `lossBroughtForward` is removed from the following TYS endpoints:
+* `Create and Amend a Foreign Property Annual Submission`
+* `Create and Amend a UK Property Business Annual Submission`
+* `Retrieve a Foreign Property Annual Submission`
+* `Retrieve a UK Property Business Annual Submission`
+
+#### self-assessment-bsas-api
+New API Version v4.0 is now available 
+
+For `Retrieve a Self-Employment Business Source Adjustable Summary` endpoint:
+* The data fields in `adjustableSummaryCalculation` now accept both positive and negative values
+
+Updated error message for `MATCHING_RESOURCE_NOT_FOUND` in the following endpoint:
+* `Trigger a Business Source Adjustable Summary`
+
+#### self-assessment-individual-details-api
+* A new microservice `Self-Assessment Individual Details API` has been released. The current version (1.0) of this API enables the developer to obtain the ITSA status for a given National Insurance number for a specified tax year, and optionally future years after that tax year. A National Insurance number and tax year must be provided.
+  The fields inside the `periodExpenses` and `periodDisallowableExpenses` objects now accept negative values in the following endpoints:
+
+#### self-employment-business-api
+  New API Version v3.0 is now available
+
+* `Create a Self-Employment Period Summary (TYS)`
+* `Amend a Self-Employment Period Summary (TYS)`
+* `Retrieve a Self-Employment Period Summary (TYS)`
+
+
+
+
+
+
 ### 30 November 2023
 
 The following change is now available in Sandbox:
 
 #### self-employment-business-api
 
-New data field taxTakenOffTradingIncome has been added to the periodIncome object in the following v3.0 endpoints:
+New data field `taxTakenOffTradingIncome` has been added to the periodIncome object in the following v3.0 endpoints:
   * Create a Self-Employment Period Summary
   * Amend a Self-Employment Period Summary
   * Retrieve a Self-Employment Period Summary
