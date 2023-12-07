@@ -50,9 +50,6 @@ For `Retrieve Business Details` endpoint:
 * New optional fields `yearOfMigration`, `firstAccountingPeriodStartDate` and `firstAccountingPeriodEndDate`
 * New array `latencyDetails` added
 
-#### cis-deductions-api
-New API Version v2.0 is now available
-
 #### individuals-business-eops-api
 New API Version v3.0 is now available
 
@@ -60,16 +57,14 @@ New API Version v3.0 is now available
 New API Version v5.0 is now available
 
 For `Retrieve a Self Assessment Tax Calculation` endpoint:
-* New field `cessationDate` added
-* New object `statePension` added in all versions
-
-For `Retrieve a Self Assessment Tax Calculation (TYS)` endpoint:
-* New fields `cessationDate`, `commencementDate` and `taxTakenOffTradingIncome`added
-* New objects `otherIncome` and `statePension` added
-* Updated field `totalAnnuityPaymentsTaxCharged` from integer to number
-
-For `Retrieve a Self Assessment Tax Calculation` endpoint:
 * The field `totalAnnuityPaymentsTaxCharged` is returned as decimal in both non-TYS and TYS request.
+* New object `statePension` added in all the versions
+* In the `non-TYS` request:
+  * New field `cessationDate` added
+* In the `TYS` request:
+  * New fields `cessationDate`, `commencementDate` and `taxTakenOffTradingIncome`added
+  * New objects `otherIncome` added
+  * Updated field `totalAnnuityPaymentsTaxCharged` from integer to number
 
 #### individuals-expenses-api
 New API Version v2.0 is now available
@@ -91,12 +86,6 @@ For `Retrieve Other Income (TYS)` endpoint:
 * New object `postCessationReceipts` added
 * The field `foreignTaxCreditRelief` is now optional
 
-#### obligations-api
-New API Version v2.0 is now available
-
-For `Retrieve Income Tax Final Declaration Obligations` endpoint:
-* Response now returns last four tax years if tax year is not supplied
-
 #### property-business-api
 New API Version v3.0 is now available
 
@@ -117,11 +106,11 @@ Updated error message for `MATCHING_RESOURCE_NOT_FOUND` in the following endpoin
 
 #### self-assessment-individual-details-api
 * A new microservice `Self-Assessment Individual Details API` has been released. The current version (1.0) of this API enables the developer to obtain the ITSA status for a given National Insurance number for a specified tax year, and optionally future years after that tax year. A National Insurance number and tax year must be provided.
-  The fields inside the `periodExpenses` and `periodDisallowableExpenses` objects now accept negative values in the following endpoints:
 
 #### self-employment-business-api
-  New API Version v3.0 is now available
+New API Version v3.0 is now available
 
+The fields inside the `periodExpenses` and `periodDisallowableExpenses` objects now accept negative values in the following endpoints:
 * `Create a Self-Employment Period Summary (TYS)`
 * `Amend a Self-Employment Period Summary (TYS)`
 * `Retrieve a Self-Employment Period Summary (TYS)`
