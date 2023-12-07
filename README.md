@@ -43,6 +43,11 @@ update.
 ---
 ### 7 December 2023
 
+The following change is now available in Sandbox:
+
+#### business-details-api
+When using the STATEFUL Gov-Test-Scenario, the `accountingType` field will default to CASH if the `accountingType` field for a business created using the the mtd-sa-test-support-api `Create a Test Business` endpoint has not been given a value.
+
 The following change has been made to the Developer Hub API documentation:
 
 #### self-employment-business-api
