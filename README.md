@@ -126,10 +126,14 @@ Updated error message for `MATCHING_RESOURCE_NOT_FOUND` in the following endpoin
 * `Amend a Self-Employment Period Summary (TYS)`
 * `Retrieve a Self-Employment Period Summary (TYS)`
 
+### 7 December 2023
 
+The following change has been made to the Developer Hub API documentation:
 
-
-
+#### self-employment-business-api
+Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24 onwards for the following endpoints (V1.0, v2.0 and v3.0):
+  * `Amend a Self-Employment Period Summary`
+  * `Retrieve a Self-Employment Period Summary`
 
 ### 30 November 2023
 
