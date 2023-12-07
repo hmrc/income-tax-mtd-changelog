@@ -41,6 +41,15 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
+### XX December 2023 (TBC)
+
+The following change is now available in Sandbox:
+
+#### business-details-api
+
+* For `Retrieve Business Details` endpoint:
+* New object `quarterlyTypeChoice` has been added to the response object.
+
 ### 7 December 2023
 
 The following change has been made to the Developer Hub API documentation:
