@@ -62,7 +62,7 @@ For `Retrieve a Self Assessment Tax Calculation` endpoint:
 * In the `non-TYS` request:
   * New field `cessationDate` added
 * In the `TYS` request:
-  * New fields `cessationDate`, `commencementDate` and `taxTakenOffTradingIncome`added
+  * New fields `cessationDate`, `commencementDate` and `itsaStatus` added
   * New objects `otherIncome` added
   * Updated field `totalAnnuityPaymentsTaxCharged` from integer to number
 
