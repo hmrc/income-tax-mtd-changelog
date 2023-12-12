@@ -51,10 +51,13 @@ For `Retrieve Business Details` endpoint:
 * New array `latencyDetails` added
 
 #### individuals-business-eops-api
-New API Version v3.0 is now available
+New API version v3.0 is now available
+
+For `Submit End of Period Statement for a Business` endpoint:
+* New error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` added
 
 #### individual-calculations-api
-New API Version v5.0 is now available
+New API version v5.0 is now available
 
 For `Retrieve a Self Assessment Tax Calculation` endpoint:
 * The field `totalAnnuityPaymentsTaxCharged` is returned as decimal in both non-TYS and TYS request.
@@ -67,13 +70,13 @@ For `Retrieve a Self Assessment Tax Calculation` endpoint:
   * Updated field `totalAnnuityPaymentsTaxCharged` from integer to number
 
 #### individuals-expenses-api
-New API Version v2.0 is now available
+New API version v2.0 is now available
 
 For `Create and Amend Employment Expenses (TYS)` endpoint:
 * New error `RULE_INVALID_SUBMISSION_PENSION_SCHEME` added
 
 #### individuals-income-received-api
-New API Version v2.0 is now available 
+New API version v2.0 is now available 
 
 For `Create and Amend Employment Financial Details` endpoint:
 * New error `RULE_INVALID_SUBMISSION_PENSION_SCHEME` added 
@@ -87,7 +90,7 @@ For `Retrieve Other Income (TYS)` endpoint:
 * The field `foreignTaxCreditRelief` is now optional
 
 #### property-business-api
-New API Version v3.0 is now available
+New API version v3.0 is now available
 
 The field `lossBroughtForward` is removed from the following TYS endpoints:
 * `Create and Amend a Foreign Property Annual Submission`
@@ -96,7 +99,7 @@ The field `lossBroughtForward` is removed from the following TYS endpoints:
 * `Retrieve a UK Property Business Annual Submission`
 
 #### self-assessment-bsas-api
-New API Version v4.0 is now available 
+New API version v4.0 is now available 
 
 For `Retrieve a Self-Employment Business Source Adjustable Summary` endpoint:
 * The data fields in `adjustableSummaryCalculation` now accept both positive and negative values
@@ -108,7 +111,7 @@ Updated error message for `MATCHING_RESOURCE_NOT_FOUND` in the following endpoin
 * A new microservice `Self-Assessment Individual Details API` has been released. The current version (1.0) of this API enables the developer to obtain the ITSA status for a given National Insurance number for a specified tax year, and optionally future years after that tax year. A National Insurance number and tax year must be provided.
 
 #### self-employment-business-api
-New API Version v3.0 is now available
+New API version v3.0 is now available
 
 The fields inside the `periodExpenses` and `periodDisallowableExpenses` objects now accept negative values in the following endpoints:
 * `Create a Self-Employment Period Summary (TYS)`
