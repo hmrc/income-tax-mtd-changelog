@@ -108,7 +108,7 @@ Updated error message for `MATCHING_RESOURCE_NOT_FOUND` in the following endpoin
 * `Trigger a Business Source Adjustable Summary`
 
 #### self-assessment-individual-details-api
-* A new microservice `Self-Assessment Individual Details API` has been released. The current version (1.0) of this API enables you to obtain the ITSA status for a given National Insurance number for a specified tax year, and optionally future years after that tax year. A National Insurance number and tax year must be provided.
+* A new microservice `Self Assessment Individual Details API` has been released. The current version (1.0) of this API enables you to obtain the ITSA status for a given National Insurance number for a specified tax year, and optionally future years after that tax year. A National Insurance number and tax year must be provided.
 
 #### self-employment-business-api
 New API version v3.0 is now available
