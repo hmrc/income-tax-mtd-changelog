@@ -41,6 +41,29 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
+
+### 19 December 2023
+
+The following changes have been made to the Developer Hub API documentation:
+
+#### cis-deductions-api
+Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24 onwards for the following endpoints (v1.0 and v2.0):
+  * `Delete CIS Deductions for Subcontractor`
+
+#### individual-calculations-api
+Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24 onwards for the following endpoints (v3.0, v4.0 and v5.0):
+   * `List Self Assessment Tax Calculations`
+
+#### self-assessment-bsas-api
+Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24 onwards for the following endpoints (v3.0 and v4.0):
+* `Submit Foreign Property Accounting Adjustments`
+* `Submit UK Property Accounting Adjustments`
+* `Submit Self-Employment Accounting Adjustments`
+* `Retrieve a Foreign Property Business Source Adjustable Summary`
+* `Retrieve a UK Property Business Source Adjustable Summary`
+* `Retrieve a Self-Employment Business Source Adjustable Summary`
+* `List Business Source Adjustable Summaries`
+
 ### 14 December 2023
 
 The following changes are now available in Production:
