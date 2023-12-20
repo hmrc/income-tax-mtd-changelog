@@ -126,7 +126,6 @@ The fields inside the `periodExpenses` and `periodDisallowableExpenses` objects 
 * `Create a Self-Employment Period Summary (TYS)`
 * `Amend a Self-Employment Period Summary (TYS)`
 * `Retrieve a Self-Employment Period Summary (TYS)`
->>>>>>> origin/main
 
 ### 7 December 2023
 
