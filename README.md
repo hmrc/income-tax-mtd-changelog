@@ -47,7 +47,7 @@ The following change is now available in Sandbox:
 
 #### business-details-api
 
-* For `Retrieve Business Details` endpoint:
+For `Retrieve Business Details` endpoint:
 * New object `quarterlyTypeChoice` has been added to the response object.
 
 ### 7 December 2023
