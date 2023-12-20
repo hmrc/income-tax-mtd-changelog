@@ -41,7 +41,7 @@ update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
-### XX December 2023 (TBC)
+### 20 December 2023
 
 The following change is now available in Sandbox:
 
