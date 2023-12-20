@@ -48,7 +48,12 @@ The following change is now available in Sandbox:
 #### business-details-api
 
 For `Retrieve Business Details` endpoint:
-* New object `quarterlyTypeChoice` has been added to the response object.
+* New optional object `quarterlyTypeChoice` has been added to the response object.
+
+#### mtd-sa-test-support-api
+For `Create a Test Business` endpoint:
+* New optional object `quarterlyTypeChoice` has been added to the request object.
+* New error `FORMAT_QUARTERLY_PERIOD_TYPE` has been added
 
 ### 14 December 2023
 
