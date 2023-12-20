@@ -699,8 +699,8 @@ New API version v4.0 is now available in Production
   the `calculationType`, `totalIncomeTaxAndNicsDue` is now optional and
   `calculationTimeStamp` now has three digits for milliseconds instead of two
 * `Retrieve a Self Assessment Tax Calculation` has new
-  properties `totalAnnualAllowancesAndDeductions`, `totalBasicRateExtension`, `giftAidRelief`, `pensionsContributionRelief`
-  and `offPayrollWorker`
+  properties `calculation.endOfYearEstimate.totalAllowancesAndDeductions`, `calculation.reliefs.basicRateExtension.totalBasicRateExtension`, `calculation.reliefs.basicRateExtension.giftAidRelief`, `calculation.reliefs.basicRateExtension.pensionsContributionRelief`
+  and `calculation.employmentAndPensionsIncome.employmentAndPensionsIncomeDetail.offPayrollWorker`
 
 All endpoints replace their respective v3 equivalents, which are now deprecated. Please use the new v4 endpoints
 instead.
