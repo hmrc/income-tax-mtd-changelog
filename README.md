@@ -42,6 +42,17 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 ---
 
+### 21 December 2023
+
+The following change is now available in Sandbox:
+
+#### self-assessment-individual-details-api
+
+New API version v2.0 is now available.
+
+For the v2.0 `Retrieve ITSA Details` endpoint:
+* New enum value `MTD ITSA Opt-Out` added to `statusReason` field.
+
 ### 20 December 2023
 
 The following change is now available in Sandbox:
