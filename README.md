@@ -48,8 +48,6 @@ The following change is now available in Sandbox:
 
 #### self-assessment-individual-details-api
 
-there is a new enum value for the statusReason field "10 = MTD ITSA Opt-Out".
-
 New API version v2.0 is now available.
 
 For the v2.0 `Retrieve ITSA Details` endpoint:
