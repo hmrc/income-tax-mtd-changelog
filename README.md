@@ -40,6 +40,17 @@ You should now receive an email approximately every two weeks containing the cha
 update.
 
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
+
+---
+### 4 January 2024
+
+The following changes are now available in Sandbox:
+
+#### property-business-api
+For `Create a Foreign Property Income & Expenses Period Summary` and `Create a UK Property Income & Expenses Period Summary` endpoints:
+
+* New Stateful Gov Test Scenario `MISALIGNED` for error `RULE_MISALIGNED_PERIOD`
+
 ---
 
 ### 21 December 2023
