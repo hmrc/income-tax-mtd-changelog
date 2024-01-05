@@ -42,6 +42,15 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 5 January 2024
+
+The following change is now available in Sandbox:
+
+#### business-details-api
+
+New endpoint `Create and Amend Quarterly Period Type for a Business`. 
+* This endpoint enables you to create and amend the type of quarterly reporting period used for a business for a specific tax year.
+
 ### 4 January 2024
 
 The following changes are now available in Sandbox:
