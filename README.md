@@ -44,12 +44,16 @@ update.
 ---
 ### 5 January 2024
 
-The following changes are now available in Sandbox:
+The following change is now available in Sandbox:
+
+#### business-details-api
+
+New endpoint `Create and Amend Quarterly Period Type for a Business`. 
+* This endpoint enables you to create and amend the type of quarterly reporting period used for a business for a specific tax year.
 
 #### self-employment-business-api
 For the ` Create a Self-Employment Period Summary` endpoint, the Gov Test Scenario STATEFUL will now return RULE_MISALIGNED_PERIOD where the period start and end dates do not match the correct quarterly period dates outlined here - https://www.gov.uk/guidance/using-making-tax-digital-for-income-tax
 
----
 ### 4 January 2024
 
 The following changes are now available in Sandbox:
