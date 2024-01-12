@@ -42,6 +42,20 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 12 January 2024
+
+The following changes are now available in Sandbox and Production:
+
+The below API versions have been deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
+
+* `individual-calculations-api v4.0`
+* `individuals-business-eops-api v2.0`
+* `individuals-expenses-api v1.0`
+* `individuals-income-received-api v1.0`
+* `property-business-api v2.0`
+* `self-assessment-bsas-api v3.0`
+* `self-employment-business-api v2.0`
+
 ### 5 January 2024
 
 The following change is now available in Sandbox:
