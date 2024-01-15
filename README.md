@@ -42,7 +42,7 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
-### 12 January 2024
+### 15 January 2024
 
 The following changes are now available in Sandbox and Production:
 
