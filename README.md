@@ -42,6 +42,26 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 15 January 2024
+
+#### individual-losses-api
+
+The following changes are now available in Sandbox and Production:
+
+* API Version `v3.0` has been retired in Production and the sandbox.
+* API Version `v4.0` is available with the following endpoints:
+  * `Create Brought Forward Loss`
+  * `Delete Brought Forward Loss`
+  * `Amend Brought Forward Loss`
+  * `Retrieve Brought Forward Loss`
+  * `Create Loss Claim`
+  * `Delete Loss Claim` 
+  * `Retrieve Loss Claim` 
+  * `Amend Loss Claim Type` 
+  * `Amend Loss Claims Order`
+
+The above endpoints replace their respective v3 equivalents, which are now retired. Please use the new v4 endpoints instead.
+
 ### 5 January 2024
 
 The following change is now available in Sandbox:
