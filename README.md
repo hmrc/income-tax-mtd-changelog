@@ -49,7 +49,7 @@ update.
 The following changes are now available in Sandbox and Production:
 
 * API version `v1.0` has been retired in Production and Sandbox.
-* The below endpoints are now available in `v2.0` and `v3.0`. There are no changes from their behaviour in `v1.0`.
+* The below endpoints are available in `v2.0` and `v3.0`. There are no changes from their behaviour in `v1.0`.
   * `Amend Annual Submission`
   * `Retrieve Annual Submission` 
   * `Delete Annual Submission` 
@@ -62,7 +62,7 @@ The following changes are now available in Sandbox and Production:
 The following changes are now available in Sandbox and Production:
 
 * API version `v3.0` has been retired in Production and Sandbox.
-* The below endpoints are now available in `v4.0`. There are no changes from their behaviour in `v3.0`.
+* The below endpoints are available in `v4.0`. There are no changes from their behaviour in `v3.0`.
   * `Create Brought Forward Loss`
   * `Delete Brought Forward Loss`
   * `Amend Brought Forward Loss`
