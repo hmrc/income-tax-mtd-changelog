@@ -48,19 +48,17 @@ update.
 
 The following changes are now available in Sandbox and Production:
 
-* API Version `v3.0` has been retired in Production and the sandbox.
-* API Version `v4.0` is available with the following endpoints:
+* API version `v3.0` has been retired in Production and Sandbox.
+* The below endpoints are now available in `v4.0`. There are no changes from their behaviour in v3.0.
   * `Create Brought Forward Loss`
   * `Delete Brought Forward Loss`
   * `Amend Brought Forward Loss`
   * `Retrieve Brought Forward Loss`
   * `Create Loss Claim`
-  * `Delete Loss Claim` 
-  * `Retrieve Loss Claim` 
-  * `Amend Loss Claim Type` 
+  * `Delete Loss Claim`
+  * `Retrieve Loss Claim`
+  * `Amend Loss Claim Type`
   * `Amend Loss Claims Order`
-
-The above endpoints replace their respective v3 equivalents, which are now retired. Please use the new v4 endpoints instead.
 
 ### 5 January 2024
 
