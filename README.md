@@ -52,7 +52,7 @@ update.
 
 #### individual-losses-api
 
-* API version `v3.0` has been retired in Production and Sandbox. Please update to use the newest available version of the API `v4.0`.
+* API version `v3.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `v4.0`.
 
 * The below API versions have been deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
   * `individual-calculations-api v4.0`
