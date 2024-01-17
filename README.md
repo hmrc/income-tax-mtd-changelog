@@ -42,7 +42,7 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
-### 16 January 2024
+### 17 January 2024
 
 #### self-employment-business-api
 
