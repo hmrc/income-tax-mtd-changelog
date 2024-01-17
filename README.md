@@ -42,23 +42,17 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 17 January 2024
+
+#### self-employment-business-api
+
+* API version `v1.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `v3.0`.
+
 ### 15 January 2024
 
 #### individual-losses-api
 
-The following changes are now available in Sandbox and Production:
-
-* API version `v3.0` has been retired in Production and Sandbox.
-* The below endpoints are now available in `v4.0`. There are no changes from their behaviour in `v3.0`.
-  * `Create Brought Forward Loss`
-  * `Delete Brought Forward Loss`
-  * `Amend Brought Forward Loss`
-  * `Retrieve Brought Forward Loss`
-  * `Create Loss Claim`
-  * `Delete Loss Claim`
-  * `Retrieve Loss Claim`
-  * `Amend Loss Claim Type`
-  * `Amend Loss Claims Order`
+* API version `v3.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `v4.0`.
 
 * The below API versions have been deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
   * `individual-calculations-api v4.0`
