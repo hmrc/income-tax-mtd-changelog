@@ -42,6 +42,15 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 23 January 2024
+
+The following change is now available in Sandbox:
+
+#### self-assessment-accounts-api
+
+New endpoint `Retrieve Coding Out Status`.
+* This endpoint enables you to retrieve opt-out of coding out status for a specified customer (identified by a National Insurance number) and tax year.
+
 ### 17 January 2024
 
 #### self-employment-business-api
