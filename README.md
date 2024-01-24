@@ -42,6 +42,15 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 24 January 2024
+
+The following change is now available in Sandbox:
+
+#### self-assessment-test-support-api
+
+SubmittedOn details within an ITSA status details array must be unique. The error below is returned if this condition is not met.
+ * DUPLICATE_SUBMITTED_ON
+
 ### 23 January 2024
 
 The following change is now available in Sandbox:
