@@ -55,14 +55,6 @@ Deprecated endpoints will now return the following response headers:
 
 The 'API lifecycle & deprecation' section of the Income Tax (Making Tax Digital) end-to-end service guide will be updated with more details.
 
-
-The following change is now available in Sandbox:
-
-#### self-assessment-test-support-api
-
-SubmittedOn details within an ITSA status details array must be unique. The error below is returned if this condition is not met.
- * DUPLICATE_SUBMITTED_ON
-
 ---
 ### 23 January 2024
 
