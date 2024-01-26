@@ -42,6 +42,14 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 26 January 2024
+
+#### inidividuals-charges-api
+
+* API version `v1.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `v2.0`.
+
+
+---
 ### 24 January 2024
 
 The following change is now available in Sandbox and Production:
