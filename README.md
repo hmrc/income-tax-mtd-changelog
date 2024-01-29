@@ -46,7 +46,7 @@ update.
 
 #### inidividuals-charges-api
 
-* API version `v1.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `v2.0`.
+* API version `1.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `2.0`.
 
 
 ---
