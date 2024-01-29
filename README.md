@@ -51,6 +51,7 @@ update.
 #### individual-calculations-api
 
 * API version `3.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `5.0`.
+* Updated the timezone in the deprecation headers, from `UTC` to `GMT`.
 
 ---
 ### 24 January 2024
