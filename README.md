@@ -44,10 +44,13 @@ update.
 ---
 ### 29 January 2024
 
-#### inidividuals-charges-api
+#### individuals-charges-api
 
 * API version `1.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `2.0`.
 
+#### individual-calculations-api
+
+* API version `3.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `5.0`.
 
 ---
 ### 24 January 2024
