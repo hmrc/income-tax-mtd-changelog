@@ -42,7 +42,7 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
-### 26 January 2024
+### 29 January 2024
 
 #### inidividuals-charges-api
 
