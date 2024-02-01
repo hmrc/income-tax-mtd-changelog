@@ -28,7 +28,8 @@ This page contains the dates and the latest changes for the following Income Tax
 
 See the above list for links to the relevant API documentation.
 
-To be notified when an MTD API change is released to the Sandbox or Production environments, follow these steps while logged-in
+To be notified when an MTD API change is released to the Sandbox or Production environments, follow these steps while
+logged-in
 to your Github account:
 
 1. Go to: https://github.com/hmrc/income-tax-mtd-changelog
@@ -42,18 +43,36 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+
+### 01 February 2024
+
+The following change is now available in Sandbox:
+
+#### self-assessment-accounts-api
+
+For endpoint `Retrieve Coding Out Status`, the following MTD errors have been amended to be returned with a "RULE"
+prefix:
+
+- `BUSINESS_PARTNER_NOT_EXIST` -> `RULE_BUSINESS_PARTNER_NOT_EXIST`
+- `ITSA_CONTRACT_OBJECT_NOT_EXIST` -> `RULE_ITSA_CONTRACT_OBJECT_NOT_EXIST`
+
+---
+
 ### 29 January 2024
 
 #### individuals-charges-api
 
-* API version `1.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `2.0`.
+* API version `1.0` has been retired in Sandbox and Production. Please update to use the newest available version of the
+  API `2.0`.
 
 #### individual-calculations-api
 
-* API version `3.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `5.0`.
+* API version `3.0` has been retired in Sandbox and Production. Please update to use the newest available version of the
+  API `5.0`.
 * Updated the timezone in the deprecation headers, from `UTC` to `GMT`.
 
 ---
+
 ### 24 January 2024
 
 The following change is now available in Sandbox and Production:
@@ -61,13 +80,16 @@ The following change is now available in Sandbox and Production:
 #### individual-calculations-api
 
 Deprecated endpoints will now return the following response headers:
+
 - Deprecation - the deprecation date/time
 - Link - a link to the relevant API documentation
 - Sunset (if available) - date/time after which the endpoint may not be available
 
-The 'API lifecycle & deprecation' section of the Income Tax (Making Tax Digital) end-to-end service guide will be updated with more details.
+The 'API lifecycle & deprecation' section of the Income Tax (Making Tax Digital) end-to-end service guide will be
+updated with more details.
 
 ---
+
 ### 23 January 2024
 
 The following change is now available in Sandbox:
@@ -75,51 +97,67 @@ The following change is now available in Sandbox:
 #### self-assessment-accounts-api
 
 New endpoint `Retrieve Coding Out Status`.
-* This endpoint enables you to retrieve opt-out of coding out status for a specified customer (identified by a National Insurance number) and tax year.
+
+* This endpoint enables you to retrieve opt-out of coding out status for a specified customer (identified by a National
+  Insurance number) and tax year.
 
 ---
+
 ### 17 January 2024
 
 #### self-employment-business-api
 
-* API version `v1.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `v3.0`.
+* API version `v1.0` has been retired in Sandbox and Production. Please update to use the newest available version of
+  the API `v3.0`.
 
 ---
+
 ### 15 January 2024
 
 #### individual-losses-api
 
-* API version `v3.0` has been retired in Sandbox and Production. Please update to use the newest available version of the API `v4.0`.
+* API version `v3.0` has been retired in Sandbox and Production. Please update to use the newest available version of
+  the API `v4.0`.
 
-* The below API versions have been deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
-  * `individual-calculations-api v4.0`
-  * `individuals-business-eops-api v2.0`
-  * `individuals-expenses-api v1.0`
-  * `individuals-income-received-api v1.0`
-  * `property-business-api v2.0`
-  * `self-assessment-bsas-api v3.0`
-  * `self-employment-business-api v2.0`
+* The below API versions have been deprecated in Sandbox and Production and will no longer accept new subscriptions.
+  Existing subscriptions will continue to work.
+    * `individual-calculations-api v4.0`
+    * `individuals-business-eops-api v2.0`
+    * `individuals-expenses-api v1.0`
+    * `individuals-income-received-api v1.0`
+    * `property-business-api v2.0`
+    * `self-assessment-bsas-api v3.0`
+    * `self-employment-business-api v2.0`
 
 ---
+
 ### 5 January 2024
 
 The following change is now available in Sandbox:
 
 #### business-details-api
 
-New endpoint `Create and Amend Quarterly Period Type for a Business`. 
-* This endpoint enables you to create and amend the type of quarterly reporting period used for a business for a specific tax year.
+New endpoint `Create and Amend Quarterly Period Type for a Business`.
+
+* This endpoint enables you to create and amend the type of quarterly reporting period used for a business for a
+  specific tax year.
 
 #### self-employment-business-api
-For the ` Create a Self-Employment Period Summary` endpoint, the Gov Test Scenario STATEFUL will now return RULE_MISALIGNED_PERIOD where the period start and end dates do not match the correct quarterly period dates outlined here - https://www.gov.uk/guidance/using-making-tax-digital-for-income-tax
+
+For the ` Create a Self-Employment Period Summary` endpoint, the Gov Test Scenario STATEFUL will now return
+RULE_MISALIGNED_PERIOD where the period start and end dates do not match the correct quarterly period dates outlined
+here - https://www.gov.uk/guidance/using-making-tax-digital-for-income-tax
 
 ---
+
 ### 4 January 2024
 
 The following changes are now available in Sandbox:
 
 #### property-business-api
-For `Create a Foreign Property Income & Expenses Period Summary` and `Create a UK Property Income & Expenses Period Summary` endpoints:
+
+For `Create a Foreign Property Income & Expenses Period Summary`
+and `Create a UK Property Income & Expenses Period Summary` endpoints:
 
 * New Stateful Gov Test Scenario `MISALIGNED` for error `RULE_MISALIGNED_PERIOD`
 
@@ -134,9 +172,11 @@ The following change is now available in Sandbox:
 New API version v2.0 is now available.
 
 For the v2.0 `Retrieve ITSA Details` endpoint:
+
 * New enum value `MTD ITSA Opt-Out` added to `statusReason` field.
 
 ---
+
 ### 20 December 2023
 
 The following change is now available in Sandbox:
@@ -144,28 +184,41 @@ The following change is now available in Sandbox:
 #### business-details-api
 
 For `Retrieve Business Details` endpoint:
+
 * New optional object `quarterlyTypeChoice` has been added to the response object.
 
 #### mtd-sa-test-support-api
+
 For `Create a Test Business` endpoint:
+
 * New optional object `quarterlyTypeChoice` has been added to the request object.
 * New error `FORMAT_QUARTERLY_PERIOD_TYPE` has been added
 
 ---
+
 ### 19 December 2023
 
 The following changes have been made to the Developer Hub API documentation:
 
 #### cis-deductions-api
-Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24 onwards for the following endpoints (v1.0 and v2.0):
-  * `Delete CIS Deductions for Subcontractor`
+
+Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24
+onwards for the following endpoints (v1.0 and v2.0):
+
+* `Delete CIS Deductions for Subcontractor`
 
 #### individual-calculations-api
-Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24 onwards for the following endpoints (v3.0, v4.0 and v5.0):
-   * `List Self Assessment Tax Calculations`
+
+Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24
+onwards for the following endpoints (v3.0, v4.0 and v5.0):
+
+* `List Self Assessment Tax Calculations`
 
 #### self-assessment-bsas-api
-Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24 onwards for the following endpoints (v3.0 and v4.0):
+
+Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24
+onwards for the following endpoints (v3.0 and v4.0):
+
 * `Submit Foreign Property Accounting Adjustments`
 * `Submit UK Property Accounting Adjustments`
 * `Submit Self-Employment Accounting Adjustments`
@@ -175,99 +228,131 @@ Wording has changed to clarify and emphasise the need to pass the `taxYear` quer
 * `List Business Source Adjustable Summaries`
 
 ---
+
 ### 14 December 2023
 
 The following changes are now available in Production:
 
 #### business-details-api
+
 For `Retrieve Business Details` endpoint:
+
 * New optional fields `yearOfMigration`, `firstAccountingPeriodStartDate` and `firstAccountingPeriodEndDate`
 * New array `latencyDetails` added
 
 #### individuals-business-eops-api
+
 New API version v3.0 is now available
 
 For `Submit End of Period Statement for a Business` endpoint:
+
 * New error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` added
 
 #### individual-calculations-api
+
 New API version v5.0 is now available
 
 For `Retrieve a Self Assessment Tax Calculation` endpoint:
+
 * The field `totalAnnuityPaymentsTaxCharged` is returned as decimal in both non-TYS and TYS request.
 * New object `statePension` added in all the versions
 * In the `non-TYS` request:
-  * New field `cessationDate` added
+    * New field `cessationDate` added
 * In the `TYS` request:
-  * New fields `cessationDate`, `commencementDate` and `itsaStatus` added
-  * New objects `otherIncome` added
-  * Updated field `totalAnnuityPaymentsTaxCharged` from integer to number
+    * New fields `cessationDate`, `commencementDate` and `itsaStatus` added
+    * New objects `otherIncome` added
+    * Updated field `totalAnnuityPaymentsTaxCharged` from integer to number
 
 #### individuals-expenses-api
+
 New API version v2.0 is now available
 
 For `Create and Amend Employment Expenses (TYS)` endpoint:
+
 * New error `RULE_INVALID_SUBMISSION_PENSION_SCHEME` added
 
 #### individuals-income-received-api
-New API version v2.0 is now available 
+
+New API version v2.0 is now available
 
 For `Create and Amend Employment Financial Details` endpoint:
-* New error `RULE_INVALID_SUBMISSION_PENSION_SCHEME` added 
+
+* New error `RULE_INVALID_SUBMISSION_PENSION_SCHEME` added
 
 For `Create and Amend Other Income (TYS)` endpoint:
+
 * New error `RULE_UNALIGNED_CESSATION_TAX_YEAR` added
 * The field `foreignTaxCreditRelief` is now optional
 
 For `Retrieve Other Income (TYS)` endpoint:
+
 * New object `postCessationReceipts` added
 * The field `foreignTaxCreditRelief` is now optional
 
 #### property-business-api
+
 New API version v3.0 is now available
 
 The field `lossBroughtForward` is removed from the following TYS endpoints:
+
 * `Create and Amend a Foreign Property Annual Submission`
 * `Create and Amend a UK Property Business Annual Submission`
 * `Retrieve a Foreign Property Annual Submission`
 * `Retrieve a UK Property Business Annual Submission`
 
 #### self-assessment-bsas-api
-New API version v4.0 is now available 
+
+New API version v4.0 is now available
 
 For `Retrieve a Self-Employment Business Source Adjustable Summary` endpoint:
+
 * The data fields in `adjustableSummaryCalculation` now accept both positive and negative values
 
 Updated error message for `MATCHING_RESOURCE_NOT_FOUND` in the following endpoint:
+
 * `Trigger a Business Source Adjustable Summary`
 
 #### self-assessment-individual-details-api
-* A new microservice `Self Assessment Individual Details API` has been released. The current version (1.0) of this API enables you to obtain the ITSA status for a given National Insurance number for a specified tax year, and optionally future years after that tax year. A National Insurance number and tax year must be provided.
+
+* A new microservice `Self Assessment Individual Details API` has been released. The current version (1.0) of this API
+  enables you to obtain the ITSA status for a given National Insurance number for a specified tax year, and optionally
+  future years after that tax year. A National Insurance number and tax year must be provided.
 
 #### self-employment-business-api
+
 New API version v3.0 is now available
 
-The fields inside the `periodExpenses` and `periodDisallowableExpenses` objects now accept negative values in the following endpoints:
+The fields inside the `periodExpenses` and `periodDisallowableExpenses` objects now accept negative values in the
+following endpoints:
+
 * `Create a Self-Employment Period Summary (TYS)`
 * `Amend a Self-Employment Period Summary (TYS)`
 * `Retrieve a Self-Employment Period Summary (TYS)`
 
 ---
+
 ### 7 December 2023
 
 The following change is now available in Sandbox:
 
 #### business-details-api
-When using the STATEFUL Gov-Test-Scenario, the `accountingType` field will default to CASH if the `accountingType` field for a business created using the the mtd-sa-test-support-api `Create a Test Business` endpoint has not been given a value.
+
+When using the STATEFUL Gov-Test-Scenario, the `accountingType` field will default to CASH if the `accountingType` field
+for a business created using the the mtd-sa-test-support-api `Create a Test Business` endpoint has not been given a
+value.
 
 The following change has been made to the Developer Hub API documentation:
 
 #### self-employment-business-api
-Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24 onwards for the following endpoints (V1.0, v2.0 and v3.0):
-  * `Amend a Self-Employment Period Summary`
-  * `Retrieve a Self-Employment Period Summary`
+
+Wording has changed to clarify and emphasise the need to pass the `taxYear` query parameter for tax years 2023-24
+onwards for the following endpoints (V1.0, v2.0 and v3.0):
+
+* `Amend a Self-Employment Period Summary`
+* `Retrieve a Self-Employment Period Summary`
 
 ---
+
 ### 30 November 2023
 
 The following change is now available in Sandbox:
@@ -275,81 +360,103 @@ The following change is now available in Sandbox:
 #### self-employment-business-api
 
 New data field `taxTakenOffTradingIncome` has been added to the periodIncome object in the following v3.0 endpoints:
-  * Create a Self-Employment Period Summary
-  * Amend a Self-Employment Period Summary
-  * Retrieve a Self-Employment Period Summary
+
+* Create a Self-Employment Period Summary
+* Amend a Self-Employment Period Summary
+* Retrieve a Self-Employment Period Summary
 
 #### individual-calculations-api
 
-New data field taxTakenOffTradingIncome has been added to the taxDeductedAtSource response body in Retrieve a Self Assessment Tax Calculation (v4.0 and v5.0) endpoint.
+New data field taxTakenOffTradingIncome has been added to the taxDeductedAtSource response body in Retrieve a Self
+Assessment Tax Calculation (v4.0 and v5.0) endpoint.
 
 ---
+
 ### 29 November 2023
 
 The following change is now available in Sandbox:
 
 #### self-assessment-accounts-api
+
 New API version 3.0 with the following change:
-* `Retrieve Balance and Transactions` response field `documentDueDate` is now optional. 
+
+* `Retrieve Balance and Transactions` response field `documentDueDate` is now optional.
 
 ---
+
 ### 17 November 2023
 
 The following change is now available in Sandbox:
 
 #### individual-calculations-api
+
 The following items have been added to the response of `Retrieve a Self Assessment Tax Calculation` endpoint:
+
 * `calculation.reliefs.giftAidTaxReductionWhereBasicRateDiffers` object
 * `calculation.taxCalculation.incomeTax.giftAidTaxChargeWhereBasicRateDiffers` field
 
 ---
+
 ### 15 November 2023
 
 The following change is now available in Sandbox:
 
 #### self-assessment-bsas-api
-* The error message for 404 `MATCHING_RESOURCE_NOT_FOUND` has been updated in `Trigger a Business Source Adjustable Summary`
+
+* The error message for 404 `MATCHING_RESOURCE_NOT_FOUND` has been updated
+  in `Trigger a Business Source Adjustable Summary`
 
 ---
+
 ### 31 October 2023
 
-An issue has been fixed in Production whereby the taxYear 2017-18 was incorrectly not accepted for the following endpoints:
+An issue has been fixed in Production whereby the taxYear 2017-18 was incorrectly not accepted for the following
+endpoints:
 
 #### property-business-api
-  * `Retrieve a Historic FHL UK Property Business Annual Submission`
-  * `Create and Amend a Historic FHL UK Property Business Annual Submission`
-  * `Delete a Historic FHL UK Property Business Annual Submission`
-  * `Retrieve a Historic Non-FHL UK Property Business Annual Submission`
-  * `Create and Amend a Historic Non-FHL UK Property Business Annual Submission`
-  * `Delete a Historic Non-FHL UK Property Business Annual Submission`
+
+* `Retrieve a Historic FHL UK Property Business Annual Submission`
+* `Create and Amend a Historic FHL UK Property Business Annual Submission`
+* `Delete a Historic FHL UK Property Business Annual Submission`
+* `Retrieve a Historic Non-FHL UK Property Business Annual Submission`
+* `Create and Amend a Historic Non-FHL UK Property Business Annual Submission`
+* `Delete a Historic Non-FHL UK Property Business Annual Submission`
 
 ---
+
 ### 30 October 2023
 
-An issue has been fixed in Production whereby the supplied periodId was not being accepted for Q4 of tax year 2021-22, but was, incorrectly, being accepted for Q4 of tax year 2016-17. This affects the following endpoints:
+An issue has been fixed in Production whereby the supplied periodId was not being accepted for Q4 of tax year 2021-22,
+but was, incorrectly, being accepted for Q4 of tax year 2016-17. This affects the following endpoints:
 
 #### property-business-api
-  * `Retrieve a Historic Non-FHL UK Property Income & Expenses Period Summary`
-  * `Retrieve a Historic FHL UK Property Income & Expenses Period Summary`
-  * `Amend a Historic Non-FHL UK Property Income & Expenses Period Summary`
-  * `Amend a Historic FHL UK Property Income & Expenses Period Summary`
-  
+
+* `Retrieve a Historic Non-FHL UK Property Income & Expenses Period Summary`
+* `Retrieve a Historic FHL UK Property Income & Expenses Period Summary`
+* `Amend a Historic Non-FHL UK Property Income & Expenses Period Summary`
+* `Amend a Historic FHL UK Property Income & Expenses Period Summary`
+
 ---
+
 ### 27 October 2023
 
-A previous update made the final letter of a National Insurance number optional for the following API endpoints in sandbox:
+A previous update made the final letter of a National Insurance number optional for the following API endpoints in
+sandbox:
 
 #### business-details-api
-  * `List All Businesses`
-  * `Retrieve Business Details`
+
+* `List All Businesses`
+* `Retrieve Business Details`
 
 #### self-assessment-test-support
-  * `Create a Test Business`
-  * `Delete a Test Business`
+
+* `Create a Test Business`
+* `Delete a Test Business`
 
 This change has been reverted and a full 9 digit National Insurance number format is now required.
 
 ---
+
 ### 9 October 2023
 
 The following changes are now available in Sandbox and Production:
@@ -359,6 +466,7 @@ The following changes are now available in Sandbox and Production:
 * Date fields only accept within the range of 1900-01-01 and 2100-01-01.
 
 ---
+
 ### 3 October 2023
 
 The following changes are now available in the Sandbox:
@@ -366,16 +474,17 @@ The following changes are now available in the Sandbox:
 #### self-assessment-test-support
 
 * The final letter of a National Insurance number is now optional for the following API endpoints:
-  * `Create a Test Business`
-  * `Delete a Test Business`
+    * `Create a Test Business`
+    * `Delete a Test Business`
 
 #### business-details-api
 
 * The final letter of a National Insurance number is now optional for the following API endpoints:
-  * `List All Businesses`
-  * `Retrieve Business Details`
-  
+    * `List All Businesses`
+    * `Retrieve Business Details`
+
 ---
+
 ### 29 September 2023
 
 The following changes are now available in the Sandbox:
@@ -398,6 +507,7 @@ The following changes are now available in the Sandbox:
   removed in v1.0. This has been replaced with the `STATEFUL` Gov-Test-Scenario.
 
 ---
+
 ### 28 September 2023
 
 The following changes are now available in the Sandbox:
@@ -449,11 +559,11 @@ The following changes are now available in the Sandbox:
     * `RULE_UNEXPECTED_TRADING_NAME`
     * `RULE_MISSING_TRADING_NAME`
 
-
 #### business-details-api
+
 * A new error `INVALID_IDTYPE` has been added to the following API endpoints:
-  * `List All Businesses`
-  * `Retrieve Business Details`
+    * `List All Businesses`
+    * `Retrieve Business Details`
 
 ### 21 September 2023
 
@@ -474,6 +584,7 @@ The following changes are now available in the Sandbox:
     * Retrieve a Self-Employment Period Summary
 
 ---
+
 ### 20 September 2023
 
 #### individual-calculations-api
@@ -484,6 +595,7 @@ Version 5.0 is now available in the sandbox with the following changes:
   Decimal (decimal places <= 2).
 
 ---
+
 ### 14 September 2023
 
 The following changes are now available in the Sandbox:
@@ -499,6 +611,7 @@ The following changes are now available in the Sandbox:
   user-restricted OAuth 2.0 access tokens.
 
 ---
+
 ### 6 September 2023
 
 The following changes are now available in the Sandbox:
@@ -850,9 +963,9 @@ New API Version `v2.0`
 Updated Endpoint: `Retrieve CIS Deductions for Subcontractor`
 
 * Updated endpoint URL
-  * Added `taxYear` as path parameter
-  * Added `source` as path parameter
-  * Removed `fromDate` and `toDate` from query parameters as they are replaced by `taxYear` path parameter
+    * Added `taxYear` as path parameter
+    * Added `source` as path parameter
+    * Removed `fromDate` and `toDate` from query parameters as they are replaced by `taxYear` path parameter
 * Removed `DATE_RANGE_OUT_OF_DATE` gov-test-scenario
 * Added `TAX_YEAR_RANGE_INVALID` gov-test-scenario
 
