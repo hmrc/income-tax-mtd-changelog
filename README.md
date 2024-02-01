@@ -50,7 +50,7 @@ The following change is now available in Sandbox:
 
 #### self-assessment-accounts-api
 
-For endpoint `Retrieve Coding Out Status`, the following MTD errors have been amended to be returned with a "RULE"
+For endpoint `Retrieve Coding Out Status`, the following MTD errors have been amended to be returned with a `RULE`
 prefix:
 
 - `BUSINESS_PARTNER_NOT_EXIST` -> `RULE_BUSINESS_PARTNER_NOT_EXIST`
