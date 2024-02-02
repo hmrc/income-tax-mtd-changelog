@@ -45,7 +45,9 @@ update.
 ---
 ### 2 February 2024
 
-* With this change, date validation logic has been amended to allow the submission end date to be same as start date in the following API's
+The following fix relating to RULE_TO_DATE_BEFORE_FROM_DATE and RULE_END_DATE_BEFORE_START_DATE validation errors has been applied to Sandbox and Production:
+
+* With this change, date validation logic has been loosened to allow the submission end date to be same as start date in the following API's
 
 #### property-business-api
 #### self-assessment-bsas-api
