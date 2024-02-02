@@ -43,6 +43,17 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 2 February 2024
+
+* With this change, date validation logic has been amended to allow the submission end date to be same as start date in the following API's
+
+#### property-business-api
+#### self-assessment-bsas-api
+#### individuals-business-eops-api
+#### other-deductions-api
+#### self-employment-business-api
+#### individuals-state-benefits-api
+
 
 ### 1 February 2024
 
