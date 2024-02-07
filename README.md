@@ -44,7 +44,7 @@ update.
 
 ---
 
-### 7th February 2024
+### 7 February 2024
 
 The following change is now available in Sandbox:
 
