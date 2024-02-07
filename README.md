@@ -43,6 +43,19 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+
+### 7 February 2024
+
+The following change is now available in Sandbox:
+
+#### self-assessment-accounts-api
+
+New endpoint `Opt In to Coding Out V3`.
+
+* This endpoint enables a customer (identified by a National Insurance number) to opt in to coding out for a specified tax year.
+
+---
+
 ### 2 February 2024
 
 The following fix relating to RULE_TO_DATE_BEFORE_FROM_DATE and RULE_END_DATE_BEFORE_START_DATE validation errors has been applied to Sandbox and Production:
@@ -56,6 +69,7 @@ The following fix relating to RULE_TO_DATE_BEFORE_FROM_DATE and RULE_END_DATE_BE
 #### self-employment-business-api
 #### individuals-state-benefits-api
 
+---
 
 ### 1 February 2024
 
