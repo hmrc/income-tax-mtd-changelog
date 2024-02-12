@@ -44,6 +44,20 @@ update.
 
 ---
 
+### 12 February 2024
+
+The following change is now available in Sandbox:
+
+#### self-assessment-accounts-api
+
+New endpoint `Opt Out of Coding Out V3`.
+
+* This endpoint enables a customer (identified by a National Insurance number) to opt out of coding out for a specified tax year.
+
+
+
+---
+
 ### 7 February 2024
 
 The following change is now available in Sandbox:
