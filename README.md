@@ -54,7 +54,7 @@ Deprecated endpoints will now return the following response headers:
 - Link - a link to the relevant API documentation
 - Sunset (if available) - date/time after which the endpoint may not be available
 
-The 'API lifecycle & deprecation' section of the Income Tax (Making Tax Digital) end-to-end service guide will be updated with more details.
+For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
 
 
 ---
