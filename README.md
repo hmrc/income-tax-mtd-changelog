@@ -43,6 +43,21 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 15 February 2024
+
+The following change is now available in Sandbox and Production:
+
+#### self-assessment-bsas-api
+
+Deprecated endpoints will now return the following response headers:
+- Deprecation - the deprecation date/time
+- Link - a link to the relevant API documentation
+- Sunset (if available) - date/time after which the endpoint may not be available
+
+The 'API lifecycle & deprecation' section of the Income Tax (Making Tax Digital) end-to-end service guide will be updated with more details.
+
+
+---
 
 ### 12 February 2024
 
@@ -53,7 +68,6 @@ The following change is now available in Sandbox:
 New endpoint `Opt Out of Coding Out V3`.
 
 * This endpoint enables a customer (identified by a National Insurance number) to opt out of coding out for a specified tax year.
-
 
 
 ---
