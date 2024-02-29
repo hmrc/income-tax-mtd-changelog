@@ -47,7 +47,7 @@ update.
 
 The following change is now available in Sandbox and Production:
 
-#### cis-deductions-api
+#### obligations-api
 
 Deprecated endpoints will now return the following response headers:
 - Deprecation - the deprecation date/time
