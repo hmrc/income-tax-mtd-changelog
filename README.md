@@ -49,7 +49,7 @@ The following changes are now available in the Sandbox:
 
 #### self-assessment-accounts-api
 
-* New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v3.0 endpoints:
   * `Opt In to Coding Out`
   * `Retrieve Coding Out Status`
   * `Opt Out of Coding Out`
