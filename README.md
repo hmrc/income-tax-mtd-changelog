@@ -43,6 +43,18 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 4 March 2024
+
+The following changes are now available in the Sandbox:
+
+#### self-assessment-accounts-api
+
+* New `STATEFUL` Gov-Test-Scenarios were added to the following v3.0 endpoints:
+  * `Opt In to Coding Out`
+  * `Retrieve Coding Out Status`
+  * `Opt Out of Coding Out`
+
+---
 ### 01 March 2024
 
 The following change is now available in Sandbox and Production:
