@@ -43,6 +43,21 @@ update.
 * Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 5 March 2024
+
+The following change is now available in Sandbox and Production:
+
+#### obligations-api
+
+Deprecated endpoints will now return the following response headers:
+- Deprecation - the deprecation date/time
+- Link - a link to the relevant API documentation
+- Sunset (if available) - date/time after which the endpoint may not be available
+
+For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
+
+
+---
 ### 4 March 2024
 
 The following changes are now available in the Sandbox:
