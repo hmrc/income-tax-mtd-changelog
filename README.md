@@ -1,6 +1,6 @@
 # Income Tax (Making Tax Digital) Changelog
 
-This page contains the dates and the latest changes for the following Income Tax MTD API services:
+This page contains a log of the latest changes for the following Income Tax MTD API services:
 
 * [business-details-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/business-details-api)
 * [cis-deductions-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/cis-deductions-api)
@@ -24,9 +24,7 @@ This page contains the dates and the latest changes for the following Income Tax
 * [self-employment-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api)
 * [self-assessment-assist (HMRC Assist API)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-assist)
 
-## Changelog
-
-See the above list for links to the relevant API documentation.
+## Get notified of changes
 
 To be notified when an MTD API change is released to the Sandbox or Production environments, follow these steps while
 logged-in
@@ -40,7 +38,9 @@ to your Github account:
 You should now receive an email approximately every two weeks containing the changes made to the APIs since the last
 update.
 
-* Please note that the date shown is the date that the change was released to the Sandbox or Production.
+## Changelog
+
+Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
 ### 5 March 2024
