@@ -43,6 +43,20 @@ update.
 Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+
+### 20 March 2024
+
+The following changes are now available in the Sandbox:
+
+#### mtd-sa-test-support-api
+
+New endpoint `Create and Amend Test ITSA Status`.
+
+* This endpoint enables you to create and amend a test ITSA status for a specified customer(identified by a National
+  Insurance number) and tax year.
+
+---
+
 ### 15 March 2024
 
 The following change is now available in Sandbox and Production:
@@ -58,6 +72,7 @@ Deprecated endpoints will now return the following response headers:
 For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
 
 ---
+
 ### 5 March 2024
 
 The following change is now available in Sandbox and Production:
@@ -72,6 +87,7 @@ Deprecated endpoints will now return the following response headers:
 For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
 
 ---
+
 ### 4 March 2024
 
 The following changes are now available in the Sandbox:
@@ -84,6 +100,7 @@ The following changes are now available in the Sandbox:
   * `Opt Out of Coding Out`
 
 ---
+
 ### 01 March 2024
 
 The following change is now available in Sandbox and Production:
@@ -98,6 +115,7 @@ Deprecated endpoints will now return the following response headers:
 For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
 
 ---
+
 ### 15 February 2024
 
 The following change is now available in Sandbox and Production:
