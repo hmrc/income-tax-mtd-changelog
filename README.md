@@ -40,7 +40,7 @@ update.
 
 ## Roadmap
 
-For details of planned changes, see the [Income Tax (Making Tax Digital) roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
+For planned changes, see the [Income Tax (Making Tax Digital) roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
 
 ## Changelog
 
