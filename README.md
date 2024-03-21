@@ -44,7 +44,7 @@ Please note that the date shown is the date that the change was released to the 
 
 ---
 
-### 20 March 2024
+### 21 March 2024
 
 The following changes are now available in the Sandbox:
 
