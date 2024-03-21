@@ -52,7 +52,7 @@ The following changes are now available in the Sandbox:
 
 New endpoint `Create and Amend Test ITSA Status`.
 
-* This endpoint enables you to create and amend a test ITSA status for a specified customer(identified by a National
+* This endpoint enables you to create and amend a test ITSA status for a specified customer (identified by a National
   Insurance number) and tax year.
 
 ---
@@ -62,14 +62,17 @@ New endpoint `Create and Amend Test ITSA Status`.
 The following change is now available in Sandbox and Production:
 
 #### self-assessment-accounts-api
+
 #### individuals-business-eops-api
 
 Deprecated endpoints will now return the following response headers:
+
 - Deprecation - the deprecation date/time
 - Link - a link to the relevant API documentation
 - Sunset (if available) - date/time after which the endpoint may not be available
 
-For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
+For more details, see
+the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
 
 ---
 
@@ -80,11 +83,13 @@ The following change is now available in Sandbox and Production:
 #### obligations-api
 
 Deprecated endpoints will now return the following response headers:
+
 - Deprecation - the deprecation date/time
 - Link - a link to the relevant API documentation
 - Sunset (if available) - date/time after which the endpoint may not be available
 
-For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
+For more details, see
+the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
 
 ---
 
@@ -95,9 +100,9 @@ The following changes are now available in the Sandbox:
 #### self-assessment-accounts-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following v3.0 endpoints:
-  * `Opt In to Coding Out`
-  * `Retrieve Coding Out Status`
-  * `Opt Out of Coding Out`
+    * `Opt In to Coding Out`
+    * `Retrieve Coding Out Status`
+    * `Opt Out of Coding Out`
 
 ---
 
@@ -108,11 +113,13 @@ The following change is now available in Sandbox and Production:
 #### cis-deductions-api
 
 Deprecated endpoints will now return the following response headers:
+
 - Deprecation - the deprecation date/time
 - Link - a link to the relevant API documentation
 - Sunset (if available) - date/time after which the endpoint may not be available
 
-For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
+For more details, see
+the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
 
 ---
 
@@ -123,11 +130,13 @@ The following change is now available in Sandbox and Production:
 #### self-assessment-bsas-api
 
 Deprecated endpoints will now return the following response headers:
+
 - Deprecation - the deprecation date/time
 - Link - a link to the relevant API documentation
 - Sunset (if available) - date/time after which the endpoint may not be available
 
-For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
+For more details, see
+the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
 
 
 ---
@@ -140,8 +149,8 @@ The following change is now available in Sandbox:
 
 New endpoint `Opt Out of Coding Out V3`.
 
-* This endpoint enables a customer (identified by a National Insurance number) to opt out of coding out for a specified tax year.
-
+* This endpoint enables a customer (identified by a National Insurance number) to opt out of coding out for a specified
+  tax year.
 
 ---
 
@@ -153,21 +162,29 @@ The following change is now available in Sandbox:
 
 New endpoint `Opt In to Coding Out V3`.
 
-* This endpoint enables a customer (identified by a National Insurance number) to opt in to coding out for a specified tax year.
+* This endpoint enables a customer (identified by a National Insurance number) to opt in to coding out for a specified
+  tax year.
 
 ---
 
 ### 2 February 2024
 
-The following fix relating to RULE_TO_DATE_BEFORE_FROM_DATE and RULE_END_DATE_BEFORE_START_DATE validation errors has been applied to Sandbox and Production:
+The following fix relating to RULE_TO_DATE_BEFORE_FROM_DATE and RULE_END_DATE_BEFORE_START_DATE validation errors has
+been applied to Sandbox and Production:
 
-* With this change, date validation logic has been loosened to allow the submission end date to be same as start date in the following API's
+* With this change, date validation logic has been loosened to allow the submission end date to be same as start date in
+  the following API's
 
 #### property-business-api
+
 #### self-assessment-bsas-api
+
 #### individuals-business-eops-api
+
 #### other-deductions-api
+
 #### self-employment-business-api
+
 #### individuals-state-benefits-api
 
 ---
