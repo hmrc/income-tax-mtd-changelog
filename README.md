@@ -38,6 +38,10 @@ to your Github account:
 You should now receive an email approximately every two weeks containing the changes made to the APIs since the last
 update.
 
+## Roadmap
+
+For planned changes, see the [Income Tax (Making Tax Digital) roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
+
 ## Changelog
 
 Please note that the date shown is the date that the change was released to the Sandbox or Production.
