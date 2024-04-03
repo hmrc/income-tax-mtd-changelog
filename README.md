@@ -42,6 +42,20 @@ update.
 
 For planned changes, see the [Income Tax (Making Tax Digital) roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
 
+## Mapping APIs to Self Assessment tax return forms
+
+Many parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [Self Assessment tax return forms (GOV.UK)](https://www.gov.uk/self-assessment-tax-return-forms). Some APIs map to box numbers in more than one form.
+
+The following table shows which APIs are linked to which forms. To download the mapping information for a form as a CSV file, select the form number in the table.
+
+| Self Assessment tax return form mapping | Related APIs |
+|---|---|
+| [SA100](mapping/sa100_mapping_v1.csv)<br />Main tax return | [individual-calculations-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) <br />[individuals-disclosures-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api) <br />[individuals-income-received-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api) <br />[individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api) <br />[individuals-state-benefits-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api) <br />[self-assessment-accounts-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api) |
+| [SA101](mapping/sa101_mapping_v1.csv)<br />Additional Information | [individuals-charges-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) <br />[individuals-disclosures-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api) <br />[individuals-expenses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-expenses-api) <br />[individuals-income-received-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api) <br />[individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api) <br />[other-deductions-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/other-deductions-api) |
+| [SA102](mapping/sa102_mapping_v1.csv)<br />Employment | [individuals-expenses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-expenses-api) <br />[individuals-income-received-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api) |
+| [SA105](mapping/sa105_mapping_v1.csv)<br />UK Property | [individual-losses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) <br />[property-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) |
+| [SA106](mapping/sa106_mapping_v1.csv)<br />Foreign | [individual-losses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) <br />[individuals-income-received-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api) <br />[individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api) <br />[property-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) |
+
 ## Changelog
 
 Please note that the date shown is the date that the change was released to the Sandbox or Production.
