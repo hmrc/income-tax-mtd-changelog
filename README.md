@@ -62,6 +62,44 @@ The following table shows which APIs are linked to which forms. To download the 
 Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 9 April 2024
+
+As part of the breakup of individuals-income-received-api, the following APIs are available in Sandbox.
+
+#### individuals-employments-income-api
+
+This API enables you to retrieve, create, amend or delete data relating to
+- employment income
+- other employment income
+- non-PAYE employment income
+
+#### individuals-dividends-income-api
+
+This API enables you to retrieve, create, amend or delete data relating to dividends income.
+
+#### individuals-foreign-income-api
+
+This API enables you to retrieve, create, amend or delete data relating to foreign income.
+
+#### individuals-insurance-policies-income-api
+
+This API enables you to retrieve, create, amend or delete data relating to insurance policies income.
+
+#### individuals-pensions-income-api
+
+This API enables you to retrieve, create, amend or delete data relating to pensions income.
+
+#### individuals-other-income-api
+
+This API enables you to retrieve, create, amend or delete data relating to other income.
+
+#### individuals-savings-income-api
+
+This API enables you to retrieve, create, amend or delete data relating to savings income.
+
+#### individuals-capital-gains-income-api
+
+This API enables you to retrieve, create, amend or delete data relating to capital gains income.
 
 ### 21 March 2024
 
