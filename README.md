@@ -7,18 +7,25 @@ This page contains a log of the latest changes for the following Income Tax MTD 
 * [individual-calculations-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api)
 * [individual-losses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api)
 * [individuals-business-eops-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-business-eops-api)
+* [individuals-capital-gains-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api)
 * [individuals-charges-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api)
 * [individuals-disclosures-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api)
+* [individuals-dividends-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api)
+* [individuals-employments-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api)
 * [individuals-expenses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-expenses-api)
+* [individuals-foreign-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-foreign-income-api)
 * [individuals-income-received-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api)
+* [individuals-insurance-policies-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-insurance-policies-income-api)
+* [individuals-other-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-other-income-api)
+* [individuals-pensions-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-pensions-income-api)
 * [individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api)
+* [individuals-savings-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-savings-income-api)
 * [individuals-state-benefits-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api)
 * [mtd-sa-test-support-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-sa-test-support-api)
 * [obligations-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api)
 * [other-deductions-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/other-deductions-api)
 * [property-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api)
 * [self-assessment-accounts-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api)
-* [self-assessment-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-api)
 * [self-assessment-biss-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api)
 * [self-assessment-bsas-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api)
 * [self-employment-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api)
@@ -26,9 +33,7 @@ This page contains a log of the latest changes for the following Income Tax MTD 
 
 ## Get notified of changes
 
-To be notified when an MTD API change is released to the Sandbox or Production environments, follow these steps while
-logged-in
-to your Github account:
+To be notified when an MTD API change is released to the Sandbox or Production environments, follow these steps while logged-in to your Github account:
 
 1. Go to: https://github.com/hmrc/income-tax-mtd-changelog
 2. Click the "Watch" drop-down at the top right, and choose "Custom.. Releases"
@@ -62,6 +67,29 @@ The following table shows which APIs are linked to which forms. To download the 
 Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+
+### 10 April 2024
+
+The following changes are available in Sandbox and Production.
+
+#### Multiple APIs
+
+Add content about Self Assessment tax return form mappings to landing pages and API reference of all available versions of the following APIs:
+- cis-deductions-api
+- individual-calculations-api
+- individual-losses-api
+- individuals-charges-api
+- individuals-disclosures-api
+- individuals-expenses-api
+- individuals-reliefs-api
+- individuals-state-benefits-api
+- other-deductions-api
+- property-business-api
+- self-assessment-accounts-api
+- self-employment-business-api
+
+---
+
 ### 9 April 2024
 
 As part of the breakup of individuals-income-received-api, the following APIs are available in Sandbox.
@@ -100,6 +128,8 @@ This API enables you to retrieve, create, amend or delete data relating to savin
 #### individuals-capital-gains-income-api
 
 This API enables you to retrieve, create, amend or delete data relating to capital gains income.
+
+---
 
 ### 21 March 2024
 
