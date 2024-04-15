@@ -100,6 +100,24 @@ You can test the Self-Employment and Property Business user journeys by submitti
 
 ---
 
+### 10 April 2024
+
+The following change is available in Sandbox and Production.
+
+#### individual-calculations-api
+
+Add content about Self Assessment tax return form mappings to landing page and API reference of all available versions of the API.
+
+---
+
+The following change is available in Sandbox.
+
+#### self-assessment-accounts-api
+
+Add content about Self Assessment tax return form mappings to landing page and API reference of all available versions of the API.
+
+---
+
 ### 9 April 2024
 
 As part of the breakup of individuals-income-received-api, the following APIs are available in Sandbox.
@@ -139,6 +157,20 @@ This API enables you to retrieve, create, amend or delete data relating to pensi
 #### individuals-savings-income-api
 
 This API enables you to retrieve, create, amend or delete data relating to savings income.
+
+---
+
+### 9 April 2024
+
+The following changes are available in Sandbox and Production.
+
+#### Multiple APIs
+
+Add content about Self Assessment tax return form mappings to landing pages and API reference of all available versions of the following APIs:
+
+- [individuals-disclosures-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api)
+- [individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api)
+- [individuals-state-benefits-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api)
 
 ---
 
