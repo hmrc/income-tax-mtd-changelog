@@ -68,6 +68,15 @@ Please note that the date shown is the date that the change was released to the 
 
 ---
 
+### 15 April 2024
+
+The following changes are now available in the Sandbox:
+
+#### self-employment-business-api
+
+- Added 2 new optional fields transitionProfitAmount, transitionProfitAccelerationAmount in annualAdjustmentsType object for Retrieve a Self-Employment Annual Submission and Create and Amend Self-Employment Annual Submission Endpoints.
+- Added new error code 400 (RULE_WRONG_TPA_AMOUNT_SUBMITTED) for Create and Amend Self-Employment Annual Submission Endpoint.
+
 ### 11 April 2024
 
 Update section [Mapping APIs to Self Assessment tax return forms](#mapping-apis-to-self-assessment-tax-return-forms) as follows:
