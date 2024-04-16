@@ -70,6 +70,17 @@ Please note that the date shown is the date that the change was released to the 
 
 ### 16 April 2024
 
+The following changes are now available in the Sandbox:
+
+#### self-employment-business-api
+
+- Added 2 new optional fields transitionProfitAmount, transitionProfitAccelerationAmount in annualAdjustmentsType object for `v3.0` `Retrieve a Self-Employment Annual Submission and Create` and `Amend Self-Employment Annual Submission` endpoints.
+- Added new error code RULE_WRONG_TPA_AMOUNT_SUBMITTED for `v3.0` `Create and Amend Self-Employment Annual Submission` endpoint.
+
+---
+
+### 16 April 2024
+
 The following changes are now available in Production.
 
 #### individual-calculations-api v5
@@ -112,17 +123,6 @@ New API Version v2.0 is now available
 * The endpoint `Retrieve Income Tax (Self Assessment) Final Declarations Obligations` returns an array instead of a single object.
 
 All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints instead.
-
----
-
-### 15 April 2024
-
-The following changes are now available in the Sandbox:
-
-#### self-employment-business-api
-
-- Added 2 new optional fields transitionProfitAmount, transitionProfitAccelerationAmount in annualAdjustmentsType object for `v3.0` `Retrieve a Self-Employment Annual Submission and Create` and `Amend Self-Employment Annual Submission` endpoints.
-- Added new error code RULE_WRONG_TPA_AMOUNT_SUBMITTED for `v3.0` `Create and Amend Self-Employment Annual Submission` endpoint.
 
 ---
 
