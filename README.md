@@ -86,7 +86,7 @@ In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mand
 * `Retrieve Business Details` includes the object `quarterlyTypeElection` and 
 * a new endpoint, `Create and Amend Quarterly Period Type for a Business` is now available.
 
-#### self-assessment-accounts-api
+#### self-assessment-accounts-api v3
 
 New API Version v3.0 is now available
 
@@ -118,7 +118,7 @@ All endpoints replace their respective v1 equivalents, which are now deprecated.
 
 ---
 
-### 11 April 2024ß
+### 11 April 2024
 
 Update section [Mapping APIs to Self Assessment tax return forms](#mapping-apis-to-self-assessment-tax-return-forms) as follows:
 
