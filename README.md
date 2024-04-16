@@ -76,20 +76,18 @@ The following changes are now available in Production.
 - `calculation.reliefs.giftAidTaxReductionWhereBasicRateDiffers`
 - `calculation.taxCalculation.incomeTax.giftAidTaxChargeWhereBasicRateDiffer` and
 - `taxDeductedAtSource.taxTakenOffTradingIncome`.
-  In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mandatory.
+
+In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mandatory.
 
 ### business-details-api v1
-`Retrieve Business Details` includes the object `quarterlyTypeElection` and a new endpoint, `Create and Amend Quarterly Period Type for a Business`.
+* `Retrieve Business Details` includes the object `quarterlyTypeElection` and a new endpoint, `Create and Amend Quarterly Period Type for a Business`.
 
 ### self-assessment-accounts-api
 
 New API Version v3.0 is now available
 
 * The `Retrieve Balance and Transactions`response property `documentDueDate` is now optional.
-* The following endpoints are now available:
-- `Opt Out of Coding Out`
-- `Retrieve Coding Out Status` and
-- `Opt in to Coding Out`
+* New endpoints `Opt Out of Coding Out`, `Retrieve Coding Out Status` and `Opt in to Coding Out` are available.
 
 All endpoints replace their respective v2 equivalents, which are now deprecated. Please use the new v3 endpoints
 instead.
@@ -107,7 +105,7 @@ New API Version v2.0 is now available
 
 * The endpoint `Retrieve Income Tax (Self Assessment) Final Declarations Obligations` returns an array instead of a single object.
 
-* All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints
+All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints
   instead.
 ---
 
