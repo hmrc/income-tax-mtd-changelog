@@ -93,8 +93,7 @@ New API Version v3.0 is now available
 * The `Retrieve Balance and Transactions`response property `documentDueDate` is now optional.
 * New endpoints `Opt Out of Coding Out`, `Retrieve Coding Out Status` and `Opt in to Coding Out` are now available.
 
-All endpoints replace their respective v2 equivalents, which are now deprecated. Please use the new v3 endpoints
-instead.
+All endpoints replace their respective v2 equivalents, which are now deprecated. Please use the new v3 endpoints instead.
 
 #### cis-deductions-api v2
 
@@ -102,10 +101,9 @@ New API Version v2.0 is now available
 
 The endpoint `Retrieve CIS deductions for Subcontractor` includes 
 * a new error, `RULE_TAX_YEAR_RANGE_INVALID` when the date range provided exceeds four years before the current year, and 
-* the `fromDate` and `toDate` parameters have been replaced with `taxYear`  and `source` path parameters.
+* the `fromDate` and `toDate` parameters have been replaced with `taxYear` and `source` path parameters.
 
-All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints
-instead.
+All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints instead.
 
 #### obligations-api v2
 
@@ -113,8 +111,7 @@ New API Version v2.0 is now available
 
 * The endpoint `Retrieve Income Tax (Self Assessment) Final Declarations Obligations` returns an array instead of a single object.
 
-All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints
-  instead.
+All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints instead.
 
 ---
 
