@@ -74,8 +74,8 @@ The following changes are now available in the Sandbox:
 
 #### self-employment-business-api
 
-- Added 2 new optional fields transitionProfitAmount, transitionProfitAccelerationAmount in annualAdjustmentsType object for Retrieve a Self-Employment Annual Submission and Create and Amend Self-Employment Annual Submission Endpoints.
-- Added new error code 400 (RULE_WRONG_TPA_AMOUNT_SUBMITTED) for Create and Amend Self-Employment Annual Submission Endpoint.
+- Added 2 new optional fields transitionProfitAmount, transitionProfitAccelerationAmount in annualAdjustmentsType object for `v3.0` `Retrieve a Self-Employment Annual Submission and Create` and `Amend Self-Employment Annual Submission` endpoints.
+- Added new error code RULE_WRONG_TPA_AMOUNT_SUBMITTED for `v3.0` `Create and Amend Self-Employment Annual Submission` endpoint.
 
 ### 11 April 2024
 
