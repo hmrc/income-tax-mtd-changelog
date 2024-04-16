@@ -80,7 +80,7 @@ The following changes are now available in Production.
 In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mandatory.
 
 ### business-details-api v1
-* `Retrieve Business Details` includes the object `quarterlyTypeElection` and a new endpoint, `Create and Amend Quarterly Period Type for a Business`.
+`Retrieve Business Details` includes the object `quarterlyTypeElection` and a new endpoint, `Create and Amend Quarterly Period Type for a Business`.
 
 ### self-assessment-accounts-api
 
@@ -95,7 +95,9 @@ instead.
 ### cis-deductions-api v2
 New API Version v2.0 is now available
 
-* The endpoint `Retrieve CIS deductions for Subcontractor` includes a new error, `RULE_TAX_YEAR_RANGE_INVALID` when the date range provided exceeds four years before the current year, and the `fromDate` and `toDate` parameters have been replaced with `taxYear`  and `source` path parameters.
+The endpoint `Retrieve CIS deductions for Subcontractor` includes 
+* a new error, `RULE_TAX_YEAR_RANGE_INVALID` when the date range provided exceeds four years before the current year, and 
+* the `fromDate` and `toDate` parameters have been replaced with `taxYear`  and `source` path parameters.
 
 All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints
 instead.
@@ -107,6 +109,7 @@ New API Version v2.0 is now available
 
 All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints
   instead.
+
 ---
 
 ### 11 April 2024
