@@ -67,11 +67,13 @@ The following table shows which APIs are linked to which forms. To download the 
 Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+
 ### 16 April 2024
 
 The following changes are now available in Production.
 
 #### individual-calculations-api v5
+
 `Retrieve a Self Assessment Tax Calculation` includes the following properties:
 - `calculation.reliefs.giftAidTaxReductionWhereBasicRateDiffers`
 - `calculation.taxCalculation.incomeTax.giftAidTaxChargeWhereBasicRateDiffer` and
@@ -80,6 +82,7 @@ The following changes are now available in Production.
 In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mandatory.
 
 ### business-details-api v1
+
 * `Retrieve Business Details` includes the object `quarterlyTypeElection` and 
 * a new endpoint, `Create and Amend Quarterly Period Type for a Business` is now available.
 
@@ -94,6 +97,7 @@ All endpoints replace their respective v2 equivalents, which are now deprecated.
 instead.
 
 ### cis-deductions-api v2
+
 New API Version v2.0 is now available
 
 The endpoint `Retrieve CIS deductions for Subcontractor` includes 
@@ -104,6 +108,7 @@ All endpoints replace their respective v1 equivalents, which are now deprecated.
 instead.
 
 ### obligations-api v2
+
 New API Version v2.0 is now available
 
 * The endpoint `Retrieve Income Tax (Self Assessment) Final Declarations Obligations` returns an array instead of a single object.
