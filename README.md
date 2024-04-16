@@ -88,7 +88,7 @@ In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mand
 New API Version v3.0 is now available
 
 * The `Retrieve Balance and Transactions`response property `documentDueDate` is now optional.
-* New endpoints `Opt Out of Coding Out`, `Retrieve Coding Out Status` and `Opt in to Coding Out` are available.
+* New endpoints `Opt Out of Coding Out`, `Retrieve Coding Out Status` and `Opt in to Coding Out` are now available.
 
 All endpoints replace their respective v2 equivalents, which are now deprecated. Please use the new v3 endpoints
 instead.
