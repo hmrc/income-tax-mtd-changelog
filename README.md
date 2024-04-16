@@ -67,6 +67,49 @@ The following table shows which APIs are linked to which forms. To download the 
 Please note that the date shown is the date that the change was released to the Sandbox or Production.
 
 ---
+### 16 April 2024
+
+The following changes are now available in Production.
+
+#### individual-calculations-api v5
+`Retrieve a Self Assessment Tax Calculation` includes the following properties:
+- `calculation.reliefs.giftAidTaxReductionWhereBasicRateDiffers`
+- `calculation.taxCalculation.incomeTax.giftAidTaxChargeWhereBasicRateDiffer` and
+- `taxDeductedAtSource.taxTakenOffTradingIncome`.
+  In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mandatory.
+
+### business-details-api v1
+`Retrieve Business Details` includes the object `quarterlyTypeElection` and a new endpoint, `Create and Amend Quarterly Period Type for a Business`.
+
+### self-assessment-accounts-api
+
+New API Version v3.0 is now available
+
+* The `Retrieve Balance and Transactions`response property `documentDueDate` is now optional.
+* The following endpoints are now available:
+- `Opt Out of Coding Out`
+- `Retrieve Coding Out Status` and
+- `Opt in to Coding Out`
+
+All endpoints replace their respective v2 equivalents, which are now deprecated. Please use the new v3 endpoints
+instead.
+
+### cis-deductions-api v2
+New API Version v2.0 is now available
+
+* The endpoint `Retrieve CIS deductions for Subcontractor` includes a new error, `RULE_TAX_YEAR_RANGE_INVALID` when the date range provided exceeds four years before the current year, and the `fromDate` and `toDate` parameters have been replaced with `taxYear`  and `source` path parameters.
+
+All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints
+instead.
+
+### obligations-api v2
+New API Version v2.0 is now available
+
+* The endpoint `Retrieve Income Tax (Self Assessment) Final Declarations Obligations` returns an array instead of a single object.
+
+* All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints
+  instead.
+---
 
 ### 11 April 2024
 
