@@ -68,6 +68,20 @@ Please note that the date shown is the date that the change was released to the 
 
 ---
 
+### 17 April 2024
+
+The following change is now available in Sandbox:
+
+#### property-business-api
+
+Version `4.0` of this API is now available with the following features.
+
+- Updated the consolidatedExpenses object within the ukFhlProperty and ukNonFhlProperty objects to add rentARoom object and amountClaimed
+- Updated the consolidatedExpenses object within ukNonFhlProperty object to add residentialFinancialCost and residentialFinancialCostsCarriedForward fields
+- All expense fields under UK Period property to accept negative values and a monetary value (to 2 decimal places), between -99,999,999,999.99 and 99,999,999,999.99 except for residentialFinancialCost, residentialFinancialCostsCarriedForward and UkRentARoom
+
+
+
 ### 16 April 2024
 
 The following changes are now available in Production.
