@@ -84,6 +84,17 @@ Version `4.0` of this API is now available with the following features.
 
 ### 16 April 2024
 
+The following changes are now available in the Sandbox:
+
+#### self-employment-business-api
+
+- Added 2 new optional fields transitionProfitAmount, transitionProfitAccelerationAmount in annualAdjustmentsType object for `v3.0` `Retrieve a Self-Employment Annual Submission and Create` and `Amend Self-Employment Annual Submission` endpoints.
+- Added new error code RULE_WRONG_TPA_AMOUNT_SUBMITTED for `v3.0` `Create and Amend Self-Employment Annual Submission` endpoint.
+
+---
+
+### 16 April 2024
+
 The following changes are now available in Production.
 
 #### individual-calculations-api v5
