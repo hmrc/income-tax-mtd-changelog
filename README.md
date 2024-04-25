@@ -72,13 +72,25 @@ Please note that the date shown is the date that the change was released to the 
 
 The following change is now available in Sandbox:
 
-#### property-business-api
+#### property-business-api v4
 
-Version `4.0` of this API is now available with the following features.
+Version 4.0 of this API is now available with the following features.
 
-- Updated the consolidatedExpenses object within the ukFhlProperty and ukNonFhlProperty objects to add rentARoom object and amountClaimed
-- Updated the consolidatedExpenses object within ukNonFhlProperty object to add residentialFinancialCost and residentialFinancialCostsCarriedForward fields
-- All expense fields under UK Period property to accept negative values and a monetary value (to 2 decimal places), between -99,999,999,999.99 and 99,999,999,999.99 except for residentialFinancialCost, residentialFinancialCostsCarriedForward and UkRentARoom
+These endpoints:
+
+- `Create a UK Property Income & Expenses Period Summary` 
+- `Amend a UK Property Income & Expenses Period Summary`
+- `Retrieve a UK Property Income & Expenses Period Summary`
+- `Create a Foreign Property Income & Expenses Period Summary` 
+- `Amend a Foreign Property Income & Expenses Period Summary`
+- `Retrieve a Foreign Property Income & Expenses Period Summary`
+
+now support:
+
+- combining `rentARoom` and `amountClaimed` values with a `consolidatedExpenses` value.
+- `residentialFinancialCost` and `residentialFinancialCostsCarriedForward` fields within the `ukNonFhlProperty` object.
+
+All expense fields for these endpoints now accept negative values and a monetary value between -99,999,999,999.99 and 99,999,999,999.99 (to two decimal places) except for `residentialFinancialCost`, `residentialFinancialCostsCarriedForward` and `rentARoom`.
 
 ---
 
