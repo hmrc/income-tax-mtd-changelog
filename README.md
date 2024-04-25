@@ -72,30 +72,39 @@ Please note that the date shown is the date that the change was released to the 
 
 The following change is now available in Sandbox:
 
-#### property-business-api
+#### property-business-api v4
 
-Version `4.0` of this API is now available with the following features.
+Version 4.0 of this API is now available with the following features.
 
-- Updated the consolidatedExpenses object within the ukFhlProperty and ukNonFhlProperty objects to add rentARoom object and amountClaimed
-- Updated the consolidatedExpenses object within ukNonFhlProperty object to add residentialFinancialCost and residentialFinancialCostsCarriedForward fields
-- All expense fields under UK Period property to accept negative values and a monetary value (to 2 decimal places), between -99,999,999,999.99 and 99,999,999,999.99 except for residentialFinancialCost, residentialFinancialCostsCarriedForward and UkRentARoom
+These endpoints:
 
+- `Create a UK Property Income & Expenses Period Summary` 
+- `Amend a UK Property Income & Expenses Period Summary`
+- `Retrieve a UK Property Income & Expenses Period Summary`
+- `Create a Foreign Property Income & Expenses Period Summary` 
+- `Amend a Foreign Property Income & Expenses Period Summary`
+- `Retrieve a Foreign Property Income & Expenses Period Summary`
 
+now support:
 
-### 16 April 2024
+- combining `rentARoom` and `amountClaimed` values with a `consolidatedExpenses` value.
+- `residentialFinancialCost` and `residentialFinancialCostsCarriedForward` fields within the `ukNonFhlProperty` object.
 
-The following changes are now available in the Sandbox:
-
-#### self-employment-business-api
-
-- Added 2 new optional fields transitionProfitAmount, transitionProfitAccelerationAmount in annualAdjustmentsType object for `v3.0` `Retrieve a Self-Employment Annual Submission and Create` and `Amend Self-Employment Annual Submission` endpoints.
-- Added new error code RULE_WRONG_TPA_AMOUNT_SUBMITTED for `v3.0` `Create and Amend Self-Employment Annual Submission` endpoint.
+All expense fields for these endpoints now accept negative values and a monetary value between -99,999,999,999.99 and 99,999,999,999.99 (to two decimal places) except for `residentialFinancialCost`, `residentialFinancialCostsCarriedForward` and `rentARoom`.
 
 ---
 
 ### 16 April 2024
 
-The following changes are now available in Production.
+The following changes are now available in the Sandbox:
+
+#### self-employment-business-api v3
+
+- Added optional  `transitionProfitAmount` and `transitionProfitAccelerationAmount` fields in `annualAdjustmentsType` object of `Retrieve a Self-Employment Annual Submission` and `Create and Amend Self-Employment Annual Submission` endpoints.
+- New error code `RULE_WRONG_TPA_AMOUNT_SUBMITTED` to `Create and Amend Self-Employment Annual Submission` endpoint.
+
+
+The following changes are now available in Production:
 
 #### individual-calculations-api v5
 
@@ -113,7 +122,7 @@ In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mand
 
 #### self-assessment-accounts-api v3
 
-New API Version v3.0 is now available
+New API version v3.0 is now available.
 
 * The `Retrieve Balance and Transactions`response property `documentDueDate` is now optional.
 * New endpoints `Opt Out of Coding Out`, `Retrieve Coding Out Status` and `Opt in to Coding Out` are now available.
@@ -122,7 +131,7 @@ All endpoints replace their respective v2 equivalents, which are now deprecated.
 
 #### cis-deductions-api v2
 
-New API Version v2.0 is now available
+New API version v2.0 is now available
 
 The endpoint `Retrieve CIS deductions for Subcontractor` includes 
 * a new error, `RULE_TAX_YEAR_RANGE_INVALID` when the date range provided exceeds four years before the current year, and 
@@ -132,7 +141,7 @@ All endpoints replace their respective v1 equivalents, which are now deprecated.
 
 #### obligations-api v2
 
-New API Version v2.0 is now available
+New API version v2.0 is now available
 
 * The endpoint `Retrieve Income Tax (Self Assessment) Final Declarations Obligations` returns an array instead of a single object.
 
@@ -174,7 +183,7 @@ You can test the Self-Employment and Property Business user journeys by submitti
 
 ### 10 April 2024
 
-The following change is available in Sandbox and Production.
+The following change is available in Sandbox and Production:
 
 #### individual-calculations-api
 
@@ -182,7 +191,7 @@ Add content about Self Assessment tax return form mappings to landing page and A
 
 ---
 
-The following change is available in Sandbox.
+The following change is available in Sandbox:
 
 #### self-assessment-accounts-api
 
