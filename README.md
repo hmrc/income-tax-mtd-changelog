@@ -1,12 +1,12 @@
 # Income Tax (Making Tax Digital) Changelog
 
-This page contains a log of the latest changes for [Income Tax (Making Tax Digital) APIs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd). For information about planned changes to Income Tax (Making Tax Digital) APIs, see [Income Tax (Making Tax Digital) roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
+This page contains a log of the latest changes for [Income Tax (Making Tax Digital) APIs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd). For information about planned changes to these APIs, see [Income Tax (Making Tax Digital) roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
 
-[Get notified about changes to Income Tax (Making Tax Digital) APIs](notifications/get-notified.md)
+[Get notified about changes to these APIs](notifications/get-notified.md)
 
 ## Mapping APIs to Self Assessment tax return forms
 
-Many parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in <a href="https://www.gov.uk/self-assessment-tax-return-forms">Self Assessment tax return forms (GOV.UK)</a>. For more information, see [Mappping CSV files](mapping/mapping-csv-files.md).
+Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [Self Assessment tax return forms (GOV.UK)](https://www.gov.uk/self-assessment-tax-return-forms). For more information, see [Mapping CSV files](mapping/mapping-csv-files).
 
 ## Changelog
 
