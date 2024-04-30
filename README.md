@@ -1,70 +1,16 @@
 # Income Tax (Making Tax Digital) Changelog
 
-This page contains a log of the latest changes for the following Income Tax MTD API services:
+This page contains a log of the latest changes for [Income Tax (Making Tax Digital) APIs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd). For information about planned changes to these APIs, see [Income Tax (Making Tax Digital) roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
 
-* [business-details-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/business-details-api)
-* [cis-deductions-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/cis-deductions-api)
-* [individual-calculations-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api)
-* [individual-losses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api)
-* [individuals-business-eops-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-business-eops-api)
-* [individuals-capital-gains-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api)
-* [individuals-charges-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api)
-* [individuals-disclosures-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api)
-* [individuals-dividends-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api)
-* [individuals-employments-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api)
-* [individuals-expenses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-expenses-api)
-* [individuals-foreign-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-foreign-income-api)
-* [individuals-income-received-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api)
-* [individuals-insurance-policies-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-insurance-policies-income-api)
-* [individuals-other-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-other-income-api)
-* [individuals-pensions-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-pensions-income-api)
-* [individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api)
-* [individuals-savings-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-savings-income-api)
-* [individuals-state-benefits-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api)
-* [mtd-sa-test-support-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/mtd-sa-test-support-api)
-* [obligations-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/obligations-api)
-* [other-deductions-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/other-deductions-api)
-* [property-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api)
-* [self-assessment-accounts-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api)
-* [self-assessment-biss-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-biss-api)
-* [self-assessment-bsas-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-bsas-api)
-* [self-employment-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api)
-* [self-assessment-assist (HMRC Assist API)](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-assist)
-
-## Get notified of changes
-
-To be notified when an MTD API change is released to the Sandbox or Production environments, follow these steps while logged-in to your GitHub account:
-
-1. Go to: https://github.com/hmrc/income-tax-mtd-changelog
-2. Click the "Watch" drop-down at the top right, and choose "Custom.. Releases"
-3. Go to: https://github.com/settings/notifications
-4. Under "Subscriptions.. Participating, @mentions and custom", ensure that you have "Email" ticked
-
-You should now receive an email approximately every two weeks containing the changes made to the APIs since the last update.
-
-## Roadmap
-
-For planned changes, see the [Income Tax (Making Tax Digital) roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
+[Get notified about changes to these APIs](notifications/get-notified.md)
 
 ## Mapping APIs to Self Assessment tax return forms
 
-Many parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [Self Assessment tax return forms (GOV.UK)](https://www.gov.uk/self-assessment-tax-return-forms). Some APIs map to box numbers in more than one form.
-
-The following table shows which APIs are linked to which forms. To download the mapping information for a form as a CSV file, select the form number in the table.
-
-| Self Assessment tax return form mapping | Related APIs |
-| --------------------------------------- | ------------ |
-| [SA100](mapping/sa100_mapping_v2.csv)<br />Main tax return   | [individual-calculations-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-calculations-api) <br />[individuals-disclosures-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api) <br />[individuals-dividends-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api) <br />[individuals-employments-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api) <br />[individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api) <br />[individuals-savings-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-savings-income-api) <br />[individuals-state-benefits-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-state-benefits-api) <br />[self-assessment-accounts-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api) |
-| [SA101](mapping/sa101_mapping_v2.csv)<br />Additional Information | [individuals-charges-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-charges-api) <br />[individuals-disclosures-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api) <br />[individuals-dividends-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api) <br />[individuals-employments-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api) <br />[individuals-expenses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-expenses-api) <br />[individuals-foreign-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-foreign-income-api) <br />[individuals-insurance-policies-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-insurance-policies-income-api) <br />[individuals-other-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-other-income-api) <br />[individuals-pensions-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-pensions-income-api) <br />[individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api) <br />[individuals-savings-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-savings-income-api) <br />[other-deductions-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/other-deductions-api) |
-| [SA102](mapping/sa102_mapping_v2.csv)<br />Employment        | [individuals-expenses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-expenses-api) <br />[individuals-employments-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-employments-income-api) |
-| [SA103F](mapping/sa103f_mapping_v1.csv)<br />Self-employment (Full) | [cis-deductions-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/cis-deductions-api) <br />[individual-losses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) <br />[individuals-disclosures-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-disclosures-api) <br />[self-employment-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-employment-business-api) |
-| [SA105](mapping/sa105_mapping_v1.csv)<br />UK Property       | [individual-losses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) <br />[property-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) |
-| [SA106](mapping/sa106_mapping_v2.csv)<br />Foreign           | [individual-losses-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individual-losses-api) <br />[individuals-dividends-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-dividends-income-api) <br />[individuals-insurance-policies-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-insurance-policies-income-api) <br />[individuals-other-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-other-income-api) <br />[individuals-pensions-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-pensions-income-api) <br />[individuals-reliefs-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-reliefs-api) <br />[individuals-savings-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-savings-income-api) <br />[property-business-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/property-business-api) |
-| [SA108](mapping/sa108_mapping_v1.csv)<br />Capital Gains Summary | [individuals-capital-gains-income-api](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-capital-gains-income-api) |
+Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [Self Assessment tax return forms (GOV.UK)](https://www.gov.uk/self-assessment-tax-return-forms). For more information, see [Mapping CSV files](mapping/mapping-csv-files).
 
 ## Changelog
 
-Please note that the date shown is the date that the change was released to the Sandbox or Production.
+**Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
 
