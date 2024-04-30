@@ -6,7 +6,7 @@ This page contains a log of the latest changes for [Income Tax (Making Tax Digit
 
 ## Mapping APIs to Self Assessment tax return forms
 
-Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [Self Assessment tax return forms (GOV.UK)](https://www.gov.uk/self-assessment-tax-return-forms). For more information, see [Mapping CSV files](mapping/mapping-csv-files).
+Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [Self Assessment tax return forms (GOV.UK)](https://www.gov.uk/self-assessment-tax-return-forms). For more information, see [Mapping CSV files](mapping/mapping-csv-files.md).
 
 ## Changelog
 
