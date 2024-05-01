@@ -17,7 +17,7 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 The following change is now available in Sandbox:
 
-#### property-business-api-v4
+#### property-business-api v4
 
 These endpoints:
 
