@@ -19,7 +19,16 @@ The following change is now available in Sandbox:
 
 #### property-business-api v4
 
-- Endpoints will no longer return HATEOAS links.
+These endpoints no longer return HATEOAS links:
+
+- `Create an Historic FHL UK Property Annual Submission`
+- `Amend an Historic FHL UK Property Annual Submission`
+- `Retrieve an Historic FHL UK Property Annual Submission`
+- `Delete an Historic FHL UK Property Annual Submission`
+- `Create an Historic Non FHL UK Property Annual Submission`
+- `Amend an Historic Non FHL UK Property Annual Submission`
+- `Retrieve an Historic Non FHL UK Property Annual Submission`
+- `Delete an Historic Non FHL UK Property Annual Submission`
 
 ### 30 April 2024
 
