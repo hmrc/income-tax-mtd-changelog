@@ -16,8 +16,10 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 ### 1 May 2024
 
 The following change is now available in Sandbox:
-#### self-assessment-accounts-api v3
-- Added optional `poaRelevantAmount` to `Retrieve Self Assessment Balance and Transactions`.
+
+#### property-business-api v4
+
+- Endpoints will no longer return HATEOAS links.
 
 ### 30 April 2024
 
@@ -26,14 +28,7 @@ The following changes are now available in Sandbox:
 `Retrieve a Self Assessment Tax Calculation` now supports `totalTaxableTransitionProfit` and `transitionProfitDetail` within the new `transitionProfit` object.
 
 #### business-details-api v1
-All endpoints now support `STATEFUL` gov-test-scenario. 
-### 1 May 2024
-
-The following change is now available in Sandbox:
-
-#### property-business-api v4
-
-Endpoints will no longer return HATEOAS links.
+All endpoints now support `STATEFUL` gov-test-scenario.
 
 ### 17 April 2024
 
