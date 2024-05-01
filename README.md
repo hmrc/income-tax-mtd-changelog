@@ -13,6 +13,13 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 1 May 2024
+
+The following change is now available in Sandbox:
+
+#### property-business-api-v4
+
+Endpoints will no longer return HATEOAS links.
 
 ### 17 April 2024
 
