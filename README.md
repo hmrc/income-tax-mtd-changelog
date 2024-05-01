@@ -27,6 +27,13 @@ The following changes are now available in Sandbox:
 
 #### business-details-api v1
 All endpoints now support `STATEFUL` gov-test-scenario. 
+### 1 May 2024
+
+The following change is now available in Sandbox:
+
+#### property-business-api v4
+
+Endpoints will no longer return HATEOAS links.
 
 ### 17 April 2024
 
