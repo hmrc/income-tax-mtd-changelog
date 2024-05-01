@@ -29,10 +29,9 @@ These endpoints no longer return HATEOAS links:
 - `Amend an Historic Non FHL UK Property Annual Submission`
 - `Retrieve an Historic Non FHL UK Property Annual Submission`
 - `Delete an Historic Non FHL UK Property Annual Submission`
-- Endpoints will no longer return HATEOAS links.
 
 #### self-assessment-accounts-api v3
-- Added optional `poaRelevantAmount` to `Retrieve Self Assessment Balance and Transactions`.
+- Added optional `poaRelevantAmount` to `Retrieve Self Assessment Balance and Transactions` for tax years from 2024-25.
 
 ---
 
