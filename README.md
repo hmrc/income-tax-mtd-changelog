@@ -30,6 +30,15 @@ These endpoints no longer return HATEOAS links:
 - `Retrieve an Historic Non FHL UK Property Annual Submission`
 - `Delete an Historic Non FHL UK Property Annual Submission`
 
+### 30 April 2024
+
+The following changes are now available in Sandbox:
+#### individual-calculations-api v5
+`Retrieve a Self Assessment Tax Calculation` now supports `totalTaxableTransitionProfit` and `transitionProfitDetail` within the new `transitionProfit` object.
+
+#### business-details-api v1
+All endpoints now support `STATEFUL` gov-test-scenario.
+
 ### 17 April 2024
 
 The following change is now available in Sandbox:
