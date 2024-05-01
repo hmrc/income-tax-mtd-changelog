@@ -14,6 +14,15 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
+
+### 30 April 2024
+
+The following change is now available in Sandbox:
+#### individual-calculations-api
+`Retrieve a Self Assessment Tax Calculation` now supports `totalTaxableTransitionProfit` and `transitionProfitDetail` within the new `transitionProfit`.
+
+* Addendum: `business-details-api` Version 1.0 now supports a `STATEFUL` gov-test-scenario. 
+
 ### 17 April 2024
 
 The following change is now available in Sandbox:
