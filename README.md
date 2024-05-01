@@ -21,7 +21,7 @@ The following change is now available in Sandbox:
 #### individual-calculations-api
 `Retrieve a Self Assessment Tax Calculation` now supports `totalTaxableTransitionProfit` and `transitionProfitDetail` within the new `transitionProfit`.
 
-* Addendum: `business-details-api` Version 1.0 now supports a `STATEFUL` gov-test-scenario. 
+#### Addendum: `business-details-api` Version 1.0 now supports a `STATEFUL` gov-test-scenario. 
 
 ### 17 April 2024
 
