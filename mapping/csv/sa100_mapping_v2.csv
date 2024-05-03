@@ -25,7 +25,7 @@
 "Income (Interest & divs from UK banks etc)","INC5","Other dividends - the amount received","Individuals Dividends Income","Create and Amend a UK Dividends Income Annual Summary","otherUkDividends",""
 "Income (Interest & divs from UK banks etc)","INC6","Foreign dividends (up to GBP2,000) - the amount in sterling after foreign tax was taken off. Do not include this amount in the 'Foreign' pages","Individuals Dividends Income","Create and Amend Dividends Income","foreignDividend > taxableAmount",""
 "Income (Interest & divs from UK banks etc)","INC7","Tax taken off foreign dividends - the sterling equivalent","Individuals Dividends Income","Create and Amend Dividends Income","foreignDividend > taxTakenOff",""
-"Income (UK Pension, annuities etc)","INC8","State Pension - amount you were entitled to receive in the year, not the weekly or 4-weekly amount","Individuals State Benefits","Create State Benefit","benefitType  > statePension"
+"Income (UK Pension, annuities etc)","INC8","State Pension - amount you were entitled to receive in the year, not the weekly or 4-weekly amount","Individuals State Benefits","Create State Benefit","benefitType  > statePension",""
 "Income (UK Pension, annuities etc)","INC8","State Pension - amount you were entitled to receive in the year, not the weekly or 4-weekly amount -","Individuals State Benefits","Amend State Benefit Amounts","amount"
 "Income (UK Pension, annuities etc)","INC9","State Pension lump sum - the gross amount of any lump sum","Individuals State Benefits","Create State Benefit","benefitType  > statePensionLumpSum"
 "Income (UK Pension, annuities etc)","INC9","State Pension lump sum - the gross amount of any lump sum","Individuals State Benefits","Amend State Benefit Amounts","amount"
