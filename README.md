@@ -13,6 +13,22 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 10 May 2024 (TBC)
+
+The following change is now available in Sandbox:
+
+#### individuals-calculation-api v4
+
+The following fields within the `transitionProfit` object will now only contain whole numbers (integers) from 0 to 99999999999:
+
+- `totalTaxableTransitionProfit`
+- `transitionProfitDetail.totalTransitionProfit`
+- `transitionProfitDetail.remainingBroughtForwardIncomeTaxLosses`
+- `transitionProfitDetail.broughtForwardIncomeTaxLossesUsed`
+- `transitionProfitDetail.transitionProfitsAfterIncomeTaxLossDeductions`
+
+for `Retrieve a Self Assessment Tax Calculation`. 
+
 ### 1 May 2024
 
 The following change is now available in Sandbox:
