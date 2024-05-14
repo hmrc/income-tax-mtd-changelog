@@ -22,13 +22,16 @@ The following change is now available in Sandbox.
 Existing API version v5.0 updated with the following changes.
 
 ##### Changed
-Update Retrieve a Self Assessment Tax Calculation `transitionProfit` fields to contain only integers from 0 to 99999999999:
+
+Update Retrieve a Self Assessment Tax Calculation `calculation` > `transitionProfit` fields to contain only integers from 0 to 99999999999:
 
 - `totalTaxableTransitionProfit`
 - `transitionProfitDetail.totalTransitionProfit`
 - `transitionProfitDetail.remainingBroughtForwardIncomeTaxLosses`
 - `transitionProfitDetail.broughtForwardIncomeTaxLossesUsed`
 - `transitionProfitDetail.transitionProfitsAfterIncomeTaxLossDeductions`
+
+This change applies only to the `TY 2024-5 or later` schema.
 
 ### 1 May 2024
 
