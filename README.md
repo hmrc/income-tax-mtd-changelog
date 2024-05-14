@@ -22,7 +22,7 @@ Existing API version v5.0 is updated with the following changes.
 
 ##### Changed
 
-- Make `calculation.foreignPropertyIncome.totalExpenses` field accept both negative and positive values 
+- Retrieve a Self Assessment Tax Calculation `calculation.foreignPropertyIncome.totalExpenses` field supports negative values
 
 ### 1 May 2024
 
