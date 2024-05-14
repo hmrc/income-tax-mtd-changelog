@@ -15,14 +15,21 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 ---
 ### 14 May 2024
 
-The following change is available in Sandbox and Production:
-
 ####  Individual Calculations API
-Existing API version v5.0 is updated with the following changes.
+
+Existing API version v5.0 updated with the following changes.
 
 ##### Changed
 
-- Retrieve a Self Assessment Tax Calculation `calculation.foreignPropertyIncome.totalExpenses` field supports negative values
+Retrieve a Self Assessment Tax Calculation endpoint:
+
+- `calculation.foreignPropertyIncome.totalExpenses` field supports negative values
+- (Sandbox only) TY 2024-25 or later schema `calculation.transitionProfit` fields contain only integers from 0 to 99999999999:
+  - `totalTaxableTransitionProfit`
+  - `transitionProfitDetail.totalTransitionProfit`
+  - `transitionProfitDetail.remainingBroughtForwardIncomeTaxLosses`
+  - `transitionProfitDetail.broughtForwardIncomeTaxLossesUsed`
+  - `transitionProfitDetail.transitionProfitsAfterIncomeTaxLossDeductions`
 
 ### 1 May 2024
 
