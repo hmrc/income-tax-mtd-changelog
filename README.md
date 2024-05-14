@@ -23,8 +23,8 @@ Existing API version v5.0 updated with the following changes.
 
 Retrieve a Self Assessment Tax Calculation endpoint:
 
-- `calculation.foreignPropertyIncome.totalExpenses` field supports negative values
-- (Sandbox only) TY 2024-25 or later schema `calculation.transitionProfit` fields contain only integers from 0 to 99999999999:
+- Sandbox and Production: Add support for negative values to `calculation.foreignPropertyIncome.totalExpenses` field
+- Sandbox only: In `TY 2024-25 or later` schema, change the following `calculation.transitionProfit` fields to return only integers from 0 to 99999999999 (previously returned values to 2 decimal places):
   - `totalTaxableTransitionProfit`
   - `transitionProfitDetail.totalTransitionProfit`
   - `transitionProfitDetail.remainingBroughtForwardIncomeTaxLosses`
