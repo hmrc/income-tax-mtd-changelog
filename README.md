@@ -13,6 +13,17 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 14 May 2024
+
+The following change is available in Sandbox and Production:
+
+####  Individuals Calculations API
+Existing API versions v5.0 and v6.0 are updated with the following changes.
+
+##### Changed
+
+- Make `calculation.foreignPropertyIncome.totalExpenses` field accept both negative and postive values 
+
 ### 1 May 2024
 
 The following change is now available in Sandbox:
