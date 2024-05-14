@@ -31,7 +31,7 @@ Update Retrieve a Self Assessment Tax Calculation `calculation` > `transitionPro
 - `transitionProfitDetail.broughtForwardIncomeTaxLossesUsed`
 - `transitionProfitDetail.transitionProfitsAfterIncomeTaxLossDeductions`
 
-This change applies only to the `TY 2024-5 or later` schema.
+This change applies only to the `TY 2024-25 or later` schema.
 
 ### 1 May 2024
 
