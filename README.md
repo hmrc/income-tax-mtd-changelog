@@ -34,11 +34,10 @@ Existing API version 1.0 updated with the following changes.
 
 Create and Amend Other Income endpoint:
 
-Add missing validation for the following `postCessationReceipts` fields in the `TY 2023-24 or later` schema as per the API documentation:
-- `amount`
-- `taxYearIncomeToBeTaxed`
-
-Amend API documentation to add missing `FORMAT_DATE` error.
+- Add missing validation for the following `postCessationReceipts` fields in the `TY 2023-24 or later` schema as per the API documentation:
+  - `amount`
+  - `taxYearIncomeToBeTaxed`
+- Amend API documentation to add missing `FORMAT_DATE` error.
 
 ---
 
@@ -60,6 +59,8 @@ Retrieve a Self Assessment Tax Calculation endpoint:
   - `transitionProfitDetail.broughtForwardIncomeTaxLossesUsed`
   - `transitionProfitDetail.transitionProfitsAfterIncomeTaxLossDeductions`
 
+---
+
 ### 1 May 2024
 
 The following change is now available in Sandbox:
@@ -77,6 +78,8 @@ These endpoints no longer return HATEOAS links:
 - `Retrieve an Historic Non FHL UK Property Annual Submission`
 - `Delete an Historic Non FHL UK Property Annual Submission`
 
+---
+
 ### 30 April 2024
 
 The following changes are now available in Sandbox:
@@ -85,6 +88,8 @@ The following changes are now available in Sandbox:
 
 #### business-details-api v1
 All endpoints now support `STATEFUL` gov-test-scenario.
+
+---
 
 ### 17 April 2024
 
@@ -197,17 +202,11 @@ A `STATEFUL` Gov-Test-Scenario has been added for the below endpoints:
 
 You can test the Self-Employment and Property Business user journeys by submitting data by using the Property Business API or the Self Employment API and then adjusting these values by using the Business Source Adjustable Summary API.
 
----
-
-### 10 April 2024
-
 The following change is available in Sandbox and Production:
 
 #### individual-calculations-api
 
 Add content about Self Assessment tax return form mappings to landing page and API reference of all available versions of the API.
-
----
 
 The following change is available in Sandbox:
 
@@ -256,10 +255,6 @@ This API enables you to retrieve, create, amend or delete data relating to pensi
 #### individuals-savings-income-api
 
 This API enables you to retrieve, create, amend or delete data relating to savings income.
-
----
-
-### 9 April 2024
 
 The following changes are available in Sandbox and Production.
 
