@@ -22,7 +22,7 @@ The following change is now available in Sandbox.
 
 Existing API version 1.0 updated with the following changes.
 
-##### Added
+##### Fixed
 
 Create and Amend Other Income endpoint:
 
