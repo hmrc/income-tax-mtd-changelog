@@ -26,13 +26,9 @@ Existing API version 1.0 updated with the following changes.
 
 Create and Amend Other Income endpoint:
 
-Added validation for `postCessationReceipts` parameters in `TY 2023-24 or later` schema:
-- `amount`:
-    - values cannot be negative
-- `taxYearIncomeToBeTaxed`:
-    - format must be YYYY-YY
-    - range must be exactly one year
-    - minimum year 2010, maximum year 2099 
+Added missing validation for the following `postCessationReceipts` fields in the `TY 2023-24 or later` schema as per the API documentation:
+- `amount`
+- `taxYearIncomeToBeTaxed`
 
 API documentation amended to add missing `FORMAT_DATE` error.
 
