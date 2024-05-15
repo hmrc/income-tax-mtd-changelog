@@ -13,11 +13,32 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
+### 15 May 2024 
+
+The following change is now available in Sandbox.
+
+#### Individuals Other Income API 
+
+Existing API version 1.0 updated with the following changes.
+
+##### Fixed
+
+Create and Amend Other Income endpoint:
+
+Added missing validation for the following `postCessationReceipts` fields in the `TY 2023-24 or later` schema as per the API documentation:
+- `amount`
+- `taxYearIncomeToBeTaxed`
+
+API documentation amended to add missing `FORMAT_DATE` error.
+
+---
+
 ### 14 May 2024
 
 ####  Individual Calculations API
 
-Existing API version v5.0 updated with the following changes.
+Existing API version 5.0 updated with the following changes.
 
 ##### Changed
 
