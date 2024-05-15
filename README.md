@@ -24,7 +24,7 @@ Existing API version 4.0 (currently in Sandbox only) updated with the following 
 
 ##### Changed
 
-All remaining HATEOAS links have been removed. HATEOAS links are no longer returned in the API responses, from version 4.0 onwards.
+Remove all remaining HATEOAS links. HATEOAS links are no longer returned in API responses from version 4.0 onwards.
 
 #### Individuals Other Income API 
 
@@ -34,11 +34,11 @@ Existing API version 1.0 updated with the following changes.
 
 Create and Amend Other Income endpoint:
 
-Added missing validation for the following `postCessationReceipts` fields in the `TY 2023-24 or later` schema as per the API documentation:
+Add missing validation for the following `postCessationReceipts` fields in the `TY 2023-24 or later` schema as per the API documentation:
 - `amount`
 - `taxYearIncomeToBeTaxed`
 
-API documentation amended to add missing `FORMAT_DATE` error.
+Amend API documentation to add missing `FORMAT_DATE` error.
 
 ---
 
