@@ -16,7 +16,15 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ### 15 May 2024 
 
-The following change is now available in Sandbox.
+The following changes are now available in Sandbox.
+
+#### Property Business API
+
+Existing API version 4.0 (currently in Sandbox only) updated with the following changes.
+
+##### Changed
+
+All remaining HATEOAS links have been removed. HATEOAS links are no longer returned in the API responses, from version 4.0 onwards.
 
 #### Individuals Other Income API 
 
