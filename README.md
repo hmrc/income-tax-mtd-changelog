@@ -13,6 +13,23 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 16 May 2024
+
+#### Self Assessment BSAS API
+
+New API version 5.0 added with the following changes.
+
+##### Changed
+
+For:
+- Retrieve a UK Property Business Source Adjustable Summary endpoint
+- Retrieve a Foreign Property Business Source Adjustable Summary endpoint
+- Submit Foreign Property Accounting Adjustments endpoint
+- Submit UK Property Accounting Adjustments endpoint
+
+- Sandbox only:
+  - Add support for negative values to all `expense` and `totalExpense` fields under 'Foreign Period Property' and 'UK period property' to return a monetary value (to 2 decimal places), between -99999999999.99 and 99999999999.99 except for `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields.
+  - Add support for `residentialFinancialCost` to only accept positive values.
 
 ### 15 May 2024 
 
