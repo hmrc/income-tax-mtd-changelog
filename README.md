@@ -13,6 +13,28 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 17 May 2024
+
+The following changes are now available in Sandbox.
+
+#### Business Source Adjustable Summary API
+
+New API version 5.0 added with the following changes.
+
+##### Changed
+
+For these endpoints:
+
+- Retrieve a UK Property Business Source Adjustable Summary
+- Retrieve a Foreign Property Business Source Adjustable Summary
+  - Add support for negative values to `totalExpenses` field and all fields in `expenses` object except for `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields.
+
+
+- Submit Foreign Property Accounting Adjustments
+- Submit UK Property Accounting Adjustments
+  - Add support for negative values to all fields in `expenses` object except for `residentialFinancialCost` field.
+
+---
 
 ### 15 May 2024 
 
