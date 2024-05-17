@@ -31,6 +31,7 @@ For these endpoints:
 - Submit UK Property Accounting Adjustments
 
   - Add support for negative values to `totalExpenses` fields and all fields in `expenses` object except for `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields.
+
 ---
 
 ### 15 May 2024 
