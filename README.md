@@ -27,7 +27,9 @@ For these endpoints:
 
 - Retrieve a UK Property Business Source Adjustable Summary
 - Retrieve a Foreign Property Business Source Adjustable Summary
-  - Add support for negative values `tototalExpenses` field and all fields in `expenses` object except for `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields.
+  - Add support for negative values to `totalExpenses` field and all fields in `expenses` object except for `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields.
+
+
 - Submit Foreign Property Accounting Adjustments
 - Submit UK Property Accounting Adjustments
   - Add support for negative values to all fields in `expenses` object except for `residentialFinancialCost` field.
