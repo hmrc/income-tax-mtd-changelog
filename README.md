@@ -13,6 +13,21 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
+### 24 May 2024
+
+The following changes are now available in Sandbox and Production.
+
+#### Business Source Adjustable Summary API
+
+All versions and endpoints have the following bug fix.
+
+##### Fixed
+
+Under certain conditions a 400 FORMAT_NINO error response could be incorrectly returned instead of a 403 CLIENT_OR_AGENT_NOT_AUTHORISED error response.
+
+---
+
 ### 17 May 2024
 
 The following changes are now available in Sandbox.
