@@ -1,4 +1,4 @@
-# Income Tax (Making Tax Digital) Changelog
+# Income Tax (Making Tax Digital) API Changelog
 
 This page contains a log of the latest changes for [Income Tax (Making Tax Digital) APIs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd). For information about planned changes to these APIs, see [Income Tax (Making Tax Digital) roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
 
