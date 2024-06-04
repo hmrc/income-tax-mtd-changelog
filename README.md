@@ -14,6 +14,29 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
+### 4 Jun 2024
+
+The following changes are now available in Sandbox and Production.
+
+#### Property Business API
+
+* Update the `consolidatedExpenses` parameter description in all versions of the API documentation for endpoints:
+  * `Create a UK Property Income & Expenses Period Summary`
+  * `Retrieve a UK Property Income & Expenses Period Summary`
+  * `Amend a UK Property Income & Expenses Period Summary`
+  * `Create a Foreign Property Income & Expenses Period Summary`
+  * `Retrieve a Foreign Property Income & Expenses Period Summary`
+  * `Amend a Foreign Property Income & Expenses Period Summary`
+
+#### Self-Employment Business API
+
+* Update the `consolidatedExpenses` parameter description in all versions of the API documentation for endpoints:
+  * `Retrieve a Self-Employment Period Summary`
+  * `Create a Self-Employment Period Summary`
+  * `Amend a Self-Employment Period Summary`
+
+---
+
 ### 24 May 2024
 
 The following changes are now available in Sandbox and Production.
