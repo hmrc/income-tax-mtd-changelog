@@ -22,7 +22,7 @@ The following changes are now available in Sandbox and Production for all versio
 
 ##### Changed
 
-Update the `consolidatedExpenses` parameter description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
+Update the `consolidatedExpenses` field description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
   
 * Create a UK Property Income & Expenses Period Summary
 * Retrieve a UK Property Income & Expenses Period Summary
@@ -35,7 +35,7 @@ Update the `consolidatedExpenses` parameter description in API documentation to 
 
 ##### Changed
 
-Update the `consolidatedExpenses` parameter description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
+Update the `consolidatedExpenses` field description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
   
 * Retrieve a Self-Employment Period Summary
 * Create a Self-Employment Period Summary
