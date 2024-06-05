@@ -43,6 +43,19 @@ Update the `consolidatedExpenses` field description in API documentation to clar
 
 ---
 
+### 29 May 2024
+
+The following changes are now available in Sandbox.
+
+#### Business Source Adjustable Summary API
+
+Stateful Submit Accounting Adjustments has the following changes.
+
+##### Changed
+
+RULE_TYPE_OF_BUSINESS_INCORRECT is now returned when the calculation ID supplied relates to a different type of business.
+
+---
 ### 24 May 2024
 
 The following changes are now available in Sandbox and Production.
