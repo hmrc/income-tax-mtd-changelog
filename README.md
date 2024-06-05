@@ -49,11 +49,15 @@ The following changes are now available in Sandbox.
 
 #### Business Source Adjustable Summary API
 
-Stateful Submit Accounting Adjustments has the following changes.
-
 ##### Changed
 
-RULE_TYPE_OF_BUSINESS_INCORRECT is now returned when the calculation ID supplied relates to a different type of business.
+In versions 3.0 and above of these endpoints:
+
+- Submit Self-Employment Accounting Adjustments
+- Submit UK Property Accounting Adjustments
+- Submit Foreign Property Accounting Adjustments
+
+RULE_TYPE_OF_BUSINESS_INCORRECT is now returned when the `calculationID` supplied relates to a different type of business.
 
 ---
 ### 24 May 2024
