@@ -43,6 +43,23 @@ Update the `consolidatedExpenses` field description in API documentation to clar
 
 ---
 
+### 29 May 2024
+
+The following changes are now available in Sandbox.
+
+#### Business Source Adjustable Summary API
+
+##### Changed
+
+In versions 3.0 and above of these endpoints:
+
+- Submit Self-Employment Accounting Adjustments
+- Submit UK Property Accounting Adjustments
+- Submit Foreign Property Accounting Adjustments
+
+RULE_TYPE_OF_BUSINESS_INCORRECT is now returned when using the STATEFUL Gov-Test-Scenario and the `calculationID` supplied relates to a different type of business.
+
+---
 ### 24 May 2024
 
 The following changes are now available in Sandbox and Production.
