@@ -57,7 +57,7 @@ In versions 3.0 and above of these endpoints:
 - Submit UK Property Accounting Adjustments
 - Submit Foreign Property Accounting Adjustments
 
-RULE_TYPE_OF_BUSINESS_INCORRECT is now returned when the `calculationID` supplied relates to a different type of business.
+RULE_TYPE_OF_BUSINESS_INCORRECT is now returned when using the STATEFUL Gov-Test-Scenario and the `calculationID` supplied relates to a different type of business.
 
 ---
 ### 24 May 2024
