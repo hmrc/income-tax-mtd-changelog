@@ -396,7 +396,7 @@ Deprecated endpoints will now return the following response headers:
 - Sunset (if available) - date/time after which the endpoint may not be available
 
 For more details, see
-the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
+the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers.
 
 ---
 
@@ -413,7 +413,7 @@ Deprecated endpoints will now return the following response headers:
 - Sunset (if available) - date/time after which the endpoint may not be available
 
 For more details, see
-the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
+the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers.
 
 ---
 
@@ -443,7 +443,7 @@ Deprecated endpoints will now return the following response headers:
 - Sunset (if available) - date/time after which the endpoint may not be available
 
 For more details, see
-the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
+the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers.
 
 ---
 
@@ -460,7 +460,7 @@ Deprecated endpoints will now return the following response headers:
 - Sunset (if available) - date/time after which the endpoint may not be available
 
 For more details, see
-the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/api-deprecation-guidance.html#indicating-deprecation-in-headers).
+the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers.
 
 
 ---
@@ -2353,4 +2353,4 @@ You can create a GitHub issue [here](https://github.com/hmrc/income-tax-mtd-chan
 ## License
 
 This code is open source software licensed under
-the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
+the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
