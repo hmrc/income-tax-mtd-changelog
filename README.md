@@ -39,7 +39,7 @@ The following changes are now available in Sandbox for all versions of the below
 
 ##### Fixed
 
-Fix so that INVALID_REQUEST is no longer incorrectly returned when the following endpoints are used:
+INVALID_REQUEST is no longer incorrectly returned when the following endpoints are used:
 * Retrieve CIS Deductions for Subcontractor
 * Amend CIS Deductions for Subcontractor
 * Delete CIS Deductions for Subcontractor
