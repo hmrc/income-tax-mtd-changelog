@@ -31,6 +31,21 @@ For more details, see the [service guide](https://developer.service.hmrc.gov.uk/
 
 ---
 
+### 5 June 2024
+
+The following changes are now available in Sandbox for all versions of the below APIs.
+
+#### CIS Deductions API
+
+##### Fixed
+
+INVALID_REQUEST is no longer incorrectly returned when the following endpoints are used:
+* Retrieve CIS Deductions for Subcontractor
+* Amend CIS Deductions for Subcontractor
+* Delete CIS Deductions for Subcontractor
+
+---
+
 ### 4 June 2024
 
 The following changes are now available in Sandbox and Production for all versions of the below APIs.
