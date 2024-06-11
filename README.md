@@ -34,7 +34,7 @@ Existing version 1.0 updated in Sandbox with the following change.
 
 ##### Changed
 
-Update the API documentation to include details of the `quarterlyTypeChoice` object.
+Update the API documentation to include details of the `quarterlyTypeChoice` object within the Create a Test Business endpoint.
 
 ---
 
