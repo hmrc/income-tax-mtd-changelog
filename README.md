@@ -17,6 +17,23 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 The following changes are now available in Sandbox and Production for all versions of the below APIs.
 
+#### Individuals Employment Income API
+
+##### Fixed
+
+For the  Create and Amend Other Employment Income endpoint the paths returned for some fields under lumpSums reported as part of FORMAT_VALUE errors were incorrectly suffixed with “Item”:
+
+- benefitFromEmployerFinancedRetirementSchemeItem path element should be benefitFromEmployerFinancedRetirementScheme
+- redundancyCompensationPaymentsOverExemptionItem path element should be redundancyCompensationPaymentsOverExemption
+- redundancyCompensationPaymentsUnderExemptionItem path element should be redundancyCompensationPaymentsUnderExemption
+
+For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers).
+
+---
+### 11 June 2024
+
+The following changes are now available in Sandbox and Production for all versions of the below APIs.
+
 #### Self Employment Business API
 
 ##### Added
