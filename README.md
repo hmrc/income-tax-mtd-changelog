@@ -33,7 +33,7 @@ The following change is available in Sandbox for the following API.
 
 ##### Added
 
-quarterlyTypeChoice object to example requests for "Create a Test Business" scenarios.
+quarterlyTypeChoice object to example requests and the request body schema for "Create a Test Business" scenarios.
 
 ---
 
