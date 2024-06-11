@@ -15,9 +15,9 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 ---
 ### 11 June 2024
 
-The following changes are now available in Sandbox and Production for all versions of the below APIs.
-
 #### Self Employment Business API
+
+The following changes are now available in Sandbox and Production for all versions.
 
 ##### Added
 
@@ -28,13 +28,21 @@ Deprecated endpoints return the following response headers:
 
 For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers).
 
+#### Self Assessment Test Support API
+
+Existing version 1.0 updated in Sandbox with the following change.
+
+##### Changed
+
+Update the API documentation to include details of the `quarterlyTypeChoice` object within the Create a Test Business endpoint.
+
 ---
 
 ### 6 June 2024
 
-The following changes are now available in Sandbox and Production for all versions of the below APIs.
-
 #### Self Assessment Individual Details API
+
+The following changes are now available in Sandbox and Production for all versions.
 
 ##### Added
 
@@ -49,9 +57,9 @@ For more details, see the [service guide](https://developer.service.hmrc.gov.uk/
 
 ### 5 June 2024
 
-The following changes are now available in Sandbox for all versions of the below APIs.
-
 #### CIS Deductions API
+
+The following changes are now available in Sandbox for all versions.
 
 ##### Fixed
 
@@ -64,9 +72,9 @@ INVALID_REQUEST is no longer incorrectly returned when the following endpoints a
 
 ### 4 June 2024
 
-The following changes are now available in Sandbox and Production for all versions of the below APIs.
-
 #### Property Business API
+
+The following changes are now available in Sandbox and Production for all versions.
 
 ##### Changed
 
@@ -81,6 +89,8 @@ Update the `consolidatedExpenses` field description in API documentation to clar
 
 #### Self-Employment Business API
 
+The following changes are now available in Sandbox and Production for all versions.
+
 ##### Changed
 
 Update the `consolidatedExpenses` field description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
@@ -93,9 +103,9 @@ Update the `consolidatedExpenses` field description in API documentation to clar
 
 ### 29 May 2024
 
-The following changes are now available in Sandbox.
-
 #### Business Source Adjustable Summary API
+
+The following changes are now available in Sandbox.
 
 ##### Changed
 
@@ -110,11 +120,9 @@ RULE_TYPE_OF_BUSINESS_INCORRECT is now returned when using the STATEFUL Gov-Test
 ---
 ### 24 May 2024
 
-The following changes are now available in Sandbox and Production.
-
 #### Business Source Adjustable Summary API
 
-All versions and endpoints have the following bug fix.
+The following changes are now available in Sandbox and Production for all endpoints and versions.
 
 ##### Fixed
 
@@ -124,11 +132,9 @@ Under certain conditions a 400 FORMAT_NINO error response could be incorrectly r
 
 ### 17 May 2024
 
-The following changes are now available in Sandbox.
-
 #### Business Source Adjustable Summary API
 
-New API version 5.0 added with the following changes.
+New API version 5.0 added in Sandbox with the following changes.
 
 ##### Changed
 
@@ -147,8 +153,6 @@ For these endpoints:
 
 ### 15 May 2024 
 
-The following changes are now available in Sandbox.
-
 #### Property Business API
 
 Existing API version 4.0 (currently in Sandbox only) updated with the following changes.
@@ -159,7 +163,7 @@ Remove all remaining HATEOAS links. HATEOAS links are no longer returned in API 
 
 #### Individuals Other Income API 
 
-Existing API version 1.0 updated with the following changes.
+Existing API version 1.0 updated in Sandbox with the following changes.
 
 ##### Fixed
 
