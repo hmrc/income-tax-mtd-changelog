@@ -15,6 +15,18 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 ---
 ### 11 June 2024
 
+#### Individuals Employments Income API
+
+Existing version 1.0 updated in Sandbox with the following changes.
+
+##### Fixed
+
+Fix incorrect FORMAT_VALUE errors for Create and Amend Other Employment Income endpoint. The paths returned in FORMAT_VALUE errors for some fields under `lumpSums` were incorrectly suffixed with “Item”:
+
+- `benefitFromEmployerFinancedRetirementSchemeItem` path element corrected to `benefitFromEmployerFinancedRetirementScheme`
+- `redundancyCompensationPaymentsOverExemptionItem` path element corrected to `redundancyCompensationPaymentsOverExemption`
+- `redundancyCompensationPaymentsUnderExemptionItem` path element corrected to `redundancyCompensationPaymentsUnderExemption`
+
 #### Self Employment Business API
 
 The following changes are now available in Sandbox and Production for all versions.
