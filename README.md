@@ -29,11 +29,13 @@ Deprecated endpoints return the following response headers:
 For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers).
 
 The following change is available in Sandbox for the following API. 
-#### MTD SA Test Support API
+#### Self Assessment Test Support API
 
-##### Added
+The following change is available in Sandbox.
 
-quarterlyTypeChoice object to example requests and the request body schema for "Create a Test Business" scenarios.
+##### Changed
+
+Update the API documentation to include details of the `quarterlyTypeChoice` object.
 
 ---
 
