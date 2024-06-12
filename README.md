@@ -13,6 +13,22 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 12 June 2024
+
+#### Property Business API
+
+The following changes are now available in Sandbox and Production for all versions.
+
+##### Added
+
+Deprecated endpoints return the following response headers:
+- Deprecation - the deprecation date/time
+- Link - a link to the relevant API documentation
+- Sunset (if available) - date/time after which the endpoint may not be available
+
+For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers).
+
+---
 ### 11 June 2024
 
 #### Individuals Employments Income API
