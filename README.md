@@ -28,6 +28,14 @@ Deprecated endpoints return the following response headers:
 
 For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers).
 
+#### Individuals Charges API
+
+Existing version 2.0 updated in Sandbox and Production with the following change.
+
+##### Changed
+
+Update the API documentation with a warning that `lumpSumBenefitTakenInExcessOfLifetimeAllowance`and`benefitInExcessOfLifetimeAllowance` objects within the Create and Amend Pension Charges endpoint are obsolete.
+
 ---
 ### 11 June 2024
 
