@@ -30,9 +30,11 @@ For more details, see the [service guide](https://developer.service.hmrc.gov.uk/
 
 #### Individuals Charges API
 
+Existing version 2.0 updated in Sandbox and Production with the following change.
+
 ##### Changed
 
-Update the API documentation to include details of the `lumpSumBenefitTakenInExcessOfLifetimeAllowance`and`benefitInExcessOfLifetimeAllowance` objects within the Create & Amend Pension Charges endpoint.
+Update the API documentation with a warning that `lumpSumBenefitTakenInExcessOfLifetimeAllowance`and`benefitInExcessOfLifetimeAllowance` objects within the Create and Amend Pension Charges endpoint are obsolete.
 
 ---
 ### 11 June 2024
