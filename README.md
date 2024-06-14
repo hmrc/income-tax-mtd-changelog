@@ -14,75 +14,89 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 --- 
 ### 18 June 2024
-We are now live in production with Release 12 changes. Please find below the associated release note -
 
-As part of our continuing development of the Making Tax Digital (MTD) APIs, we are happy to inform you that we have released the following changes on 18 June 2024:
+#### Self Employment Business
 
-#### For the following APIs and their versions in production and sandbox: 
-- Self Employment Business v4.0,
-- Individual Calculations v5.0
-
-Changes to allow customers to declare any transitional profit they have.
+The following change is now available in Sandbox and Production for v4.0. 
 
 ##### Added
-- Added two new optional fields transitionProfitAmount, transitionProfitAccelerationAmount in annualAdjustmentsType object (#1885)
-- Added a new error code 400 and two new optional fields transitionProfitAmount, transitionProfitAccelerationAmount in annualAdjustmentsType object (#1802)
+
+Create and Amend Self-Employment Annual Submission endpoint:
+
+ - Added a new 400 error code and two new optional fields `transitionProfitAmount` and `transitionProfitAccelerationAmount` in `annualAdjustmentsType` object.
+
+#### Individual Calculations
+
+The following changes are now available in Sandbox and Production for v5.0.
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation endpoint:
+
+- Added two new optional fields `transitionProfitAmount` and `transitionProfitAccelerationAmount` in `annualAdjustmentsType` object.
 
 ##### Changed
-Updated fields within transitionProfit object to only accept whole numbers (#1885)
 
----
+Retrieve a Self Assessment Tax Calculation endpoint:
 
-For the following APIs and their versions in production and sandbox: 
-- Property Business v4.0,
-- Self Assessment Business Source Adjustable Summary v5.0, 
+- Updated fields within `transitionProfit` object to accept whole numbers only.
+
+- `cashorAccruals` and `documentDetails.documentDueDate` are now mandatory.
+
+- `transition.Profit` fields can return only integers from 0 to 99999999999 (Sandbox only, applies to tax years 2024-25 or later).
+
+
+#### Support for negative property income expenses
+
+Change now available for the following APIs in Sandbox and Production: 
+
+- Property Business v4.0
+- Self Assessment Business Source Adjustable Summary v5.0
 - Individual Calculations v5.0
 
 ##### Added
-Support for customers to submit negative expenses for their property income.
 
----
+Support for submitting negative expenses for property income.
 
-For Individual Calculations v5.0 in production and sandbox:
 
-##### Changed
-cashorAccruals and documentDetails.documentDueDate are now mandatory
+#### Self Assessment Individual Details
 
-For Individual Calculations v5.0 in sandbox only for tax years 2024-25 or later:
+The following change is now available in Sandbox and Production for v2.0.
 
-##### Changed
-transition.Profit fields can return only integers from 0 to 99999999999
+##### Added 
 
----
-
-For Self Assessment Individual Details v2.0 in production and sandbox:
-
-#### Added 
 A new enum value so that in the event a customer has opted out of MTD, 
 their customer status will change and this can be identified by software.
 
----
+#### Self Assessment Accounts
 
-For Self Assessment Accounts v3.0 in production and sandbox:
+The following change is now available in Sandbox and Production for v3.0:
 
 ##### Changed
-documentDueDate field is now optional
 
----
+`documentDueDate` field is now optional.
 
-For Property Business v4.0 in production and sandbox:
-#### Changed
-Combines rentARoom and amountClaimed values with a consolidatedExpenses value
-#### Added
+#### Property Business
+
+The following change is now available in Sandbox and Production for v4.0.
+
+##### Changed
+
+Combines rentARoom and amountClaimed values with a consolidatedExpenses value.
+
+##### Added
+
 Data fields that enable customers to submit residential finance costs 
 and brought-forward residential finance costs.
-#### Removed
-HATEOAS links
 
----
+##### Removed
+
+Remove HATEOAS links.
+
 
 #### New APIs
-Individuals Income Received API has been split into the following APIs in production and sandbox:
+
+Individuals Income Received API has been split into the following APIs in Production and Sandbox:
 - Individuals Foreign Income v1.0,
 - Individuals Insurance Policies Income v1.0,
 - Individuals Pensions Income v1.0,
@@ -92,26 +106,16 @@ Individuals Income Received API has been split into the following APIs in produc
 - Individuals Other Income v1.0,
 - Individuals Employments Income v1.0
 
-With all containing the following improvements:
+With all APIs containing the following improvements:
 - Removal of HATEOAS links
 - Update of enum value names for consistency
 - Addition of a new generic error
 
----
 
 #### Deprecated
+
 Please note the following API versions will be deprecated in the beginning of July 2024 
 and will retire after six months as per HMRC API Life Cycle & Deprecation Standards:
-
-- Self Assessment Business Source Adjustable Summary v4.0
-- Property Business v3.0
-- Self Assessment Individual Details v1.0
-
----
-
-#### Retired
-
-The following API versions will be retired by December 2024:
 
 - Self Assessment Business Source Adjustable Summary v4.0
 - Property Business v3.0
