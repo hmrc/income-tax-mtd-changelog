@@ -106,7 +106,7 @@ Individuals Income Received API has been split into the following APIs in Produc
 - Individuals Other Income v1.0,
 - Individuals Employments Income v1.0
 
-With all APIs containing the following improvements:
+with all APIs containing the following improvements:
 - Removal of HATEOAS links
 - Update of enum value names for consistency
 - Addition of a new generic error
@@ -114,7 +114,7 @@ With all APIs containing the following improvements:
 
 #### Deprecated
 
-Please note the following API versions will be deprecated in the beginning of July 2024 
+Please note the following API versions will be deprecated at the beginning of July 2024 
 and will retire after six months as per HMRC API Life Cycle & Deprecation Standards:
 
 - Self Assessment Business Source Adjustable Summary v4.0
