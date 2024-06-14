@@ -51,13 +51,10 @@ Retrieve a Self Assessment Tax Calculation endpoint:
 Change now available for the following APIs in Sandbox and Production: 
 
 - Property Business v4.0
+  - Foreign Property Income & Expenses Period Summary endpoint
 - Self Assessment Business Source Adjustable Summary v5.0
-- Individual Calculations v5.0
-
-##### Added
-
-Support for submitting negative expenses for property income.
-
+  - UK Property Income & Expenses Period Summary endpoint
+  - UK Property Accounting Adjustments endpoint
 
 #### Self Assessment Individual Details
 
@@ -65,8 +62,9 @@ The following change is now available in Sandbox and Production for v2.0.
 
 ##### Added 
 
-A new enum value so that in the event a customer has opted out of MTD, 
-their customer status will change and this can be identified by software.
+Get ITSA Status endpoint:
+
+New value for enum `status` so that in the event a customer has opted out of MTD they can select `No Status`.
 
 #### Self Assessment Accounts
 
@@ -74,19 +72,29 @@ The following change is now available in Sandbox and Production for v3.0:
 
 ##### Changed
 
+Retrieve Self Assessment Balance and Transactions endpoint:
+
 `documentDueDate` field is now optional.
 
 #### Property Business
 
-The following change is now available in Sandbox and Production for v4.0.
+The following change is now available in Sandbox and Production for v4.0 for the following endpoints: 
+
+- `Create a UK Property Income & Expenses Period Summary`
+- `Amend a UK Property Income & Expenses Period Summary`
+- `Retrieve a UK Property Income & Expenses Period Summary`
+- `Create a Foreign Property Income & Expenses Period Summary`
+- `Amend a Foreign Property Income & Expenses Period Summary`
+- `Retrieve a Foreign Property Income & Expenses Period Summary`
 
 ##### Changed
 
-Combines rentARoom and amountClaimed values with a consolidatedExpenses value.
+Endpoints now support combining `rentARoom` and `amountClaimed` values with a `consolidatedExpenses` value.
 
 ##### Added
 
-Data fields that enable customers to submit residential finance costs 
+`residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields 
+that enable customers to submit residential finance costs
 and brought-forward residential finance costs.
 
 ##### Removed
@@ -97,14 +105,14 @@ Remove HATEOAS links.
 #### New APIs
 
 Individuals Income Received API has been split into the following APIs in Production and Sandbox:
-- Individuals Foreign Income v1.0,
-- Individuals Insurance Policies Income v1.0,
-- Individuals Pensions Income v1.0,
-- Individuals Dividends Income v1.0,
-- Individuals Savings Income v1.0,
-- Individuals Capital Gains Income v1.0,
-- Individuals Other Income v1.0,
-- Individuals Employments Income v1.0
+- `Individuals Foreign Income v1.0`
+- `Individuals Insurance Policies Income v1.0`
+- `Individuals Pensions Income v1.0`
+- `Individuals Dividends Income v1.0`
+- `Individuals Savings Income v1.0`
+- `Individuals Capital Gains Income v1.0`
+- `Individuals Other Income v1.0`
+- `Individuals Employments Income v1.0`
 
 with all APIs containing the following improvements:
 - Removal of HATEOAS links
@@ -428,7 +436,7 @@ In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mand
 
 New API version v3.0 is now available.
 
-* The `Retrieve Balance and Transactions`response property `documentDueDate` is now optional.
+* The `Retrieve Balance and Transactions` response property `documentDueDate` is now optional.
 * New endpoints `Opt Out of Coding Out`, `Retrieve Coding Out Status` and `Opt in to Coding Out` are now available.
 
 All endpoints replace their respective v2 equivalents, which are now deprecated. Please use the new v3 endpoints instead.
