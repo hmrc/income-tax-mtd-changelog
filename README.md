@@ -48,7 +48,7 @@ Retrieve a Self Assessment Tax Calculation endpoint:
 
 #### Support for negative property income expenses
 
-Change now available for the following APIs in Sandbox and Production: 
+Change now available for the following APIs in Sandbox and Production for the `expenses` field object: 
 
 - Property Business v4.0
   - Foreign Property Income & Expenses Period Summary endpoint
