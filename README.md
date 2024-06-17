@@ -78,7 +78,7 @@ Retrieve Self Assessment Balance and Transactions endpoint:
 
 #### Property Business
 
-The following change is now available in Sandbox and Production for v4.0 for the following endpoints: 
+The following changes are now available in Sandbox and Production for v4.0 for the following endpoints: 
 
 - `Create a UK Property Income & Expenses Period Summary`
 - `Amend a UK Property Income & Expenses Period Summary`
