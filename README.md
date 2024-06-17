@@ -18,7 +18,7 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 The following change is now available in Sandbox and Production.
 
-#### Changed
+##### Changed
 Internal report generation `links` object now returns a list of tuple objects, consisting of titles and urls. 
 - `"title": "[ITSA Guidance, Income Source Guidance]",
   "url": "[www.itsa.gov.uk, www.itsa/incomesources.gov.uk]"` corrected to `{
