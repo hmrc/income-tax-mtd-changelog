@@ -84,12 +84,12 @@ Retrieve Self Assessment Balance and Transactions endpoint:
 
 The following changes are now available in Sandbox and Production for v4.0 for the following endpoints: 
 
-- `Create a UK Property Income & Expenses Period Summary`
-- `Amend a UK Property Income & Expenses Period Summary`
-- `Retrieve a UK Property Income & Expenses Period Summary`
-- `Create a Foreign Property Income & Expenses Period Summary`
-- `Amend a Foreign Property Income & Expenses Period Summary`
-- `Retrieve a Foreign Property Income & Expenses Period Summary`
+- Create a UK Property Income & Expenses Period Summary
+- Amend a UK Property Income & Expenses Period Summary
+- Retrieve a UK Property Income & Expenses Period Summary
+- Create a Foreign Property Income & Expenses Period Summary
+- Amend a Foreign Property Income & Expenses Period Summary
+- Retrieve a Foreign Property Income & Expenses Period Summary
 
 ##### Changed
 
@@ -109,14 +109,14 @@ and brought-forward residential finance costs.
 #### New APIs
 
 Individuals Income Received API has been split into the following APIs in Production and Sandbox:
-- `Individuals Foreign Income v1.0`
-- `Individuals Insurance Policies Income v1.0`
-- `Individuals Pensions Income v1.0`
-- `Individuals Dividends Income v1.0`
-- `Individuals Savings Income v1.0`
-- `Individuals Capital Gains Income v1.0`
-- `Individuals Other Income v1.0`
-- `Individuals Employments Income v1.0`
+- Individuals Foreign Income v1.0
+- Individuals Insurance Policies Income v1.0
+- Individuals Pensions Income v1.0
+- Individuals Dividends Income v1.0
+- Individuals Savings Income v1.0
+- Individuals Capital Gains Income v1.0
+- Individuals Other Income v1.0
+- Individuals Employments Income v1.0
 
 with all APIs containing the following improvements:
 - Removal of HATEOAS links
