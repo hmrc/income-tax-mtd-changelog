@@ -68,7 +68,7 @@ The following change is now available in Sandbox and Production for v2.0.
 
 Get ITSA Status endpoint:
 
-New value for enum `status` so that in the event a customer has opted out of MTD they can select `No Status`.
+- New value for enum `status` so that in the event a customer has opted out of MTD they can select `No Status`.
 
 #### Self Assessment Accounts
 
@@ -78,7 +78,7 @@ The following change is now available in Sandbox and Production for v3.0:
 
 Retrieve Self Assessment Balance and Transactions endpoint:
 
-`documentDueDate` field is now optional.
+- `documentDueDate` field is now optional.
 
 #### Property Business
 
@@ -93,17 +93,17 @@ The following changes are now available in Sandbox and Production for v4.0 for t
 
 ##### Changed
 
-Endpoints now support combining `rentARoom` and `amountClaimed` values with a `consolidatedExpenses` value.
+- Endpoints now support combining `rentARoom` and `amountClaimed` values with a `consolidatedExpenses` value.
 
 ##### Added
 
-`residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields 
+- `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields 
 that enable customers to submit residential finance costs
 and brought-forward residential finance costs.
 
 ##### Removed
 
-Remove HATEOAS links.
+- Remove HATEOAS links.
 
 
 #### New APIs
