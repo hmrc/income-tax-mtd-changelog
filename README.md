@@ -11,6 +11,24 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 ## Changelog
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
+---
+### 13 June 2024
+
+#### Self Assessment Assist API
+
+The following change is now available in Sandbox and Production.
+
+#### Changed
+Internal report generation `links` object now returns a list of tuple objects, consisting of titles and urls. 
+- `"title": "[ITSA Guidance, Income Source Guidance]",
+  "url": "[www.itsa.gov.uk, www.itsa/incomesources.gov.uk]"` corrected to `{
+  "title": "ITSA Guidance",
+  "url": "www.itsa.gov.uk"
+  },
+  {
+  "title": "Income Source Guidance",
+  "url": "www.itsa/incomesources.gov.uk"
+  }`
 
 ---
 ### 12 June 2024
