@@ -41,9 +41,7 @@ Retrieve a Self Assessment Tax Calculation endpoint:
 
 - Updated fields within `transitionProfit` object to accept whole numbers only.
 
-- `cashorAccruals` and `documentDetails.documentDueDate` are now mandatory.
-
-- `transition.Profit` fields can return only integers from 0 to 99999999999 (Sandbox only, applies to tax years 2024-25 or later).
+- `calculation.transitionProfit` fields can return only integers from 0 to 99999999999 (applies to tax years 2024-25 or later).
 
 
 #### Support for negative property income expenses
