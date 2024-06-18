@@ -31,6 +31,17 @@ Internal report generation `links` object now returns a list of tuple objects, c
   }`
 
 ---
+
+### 14 June 2024
+
+#### Self Assessment tax return form mapping CSV files
+
+##### Changed
+
+Update `sa103f_mapping_v1.csv` file to `v2` because of changes to some box numbers in the SA103F tax return form for tax year 2024-25.
+
+---
+
 ### 12 June 2024
 
 #### Property Business API
@@ -133,7 +144,7 @@ The following changes are now available in Sandbox and Production for all versio
 ##### Changed
 
 Update the `consolidatedExpenses` field description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
-  
+
 * Create a UK Property Income & Expenses Period Summary
 * Retrieve a UK Property Income & Expenses Period Summary
 * Amend a UK Property Income & Expenses Period Summary
@@ -148,7 +159,7 @@ The following changes are now available in Sandbox and Production for all versio
 ##### Changed
 
 Update the `consolidatedExpenses` field description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
-  
+
 * Retrieve a Self-Employment Period Summary
 * Create a Self-Employment Period Summary
 * Amend a Self-Employment Period Summary
