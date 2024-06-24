@@ -13,6 +13,21 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 ---
 
+### 24 June 2024
+
+#### Documentation update
+
+The following change is now available in Sandbox and Production.
+
+##### Changed
+
+Updated "Stateful" section on the API landing page to correct version numbers for:
+- Individuals Dividends Income
+- Individuals Employments Income
+- Individuals Pensions Income
+- Individuals Other Income
+- Individuals Savings Income
+
 ### 18 June 2024
 
 #### Self Employment Business
