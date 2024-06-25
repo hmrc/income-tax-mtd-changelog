@@ -42,6 +42,8 @@ Updated "Stateful" section on the API landing page to correct version numbers fo
 - Individuals Other Income
 - Individuals Savings Income
 
+---
+
 ### 18 June 2024
 
 #### Self Employment Business
