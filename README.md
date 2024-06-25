@@ -23,10 +23,14 @@ The following change is now available in Sandbox for v2.0 and v3.0.
 
 Retrieve History of a Self Assessment Charge endpoint:
 
- - Added a new URL Query parameter to pass the charge reference number.
- - Introduced a new error FORMAT_CHARGE_REFERENCE when the format of the supplied charge reference is not valid.
- - Reduced the length of Document ID field to 12 characters.
- - Reduced the length of transactionID field to 12 characters.
+ - Add a new `chargeReference` query parameter to pass a charge reference number.
+ - Add a new error FORMAT_CHARGE_REFERENCE when the format of the supplied charge reference is not valid.
+
+##### Changed 
+
+ - Reduce the allowed length of transactionID field to 12 characters.
+
+---
 
 ### 24 June 2024
 
