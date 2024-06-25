@@ -23,7 +23,22 @@ The following change is now available in Sandbox.
 
 For Retrieve Business Details endpoint:
 
-*  Return `quarterlyTypeChoice` object in all static and dynamic responses when testing with `Gov-Test-Scenario` headers.
+ - Return `quarterlyTypeChoice` object in all static and dynamic responses when testing with `Gov-Test-Scenario` headers.
+
+#### Self Assessment Accounts
+
+The following change is now available in Sandbox for v2.0 and v3.0. 
+
+##### Added
+
+Retrieve History of a Self Assessment Charge endpoint:
+
+- Add a new `chargeReference` query parameter to pass a charge reference number.
+- Add a new error FORMAT_CHARGE_REFERENCE when the format of the supplied charge reference is not valid.
+
+##### Changed 
+
+- Reduce the allowed length of transactionID field to 12 characters.
 
 ---
 
