@@ -15,7 +15,7 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ### 25 June 2024
 
-#### Business Details Api
+#### Business Details
 
 The following change is now available in Sandbox.
 
@@ -23,7 +23,7 @@ The following change is now available in Sandbox.
 
 For Retrieve Business Details endpoint:
 
-*  Optional object `quarterlyTypeChoice` has been added to all the static and dynamic response objects.
+*  Return `quarterlyTypeChoice` object in all static and dynamic responses when testing with `Gov-Test-Scenario` headers.
 
 ### 24 June 2024
 
