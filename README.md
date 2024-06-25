@@ -13,6 +13,25 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 ---
 
+### 25 June 2024
+
+#### Self Assessment Accounts
+
+The following change is now available in Sandbox for v2.0 and v3.0. 
+
+##### Added
+
+Retrieve History of a Self Assessment Charge endpoint:
+
+ - Add a new `chargeReference` query parameter to pass a charge reference number.
+ - Add a new error FORMAT_CHARGE_REFERENCE when the format of the supplied charge reference is not valid.
+
+##### Changed 
+
+ - Reduce the allowed length of transactionID field to 12 characters.
+
+---
+
 ### 24 June 2024
 
 #### Documentation update
