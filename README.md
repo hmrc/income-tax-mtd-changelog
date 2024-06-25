@@ -25,6 +25,8 @@ For Retrieve Business Details endpoint:
 
 *  Return `quarterlyTypeChoice` object in all static and dynamic responses when testing with `Gov-Test-Scenario` headers.
 
+---
+
 ### 24 June 2024
 
 #### Documentation update
