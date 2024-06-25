@@ -15,6 +15,16 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ### 25 June 2024
 
+#### Business Details
+
+The following change is now available in Sandbox.
+
+##### Added
+
+For Retrieve Business Details endpoint:
+
+ - Return `quarterlyTypeChoice` object in all static and dynamic responses when testing with `Gov-Test-Scenario` headers.
+
 #### Self Assessment Accounts
 
 The following change is now available in Sandbox for v2.0 and v3.0. 
@@ -23,12 +33,12 @@ The following change is now available in Sandbox for v2.0 and v3.0.
 
 Retrieve History of a Self Assessment Charge endpoint:
 
- - Add a new `chargeReference` query parameter to pass a charge reference number.
- - Add a new error FORMAT_CHARGE_REFERENCE when the format of the supplied charge reference is not valid.
+- Add a new `chargeReference` query parameter to pass a charge reference number.
+- Add a new error FORMAT_CHARGE_REFERENCE when the format of the supplied charge reference is not valid.
 
 ##### Changed 
 
- - Reduce the allowed length of transactionID field to 12 characters.
+- Reduce the allowed length of transactionID field to 12 characters.
 
 ---
 
@@ -46,6 +56,8 @@ Updated "Stateful" section on the API landing page to correct version numbers fo
 - Individuals Pensions Income
 - Individuals Other Income
 - Individuals Savings Income
+
+---
 
 ### 18 June 2024
 
