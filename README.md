@@ -38,7 +38,7 @@ Retrieve History of a Self Assessment Charge endpoint:
 
 ##### Changed 
 
-- Reduce the allowed length of transactionID field to 12 characters.
+- Reduce the allowed length of transactionId parameter to 12 characters.
 
 ---
 
