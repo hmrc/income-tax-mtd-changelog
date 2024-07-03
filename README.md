@@ -95,7 +95,7 @@ The following change is now available in Sandbox and Production for v5.0.
 
 ##### Added
 
-Support for negative property income expenses for endpoints;
+Support for negative property income expenses for endpoints:
 - UK Property Income & Expenses Period Summary endpoint
 - UK Property Accounting Adjustments endpoint
 
