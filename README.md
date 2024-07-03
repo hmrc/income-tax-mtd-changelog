@@ -89,20 +89,15 @@ Retrieve a Self Assessment Tax Calculation endpoint:
 
 - `calculation.transitionProfit` fields can return only integers from 0 to 99999999999 (applies to tax years 2024-25 or later).
 
+#### Self Assessment Business Source Adjustable Summary
 
-#### Support for negative property income expenses
+The following change is now available in Sandbox and Production for v5.0.
 
-The following change is now available for the following APIs in Sandbox and Production.
+##### Added
 
-##### Changed
-
-Change fields within `expenses` objects to support negative values for the following endpoints: 
-
-- Property Business v4.0
-  - Foreign Property Income & Expenses Period Summary endpoint
-- Self Assessment Business Source Adjustable Summary v5.0
-  - UK Property Income & Expenses Period Summary endpoint
-  - UK Property Accounting Adjustments endpoint
+Support for negative property income expenses for endpoints;
+- UK Property Income & Expenses Period Summary endpoint
+- UK Property Accounting Adjustments endpoint
 
 #### Self Assessment Individual Details
 
@@ -138,6 +133,7 @@ The following changes are now available in Sandbox and Production for v4.0 for t
 ##### Changed
 
 - Endpoints now support combining `rentARoom` and `amountClaimed` values with a `consolidatedExpenses` value.
+- Foreign Property Income & Expenses Period Summary endpoint supports negative values for fields within `expenses` objects.
 
 ##### Added
 
@@ -173,7 +169,7 @@ with all APIs containing the following improvements:
 Please note the following API versions will be deprecated at the beginning of July 2024 
 and will retire after six months as per HMRC API Life Cycle & Deprecation Standards:
 
-- Self Assessment Business Source Adjustable Summary v5.0
+- Self Assessment Business Source Adjustable Summary v4.0
 - Property Business v3.0
 - Self Assessment Individual Details v1.0
 - Individuals Income Recieved V2
