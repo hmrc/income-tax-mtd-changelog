@@ -13,6 +13,19 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 ---
 
+### 28 June 2024
+
+**✂️ Deprecation of API versions**
+
+* The below API versions have been deprecated in Sandbox and Production and will no longer accept new subscriptions.
+  Existing subscriptions will continue to work.
+  * `self-assessment-individual-details-api v1.0`
+  * `property-business-api v3.0`
+  * `self-assessment-bsas-api v4.0`
+  * `individuals-income-received-api v2.0`
+
+---
+
 ### 25 June 2024
 
 #### Business Details
