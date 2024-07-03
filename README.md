@@ -15,14 +15,18 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ### 28 June 2024
 
-**✂️ Deprecation of API versions**
+### Deprecation of API versions
 
-* The below API versions have been deprecated in Sandbox and Production and will no longer accept new subscriptions.
-  Existing subscriptions will continue to work.
-  * `self-assessment-individual-details-api v1.0`
-  * `property-business-api v3.0`
-  * `self-assessment-bsas-api v4.0`
-  * `individuals-income-received-api v2.0`
+The below API versions are deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
+
+- Business Source Adjustable Summary v4.0
+- Property Business v3.0
+- Self Assessment Individual Details v1.0
+- Individuals Income Received v2.0
+
+Because all versions of Individuals Income Received are now deprecated, it no longer appears on the [list of APIs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd) unless you are signed in to the Developer Hub and have an active subscription. You can still [view the API documentation directly](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api/2.0).
+
+Note: our 18 June update incorrectly stated that Self Employment Business v3.0 would be deprecated - we apologise for the error.
 
 ---
 
