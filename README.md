@@ -63,7 +63,7 @@ Updated "Stateful" section on the API landing page to correct version numbers fo
 
 #### Self Employment Business
 
-The following change is now available in Sandbox and Production for v4.0. 
+The following change is now available in Sandbox and Production for v3.0. 
 
 ##### Added
 
@@ -173,7 +173,7 @@ with all APIs containing the following improvements:
 Please note the following API versions will be deprecated at the beginning of July 2024 
 and will retire after six months as per HMRC API Life Cycle & Deprecation Standards:
 
-- Self Assessment Business Source Adjustable Summary v4.0
+- Self Employment Business v3.0
 - Property Business v3.0
 - Self Assessment Individual Details v1.0
 
