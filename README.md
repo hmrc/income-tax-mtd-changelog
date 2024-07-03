@@ -172,7 +172,7 @@ and will retire after six months as per HMRC API Life Cycle & Deprecation Standa
 - Self Assessment Business Source Adjustable Summary v4.0
 - Property Business v3.0
 - Self Assessment Individual Details v1.0
-- Individuals Income Recieved V2
+- Individuals Income Recieved v2.0
 
 ---
 ### 13 June 2024
