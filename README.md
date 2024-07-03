@@ -173,9 +173,10 @@ with all APIs containing the following improvements:
 Please note the following API versions will be deprecated at the beginning of July 2024 
 and will retire after six months as per HMRC API Life Cycle & Deprecation Standards:
 
-- Self Employment Business v3.0
+- Self Assessment Business Source Adjustable Summary v5.0
 - Property Business v3.0
 - Self Assessment Individual Details v1.0
+- Individuals Income Recieved V2
 
 ---
 ### 13 June 2024
