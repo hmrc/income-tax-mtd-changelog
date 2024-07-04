@@ -23,11 +23,11 @@ The following change is now available in Sandbox.
 
 For Retrieve Business Details endpoint:
 
- - Return `quarterlyTypeChoice` object in all static and dynamic responses when testing with `Gov-Test-Scenario` headers.
+- Return `quarterlyTypeChoice` object in all static and dynamic responses when testing with `Gov-Test-Scenario` headers.
 
 #### Self Assessment Accounts
 
-The following change is now available in Sandbox for v2.0 and v3.0. 
+The following change is now available in Sandbox for v2.0 and v3.0.
 
 ##### Added
 
@@ -36,7 +36,7 @@ Retrieve History of a Self Assessment Charge endpoint:
 - Add a new `chargeReference` query parameter to pass a charge reference number.
 - Add a new error FORMAT_CHARGE_REFERENCE when the format of the supplied charge reference is not valid.
 
-##### Changed 
+##### Changed
 
 - Reduce the allowed length of transactionId parameter to 12 characters.
 
@@ -63,13 +63,13 @@ Updated "Stateful" section on the API landing page to correct version numbers fo
 
 #### Self Employment Business
 
-The following change is now available in Sandbox and Production for v3.0. 
+The following change is now available in Sandbox and Production for v3.0. (Note: previously this update incorrectly stated that the change was to v4.0).
 
 ##### Added
 
 Create and Amend Self-Employment Annual Submission endpoint:
 
- - Added a new 400 error code and two new optional fields `transitionProfitAmount` and `transitionProfitAccelerationAmount` in `annualAdjustmentsType` object.
+- Added a new 400 error code and two new optional fields `transitionProfitAmount` and `transitionProfitAccelerationAmount` in `annualAdjustmentsType` object.
 
 #### Individual Calculations
 
@@ -96,7 +96,7 @@ The following change is now available for the following APIs in Sandbox and Prod
 
 ##### Changed
 
-Change fields within `expenses` objects to support negative values for the following endpoints: 
+Change fields within `expenses` objects to support negative values for the following endpoints:
 
 - Property Business v4.0
   - Foreign Property Income & Expenses Period Summary endpoint
@@ -108,7 +108,7 @@ Change fields within `expenses` objects to support negative values for the follo
 
 The following change is now available in Sandbox and Production for v2.0.
 
-##### Added 
+##### Added
 
 Get ITSA Status endpoint:
 
@@ -126,7 +126,7 @@ Retrieve Self Assessment Balance and Transactions endpoint:
 
 #### Property Business
 
-The following changes are now available in Sandbox and Production for v4.0 for the following endpoints: 
+The following changes are now available in Sandbox and Production for v4.0 for the following endpoints:
 
 - Create a UK Property Income & Expenses Period Summary
 - Amend a UK Property Income & Expenses Period Summary
@@ -141,9 +141,9 @@ The following changes are now available in Sandbox and Production for v4.0 for t
 
 ##### Added
 
-- `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields 
-that enable customers to submit residential finance costs
-and brought-forward residential finance costs.
+- `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields
+  that enable customers to submit residential finance costs
+  and brought-forward residential finance costs.
 
 ##### Removed
 
@@ -170,10 +170,10 @@ with all APIs containing the following improvements:
 
 #### Deprecated
 
-Please note the following API versions will be deprecated at the beginning of July 2024 
+Please note the following API versions will be deprecated at the beginning of July 2024
 and will retire after six months as per HMRC API Life Cycle & Deprecation Standards:
 
-- Self Employment Business v3.0
+- Business Source Adjustable Summary v4.0
 - Property Business v3.0
 - Self Assessment Individual Details v1.0
 
@@ -185,7 +185,7 @@ and will retire after six months as per HMRC API Life Cycle & Deprecation Standa
 The following change is now available in Sandbox and Production.
 
 ##### Changed
-Internal report generation `links` object now returns a list of tuple objects, consisting of titles and urls. 
+Internal report generation `links` object now returns a list of tuple objects, consisting of titles and urls.
 - `"title": "[ITSA Guidance, Income Source Guidance]",
   "url": "[www.itsa.gov.uk, www.itsa/incomesources.gov.uk]"` corrected to `{
   "title": "ITSA Guidance",
@@ -299,7 +299,7 @@ The following changes are now available in Sandbox and Production for all versio
 ##### Changed
 
 Update the `consolidatedExpenses` field description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
-  
+
 * Create a UK Property Income & Expenses Period Summary
 * Retrieve a UK Property Income & Expenses Period Summary
 * Amend a UK Property Income & Expenses Period Summary
@@ -314,7 +314,7 @@ The following changes are now available in Sandbox and Production for all versio
 ##### Changed
 
 Update the `consolidatedExpenses` field description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
-  
+
 * Retrieve a Self-Employment Period Summary
 * Create a Self-Employment Period Summary
 * Amend a Self-Employment Period Summary
@@ -371,7 +371,7 @@ For these endpoints:
 
 ---
 
-### 15 May 2024 
+### 15 May 2024
 
 #### Property Business API
 
@@ -381,7 +381,7 @@ Existing API version 4.0 (currently in Sandbox only) updated with the following 
 
 Remove all remaining HATEOAS links. HATEOAS links are no longer returned in API responses from version 4.0 onwards.
 
-#### Individuals Other Income API 
+#### Individuals Other Income API
 
 Existing API version 1.0 updated in Sandbox with the following changes.
 
@@ -456,10 +456,10 @@ Version 4.0 of this API is now available with the following features.
 
 These endpoints:
 
-- `Create a UK Property Income & Expenses Period Summary` 
+- `Create a UK Property Income & Expenses Period Summary`
 - `Amend a UK Property Income & Expenses Period Summary`
 - `Retrieve a UK Property Income & Expenses Period Summary`
-- `Create a Foreign Property Income & Expenses Period Summary` 
+- `Create a Foreign Property Income & Expenses Period Summary`
 - `Amend a Foreign Property Income & Expenses Period Summary`
 - `Retrieve a Foreign Property Income & Expenses Period Summary`
 
@@ -495,7 +495,7 @@ In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mand
 
 #### business-details-api v1
 
-* `Retrieve Business Details` includes the object `quarterlyTypeElection` and 
+* `Retrieve Business Details` includes the object `quarterlyTypeElection` and
 * a new endpoint, `Create and Amend Quarterly Period Type for a Business` is now available.
 
 #### self-assessment-accounts-api v3
@@ -511,8 +511,8 @@ All endpoints replace their respective v2 equivalents, which are now deprecated.
 
 New API version v2.0 is now available
 
-The endpoint `Retrieve CIS deductions for Subcontractor` includes 
-* a new error, `RULE_TAX_YEAR_RANGE_INVALID` when the date range provided exceeds four years before the current year, and 
+The endpoint `Retrieve CIS deductions for Subcontractor` includes
+* a new error, `RULE_TAX_YEAR_RANGE_INVALID` when the date range provided exceeds four years before the current year, and
 * the `fromDate` and `toDate` parameters have been replaced with `taxYear` and `source` path parameters.
 
 All endpoints replace their respective v1 equivalents, which are now deprecated. Please use the new v2 endpoints instead.
@@ -679,9 +679,9 @@ The following changes are now available in the Sandbox:
 #### self-assessment-accounts-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following v3.0 endpoints:
-    * `Opt In to Coding Out`
-    * `Retrieve Coding Out Status`
-    * `Opt Out of Coding Out`
+  * `Opt In to Coding Out`
+  * `Retrieve Coding Out Status`
+  * `Opt Out of Coding Out`
 
 ---
 
@@ -845,13 +845,13 @@ New endpoint `Retrieve Coding Out Status`.
 
 * The below API versions have been deprecated in Sandbox and Production and will no longer accept new subscriptions.
   Existing subscriptions will continue to work.
-    * `individual-calculations-api v4.0`
-    * `individuals-business-eops-api v2.0`
-    * `individuals-expenses-api v1.0`
-    * `individuals-income-received-api v1.0`
-    * `property-business-api v2.0`
-    * `self-assessment-bsas-api v3.0`
-    * `self-employment-business-api v2.0`
+  * `individual-calculations-api v4.0`
+  * `individuals-business-eops-api v2.0`
+  * `individuals-expenses-api v1.0`
+  * `individuals-income-received-api v1.0`
+  * `property-business-api v2.0`
+  * `self-assessment-bsas-api v3.0`
+  * `self-employment-business-api v2.0`
 
 ---
 
@@ -981,11 +981,11 @@ For `Retrieve a Self Assessment Tax Calculation` endpoint:
 * The field `totalAnnuityPaymentsTaxCharged` is returned as decimal in both non-TYS and TYS request.
 * New object `statePension` added in all the versions
 * In the `non-TYS` request:
-    * New field `cessationDate` added
+  * New field `cessationDate` added
 * In the `TYS` request:
-    * New fields `cessationDate`, `commencementDate` and `itsaStatus` added
-    * New objects `otherIncome` added
-    * Updated field `totalAnnuityPaymentsTaxCharged` from integer to number
+  * New fields `cessationDate`, `commencementDate` and `itsaStatus` added
+  * New objects `otherIncome` added
+  * Updated field `totalAnnuityPaymentsTaxCharged` from integer to number
 
 #### individuals-expenses-api
 
@@ -1198,14 +1198,14 @@ The following changes are now available in the Sandbox:
 #### self-assessment-test-support
 
 * The final letter of a National Insurance number is now optional for the following API endpoints:
-    * `Create a Test Business`
-    * `Delete a Test Business`
+  * `Create a Test Business`
+  * `Delete a Test Business`
 
 #### business-details-api
 
 * The final letter of a National Insurance number is now optional for the following API endpoints:
-    * `List All Businesses`
-    * `Retrieve Business Details`
+  * `List All Businesses`
+  * `Retrieve Business Details`
 
 ---
 
@@ -1239,55 +1239,55 @@ The following changes are now available in the Sandbox:
 #### individuals-income-received-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following v2.0 endpoints:
-    * `Create and Amend`, `Retrieve` and `Delete Other Income`
-    * `Create and Amend`, `Retrieve` and `Delete Savings Income`
-    * `Create and Amend`, `Retrieve` and `Delete Other Capital Gains and Disposals`
+  * `Create and Amend`, `Retrieve` and `Delete Other Income`
+  * `Create and Amend`, `Retrieve` and `Delete Savings Income`
+  * `Create and Amend`, `Retrieve` and `Delete Other Capital Gains and Disposals`
 
 #### individuals-state-benefits-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following v1.0 endpoints:
-    * `Create`, `Amend`, `List` and `Delete State Benefit`
-    * `Amend` and `Delete State Benefit Amounts`
+  * `Create`, `Amend`, `List` and `Delete State Benefit`
+  * `Amend` and `Delete State Benefit Amounts`
 
 #### self-assessment-accounts-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following v2.0 endpoints:
-    * `Create or Amend`, `Retrieve` and `Delete Coding Out Underpayments and Debt Amounts`
+  * `Create or Amend`, `Retrieve` and `Delete Coding Out Underpayments and Debt Amounts`
 
 #### cis-deductions-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following v2.0 endpoints:
-    * `Create` `Amend`, `Retrieve` and `Delete CIS Deductions for Subcontractor`
+  * `Create` `Amend`, `Retrieve` and `Delete CIS Deductions for Subcontractor`
 
 #### self-assessment-bsas-api
 
 * New dynamic Gov-Test-Scenarios were added to the following v4.0 endpoints:
-    * `Retrieve a Foreign Property Business Source Adjustable Summary (BSAS)`
-    * `Retrieve a UK Property Business Source Adjustable Summary (BSAS)`
-    * `Retrieve a Self-Employment Business Source Adjustable Summary (BSAS)`
-    * `List Business Source Adjustable Summaries (BSAS)`
+  * `Retrieve a Foreign Property Business Source Adjustable Summary (BSAS)`
+  * `Retrieve a UK Property Business Source Adjustable Summary (BSAS)`
+  * `Retrieve a Self-Employment Business Source Adjustable Summary (BSAS)`
+  * `List Business Source Adjustable Summaries (BSAS)`
 
 #### individual-calculations-api
 
 * New `DYNAMIC` Gov-Test-Scenario was added to the following endpoints in v4.0 and later:
-    * `Retrieve a Self Assessment Tax Calculation`
+  * `Retrieve a Self Assessment Tax Calculation`
 
 #### mtd-sa-test-support-api
 
 * Additional validation error codes added to `Create a Test Business` endpoint:
-    * `MISSING_FIRST_ACCOUNTING_PERIOD_START_DATE`
-    * `MISSING_FIRST_ACCOUNTING_PERIOD_END_DATE`
-    * `RULE_FIRST_ACCOUNTING_DATE_RANGE_INVALID`
-    * `RULE_UNEXPECTED_BUSINESS_ADDRESS`
-    * `RULE_MISSING_BUSINESS_ADDRESS`
-    * `RULE_UNEXPECTED_TRADING_NAME`
-    * `RULE_MISSING_TRADING_NAME`
+  * `MISSING_FIRST_ACCOUNTING_PERIOD_START_DATE`
+  * `MISSING_FIRST_ACCOUNTING_PERIOD_END_DATE`
+  * `RULE_FIRST_ACCOUNTING_DATE_RANGE_INVALID`
+  * `RULE_UNEXPECTED_BUSINESS_ADDRESS`
+  * `RULE_MISSING_BUSINESS_ADDRESS`
+  * `RULE_UNEXPECTED_TRADING_NAME`
+  * `RULE_MISSING_TRADING_NAME`
 
 #### business-details-api
 
 * A new error `INVALID_IDTYPE` has been added to the following API endpoints:
-    * `List All Businesses`
-    * `Retrieve Business Details`
+  * `List All Businesses`
+  * `Retrieve Business Details`
 
 ### 21 September 2023
 
@@ -1303,9 +1303,9 @@ The following changes are now available in the Sandbox:
 
 * Data field taxTakenOffTradingIncome has been removed from the periodIncome object in the following v3.0 endpoints (
   This field will be reinstated in a future release):
-    * Create a Self-Employment Period Summary
-    * Amend a Self-Employment Period Summary
-    * Retrieve a Self-Employment Period Summary
+  * Create a Self-Employment Period Summary
+  * Amend a Self-Employment Period Summary
+  * Retrieve a Self-Employment Period Summary
 
 ---
 
@@ -1328,8 +1328,8 @@ The following changes are now available in the Sandbox:
 
 * A number of corrections have been made to the Developer Hub documentation for this API. In particular,
   some `List Checkpoints` endpoint fields were incorrectly named:
-    * `Checkpoints` should have been `checkpoints`, and
-    * `checkpointcreationTimestamp` should have been `checkpointCreationTimestamp`.
+  * `Checkpoints` should have been `checkpoints`, and
+  * `checkpointcreationTimestamp` should have been `checkpointCreationTimestamp`.
 
 * All endpoints on this test-support API now use application-restricted authorisation. They will still also allow valid
   user-restricted OAuth 2.0 access tokens.
@@ -1343,25 +1343,25 @@ The following changes are now available in the Sandbox:
 #### individuals-income-received-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following v2 endpoints:
-    * `Create and Amend`, `Retrieve` and `Delete Employment Financial Details`
-    * `Create and Amend`, `Retrieve` and `Delete Insurance Policies Income`
-    * `Create and Amend`, `Retrieve` and `Delete Pensions Income`
-    * `Add`, `List`, `Create and Amend` and `Retrieve UK Savings Account`
-    * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (non-PPD)`
-    * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (PPD)`
+  * `Create and Amend`, `Retrieve` and `Delete Employment Financial Details`
+  * `Create and Amend`, `Retrieve` and `Delete Insurance Policies Income`
+  * `Create and Amend`, `Retrieve` and `Delete Pensions Income`
+  * `Add`, `List`, `Create and Amend` and `Retrieve UK Savings Account`
+  * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (non-PPD)`
+  * `Create and Amend`, `Retrieve` and `Delete CGT Residential Property Disposals (PPD)`
 
 * Code improvement for breaking change, The code changes are for v2:
-    * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
+  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
 
 #### self-employment-business-api
 
 * New `DYNAMIC` Gov-Test-Scenarios added to v3.0 endpoint:
-    * `Retrieve a Self-Employment Period Summary`
+  * `Retrieve a Self-Employment Period Summary`
 
 #### individuals-expenses-api
 
 * Code improvement for breaking change, The code changes are for v2:
-    * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
+  * A new `RULE_INVALID_SUBMISSION_PENSION_SCHEME` error has been added.
 
 #### mtd-sa-test-support-api
 
@@ -1382,7 +1382,7 @@ The following changes are now available in the Sandbox:
 #### business-details-api
 
 * For `Retrieve Business Details` endpoint:
-    * Updated `taxYear1` and `taxYear2` fields in `Latency Details` response object to the format YYYY-YY (e.g 2018-19)
+  * Updated `taxYear1` and `taxYear2` fields in `Latency Details` response object to the format YYYY-YY (e.g 2018-19)
 
 ---
 
@@ -1407,12 +1407,12 @@ Version 4.0 is now available in the sandbox with the following changes:
 
 * In Production, the following properties are now mandatory in the retrieve a business income source summary endpoint
   response:
-    * `total.income`
-    * `total.expenses`
-    * `profit.income`
-    * `profit.expenses`
-    * `loss.net`
-    * `loss.taxable`
+  * `total.income`
+  * `total.expenses`
+  * `profit.income`
+  * `profit.expenses`
+  * `loss.net`
+  * `loss.taxable`
 
 ---
 
@@ -1434,11 +1434,11 @@ The following changes are now available in the Sandbox:
 #### individual-calculations-api
 
 * For `Retrieve a Self Assessment Tax v4.0` endpoint:
-    * New data fields `cessationDate`and `commencementDate` have been added to the `businessIncomeSources` response
-      object.
-    * New object `otherIncome` has been added to the `calculation` response object.
-    * New data field `taxTakenOffTradingIncome` has been added to the `taxDeductedAtSource` response object.
-    * New data field `itsaStatus` has been added to the `personalInformation` response object.
+  * New data fields `cessationDate`and `commencementDate` have been added to the `businessIncomeSources` response
+    object.
+  * New object `otherIncome` has been added to the `calculation` response object.
+  * New data field `taxTakenOffTradingIncome` has been added to the `taxDeductedAtSource` response object.
+  * New data field `itsaStatus` has been added to the `personalInformation` response object.
 
 ---
 
@@ -1489,9 +1489,9 @@ New API Version v3.0 is now available
 * For `v2.0` and `v3.0`:
 * Updated data fields within the `periodExpenses` & `periodDisallowableExpenses` objects to accept negative values in
   the following endpoints:
-    * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
+  * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
 * A new data field `taxTakenOffTradingIncome` has been added to the `incomesType` object in the following endpoints:
-    * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
+  * `Create`, `Retrieve` and `Amend a Self-Employment Period Summary`
 
 ### individuals-charges-api
 
@@ -1507,29 +1507,29 @@ The following changes are now available in the Sandbox:
 #### individual-losses-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following v4.0 endpoints:
-    * `Create`, `Retrieve`, `List` and `Delete Loss Claims`
-    * `Amend a Loss Claims Type`
-    * `Amend Loss Claims Order`
+  * `Create`, `Retrieve`, `List` and `Delete Loss Claims`
+  * `Amend a Loss Claims Type`
+  * `Amend Loss Claims Order`
 
 #### individuals-income-received-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
-    * `Add`, `Amend` and `Delete Custom Employment`
-    * `Retrieve` and `List Employments`
-    * `Create and Amend`, `Retrieve` and `Delete Non-PAYE Employment Income`
-    * `Create and Amend`, `Retrieve` and `Delete Other Employment Income`
-    * `Create and Amend`, `Retrieve` and `Delete Dividends Income`
-    * `Create and Amend`, `Retrieve` and `Delete UK Dividends Income`
-    * `Create and Amend`, `Retrieve` and `Delete Foreign Income`
+  * `Add`, `Amend` and `Delete Custom Employment`
+  * `Retrieve` and `List Employments`
+  * `Create and Amend`, `Retrieve` and `Delete Non-PAYE Employment Income`
+  * `Create and Amend`, `Retrieve` and `Delete Other Employment Income`
+  * `Create and Amend`, `Retrieve` and `Delete Dividends Income`
+  * `Create and Amend`, `Retrieve` and `Delete UK Dividends Income`
+  * `Create and Amend`, `Retrieve` and `Delete Foreign Income`
 
 * New `DYNAMIC` Gov-Test-Scenario added to `Retrieve Other Income` endpoint
 
 #### obligations-api
 
 * New `DYNAMIC` Gov-Test-Scenarios added to v2.0 endpoints:
-    * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
-    * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
-    * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
+  * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
+  * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+  * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
 
 #### individuals-calculations-api
 
@@ -1584,9 +1584,9 @@ New API Version v3.0 is now available for:
 
 * A new error `RULE_BUSINESS_INCOME_PERIOD_RESTRICTION` and gov-test-scenario `BUSINESS_INCOME_PERIOD_RESTRICTION` has
   been added to the following API endpoints:
-    * `Create a Self-Employment Period Summary` for `self-employment-business-api v3`
-    * `Create a UK Property Income & Expenses Period Summary` for `property-business-api v3`
-    * `Submit End of Period Statement for a Business` for `individuals-business-eops-api v3`
+  * `Create a Self-Employment Period Summary` for `self-employment-business-api v3`
+  * `Create a UK Property Income & Expenses Period Summary` for `property-business-api v3`
+  * `Submit End of Period Statement for a Business` for `individuals-business-eops-api v3`
 
 ### 14 July 2023
 
@@ -1687,9 +1687,9 @@ New API Version `v2.0`
 Updated Endpoint: `Retrieve CIS Deductions for Subcontractor`
 
 * Updated endpoint URL
-    * Added `taxYear` as path parameter
-    * Added `source` as path parameter
-    * Removed `fromDate` and `toDate` from query parameters as they are replaced by `taxYear` path parameter
+  * Added `taxYear` as path parameter
+  * Added `source` as path parameter
+  * Removed `fromDate` and `toDate` from query parameters as they are replaced by `taxYear` path parameter
 * Removed `DATE_RANGE_OUT_OF_DATE` gov-test-scenario
 * Added `TAX_YEAR_RANGE_INVALID` gov-test-scenario
 
@@ -1712,8 +1712,8 @@ The following changes are now available in the Sandbox:
 #### obligations-api
 
 * Updated the `status` query parameter description in the v1.0 API documentation for endpoints:
-    * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
-    * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
+  * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
+  * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
 
 ---
 
@@ -1724,71 +1724,71 @@ The following changes are now available in the Sandbox:
 #### self-employment-business-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
-    * `Create and Amend`, `Retrieve` and `Delete Self Employment Annual Submission`
-    * `Create`, `Amend`, `Retrieve` and `List Self Employment Period Summaries`
+  * `Create and Amend`, `Retrieve` and `Delete Self Employment Annual Submission`
+  * `Create`, `Amend`, `Retrieve` and `List Self Employment Period Summaries`
 
 #### individuals-charges-api
 
 * New `STATEFUL` Gov-Test-Scenario was added to the following endpoint:
-    * `Create and Amend`, `Retrieve` and `Delete Pensions Charges`
+  * `Create and Amend`, `Retrieve` and `Delete Pensions Charges`
 
 #### individuals-disclosures-api
 
 * New `STATEFUL` Gov-Test-Scenario was added to the following endpoint:
-    * `Create and Amend`, `Retrieve` and `Delete Disclosures`
+  * `Create and Amend`, `Retrieve` and `Delete Disclosures`
 
 * New `DYNAMIC` Gov-Test-Scenario was added to the following endpoint:
-    * `Retrieve Disclosures`
+  * `Retrieve Disclosures`
 
 #### individuals-expenses-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
-    * `Create and Amend`, `Retrieve` and `Delete Other Expenses`
-    * `Create and Amend`, `Retrieve` and `Delete Employment Expenses`
+  * `Create and Amend`, `Retrieve` and `Delete Other Expenses`
+  * `Create and Amend`, `Retrieve` and `Delete Employment Expenses`
 
 #### individual-losses-api
 
 * New `STATEFUL` Gov-Test-Scenario was added to the following endpoint:
-    * `Create`, `Amend`, `Retrieve`, `List` and `Delete Brought Forward Losses`
+  * `Create`, `Amend`, `Retrieve`, `List` and `Delete Brought Forward Losses`
 
 * New `DYNAMIC` Gov-Test-Scenarios were added to the following endpoints:
-    * `Amend a Brought Forward Loss Amount`
-    * `Amend a Loss Claim Type`
-    * `List Loss Claims`
+  * `Amend a Brought Forward Loss Amount`
+  * `Amend a Loss Claim Type`
+  * `List Loss Claims`
 
 #### other-deductions-api
 
 * New `STATEFUL` Gov-Test-Scenario was added to the following endpoint:
-    * `Create and Amend`, `Retrieve` and `Delete Deductions`
+  * `Create and Amend`, `Retrieve` and `Delete Deductions`
 
 #### obligations-api
 
 * New `DYNAMIC` Gov-Test-Scenario was added to the following v1.0 endpoint:
-    * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+  * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
 
 #### individuals-reliefs-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
-    * `Create and Amend`, `Retrieve` and `Delete Relief Investments`
-    * `Create and Amend`, `Retrieve` and `Delete Other Reliefs`
-    * `Create and Amend`, `Retrieve` and `Delete Foreign Reliefs`
-    * `Create and Amend`, `Retrieve` and `Delete Pensions Reliefs`
-    * `Create and Amend`, `Retrieve` and `Delete Charitable Giving Tax Reliefs`
+  * `Create and Amend`, `Retrieve` and `Delete Relief Investments`
+  * `Create and Amend`, `Retrieve` and `Delete Other Reliefs`
+  * `Create and Amend`, `Retrieve` and `Delete Foreign Reliefs`
+  * `Create and Amend`, `Retrieve` and `Delete Pensions Reliefs`
+  * `Create and Amend`, `Retrieve` and `Delete Charitable Giving Tax Reliefs`
 
 #### business-details-api
 
 * New `DYNAMIC` Gov-Test-Scenario was added to the following endpoint:
-    * `Retrieve Business Details`
+  * `Retrieve Business Details`
 
 #### self-assessment-bsas-api
 
 * New `DYNAMIC` Gov-Test-Scenario was added to the following endpoint:
-    * `List Business Source Adjustable Summaries`
+  * `List Business Source Adjustable Summaries`
 
 #### individuals-state-benefits-api
 
 * New `DYNAMIC` Gov-Test-Scenario was added to the following endpoint:
-    * `List State Benefits`
+  * `List State Benefits`
 
 ---
 
@@ -1799,12 +1799,12 @@ The following changes are now available in the Sandbox:
 #### obligations-api
 
 * `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`:
-    * New, optional `status` query parameter. This may specify either Open or Fulfilled. If `status` isn't provided,
-      both Open and Fulfilled obligations will be returned.
-    * A new error code has been added: FORMAT_STATUS.
-    * govTestScenarios removed: OPEN and FULFILLED.
-    * The `taxYear` query parameter's default behaviour has changed. If `taxYear` isn't provided, data will be returned
-      for the last 5 years, i.e. current tax year and up to 4 years previously.
+  * New, optional `status` query parameter. This may specify either Open or Fulfilled. If `status` isn't provided,
+    both Open and Fulfilled obligations will be returned.
+  * A new error code has been added: FORMAT_STATUS.
+  * govTestScenarios removed: OPEN and FULFILLED.
+  * The `taxYear` query parameter's default behaviour has changed. If `taxYear` isn't provided, data will be returned
+    for the last 5 years, i.e. current tax year and up to 4 years previously.
 
 ---
 
@@ -1815,9 +1815,9 @@ The following changes are now available in the Sandbox and Production:
 #### cis-deductions-api
 
 * Updated the `periodData` field description in the API documentation for:
-    * `Create CIS Deductions for Subcontractor`
-    * `Amend CIS Deductions for Subcontractor`
-    * `Retrieve CIS Deductions for Subcontractor`
+  * `Create CIS Deductions for Subcontractor`
+  * `Amend CIS Deductions for Subcontractor`
+  * `Retrieve CIS Deductions for Subcontractor`
 
 ---
 
@@ -1828,10 +1828,10 @@ The following changes are now available in the Sandbox:
 #### individuals-income-received-api
 
 * Updated endpoint `Create and Amend other income`:
-    * Creation of new field `postCessationReceipts` in request object
-    * Added a new `RULE_UNALIGNED_CESSATION_TAX_YEAR`
+  * Creation of new field `postCessationReceipts` in request object
+  * Added a new `RULE_UNALIGNED_CESSATION_TAX_YEAR`
 * Updated endpoint `Retrieve other income`:
-    * Creation of new field `postCessationReceipts` in response object
+  * Creation of new field `postCessationReceipts` in response object
 
 ---
 
@@ -1893,9 +1893,9 @@ The following change is now available in the Sandbox:
 #### self-assessment-assist (HMRC Assist API)
 
 * Renamed from transactional-risking to self-assessment-assist and taxyear included as part of URL
-    * Error codes and description updated and additional error codes added please refer
-      to [endpoint documentation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-assist)
-      for details.
+  * Error codes and description updated and additional error codes added please refer
+    to [endpoint documentation](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-assist)
+    for details.
 
 ---
 
@@ -1906,22 +1906,22 @@ The following changes are now available in the Sandbox:
 #### property-business-api
 
 * New `STATEFUL` Gov-Test-Scenarios were added to the following endpoints:
-    * `Create and Amend` and `Retrieve UK Property Business Annual Submission`
-    * `Create and Amend` and `Retrieve a Foreign Property Annual Submission`
-    * `Delete a Property Annual Submission`
-    * `Create and Amend`, `Retrieve` and `Delete a Historic non-FHL UK Property Business Annual Submission`
-    * `Create and Amend`, `Retrieve` and `Delete a Historic FHL UK Property Business Annual Submission`
-    * `Create`, `Amend`, `List` and `Retrieve a Historic non-FHL UK Property Income & Expenses Period Summary`
-    * `Create`, `Amend`, `List` and `Retrieve a Historic FHL UK Property Income & Expenses Period Summary`
-    * `Create`, `Amend` and `Retrieve a Foreign Property Income & Expenses Period Summary`
-    * `Create`, `Amend` and `Retrieve UK Property Income & Expenses Period Summary`
-    * `List Property Income & Expenses Period Summaries`
+  * `Create and Amend` and `Retrieve UK Property Business Annual Submission`
+  * `Create and Amend` and `Retrieve a Foreign Property Annual Submission`
+  * `Delete a Property Annual Submission`
+  * `Create and Amend`, `Retrieve` and `Delete a Historic non-FHL UK Property Business Annual Submission`
+  * `Create and Amend`, `Retrieve` and `Delete a Historic FHL UK Property Business Annual Submission`
+  * `Create`, `Amend`, `List` and `Retrieve a Historic non-FHL UK Property Income & Expenses Period Summary`
+  * `Create`, `Amend`, `List` and `Retrieve a Historic FHL UK Property Income & Expenses Period Summary`
+  * `Create`, `Amend` and `Retrieve a Foreign Property Income & Expenses Period Summary`
+  * `Create`, `Amend` and `Retrieve UK Property Income & Expenses Period Summary`
+  * `List Property Income & Expenses Period Summaries`
 
 #### obligations-api
 
 * For version 1.0, new `DYNAMIC` Gov-Test-Scenarios were added to the following endpoints:
-    * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
-    * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
+  * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
+  * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
 
 #### individual-losses-api
 
@@ -1946,16 +1946,16 @@ The following changes are now available in the Sandbox.
 #### self-employment-business-api
 
 * Added new `BOTH_EXPENSES_SUPPLIED` Gov-Test-Scenario to the following endpoints:
-    * Create a Self-Employment Period Summary
-    * Amend a Self-Employment Period Summary
+  * Create a Self-Employment Period Summary
+  * Amend a Self-Employment Period Summary
 * Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an
   error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
 
 #### individuals-expenses-api
 
 * Added new `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario to the following endpoints:
-    * Create and Amend Employment Expenses
-    * Ignore Employment Expenses
+  * Create and Amend Employment Expenses
+  * Ignore Employment Expenses
 * Gov-Test-Scenario values that are not supported by the sandbox will now result in a status code 400 response with an
   error code of `RULE_INCORRECT_GOV_TEST_SCENARIO`.
 
@@ -2009,29 +2009,29 @@ The following changes are now available in the Sandbox and Production.
 #### individuals-income-received-api
 
 * `RULE_LOSSES_GREATER_THAN_GAIN` error was removed for following endpoints:
-    * `Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)`
-    * `Create and Amend CGT Residential Property Disposals (non-PPD)`
+  * `Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)`
+  * `Create and Amend CGT Residential Property Disposals (non-PPD)`
 
 * `RULE_COMPLETION_DATE_BEFORE_DISPOSAL_DATE` error was removed for the following endpoint:
-    * `Create and Amend CGT Residential Property Disposals (non-PPD)`
+  * `Create and Amend CGT Residential Property Disposals (non-PPD)`
 
 The following changes are now available in the Sandbox.
 
 #### individuals-income-received-api
 
 * New gov-test-scenarios were added for `Create and Amend Other Capital Gains and Disposals` endpoint:
-    * `INVALID_DISPOSAL_DATE`
-    * `INVALID_ACQUISITION_DATE`
+  * `INVALID_DISPOSAL_DATE`
+  * `INVALID_ACQUISITION_DATE`
 
 * New gov-test-scenarios were added for `Create and Amend 'Report and Pay Capital Gains Tax on Residential Property'
   Overrides (PPD)` endpoint:
-    * `RULE_DUPLICATED_PPD_SUBMISSION_ID`
-    * `RULE_TAX_YEAR_NOT_ENDED`
+  * `RULE_DUPLICATED_PPD_SUBMISSION_ID`
+  * `RULE_TAX_YEAR_NOT_ENDED`
 
 * New gov-test-scenarios were added for `Create and Amend CGT Residential Property Disposals (non-PPD)` endpoint:
-    * `RULE_ACQUISITION_DATE_AFTER_DISPOSAL_DATE`
-    * `RULE_COMPLETION_DATE`
-    * `RULE_DISPOSAL_DATE`
+  * `RULE_ACQUISITION_DATE_AFTER_DISPOSAL_DATE`
+  * `RULE_COMPLETION_DATE`
+  * `RULE_DISPOSAL_DATE`
 
 ---
 
@@ -2042,17 +2042,17 @@ The following changes are now available in the Sandbox and Production.
 ### individuals-income-received-api
 
 * Added new `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario to the following endpoints:
-    * `Ignore Employment`
-    * `Unignore Employment`
-    * `Create and Amend Employment Financial Details`
+  * `Ignore Employment`
+  * `Unignore Employment`
+  * `Create and Amend Employment Financial Details`
 
 ### property-business-api
 
 * Added new `PROPERTY_INCOME_ALLOWANCE` Gov-Test-Scenario to the following endpoints:
-    * `Create and Amend a Foreign Property Annual Submission`
-    * `Create and Amend a UK Property Annual Submission`
+  * `Create and Amend a Foreign Property Annual Submission`
+  * `Create and Amend a UK Property Annual Submission`
 * Added new `DUPLICATE_COUNTRY_CODE` Gov-Test-Scenario to the following endpoints:
-    * `Create and Amend a Foreign Property Annual Submission`
+  * `Create and Amend a Foreign Property Annual Submission`
 
 ---
 
@@ -2143,48 +2143,48 @@ The following changes have been made to the documentation:
 The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following endpoints:
-    * `Amend CIS Deductions For Subcontractor`
-    * `Create CIS Deductions For Subcontractor`
-    * `Retrieve CIS Deductions For Subcontractor`
+  * `Amend CIS Deductions For Subcontractor`
+  * `Create CIS Deductions For Subcontractor`
+  * `Retrieve CIS Deductions For Subcontractor`
 * Updated endpoint `Amend CIS Deductions for Subcontractor`
-    * New error `RULE_TAX_YEAR_NOT_SUPPORTED` added
-    * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error
+  * New error `RULE_TAX_YEAR_NOT_SUPPORTED` added
+  * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error
 * Updated endpoint `Create CIS Deductions for Subcontractor`
-    * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error
+  * Providing empty `periodData` array now returns a `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` error
 
 #### individual-calculations-api
 
 The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following `v3.0` endpoints:
-    * `Submit a Self Assessment Final Declaration`
-    * `Trigger a Self Assessment Tax Calculation`
+  * `Submit a Self Assessment Final Declaration`
+  * `Trigger a Self Assessment Tax Calculation`
 * A new field is added to `Retrieve a Self Assessment Tax Calculation` endpoint:
-    * `underLowerProfitThreshold` to section `calculation.taxCalculation.nics.class2Nics`
+  * `underLowerProfitThreshold` to section `calculation.taxCalculation.nics.class2Nics`
 * New error codes are added for `Submit a Self Assessment Final Declaration` endpoint:
-    * `RULE_FINAL_DECLARATION_TAX_YEAR`
-    * `RULE_FINAL_DECLARATION_IN_PROGRESS`
+  * `RULE_FINAL_DECLARATION_TAX_YEAR`
+  * `RULE_FINAL_DECLARATION_IN_PROGRESS`
 * New Gov-Test-Scenario header values added to support new errors
 
 * The `biss` option of the `calculationType` field is removed from `List Self Assessment Tax Calculations`
 
 * Documentation has been updated for `List Self Assessment Tax Calculations`
-    * Description of the endpoint
-    * Description of the `calculationTimestamp` field
+  * Description of the endpoint
+  * Description of the `calculationTimestamp` field
 
 #### individual-losses-api
 
 The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following `v4.0` endpoints:
-    * `Amend a Brought Forward Loss Amount`
-    * `Create a Brought Forward Loss`
-    * `Create a Loss Claim`
-    * `Delete a Brought Forward Loss`
+  * `Amend a Brought Forward Loss Amount`
+  * `Create a Brought Forward Loss`
+  * `Create a Loss Claim`
+  * `Delete a Brought Forward Loss`
 
 * New API Version `v4.0` is available with the following endpoints:
-    * `List Loss Claims`
-    * `List Brought Forward Losses`
+  * `List Loss Claims`
+  * `List Brought Forward Losses`
 
 Both endpoints replace their respective v3 equivalents, which are now deprecated, and not available in v4. Please use
 the new v4 endpoints instead.
@@ -2207,7 +2207,7 @@ The following changes are now available in Production:
 The following changes are now available in Production:
 
 * Updated endpoint `Delete Pension Charges`
-    * New error `RULE_TAX_YEAR_NOT_SUPPORTED` added
+  * New error `RULE_TAX_YEAR_NOT_SUPPORTED` added
 * Documentation for `Delete Pension Charges` is updated with the missing `message` attribute added to all example error
   codes
 
@@ -2216,9 +2216,9 @@ The following changes are now available in Production:
 The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for these endpoints:
-    * `Create and Amend Disclosures`
-    * `Create Marriage Allowance Claim`
-    * `Delete Disclosures`
+  * `Create and Amend Disclosures`
+  * `Create Marriage Allowance Claim`
+  * `Delete Disclosures`
 
 #### individuals-expenses-api
 
@@ -2229,11 +2229,11 @@ The following changes are now available in Production:
 
 * Updated documentation:
   The descriptions of these endpoints are updated:
-    - `Create And Amend Employment Expenses`
-    - `Ignore Employment Expenses`
-    - `Create And Amend Other Expenses`
-    - `Delete Other Expenses`
-    - `Retrieve Other Expenses`
+  - `Create And Amend Employment Expenses`
+  - `Ignore Employment Expenses`
+  - `Create And Amend Other Expenses`
+  - `Delete Other Expenses`
+  - `Retrieve Other Expenses`
 
 * `Amend Employment Expenses` renamed to `Create And Amend Employment Expenses`
 
@@ -2244,16 +2244,16 @@ The following changes are now available in Production:
 The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following endpoints:
-    * `Add a UK Savings Account`
-    * `Create and Amend ‘Report and Pay Capital Gains Tax on Property’ Overrides (PPD)`
-    * `Ignore Employment`
-    * `Unignore Employment`
-    * `Amend Custom Employment`
-    * `Delete Custom Employment`
+  * `Add a UK Savings Account`
+  * `Create and Amend ‘Report and Pay Capital Gains Tax on Property’ Overrides (PPD)`
+  * `Ignore Employment`
+  * `Unignore Employment`
+  * `Amend Custom Employment`
+  * `Delete Custom Employment`
 * Updated endpoint `Create and Amend Savings Income`
-    * `foreignTaxCreditRelief` is changed from mandatory to optional
+  * `foreignTaxCreditRelief` is changed from mandatory to optional
 * Updated endpoint `Create and Amend Employment Financial Details`
-    * New error `NOT_ALLOWED_OFF_PAYROLL_WORKER` is added
+  * New error `NOT_ALLOWED_OFF_PAYROLL_WORKER` is added
 * Documentation is updated:
 * `Capital Gains on Residential Property Disposals` resources are updated
 * `Create and Amend Employment Financial Details` description is updated
@@ -2284,13 +2284,13 @@ The following changes are now available in Production:
 The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following endpoints:
-    * `Create State Benefit`
-    * `Ignore State Benefit`
-    * `Unignore State Benefit`
+  * `Create State Benefit`
+  * `Ignore State Benefit`
+  * `Unignore State Benefit`
 * Updated documentation:
-    * Updated name and description for the endpoint `Amend State Benefit Amounts`
-    * Updated description for `Ignore State Benefit`
-    * Updated description for `Unignore State Benefit`
+  * Updated name and description for the endpoint `Amend State Benefit Amounts`
+  * Updated description for `Ignore State Benefit`
+  * Updated description for `Unignore State Benefit`
 * Added new Gov-Test-Scenario header values for `Ignore State Benefit`, `Unignore State Benefit`, `Amend State Benefit`
   and `Create State Benefit`, see [sandbox changelog](https://github.com/hmrc/income-tax-mtd-changelog#13-april-2023)
 
@@ -2299,14 +2299,14 @@ The following changes are now available in Production:
 The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the following endpoints:
-    * `Retrieve Income Tax (Self Assessment) Crystallisation Obligations`
-    * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
-    * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
+  * `Retrieve Income Tax (Self Assessment) Crystallisation Obligations`
+  * `Retrieve Income Tax (Self Assessment) End of Period Statement Obligations`
+  * `Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations`
 * Updated documentation:
-    * Updated the description for `ruleFromDateNotSupported` error
-    * Renamed endpoint from `Retrieve Income Tax (Self Assessment) Crystallisation Obligations`
-      to `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
-    * Updated the downstream URL for all three endpoints
+  * Updated the description for `ruleFromDateNotSupported` error
+  * Renamed endpoint from `Retrieve Income Tax (Self Assessment) Crystallisation Obligations`
+    to `Retrieve Income Tax (Self Assessment) Final Declaration Obligations`
+  * Updated the downstream URL for all three endpoints
 
 #### other-deductions-api
 
@@ -2322,9 +2322,9 @@ The following changes are now available in Production:
 The following changes are now available in Production:
 
 * Updated the descriptions of:
-    * `Amend a Historic FHL UK Property Income & Expenses Period Summary`
-    * `Create a Historic FHL UK Property Income & Expenses Period Summary`
-    * `Create a Historic Non-FHL UK Property Income & Expenses Period Summary`
+  * `Amend a Historic FHL UK Property Income & Expenses Period Summary`
+  * `Create a Historic FHL UK Property Income & Expenses Period Summary`
+  * `Create a Historic Non-FHL UK Property Income & Expenses Period Summary`
 
 #### self-assessment-accounts-api
 
@@ -2334,9 +2334,9 @@ The following changes are now available in Production:
   and `RULE_INCONSISTENT_QUERY_PARAMS` errors
 
 * Updated documentation:
-    * Updated the description of `List Self Assessment Payments & Allocation Details`
-    * Updated the description and message for `RULE_TAX_YEAR_NOT_SUPPORTED` to indicate that there could be a maximum as
-      well as a minimum supported tax year
+  * Updated the description of `List Self Assessment Payments & Allocation Details`
+  * Updated the description and message for `RULE_TAX_YEAR_NOT_SUPPORTED` to indicate that there could be a maximum as
+    well as a minimum supported tax year
 
 #### self-assessment-biss-api
 
@@ -2349,10 +2349,10 @@ The following changes are now available in Production:
 The following changes are now available in Production:
 
 * Some error response status codes are corrected from 403 to 400 for the `v3.0` following endpoints:
-    * `Submit Foreign Property Accounting Adjustments`
-    * `Submit Self-Employment Accounting Adjustments`
-    * `Submit UK Property Accounting Adjustments`
-    * `Trigger a Business Source Adjustable Summary`
+  * `Submit Foreign Property Accounting Adjustments`
+  * `Submit Self-Employment Accounting Adjustments`
+  * `Submit UK Property Accounting Adjustments`
+  * `Trigger a Business Source Adjustable Summary`
 
 #### self-employment-business-api
 
@@ -2362,7 +2362,7 @@ The following changes are now available in Production:
   use the new v2 endpoints instead.
 
 * `Create a Self-Employment Period Summary`
-    * Added `RULE_INVALID_SUBMISSION_PERIOD` and `RULE_INVALID_SUBMISSION_END_DATE` errors
+  * Added `RULE_INVALID_SUBMISSION_PERIOD` and `RULE_INVALID_SUBMISSION_END_DATE` errors
 * `Create a Self-Employment Period Summary`, `Retrieve a Self-Employment Period Summary`, `Amend a Self-Employment Period Summary`
 * In all 3 endpoints, renamed `periodAllowableExpenses` and all its properties to remove the word "allowable";
   e.g. `periodAllowableExpenses` becomes `periodExpenses`.
@@ -2393,11 +2393,11 @@ The following changes are now available in the Sandbox:
 #### individuals-state-benefits-api
 
 * New Gov-Test-Scenario header values added to `Amend State Benefit` and `Create State Benefit`:
-    * `START_DATE_AFTER_TAX_YEAR_END`
-    * `END_DATE_BEFORE_TAX_YEAR_START`
+  * `START_DATE_AFTER_TAX_YEAR_END`
+  * `END_DATE_BEFORE_TAX_YEAR_START`
 * New Gov-Test-Scenario header value added to `Ignore State Benefit`, `Unignore State Benefit`
   and `Create State Benefit`:
-    * `TAX_YEAR_NOT_ENDED`
+  * `TAX_YEAR_NOT_ENDED`
 
 ### 30 March 2023
 
@@ -2509,8 +2509,8 @@ Endpoint: `Retrieve an Employment and its Financial Details`
 Endpoint: `Submit a Self Assessment Final Declaration`
 
 * New error codes added:
-    * `RULE_FINAL_DECLARATION_TAX_YEAR`
-    * `RULE_FINAL_DECLARATION_IN_PROGRESS`
+  * `RULE_FINAL_DECLARATION_TAX_YEAR`
+  * `RULE_FINAL_DECLARATION_IN_PROGRESS`
 
 * New Gov-Test-Scenario header values added to support new errors.
 
@@ -2527,17 +2527,17 @@ New API Version `v2.0`
 Endpoint: `Retrieve a Self-Employment Period Summary`
 
 * Renamed `periodAllowableExpenses` and all its properties, removing ‘allowable’
-    * e.g `periodAllowableExpenses` → `periodExpenses`
+  * e.g `periodAllowableExpenses` → `periodExpenses`
 
 Endpoint: `Amend a Self-Employment Period Summary`
 
 * Renamed `periodAllowableExpenses` and all its properties, removing ‘allowable’
-    * e.g `periodAllowableExpenses` → `periodExpenses`
+  * e.g `periodAllowableExpenses` → `periodExpenses`
 
 Endpoint: `Create a Self-Employment Period Summary`
 
 * Renamed `periodAllowableExpenses` and all its properties, removing ‘allowable’
-    * e.g `periodAllowableExpenses` → `periodExpenses`
+  * e.g `periodAllowableExpenses` → `periodExpenses`
 
 #### Self-assessment-api
 
