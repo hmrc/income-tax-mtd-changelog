@@ -63,7 +63,7 @@ Updated "Stateful" section on the API landing page to correct version numbers fo
 
 #### Self Employment Business
 
-The following change is now available in Sandbox and Production for v3.0. 
+The following change is now available in Sandbox and Production for v3.0. (Note: a previous version of this log incorrectly stated that the change was for v4.0.)
 
 ##### Added
 
