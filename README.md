@@ -63,13 +63,13 @@ Updated "Stateful" section on the API landing page to correct version numbers fo
 
 #### Self Employment Business
 
-The following change is now available in Sandbox and Production for v3.0. 
+The following change is now available in Sandbox and Production for v3.0.
 
 ##### Added
 
 Create and Amend Self-Employment Annual Submission endpoint:
 
- - Added a new 400 error code and two new optional fields `transitionProfitAmount` and `transitionProfitAccelerationAmount` in `annualAdjustmentsType` object.
+- Added a new 400 error code and two new optional fields `transitionProfitAmount` and `transitionProfitAccelerationAmount` in `annualAdjustmentsType` object.
 
 #### Individual Calculations
 
@@ -96,7 +96,7 @@ The following change is now available for the following APIs in Sandbox and Prod
 
 ##### Changed
 
-Change fields within `expenses` objects to support negative values for the following endpoints: 
+Change fields within `expenses` objects to support negative values for the following endpoints:
 
 - Property Business v4.0
   - Foreign Property Income & Expenses Period Summary endpoint
@@ -108,7 +108,7 @@ Change fields within `expenses` objects to support negative values for the follo
 
 The following change is now available in Sandbox and Production for v2.0.
 
-##### Added 
+##### Added
 
 Get ITSA Status endpoint:
 
@@ -126,7 +126,7 @@ Retrieve Self Assessment Balance and Transactions endpoint:
 
 #### Property Business
 
-The following changes are now available in Sandbox and Production for v4.0 for the following endpoints: 
+The following changes are now available in Sandbox and Production for v4.0 for the following endpoints:
 
 - Create a UK Property Income & Expenses Period Summary
 - Amend a UK Property Income & Expenses Period Summary
@@ -141,9 +141,9 @@ The following changes are now available in Sandbox and Production for v4.0 for t
 
 ##### Added
 
-- `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields 
-that enable customers to submit residential finance costs
-and brought-forward residential finance costs.
+- `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields
+  that enable customers to submit residential finance costs
+  and brought-forward residential finance costs.
 
 ##### Removed
 
@@ -170,10 +170,10 @@ with all APIs containing the following improvements:
 
 #### Deprecated
 
-Please note the following API versions will be deprecated at the beginning of July 2024 
+Please note the following API versions will be deprecated at the beginning of July 2024
 and will retire after six months as per HMRC API Life Cycle & Deprecation Standards:
 
-- Self Employment Business v3.0
+- Business Source Adjustable Summary v4.0
 - Property Business v3.0
 - Self Assessment Individual Details v1.0
 
