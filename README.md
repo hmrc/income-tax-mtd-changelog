@@ -14,7 +14,7 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
-### 14 June 2024
+### 8 July 2024
 
 #### Self Assessment tax return form mapping CSV files
 
@@ -23,6 +23,209 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 Update `sa103f_mapping_v1.csv` file to `v2` because of changes to some box numbers in the SA103F tax return form for tax year 2024-25.
 
 ---
+
+### 28 June 2024
+
+### Deprecation of API versions
+
+The below API versions are deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
+
+- Business Source Adjustable Summary v4.0
+- Property Business v3.0
+- Self Assessment Individual Details v1.0
+- Individuals Income Received v2.0
+
+Because all versions of Individuals Income Received are now deprecated, it no longer appears on the [list of APIs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd) unless you are signed in to the Developer Hub and have an active subscription. You can still [view the API documentation directly](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api/2.0).
+
+Note: our 18 June update incorrectly stated that Self Employment Business v3.0 would be deprecated - we apologise for the error.
+
+---
+
+### 25 June 2024
+
+#### Business Details
+
+The following change is now available in Sandbox.
+
+##### Added
+
+For Retrieve Business Details endpoint:
+
+ - Return `quarterlyTypeChoice` object in all static and dynamic responses when testing with `Gov-Test-Scenario` headers.
+
+#### Self Assessment Accounts
+
+The following change is now available in Sandbox for v2.0 and v3.0. 
+
+##### Added
+
+Retrieve History of a Self Assessment Charge endpoint:
+
+- Add a new `chargeReference` query parameter to pass a charge reference number.
+- Add a new error FORMAT_CHARGE_REFERENCE when the format of the supplied charge reference is not valid.
+
+##### Changed 
+
+- Reduce the allowed length of transactionId parameter to 12 characters.
+
+---
+
+### 24 June 2024
+
+#### Documentation update
+
+The following change is now available in Sandbox and Production.
+
+##### Changed
+
+Updated "Stateful" section on the API landing page to correct version numbers for:
+- Individuals Dividends Income
+- Individuals Employments Income
+- Individuals Pensions Income
+- Individuals Other Income
+- Individuals Savings Income
+
+---
+
+### 18 June 2024
+
+#### Self Employment Business
+
+The following change is now available in Sandbox and Production for v3.0. (Note: a previous version of this log incorrectly stated that the change was for v4.0.)
+
+##### Added
+
+Create and Amend Self-Employment Annual Submission endpoint:
+
+ - Added a new 400 error code and two new optional fields `transitionProfitAmount` and `transitionProfitAccelerationAmount` in `annualAdjustmentsType` object.
+
+#### Individual Calculations
+
+The following changes are now available in Sandbox and Production for v5.0.
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation endpoint:
+
+- Added two new optional fields `transitionProfitAmount` and `transitionProfitAccelerationAmount` in `annualAdjustmentsType` object.
+
+##### Changed
+
+Retrieve a Self Assessment Tax Calculation endpoint:
+
+- Updated fields within `transitionProfit` object to accept whole numbers only.
+
+- `calculation.transitionProfit` fields can return only integers from 0 to 99999999999 (applies to tax years 2024-25 or later).
+
+
+#### Support for negative property income expenses
+
+The following change is now available for the following APIs in Sandbox and Production.
+
+##### Changed
+
+Change fields within `expenses` objects to support negative values for the following endpoints: 
+
+- Property Business v4.0
+  - Foreign Property Income & Expenses Period Summary endpoint
+- Self Assessment Business Source Adjustable Summary v5.0
+  - UK Property Income & Expenses Period Summary endpoint
+  - UK Property Accounting Adjustments endpoint
+
+#### Self Assessment Individual Details
+
+The following change is now available in Sandbox and Production for v2.0.
+
+##### Added 
+
+Get ITSA Status endpoint:
+
+- New value for enum `status` so that in the event a customer has opted out of MTD they can select `No Status`.
+
+#### Self Assessment Accounts
+
+The following change is now available in Sandbox and Production for v3.0:
+
+##### Changed
+
+Retrieve Self Assessment Balance and Transactions endpoint:
+
+- `documentDueDate` field is now optional.
+
+#### Property Business
+
+The following changes are now available in Sandbox and Production for v4.0 for the following endpoints: 
+
+- Create a UK Property Income & Expenses Period Summary
+- Amend a UK Property Income & Expenses Period Summary
+- Retrieve a UK Property Income & Expenses Period Summary
+- Create a Foreign Property Income & Expenses Period Summary
+- Amend a Foreign Property Income & Expenses Period Summary
+- Retrieve a Foreign Property Income & Expenses Period Summary
+
+##### Changed
+
+- Endpoints now support combining `rentARoom` and `amountClaimed` values with a `consolidatedExpenses` value.
+
+##### Added
+
+- `residentialFinancialCost` and `broughtFwdResidentialFinancialCost` fields 
+that enable customers to submit residential finance costs
+and brought-forward residential finance costs.
+
+##### Removed
+
+- Remove HATEOAS links.
+
+
+#### New APIs
+
+Individuals Income Received API has been split into the following APIs in Production and Sandbox:
+- Individuals Foreign Income v1.0
+- Individuals Insurance Policies Income v1.0
+- Individuals Pensions Income v1.0
+- Individuals Dividends Income v1.0
+- Individuals Savings Income v1.0
+- Individuals Capital Gains Income v1.0
+- Individuals Other Income v1.0
+- Individuals Employments Income v1.0
+
+with all APIs containing the following improvements:
+- Removal of HATEOAS links
+- Update of enum value names for consistency
+- Addition of a new generic error
+
+
+#### Deprecated
+
+Please note the following API versions will be deprecated at the beginning of July 2024 
+and will retire after six months as per HMRC API Life Cycle & Deprecation Standards:
+
+- ~~Self Employment Business v3.0~~ (Note: this API was added in error and will not be deprecated in July.)
+- Property Business v3.0
+- Self Assessment Individual Details v1.0
+
+---
+
+### 13 June 2024
+
+#### Self Assessment Assist API
+
+The following change is now available in Sandbox and Production.
+
+##### Changed
+Internal report generation `links` object now returns a list of tuple objects, consisting of titles and urls. 
+- `"title": "[ITSA Guidance, Income Source Guidance]",
+  "url": "[www.itsa.gov.uk, www.itsa/incomesources.gov.uk]"` corrected to `{
+  "title": "ITSA Guidance",
+  "url": "www.itsa.gov.uk"
+  },
+  {
+  "title": "Income Source Guidance",
+  "url": "www.itsa/incomesources.gov.uk"
+  }`
+
+--- 
 
 ### 12 June 2024
 
@@ -329,7 +532,7 @@ In addition, `cashOrAccruals` and `documentDetails.documentDueDate` are now mand
 
 New API version v3.0 is now available.
 
-* The `Retrieve Balance and Transactions`response property `documentDueDate` is now optional.
+* The `Retrieve Balance and Transactions` response property `documentDueDate` is now optional.
 * New endpoints `Opt Out of Coding Out`, `Retrieve Coding Out Status` and `Opt in to Coding Out` are now available.
 
 All endpoints replace their respective v2 equivalents, which are now deprecated. Please use the new v3 endpoints instead.
