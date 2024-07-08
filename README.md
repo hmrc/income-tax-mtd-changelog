@@ -28,6 +28,28 @@ The following endpoints no longer accept data for tax years 2025-26 onwards:
 - Amend a UK Property Income & Expenses Period Summary
 - Retrieve a UK Property Income & Expenses Period Summary
 
+#### Self Assessment tax return form mapping CSV files
+
+##### Changed
+
+Update `sa103f_mapping_v1.csv` file to `v2` because of changes to some box numbers in the SA103F tax return form for tax year 2024-25.
+
+---
+
+### 28 June 2024
+
+### Deprecation of API versions
+
+The below API versions are deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
+
+- Business Source Adjustable Summary v4.0
+- Property Business v3.0
+- Self Assessment Individual Details v1.0
+- Individuals Income Received v2.0
+
+Because all versions of Individuals Income Received are now deprecated, it no longer appears on the [list of APIs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd) unless you are signed in to the Developer Hub and have an active subscription. You can still [view the API documentation directly](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-income-received-api/2.0).
+
+Note: our 18 June update incorrectly stated that Self Employment Business v3.0 would be deprecated - we apologise for the error.
 
 ---
 
@@ -81,7 +103,7 @@ Updated "Stateful" section on the API landing page to correct version numbers fo
 
 #### Self Employment Business
 
-The following change is now available in Sandbox and Production for v3.0. 
+The following change is now available in Sandbox and Production for v3.0. (Note: a previous version of this log incorrectly stated that the change was for v4.0.)
 
 ##### Added
 
@@ -191,11 +213,12 @@ with all APIs containing the following improvements:
 Please note the following API versions will be deprecated at the beginning of July 2024 
 and will retire after six months as per HMRC API Life Cycle & Deprecation Standards:
 
-- Self Employment Business v3.0
+- ~~Self Employment Business v3.0~~ (Note: this API was added in error and will not be deprecated in July.)
 - Property Business v3.0
 - Self Assessment Individual Details v1.0
 
 ---
+
 ### 13 June 2024
 
 #### Self Assessment Assist API
@@ -215,6 +238,7 @@ Internal report generation `links` object now returns a list of tuple objects, c
   }`
 
 --- 
+
 ### 12 June 2024
 
 #### Property Business API
@@ -317,7 +341,7 @@ The following changes are now available in Sandbox and Production for all versio
 ##### Changed
 
 Update the `consolidatedExpenses` field description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
-  
+
 * Create a UK Property Income & Expenses Period Summary
 * Retrieve a UK Property Income & Expenses Period Summary
 * Amend a UK Property Income & Expenses Period Summary
@@ -332,7 +356,7 @@ The following changes are now available in Sandbox and Production for all versio
 ##### Changed
 
 Update the `consolidatedExpenses` field description in API documentation to clarify that it relates to *allowable* expenses. Endpoints affected:
-  
+
 * Retrieve a Self-Employment Period Summary
 * Create a Self-Employment Period Summary
 * Amend a Self-Employment Period Summary
