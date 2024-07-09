@@ -14,7 +14,7 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
-### 08 July 2024
+### 8 July 2024
 
 #### Property Business
 
