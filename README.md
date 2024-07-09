@@ -16,6 +16,18 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ### 8 July 2024
 
+#### Property Business
+
+The following change is now available in Sandbox and Production for v4.0.
+
+#### Changed
+
+The following endpoints no longer accept data for tax years 2025-26 onwards:
+
+- Create a UK Property Income & Expenses Period Summary
+- Amend a UK Property Income & Expenses Period Summary
+- Retrieve a UK Property Income & Expenses Period Summary
+
 #### Self Assessment tax return form mapping CSV files
 
 ##### Changed
