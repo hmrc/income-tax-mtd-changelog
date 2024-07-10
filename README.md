@@ -22,7 +22,7 @@ The following change is now available in Sandbox for all versions.
 
 ##### Changed
 
-Remove requirement for an annual submission to trigger a Business Source Adjustable Summary. Previously, both an annual submission and period summaries made from the Property Business API were required. An annual submission is no longer required.
+Remove requirement for an annual submission to trigger a Business Source Adjustable Summary. Previously, both an annual submission and period summaries made from the Property Business or Self Employment Business APIs were required. An annual submission is no longer required.
 
 This change affects the following endpoint:
 
