@@ -16,16 +16,19 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ### 10 July 2024
 
-#### Self Assessment BSAS Api
+#### Business Source Adjustable Summary
 
-The following change is now available in Sandbox.
+The following change is now available in Sandbox for all versions.
 
-#### Changed
+##### Changed
 
-The following endpoint no longer validates Annual Submissions and a BSAS can be triggered with only periodic submissions:
+Remove requirement for an annual submission to trigger a Business Source Adjustable Summary. Previously, both an annual submission and period summaries made from the Property Business API were required. An annual submission is no longer required.
+
+This change affects the following endpoint:
 
 - Trigger a Business Source Adjustable Summary
 
+---
 
 ### 8 July 2024
 
@@ -33,7 +36,7 @@ The following endpoint no longer validates Annual Submissions and a BSAS can be 
 
 The following change is now available in Sandbox and Production for v4.0.
 
-#### Changed
+##### Changed
 
 The following endpoints no longer accept data for tax years 2025-26 onwards:
 
@@ -51,7 +54,7 @@ Update `sa103f_mapping_v1.csv` file to `v2` because of changes to some box numbe
 
 ### 28 June 2024
 
-### Deprecation of API versions
+#### Deprecation of API versions
 
 The below API versions are deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
 
