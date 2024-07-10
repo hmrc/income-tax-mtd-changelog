@@ -14,6 +14,19 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
+### 10 July 2024
+
+#### Self Assessment BSAS Api
+
+The following change is now available in Sandbox.
+
+#### Changed
+
+The following endpoint no longer validates Annual Submissions and a BSAS can be triggered with only periodic submissions:
+
+- Trigger a Business Source Adjustable Summary
+
+
 ### 8 July 2024
 
 #### Property Business
