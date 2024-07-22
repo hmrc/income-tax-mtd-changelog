@@ -14,6 +14,33 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
+
+### 24 July 2024
+
+#### Updated mtd-identifier-lookup mapping
+
+The below APIs have updated mtd-identifier-lookup mapping:
+
+- Individuals Pensions Income
+- Other Deductions
+- Business Income Source Summary
+- Self Assessment Individual Details
+- Self Employment Business
+- CIS Deductions
+- Individual Calculations
+- Individual Losses
+- Individuals Business End of Period Statement
+- Individuals Capital Gains Income
+- Individuals Charges
+- Individuals Disclosures
+- Individuals Dividends Income
+- Individuals Foreign Income
+- Individuals Employments Income
+- Individuals Expenses
+- Individuals Income Received
+
+---
+
 ### 10 July 2024
 
 #### Business Source Adjustable Summary
