@@ -28,7 +28,7 @@
 "Business Expenses (total expenses)","FSE23 SSE18","24","Advertising and business entertainment costs","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > advertisingCosts periodExpenses > businessEntertainmentCosts"
 "Business Expenses (total expenses)","FSE24","25","Interest on bank and other loans","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > interestOnBankOtherLoans"
 "Business Expenses (total expenses)","FSE25 SSE17","26","Bank, credit card and other financial charges","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > financeCharges"
-"Business Expenses (total expenses)","FSE26","27","Irrecoverable debts written off","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > irrecoverableDebts"       
+"Business Expenses (total expenses)","FSE26","27","Irrecoverable debts written off","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > irrecoverableDebts"
 "Business Expenses (total expenses)","FSE27","28","Accountancy, legal and other professional fees","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > professionalFees"
 "Business Expenses (total expenses)","FSE28 SSE16","29","Depreciation and loss or profit on sale of assets","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > depreciation"
 "Business Expenses (total expenses)","FSE29","30","Other business expense","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > otherExpenses"
