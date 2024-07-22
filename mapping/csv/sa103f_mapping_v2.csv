@@ -33,7 +33,6 @@
 "Business Expenses (total expenses)","FSE28 SSE16","29","Depreciation and loss or profit on sale of assets","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > depreciation"
 "Business Expenses (total expenses)","FSE29","30","Other business expense","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > otherExpenses"
 "Business Expenses (total expenses)","FSE30 SSE19","31","Total expenses","Calculated by HMRC if full expenses used. If Consolidated Expenses see row below","",
-"Business Expenses (total expenses)","FSE30 SSE19","31","Total expenses","Self Employment Business","Create a Self-Employment Period Summary","periodExpenses > consolidatedExpenses"
 "Business Expenses (total expenses)","FSE31 SSE20","32","Cost of goods bought for resale or goods used","Self Employment Business","Create a Self-Employment Period Summary","periodDisallowableExpenses > costOfGoodsDisallowable"
 "Business Expenses (disallowable expenses)","FSE32","33","Construction industry - payments to subcontractors","Self Employment Business","Create a Self-Employment Period Summary","periodDisallowableExpenses > paymentsToSubcontractorsDisallowable"
 "Business Expenses (disallowable expenses)","FSE33","34","Wages, salaries and other staff costs","Self Employment Business","Create a Self-Employment Period Summary","periodDisallowableExpenses > wagesAndStaffCostsDisallowable"
