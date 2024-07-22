@@ -19,7 +19,7 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 #### Updated mtd-identifier-lookup mapping
 
-The below APIs have updated mtd-identifier-lookup mapping:
+The following change is now available in Sandbox and Production for:
 
 - Individuals Pensions Income
 - Other Deductions
