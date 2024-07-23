@@ -20,7 +20,9 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ### 23 July 2024
 
-#### Self Employment Business Api tax year validation
+#### Self Employment Business Api
+
+The following change is now available in Sandbox and Production for v3.0.
 
 ##### Changed
 
