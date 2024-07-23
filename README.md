@@ -14,6 +14,16 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
+### 22 July 2024
+
+#### Self Assessment tax return form mapping CSV files
+
+##### Changed
+
+Update `sa103f_mapping_v2.csv` file to `v3` to use `""` for empty values at the end of rows, remove whitespace that was causing an issue with GitHub rendering
+
+---
+
 ### 10 July 2024
 
 #### Business Source Adjustable Summary
