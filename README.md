@@ -18,6 +18,21 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
+### 23 July 2024
+
+#### Self Employment Business Api tax year validation
+
+##### Changed
+
+The following endpoints no longer accept data for tax years 2025-26 onwards:
+
+- Create a Self-Employment Period Summary
+- Amend a Self-Employment Period Summary
+- Retrieve a Self-Employment Period Summary
+- List Self-Employment Period Summaries
+
+---
+
 ### 22 July 2024
 
 #### Self Assessment tax return form mapping CSV files
