@@ -4,6 +4,10 @@ This page contains a log of the latest changes for [Income Tax (Making Tax Digit
 
 [Get notified about changes to these APIs](notifications/get-notified.md)
 
+## Support and reporting issues
+
+If you need support with our APIs, or you want to report an issue, please contact our Software Developers Support Team using this [support form](https://developer.service.hmrc.gov.uk/developer/support).
+
 ## Mapping APIs to Self Assessment tax return forms
 
 Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [Self Assessment tax return forms (GOV.UK)](https://www.gov.uk/self-assessment-tax-return-forms). For more information, see [Mapping CSV files](mapping/mapping-csv-files.md).
@@ -2668,10 +2672,6 @@ New changes to the MTD APIs will be listed here.
 ## Previous updates
 
 [Archive of previous changelog updates](https://github.com/hmrc/income-tax-mtd-changelog/wiki)
-
-## Support and Reporting Issues
-
-You can create a GitHub issue [here](https://github.com/hmrc/income-tax-mtd-changelog/issues)
 
 ## License
 
