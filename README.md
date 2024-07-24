@@ -15,9 +15,8 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 ## Changelog
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
+
 ---
-
-
 
 ### 24 July 2024
 
@@ -27,17 +26,15 @@ The following change is now available in Sandbox and Production for all versions
 
 ##### Changed
 
-Updated `chargeReference` query parameter in `Retrieve History of a Self Assessment Charge` to be 14 characters long
+Retrieve History of a Self Assessment Charge endpoint:
+
+- Increase the allowed length of `chargeReference` query parameter to 14 characters (from 12) 
 
 ---
-
-
 
 ### 22 July 2024
 
 #### Self Assessment tax return form mapping CSV files
-
-
 
 ##### Changed
 
