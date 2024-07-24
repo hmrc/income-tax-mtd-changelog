@@ -31,13 +31,9 @@ Updated `chargeReference` query parameter in `Retrieve History of a Self Assessm
 
 ---
 
-
-
 ### 22 July 2024
 
 #### Self Assessment tax return form mapping CSV files
-
-
 
 ##### Changed
 
