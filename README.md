@@ -33,6 +33,16 @@ The following endpoints no longer accept data for tax years 2025-26 onwards:
 - Retrieve a Self-Employment Period Summary
 - List Self-Employment Period Summaries
 
+#### Self Assessment Accounts API
+
+The following change is now available in Sandbox and Production for all versions.
+
+##### Changed
+
+Retrieve History of a Self Assessment Charge endpoint:
+
+- Change the format of `chargeReference` query parameter to 14 characters (from 12) 
+
 ---
 
 ### 22 July 2024
