@@ -28,7 +28,7 @@ The following change is now available in Sandbox and Production for all versions
 
 Retrieve History of a Self Assessment Charge endpoint:
 
-- Increase the allowed length of `chargeReference` query parameter to 14 characters (from 12) 
+- Change the format of `chargeReference` query parameter to 14 characters (from 12) 
 
 ---
 
