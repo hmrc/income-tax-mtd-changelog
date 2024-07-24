@@ -18,6 +18,20 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
+### 24 July 2024
+
+#### Self Assessment Accounts API
+
+The following change is now available in Sandbox and Production for all versions.
+
+##### Changed
+
+Retrieve History of a Self Assessment Charge endpoint:
+
+- Change the format of `chargeReference` query parameter to 14 characters (from 12) 
+
+---
+
 ### 22 July 2024
 
 #### Self Assessment tax return form mapping CSV files
