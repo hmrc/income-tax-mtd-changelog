@@ -28,6 +28,16 @@ Under certain conditions a 400 FORMAT_NINO error response could be incorrectly r
 
 ---
 
+### 22 July 2024
+
+#### Self Assessment tax return form mapping CSV files
+
+##### Changed
+
+Update `sa103f_mapping_v2.csv` file to `v3` to use `""` for empty values at the end of rows, remove whitespace that was causing an issue with GitHub rendering
+
+---
+
 ### 10 July 2024
 
 #### Business Source Adjustable Summary
