@@ -20,7 +20,7 @@ The following change is now available in Sandbox and Production.
 
 #### Updated mtd-identifier-lookup mapping
 
-All versions and endpoints have the following bug fix.
+All API versions and endpoints have the following bug fix.
 
 ##### Fixed
 
