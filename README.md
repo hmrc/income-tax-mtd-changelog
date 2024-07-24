@@ -17,40 +17,15 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ### 24 July 2024
 
+The following change is now available in Sandbox and Production.
+
 #### Updated mtd-identifier-lookup mapping
 
-The following change is now available in Sandbox and Production for all versions of:
+All versions and endpoints have the following bug fix.
 
-- Individuals Pensions Income
-- Business Details 
-- CIS Deductions
-- Individual Calculations
-- Individual Losses
-- Individuals Business End of Period Statement
-- Individuals Capital Gains Income
-- Individuals Charges
-- Individuals Disclosures
-- Individuals Dividends Income
-- Individuals Employments Income
-- Individuals Expenses
-- Individuals Foreign Income
-- Individuals Income Received
-- Individuals Insurance Policies Income
-- Individuals Other Income
-- Individuals Reliefs
-- Individuals Savings Income
-- Individuals State Benefits
-- Obligations
-- Other Deductions
-- Property Business
-- Self Assessment Accounts 
-- Business Income Source Summary
-- Self Assessment Individual Details
-- Self Employment Business
+##### Fixed
 
-##### Changed
-
-mtd-identifier-lookup returning a 403 (Forbidden) error no longer maps to a 400 FORMAT_NINO error but instead a 403 error.
+Under certain conditions a 400 FORMAT_NINO error response could be incorrectly returned instead of a 403 CLIENT_OR_AGENT_NOT_AUTHORISED error response.
 
 ---
 
