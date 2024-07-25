@@ -97,7 +97,7 @@ Update `sa103f_mapping_v1.csv` file to `v2` because of changes to some box numbe
 
 #### Deprecation of API versions
 
-The below API versions are deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
+The below API versions are deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work until the APIs are retired.
 
 - Business Source Adjustable Summary v4.0
 - Property Business v3.0
