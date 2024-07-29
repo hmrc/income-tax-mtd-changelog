@@ -1,6 +1,6 @@
-# Income Tax (Making Tax Digital) API Changelog
+# Making Tax Digital for Income Tax API Changelog
 
-This page contains a log of the latest changes for [Income Tax (Making Tax Digital) APIs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd). For information about planned changes to these APIs, see [Income Tax (Making Tax Digital) roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
+This page contains a log of the latest changes for [Making Tax Digital for Income Tax APIs](https://developer.service.hmrc.gov.uk/api-documentation/docs/api?filter=income-tax-mtd). For information about planned changes to these APIs, see the [Making Tax Digital for Income Tax roadmap](https://developer.service.hmrc.gov.uk/roadmaps/mtd-itsa-vendors-roadmap/).
 
 [Get notified about changes to these APIs](notifications/get-notified.md)
 
@@ -10,7 +10,7 @@ If you need support with our APIs, or you want to report an issue, please contac
 
 ## Mapping APIs to Self Assessment tax return forms
 
-Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [Self Assessment tax return forms (GOV.UK)](https://www.gov.uk/self-assessment-tax-return-forms). For more information, see [Mapping CSV files](mapping/mapping-csv-files.md).
+Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in [Self Assessment tax return forms (GOV.UK)](https://www.gov.uk/self-assessment-tax-return-forms). For more information, see [Mapping CSV files](mapping/mapping-csv-files.md).
 
 ## Changelog
 
@@ -908,7 +908,7 @@ Deprecated endpoints will now return the following response headers:
 - Link - a link to the relevant API documentation
 - Sunset (if available) - date/time after which the endpoint may not be available
 
-The 'API lifecycle & deprecation' section of the Income Tax (Making Tax Digital) end-to-end service guide will be
+The 'API lifecycle & deprecation' section of the Making Tax Digital for Income Tax end-to-end service guide will be
 updated with more details.
 
 ---
