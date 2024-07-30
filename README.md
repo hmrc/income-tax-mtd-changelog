@@ -22,7 +22,7 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 The following change is now available in Sandbox and Production.
 
-#### Updated mtd-identifier-lookup mapping
+#### Updated error code
 
 All API versions and endpoints have the following bug fix.
 
