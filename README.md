@@ -18,6 +18,20 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
+### 30 July 2024
+
+The following change is now available in Sandbox and Production.
+
+#### Updated mtd-identifier-lookup mapping
+
+All API versions and endpoints have the following bug fix.
+
+##### Fixed
+
+Under certain conditions a 400 FORMAT_NINO error response could be incorrectly returned instead of a 403 CLIENT_OR_AGENT_NOT_AUTHORISED error response.
+
+---
+
 ### 24 July 2024
 
 #### Self Employment Business API
