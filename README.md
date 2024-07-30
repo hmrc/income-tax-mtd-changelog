@@ -20,15 +20,23 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ### 30 July 2024
 
-The following change is now available in Sandbox and Production.
-
-#### Updated error code
+#### Updated error code (all APIs)
 
 All API versions and endpoints have the following bug fix.
 
 ##### Fixed
 
-Under certain conditions a 400 FORMAT_NINO error response could be incorrectly returned instead of a 403 CLIENT_OR_AGENT_NOT_AUTHORISED error response.
+Under certain conditions a `400 FORMAT_NINO` error response could be incorrectly returned instead of a `403 CLIENT_OR_AGENT_NOT_AUTHORISED` error response.
+
+#### Business Details API
+
+The following change is now available in Production for v1.0.
+
+##### Added
+
+Add warning to documentation that the Create and Amend Quarterly Period Type for a Business endpoint is incorrectly returning a `500 INTERNAL_SERVER_ERROR_` response when an incorrect tax year or business ID is submitted.
+
+This is a known issue which will be fixed in a future release.
 
 ---
 
