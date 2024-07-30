@@ -34,7 +34,7 @@ The following change is now available in Production for v1.0.
 
 ##### Added
 
-Add warning to documentation that the Create and Amend Quarterly Period Type for a Business endpoint is incorrectly returning a `500 INTERNAL_SERVER_ERROR_` response when an incorrect tax year or business ID is submitted.
+Add warning to documentation that the Create and Amend Quarterly Period Type for a Business endpoint is incorrectly returning a `500 INTERNAL_SERVER_ERROR` response when an incorrect tax year or business ID is submitted.
 
 This is a known issue which will be fixed in a future release.
 
