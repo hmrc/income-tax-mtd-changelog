@@ -18,6 +18,20 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
+### 1 August 2024
+
+#### Individual Calculations API
+
+The following change is now available in Sandbox and Production for V6.0.
+
+##### Added
+
+For Retrieve a Self Assessment Tax Calculation endpoint:
+
+- Add the Scottish Advanced Rate tax band.
+
+---
+
 ### 30 July 2024
 
 #### Updated error code (all APIs)
