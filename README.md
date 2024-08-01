@@ -18,6 +18,18 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 ---
 
+### 1 August 2024
+
+#### Self Employment Business API
+
+The following change is now available in Sandbox and Production for all versions.
+
+##### Added
+
+Added support for validating unexpected request body fields.
+
+---
+
 ### 30 July 2024
 
 #### Updated error code (all APIs)
