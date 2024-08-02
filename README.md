@@ -22,7 +22,7 @@ Parameters in some Income Tax (Making Tax Digital) APIs map to box numbers in [S
 
 #### Individual Calculations API
 
-The following change is now available in Sandbox and Production for v6.0.
+New API version 6.0 added in Sandbox and Production with the following changes.
 
 ##### Added
 
