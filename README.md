@@ -18,6 +18,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 5 August 2024
+
+#### Property Business API
+
+The following change is now available in Sandbox and Production for v4.0.
+
+##### Changed
+
+The following endpoint no longer accepts data for tax years 2025-26 onwards:
+
+- List Property Income & Expenses Period Summaries
+
+---
+
 ### 30 July 2024
 
 #### Updated error code (all APIs)
