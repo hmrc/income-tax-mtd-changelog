@@ -18,6 +18,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 2 August 2024
+
+#### Individual Calculations API
+
+New API version 6.0 added in Sandbox and Production with the following changes.
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation endpoint:
+
+- New value for enum `calculation.taxCalculation.incomeTax.payPensionsProfit.taxBands.name` adding the Scottish Advanced Rate tax band `advanced-rate`.
+
+---
+
 ### 30 July 2024
 
 #### Updated error code (all APIs)
