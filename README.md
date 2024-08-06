@@ -20,7 +20,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ### 6 August 2024
 
-#### Self Assessment Accounts Api
+#### Self Assessment Accounts API
 
 The following change is now available in Sandbox for v3.0.
 
@@ -29,7 +29,7 @@ Retrieve History of a Self Assessment Charge:
 - `chargeReference` parameter has been removed from endpoint
 
 The following endpoints have been created:
-- Retrieve History of a Self Assessment Charge by transactionId
+- Retrieve History of a Self Assessment Charge by Transaction ID
 - Retrieve History of a Self Assessment Charge by Charge Reference
 
 ---
