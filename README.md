@@ -25,6 +25,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 The following change is now available in Sandbox for v3.0.
 
 ##### Changed
+
 Retrieve History of a Self Assessment Charge:
 - `chargeReference` parameter has been removed from endpoint
 
