@@ -27,7 +27,7 @@ The following change is now available in Sandbox for v3.0.
 ##### Changed
 
 Retrieve History of a Self Assessment Charge:
-- `chargeReference` parameter has been removed from endpoint
+- `chargeReference` query parameter has been removed from endpoint
 
 The following endpoints have been created:
 - Retrieve History of a Self Assessment Charge by Transaction ID
