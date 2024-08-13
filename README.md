@@ -18,6 +18,23 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 13 August 2024
+
+Below endpoints for the given API's have the following bug fix.
+
+##### Fixed
+
+Under certain conditions an empty Json body was incorrectly returned for the following endpoints:
+
+#### Individuals Income Received API
+- Retrieve Uk Dividends Annual Income Summary
+#### Individuals Dividends Income API
+- Retrieve Uk Dividends Annual Income Summary
+#### Individuals Reliefs API
+- Retrieve Charitable Giving Reliefs
+
+---
+
 ### 7 August 2024
 
 #### Self Assessment Accounts API
