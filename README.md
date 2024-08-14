@@ -27,11 +27,11 @@ Below endpoints for the given API's have the following bug fix.
 Under certain conditions an empty Json body was incorrectly returned for the following endpoints:
 
 #### Individuals Income Received API
-- Retrieve Uk Dividends Annual Income Summary
+- Retrieve a UK Dividends Income Annual Summary
 #### Individuals Dividends Income API
-- Retrieve Uk Dividends Annual Income Summary
+- Retrieve a UK Dividends Income Annual Summary
 #### Individuals Reliefs API
-- Retrieve Charitable Giving Reliefs
+- Retrieve Charitable Giving Tax Relief
 
 ---
 
