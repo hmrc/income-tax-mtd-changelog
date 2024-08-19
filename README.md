@@ -17,6 +17,17 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 19 August 2024
+#### Self Assessment Accounts API
+
+The following change is now available in Sandbox for v3.0.
+
+##### Added
+Retrieve Self Assessment Balance and Transactions
+- Add new optional field `documentDetails.poaRelevantAmount` to the API response.
+
+  
+
 
 ### 13 August 2024
 
