@@ -16,8 +16,18 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+
 ---
 ### 19 August 2024
+#### Individuals Capital Gains Income API
+
+The following change is now available in Sandbox and Production for v1.0.
+
+##### Fixed
+Create and Amend Other Capital Gains and Disposals
+- Fixed missing FORMAT_VALUE validation for all `nonStandardGains` and `losses` fields as well as for the `adjustments` field.
+- Fixed missing RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED validation that at least one of `nonStandardGains.carriedInterestGain`, `nonStandardGains.attributedGains` or `nonStandardGains.otherGains` is provided.
+
 #### Self Assessment Accounts API
 
 The following change is now available in Sandbox for v3.0.
