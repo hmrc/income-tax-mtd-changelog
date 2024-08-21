@@ -16,6 +16,16 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+---
+
+### 21 August 2024
+#### Individual Calculations API
+
+The following change is now available in Sandbox and Production for v5.0.
+
+##### Fixed
+Retrieve a Self Assessment Tax Calculation
+- Fixed case-sensitive enum value `No Status` in the `itsaStatus` field in example response
 
 ---
 
