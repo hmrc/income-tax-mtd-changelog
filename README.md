@@ -16,6 +16,18 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+---
+
+### X August 2024
+
+Below endpoints for the given API's have the following bug fix.
+
+##### Fixed
+
+In some cases the removal of the Lifetime Allowance charge resulted in certain lump sums being paid completely tax-free.
+
+#### Individuals Charges API
+-  Create and Amend Pension Charges
 
 ---
 
