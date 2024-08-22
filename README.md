@@ -19,15 +19,24 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 ---
 
 ### X August 2024
+#### Individuals Charges API
 
-Below endpoints for the given API's have the following bug fix.
+The following change is now available in Sandbox and Production for v2.0.
 
 ##### Fixed
 
-In some cases the removal of the Lifetime Allowance charge resulted in certain lump sums being paid completely tax-free.
+Create and Amend Pension Charges
+- Fixed `pensionSavingsTaxCharges` object being present in 2024-25 schema and added error `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` when a request for 2024-25 includes it
 
-#### Individuals Charges API
--  Create and Amend Pension Charges
+---
+### 21 August 2024
+#### Individual Calculations API
+
+The following change is now available in Sandbox and Production for v5.0.
+
+##### Fixed
+Retrieve a Self Assessment Tax Calculation
+- Fixed case-sensitive enum value `No Status` in the `itsaStatus` field in example response
 
 ---
 
