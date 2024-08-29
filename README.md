@@ -32,7 +32,7 @@ The following change is now available in Sandbox and Production for v4.0 and v5.
 
 ##### Change
 
-For all endpoints -
+For all endpoints:
 
 - Error RULE_TAX_YEAR_NOT_SUPPORTED is returned when requests are submitted for tax years 2025-26 or later.
 
