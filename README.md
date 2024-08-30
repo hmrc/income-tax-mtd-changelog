@@ -18,6 +18,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 30 August 2024
+
+####  Business Source Adjustable Summary API
+
+The following change is now available in Sandbox and Production for v4.0 and v5.0.
+
+##### Change
+
+For all endpoints:
+
+- Error RULE_TAX_YEAR_NOT_SUPPORTED is returned for requests submitted for tax years 2025-26 or later.
+
+---
+
 ### 21 August 2024
 
 #### Individual Calculations API
