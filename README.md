@@ -33,49 +33,64 @@ For all endpoints:
 ---
 
 ### 21 August 2024
+
 #### Individual Calculations API
 
 The following change is now available in Sandbox and Production for v5.0.
 
 ##### Fixed
-Retrieve a Self Assessment Tax Calculation
-- Fixed case-sensitive enum value `No Status` in the `itsaStatus` field in example response
+
+Retrieve a Self Assessment Tax Calculation:
+
+- Fixed case-sensitive enum value `No Status` in the `itsaStatus` field in example response.
 
 ---
 
 ### 19 August 2024
+
 #### Individuals Capital Gains Income API
 
 The following change is now available in Sandbox and Production for v1.0.
 
 ##### Fixed
-Create and Amend Other Capital Gains and Disposals
+
+Create and Amend Other Capital Gains and Disposals:
+
 - Fixed missing FORMAT_VALUE validation for all `nonStandardGains` and `losses` fields as well as for the `adjustments` field.
-- Fixed missing RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED validation that at least one of `nonStandardGains.carriedInterestGain`, `nonStandardGains.attributedGains` or `nonStandardGains.otherGains` is provided.
+- Fixed missing RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED validation - now at least one of `nonStandardGains.carriedInterestGain`, `nonStandardGains.attributedGains` or `nonStandardGains.otherGains` must be provided.
 
 #### Self Assessment Accounts API
 
 The following change is now available in Sandbox for v3.0.
 
 ##### Added
-Retrieve Self Assessment Balance and Transactions
+
+Retrieve Self Assessment Balance and Transactions:
+
 - Add new optional field `documentDetails.poaRelevantAmount` to the API response.
 
 ---
 
 ### 13 August 2024
 
-Below endpoints for the given API's have the following bug fix.
+#### Empty JSON body issue (Individuals Income Received, Individuals Dividends Income, Individuals Reliefs)
+
+The below endpoints for the given APIs have the following bug fix.
 
 ##### Fixed
 
-Under certain conditions an empty Json body was incorrectly returned for the following endpoints:
+Under certain conditions, an empty JSON body was incorrectly returned for the following endpoints:
 
-#### Individuals Income Received API
+Individuals Income Received API:
+
 - Retrieve a UK Dividends Income Annual Summary
-#### Individuals Dividends Income API
+
+Individuals Dividends Income API:
+
 - Retrieve a UK Dividends Income Annual Summary
-#### Individuals Reliefs API
+
+Individuals Reliefs API: 
+
 - Retrieve Charitable Giving Tax Relief
 
 ---
