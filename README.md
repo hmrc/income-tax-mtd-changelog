@@ -17,6 +17,29 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 2 September 2024
+
+#### Property Business API
+
+The following change is now available in Sandbox and Production for v4.0.
+
+##### Changed
+
+The following endpoints no longer accept data for tax years 2025-26 onwards:
+
+- Create and Amend a Foreign Property Annual Submission
+- Retrieve a Foreign Property Annual Submission
+- Create a Foreign Property Income & Expenses Period Summary
+- Amend a Foreign Property Income & Expenses Period Summary
+- Retrieve a Foreign Property Income & Expenses Period Summary
+- List Property Income & Expenses Period Summaries
+- Create and Amend a UK Property Annual Submission
+- Retrieve a UK Property Annual Submission
+- Create a UK Property Income & Expenses Period Summary
+- Amend a UK Property Income & Expenses Period Summary
+- Retrieve a UK Property Income & Expenses Period Summary
+
+---
 
 ### 30 August 2024
 
@@ -24,7 +47,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 The following change is now available in Sandbox and Production for v4.0 and v5.0.
 
-##### Change
+##### Changed
 
 For all endpoints:
 
