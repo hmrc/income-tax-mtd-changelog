@@ -65,6 +65,9 @@ The following change is now available in Sandbox for v2.0.
 Create and Amend Pension Charges:
 - `pensionSavingsTaxCharges` object in the request body can no longer be submitted for tax years 2024-25 onwards, and error `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` is returned when requests for tax years 2024-25 onwards include this object.
 
+Retrieve Pension Charges:
+- `pensionSavingsTaxCharges` object in the request body can no longer be submitted for tax years 2024-25 onwards, and error `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` is returned when requests for tax years 2024-25 onwards include this object.
+
 ---
 ### 21 August 2024
 
