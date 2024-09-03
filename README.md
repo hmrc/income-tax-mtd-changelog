@@ -29,7 +29,7 @@ Create and Amend Pension Charges:
 - `pensionSavingsTaxCharges` object in the request body can no longer be submitted for tax years 2024-25 onwards, and error `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` is returned when requests for tax years 2024-25 onwards include this object.
 
 Retrieve Pension Charges:
-- `pensionSavingsTaxCharges` object can no longer be retrieved in the response body for tax years 2024-25 onwards, and error `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` is returned when requests for tax years 2024-25 onwards include this object.
+- `pensionSavingsTaxCharges` object can no longer be retrieved in the response body for tax years 2024-25 onwards.
 
 ---
 
