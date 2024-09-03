@@ -26,7 +26,7 @@ The following change is now available in Sandbox for v2.0.
 ##### Fixed
 
 Create and Amend Pension Charges
-- Fixed `pensionSavingsTaxCharges` object being present in 2024-25 schema and added error `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` when a request for 2024-25 includes it
+- Fixed `pensionSavingsTaxCharges` object being present in 2024-25 schema and added error `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` when a request for 2024-25 includes the object
 
 ---
 ### 21 August 2024
