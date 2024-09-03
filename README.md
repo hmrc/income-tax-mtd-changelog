@@ -18,7 +18,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
-### X August 2024
+### 3 September 2024
 #### Individuals Charges API
 
 The following change is now available in Sandbox for v2.0.
