@@ -17,6 +17,22 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
+### 3 September 2024
+#### Individuals Charges API
+
+The following change is now available in Sandbox for v2.0.
+
+##### Fixed
+
+Create and Amend Pension Charges:
+- `pensionSavingsTaxCharges` object in the request body can no longer be submitted for tax years 2024-25 onwards, and error `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` is returned when requests for tax years 2024-25 onwards include this object.
+
+Retrieve Pension Charges:
+- `pensionSavingsTaxCharges` object can no longer be retrieved in the response body for tax years 2024-25 onwards.
+
+---
+
 ### 2 September 2024
 
 #### Property Business API
@@ -55,17 +71,6 @@ For all endpoints:
 
 ---
 
-### 3 September 2024
-#### Individuals Charges API
-
-The following change is now available in Sandbox for v2.0.
-
-##### Fixed
-
-Create and Amend Pension Charges:
-- `pensionSavingsTaxCharges` object in the request body can no longer be submitted for tax years 2024-25 onwards, and error `RULE_INCORRECT_OR_EMPTY_BODY_SUBMITTED` is returned when requests for tax years 2024-25 onwards include this object.
-
----
 ### 21 August 2024
 
 #### Individual Calculations API
