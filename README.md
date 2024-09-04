@@ -19,17 +19,17 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 ---
 
 ### 4 September 2024
-#### Individuals Reliefs Api
+#### Individuals Reliefs API
 
-The following change is now available in Sandbox and Production.
+The following change is now available in Sandbox and Production for v1.0.
 
 ##### Fixed
 
 Retrieve Relief Investments:
-- ` eisSubscriptionItems.knowledgeIntensive` field in the response body is now optional.
+- `eisSubscriptionItems.knowledgeIntensive` field in the response body is now optional.
 
-Create and Amend Relief Investments
-- ` eisSubscriptionItems.knowledgeIntensive` field in the request body is now optional.
+Create and Amend Relief Investments:
+- `eisSubscriptionItems.knowledgeIntensive` field in the request body is now optional.
 
 ---
 
