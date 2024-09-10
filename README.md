@@ -17,6 +17,27 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 17 September 2024
+#### Self Assessment Accounts API
+
+The following changes are now available in Production for v3.0.
+##### Added 
+Retrieve Self Assessment Balance and Transactions
+- Add new optional field documentDetails.poaRelevantAmount to the API response.
+
+##### Changed
+The following endpoints have been created:
+- Retrieve History of a Self Assessment Charge by Transaction ID
+- Retrieve History of a Self Assessment Charge by Charge Reference
+
+
+#### Individuals Business End of Period Statement API
+The following change is now available in Sandbox and Production. 
+### Deprecation of v3.0.
+
+Because all versions of Individuals Business End of Period Statement are now deprecated, it no longer appears on the list of APIs unless you are signed in to the Developer Hub and have an active subscription. You can still view the API documentation directly.
+
+---
 
 ### 4 September 2024
 #### Individuals Reliefs API
