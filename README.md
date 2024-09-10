@@ -33,7 +33,7 @@ The following endpoints have been created:
 
 #### Individuals Business End of Period Statement API
 The following change is now available in Sandbox and Production. 
-### Deprecation of v3.0.
+##### Deprecation of v3.0.
 
 Because all versions of Individuals Business End of Period Statement are now deprecated, it no longer appears on the list of APIs unless you are signed in to the Developer Hub and have an active subscription. You can still view the API documentation directly.
 
