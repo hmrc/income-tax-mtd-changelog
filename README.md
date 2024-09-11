@@ -25,6 +25,8 @@ The following changes are now available in Production for v3.0.
 Retrieve Self Assessment Balance and Transactions
 - Add new optional field documentDetails.poaRelevantAmount to the API response.
 
+Retrieve History of a Self Assessment Charge
+- Add new optional field poaAdjustmentReason to the API response.
 ##### Changed
 The following endpoints have been created:
 - Retrieve History of a Self Assessment Charge by Transaction ID
