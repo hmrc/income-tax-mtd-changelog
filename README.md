@@ -26,7 +26,7 @@ The following change is now available in Sandbox and Production for v2.0.
 ##### Fixed
 
 List All Uk Savings Accounts:
-- `incomeSourceName` field in the response body is now optional
+- `incomeSourceName` field in the response body is now optional.
 
 ---
 
