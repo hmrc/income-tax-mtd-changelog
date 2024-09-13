@@ -18,6 +18,18 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 13 September 2024
+#### Individuals Savngs Income API
+
+The following change is now available in Sandbox and Production for v2.0.
+
+##### Fixed
+
+List All Uk Savings Accounts:
+- `incomeSourceName` field in the response body is now optional
+
+---
+
 ### 4 September 2024
 #### Individuals Reliefs API
 
