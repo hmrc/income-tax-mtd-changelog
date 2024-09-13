@@ -23,7 +23,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 The following change is now available in Sandbox and Production for v2.0.
 
-##### Fixed
+##### Changed
 
 List All UK Savings Accounts:
 - `accountName` field in the response body is now optional.
