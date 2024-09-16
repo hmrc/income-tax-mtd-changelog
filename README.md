@@ -25,9 +25,8 @@ The following change is now available in Sandbox and Production for v2.0.
 
 ##### Changed
 
-The following endpoint no longer accepts data for tax years 2025-26 onwards:
-
-- Retrieve a Business Income Source Summary
+Retrieve a Business Income Source Summary
+- Error `RULE_TAX_YEAR_NOT_SUPPORTED` is returned for requests submitted for tax years 2025-26 or later.
 
 ---
 
