@@ -47,6 +47,18 @@ Because all versions of Individuals Business End of Period Statement are now dep
 
 ---
 
+### 17 September 2024
+#### Self Assessment BISS API
+
+The following change is now available in Sandbox and Production for v2.0.
+
+##### Changed
+
+Retrieve a Business Income Source Summary
+- Error `RULE_TAX_YEAR_NOT_SUPPORTED` is returned for requests submitted for tax years 2025-26 or later.
+
+---
+
 ### 13 September 2024
 #### Individuals Savings Income API
 
