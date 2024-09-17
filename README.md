@@ -18,7 +18,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
-### 16 September 2024
+### 17 September 2024
 #### Self Assessment BISS API
 
 The following change is now available in Sandbox and Production for v2.0.
