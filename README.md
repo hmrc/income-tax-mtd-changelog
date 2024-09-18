@@ -19,6 +19,22 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 ---
 ### 17 September 2024
 
+#### Individuals Charges API
+
+The following changes are now available in Sandbox and Production for all versions.
+
+##### Added
+
+Deprecated endpoints return the following response headers:
+- Deprecation - the deprecation date/time
+- Link - a link to the relevant API documentation
+- Sunset (if available) - date/time after which the endpoint may not be available
+
+For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers).
+
+---
+### 17 September 2024
+
 #### Self Assessment Accounts API
 
 The following changes are now available in Production for v3.0.
