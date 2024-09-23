@@ -32,9 +32,6 @@ Deprecated endpoints return the following response headers:
 
 For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers).
 
----
-### 17 September 2024
-
 #### Self Assessment Accounts API
 
 The following changes are now available in Production for v3.0.
@@ -60,11 +57,6 @@ Reduced the length of the `documentId` field to 12 characters for the following 
 #### Deprecation of Individuals Business End of Period Statement API
 
 Because all versions of Individuals Business End of Period Statement are now deprecated in Sandbox and Production, it no longer appears on the list of APIs unless you are signed in to the Developer Hub and have an active subscription. You can still [view the API documentation directly](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-business-eops-api/3.0).
-
----
-
-### 17 September 2024
-#### Self Assessment BISS API
 
 The following change is now available in Sandbox and Production for v2.0.
 
