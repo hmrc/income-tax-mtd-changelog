@@ -17,13 +17,27 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 24 September 2024
+
+#### Individual Calculations API
+
+API version 6.0 is now available in Sandbox, with the following change.
+
+##### Removed
+
+The following object was removed from the Retrieve a Self Assessment Tax Calculation endpoint, from tax year 2024-25 onwards:
+
+- `excessOfLifeTimeAllowance`
+
+---
+
 ### 17 September 2024
 
 #### Self Assessment Accounts API
 
 The following changes are now available in Production for v3.0.
 
-##### Added  
+##### Added
 
 The following endpoints have been created:
 - Retrieve History of a Self Assessment Charge by Transaction ID 
@@ -40,14 +54,12 @@ Retrieve History of a Self Assessment Charge:
 Reduced the length of the `documentId` field to 12 characters for the following endpoints:
 - Retrieve Self Assessment Balance and Transactions
 - Retrieve History of a Self Assessment Charge by Transaction ID
-    
+
 #### Deprecation of Individuals Business End of Period Statement API
 
 Because all versions of Individuals Business End of Period Statement are now deprecated in Sandbox and Production, it no longer appears on the list of APIs unless you are signed in to the Developer Hub and have an active subscription. You can still [view the API documentation directly](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-business-eops-api/3.0).
 
----
 
-### 17 September 2024
 #### Self Assessment BISS API
 
 The following change is now available in Sandbox and Production for v2.0.
