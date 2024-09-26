@@ -33,6 +33,19 @@ The following object was removed from the Retrieve a Self Assessment Tax Calcula
 
 ### 17 September 2024
 
+#### Individuals Charges API
+
+The following changes are now available in Sandbox and Production for all versions.
+
+##### Added
+
+Deprecated endpoints return the following response headers:
+- Deprecation - the deprecation date/time
+- Link - a link to the relevant API documentation
+- Sunset (if available) - date/time after which the endpoint may not be available
+
+For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers).
+
 #### Self Assessment Accounts API
 
 The following changes are now available in Production for v3.0.
@@ -58,7 +71,6 @@ Reduced the length of the `documentId` field to 12 characters for the following 
 #### Deprecation of Individuals Business End of Period Statement API
 
 Because all versions of Individuals Business End of Period Statement are now deprecated in Sandbox and Production, it no longer appears on the list of APIs unless you are signed in to the Developer Hub and have an active subscription. You can still [view the API documentation directly](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/individuals-business-eops-api/3.0).
-
 
 #### Self Assessment BISS API
 
