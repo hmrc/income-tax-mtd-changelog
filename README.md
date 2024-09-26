@@ -86,7 +86,7 @@ Retrieve a Business Income Source Summary
 ### 13 September 2024
 #### Individuals Savings Income API
 
-The following change is now available in Sandbox and Production for v2.0.
+The following change is now available in Sandbox and Production for v1.0.
 
 ##### Fixed
 
