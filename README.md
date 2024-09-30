@@ -22,11 +22,11 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 #### Self Employment Business API
 
-Existing API version 3.0 updated with the following changes.
+Existing API version 3.0 updated with the following change.
 
 ##### Removed
 
-Remove all remaining HATEOAS links. HATEOAS links are no longer returned in API responses from version 3.0 onwards.
+Remove HATEOAS links for List Period Summaries. HATEOAS links are no longer returned in List Period Summaries responses.
 
 ---
 
