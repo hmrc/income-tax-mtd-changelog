@@ -26,7 +26,7 @@ Existing API version 3.0 updated with the following change.
 
 ##### Removed
 
-Remove HATEOAS links for List Period Summaries. HATEOAS links are no longer returned in List Period Summaries responses.
+Remove HATEOAS links for List Self-Employment Period Summaries endpoint. HATEOAS links are no longer returned in List Self-Employment Period Summaries responses.
 
 ---
 
