@@ -17,6 +17,19 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
+### 1 October 2024
+
+#### Self Employment Business API
+
+Existing API version 3.0 updated with the following change.
+
+##### Removed
+
+Remove HATEOAS links for List Self-Employment Period Summaries endpoint. HATEOAS links are no longer returned in List Self-Employment Period Summaries responses.
+
+---
+
 ### 24 September 2024
 
 #### Individual Calculations API
