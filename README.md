@@ -17,6 +17,21 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
+### 1 October 2024
+
+#### Individual Calculations API
+
+API version 7.0 is now available in Sandbox, with the following change.
+
+##### Changed
+
+API contains the following improvement:
+
+- Update of enum value names for consistency
+
+---
+
 ### 24 September 2024
 
 #### Individual Calculations API
