@@ -18,7 +18,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
-### 30 September 2024
+### 1 October 2024
 
 #### Self Employment Business API
 
