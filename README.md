@@ -18,6 +18,83 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 2 October 2024
+
+#### Individual Calculations API
+
+API version 7.0 is now available in Sandbox, with the following changes.
+
+##### Changed
+
+The following enums have been changed for consistency:
+
+- Within Array `calculations.calculationType`
+  - `inYear` enum value updated to `in-year`
+- Within Object `calculation.endOfYearEstimate`
+  - `class4nics` enum value updated to `class4-nics`
+- Within Object `calculation.dividendsIncome`
+  - `stockDividend` enum value updated to `stock-dividend`
+  - `redeemableShares` enum value updated to `redeemable-shares`
+  - `bonusIssuesOfSecurities` enum value updated to `bonus-issues-of-securities`
+  - `closeCompanyLoansWrittenOff` enum value updated to `close-company-loans-written-off`
+- Within Object `calculation.chargeableEventGainsIncome`
+  - `lifeInsurance` enum value updated to `life-insurance`
+  - `capitalRedemption` enum value updated to `capital-redemption`
+  - `lifeAnnuity` enum value updated to `life-annuity`
+  - `voidedIsa` enum value updated to `voided-isa`
+- Within Object `calculation.shareSchemesIncome`
+  - `shareOption` enum value updated to `share-option`
+  - `sharesAwardedOrReceived` enum value updated to `inYshares-awarded-or-receivedear`
+- Within Object `calculation.stateBenefitsIncome`
+  - `HMRC HELD` enum value updated to `hmrc-held`
+- Within Object `calculation.employmentAndPensionsIncome`
+  - `HMRC HELD` enum value updated to `hmrc-held`
+- Within Object `calculation.codedOutUnderpayments`
+  - `HMRC HELD` enum value updated to `hmrc-held`
+- Within Object `calculation.pensionSavingsTaxCharges`
+  - `lowerBand` enum value updated to `lower-band`
+  - `upperBand` enum value updated to `upper-band`
+- Within Object `calculation.reliefs`
+  - `vctSubscriptions` enum value updated to `vct-subscriptions`
+  - `eisSubscriptions` enum value updated to `eis-subscriptions`
+  - `communityInvestment` enum value updated to `community-investment`
+  - `seedEnterpriseInvestment` enum value updated to `seed-enterprise-investment`
+  - `socialEnterpriseInvestment` enum value updated to `social-enterprise-investment`
+  - `maintenancePayments` enum value updated to `maintenance-payments`
+  - `deficiencyRelief` enum value updated to `deficiency-relief`
+  - `nonDeductibleLoanInterest` enum value updated to `non-deductible-loan-interest`
+  - `qualifyingDistributionRedemptionOfSharesAndSecurities` enum value updated to `qualifying-distribution-redemption-of-shares-and-securities`
+  - `lifeInsurance` enum value updated to `life-insurance`
+  - `lifeAnnuity` enum value updated to `life-annuity`
+  - `capitalRedemption` enum value updated to `capital-redemption`
+- Within Object `inputs.personalInformation`
+  - `UK` enum value updated to `uk`
+  - `Scotland` enum value updated to `scotland`
+  - `Wales` enum value updated to `wales`
+- Within Array `inputs.allowancesReliefsAndDeductions`
+  - `investmentReliefs` enum value updated to `investment-reliefs`
+  - `otherReliefs` enum value updated to `other-reliefs`
+  - `otherExpenses` enum value updated to `other-expenses`
+  - `otherDeductions` enum value updated to `other-deductions`
+  - `foreignReliefs` enum value updated to `foreign-reliefs`
+- Within Array `inputs.pensionContributionAndCharges`
+  - `pensionReliefs` enum value updated to `pension-reliefs`
+  - `pensionCharges` enum value updated to `pension-charges`
+- Within Array `inputs.other`
+  - `codingOut` enum value updated to `coding-out`
+- Within Object `metadata`
+  - `customerRequest` enum value updated to `customer-request`
+  - `class2NICEvent` enum value updated to `class2-nic-event`
+  - `newLossEvent` enum value updated to `new-loss-event`
+  - `updatedLossEvent` enum value updated to `updated-loss-event`
+  - `newClaimEvent` enum value updated to `new-claim-event`
+  - `updatedClaimEvent` enum value updated to `updated-claim-event`
+  - `newAnnualAdjustmentEvent` enum value updated to `new-annual-adjustment-event`
+  - `updatedAnnualAdjustmentEvent` enum value updated to `updated-annual-adjustment-event`
+  - `unattendedCalculation` enum value updated to `unattended-calculation`
+
+---
+
 ### 1 October 2024
 
 #### Self Employment Business API
