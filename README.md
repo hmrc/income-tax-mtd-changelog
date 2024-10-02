@@ -28,33 +28,33 @@ API version 7.0 is now available in Sandbox, with the following changes.
 
 The following enums have been changed for consistency:
 
-- Within Array `calculations.calculationType`
+- Within array `calculations.calculationType`:
   - `inYear` enum value updated to `in-year`
-- Within Object `calculation.endOfYearEstimate`
+- Within object `calculation.endOfYearEstimate`:
   - `class4nics` enum value updated to `class4-nics`
-- Within Object `calculation.dividendsIncome`
+- Within object `calculation.dividendsIncome`:
   - `stockDividend` enum value updated to `stock-dividend`
   - `redeemableShares` enum value updated to `redeemable-shares`
   - `bonusIssuesOfSecurities` enum value updated to `bonus-issues-of-securities`
   - `closeCompanyLoansWrittenOff` enum value updated to `close-company-loans-written-off`
-- Within Object `calculation.chargeableEventGainsIncome`
+- Within object `calculation.chargeableEventGainsIncome`:
   - `lifeInsurance` enum value updated to `life-insurance`
   - `capitalRedemption` enum value updated to `capital-redemption`
   - `lifeAnnuity` enum value updated to `life-annuity`
   - `voidedIsa` enum value updated to `voided-isa`
-- Within Object `calculation.shareSchemesIncome`
+- Within object `calculation.shareSchemesIncome`:
   - `shareOption` enum value updated to `share-option`
   - `sharesAwardedOrReceived` enum value updated to `inYshares-awarded-or-receivedear`
-- Within Object `calculation.stateBenefitsIncome`
+- Within object `calculation.stateBenefitsIncome`:
   - `HMRC HELD` enum value updated to `hmrc-held`
-- Within Object `calculation.employmentAndPensionsIncome`
+- Within object `calculation.employmentAndPensionsIncome`:
   - `HMRC HELD` enum value updated to `hmrc-held`
-- Within Object `calculation.codedOutUnderpayments`
+- Within object `calculation.codedOutUnderpayments`:
   - `HMRC HELD` enum value updated to `hmrc-held`
-- Within Object `calculation.pensionSavingsTaxCharges`
+- Within object `calculation.pensionSavingsTaxCharges`:
   - `lowerBand` enum value updated to `lower-band`
   - `upperBand` enum value updated to `upper-band`
-- Within Object `calculation.reliefs`
+- Within object `calculation.reliefs`:
   - `vctSubscriptions` enum value updated to `vct-subscriptions`
   - `eisSubscriptions` enum value updated to `eis-subscriptions`
   - `communityInvestment` enum value updated to `community-investment`
@@ -67,22 +67,22 @@ The following enums have been changed for consistency:
   - `lifeInsurance` enum value updated to `life-insurance`
   - `lifeAnnuity` enum value updated to `life-annuity`
   - `capitalRedemption` enum value updated to `capital-redemption`
-- Within Object `inputs.personalInformation`
+- Within object `inputs.personalInformation`:
   - `UK` enum value updated to `uk`
   - `Scotland` enum value updated to `scotland`
   - `Wales` enum value updated to `wales`
-- Within Array `inputs.allowancesReliefsAndDeductions`
+- Within array `inputs.allowancesReliefsAndDeductions`:
   - `investmentReliefs` enum value updated to `investment-reliefs`
   - `otherReliefs` enum value updated to `other-reliefs`
   - `otherExpenses` enum value updated to `other-expenses`
   - `otherDeductions` enum value updated to `other-deductions`
   - `foreignReliefs` enum value updated to `foreign-reliefs`
-- Within Array `inputs.pensionContributionAndCharges`
+- Within array `inputs.pensionContributionAndCharges`:
   - `pensionReliefs` enum value updated to `pension-reliefs`
   - `pensionCharges` enum value updated to `pension-charges`
-- Within Array `inputs.other`
+- Within array `inputs.other`:
   - `codingOut` enum value updated to `coding-out`
-- Within Object `metadata`
+- Within object `metadata`:
   - `customerRequest` enum value updated to `customer-request`
   - `class2NICEvent` enum value updated to `class2-nic-event`
   - `newLossEvent` enum value updated to `new-loss-event`
