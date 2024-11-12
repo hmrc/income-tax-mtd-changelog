@@ -20,6 +20,10 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ### 7 November 2024
 
+#### CIS Deductions API
+
+Version 1.0 of this API, which had previously been deprecated, has now been retired and is no longer available in Sandbox or Production. The documentation for version 1.0 has also been removed.
+
 #### Self Assessment Accounts API
 
 Version 2.0 of this API, which had previously been deprecated, has now been retired and is no longer available in Sandbox or Production. The documentation for version 2.0 has also been removed.
