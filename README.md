@@ -39,7 +39,7 @@ Changed success code from 200 to 204 and  for the following endpoints:
 - Amend a Self-Employment Period Summary
 - Create and Amend Self-Employment Annual Submission
 
-Changed `taxYear` from a query param to a path param for the following endpoints:
+Changed `taxYear` from a query parameter to a path parameter for the following endpoints:
 - Retrieve a Self-Employment Period Summary
 - Amend a Self-Employment Period Summary
 - List Self-Employment Period Summaries
@@ -120,7 +120,7 @@ API version 7.0 is now available in Sandbox, with the following change.
 
 ##### Added
 
-The following endpoint has been created where taxYear is a path param rather than query param:
+The following endpoint has been created where taxYear is a path parameter rather than query parameter:
 - List Self Assessment Tax Calculations
 
 Added optional fields `metadata.finalisationTimestamp` and `metadata.confirmationTimestamp` for the following endpoint:
@@ -134,7 +134,7 @@ Added calculation type parameter `intent-to-amend` for the tax year 2025-26 onwa
 - Trigger Tax Calculation
 - List Calculations
 
-Added new tax year specefic scehema for tax year 2023-24 onwards for the following endpoint:
+Added new tax year specific schema for tax year 2023-24 onwards for the following endpoint:
 - List Calculations
 
 Added errors 
