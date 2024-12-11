@@ -189,7 +189,7 @@ Rename `typeOfBusiness` enum `uk-property-non-fhl` to `uk-property` for tax year
 Change enum values in request query parameters and response for field `typeOfBusiness` to `self-employment`, `foreign-property` and `uk-property` for tax year 2025-26 for the following endpoint:
 - List Business Source Adjustable Summaries
 
-Renamed enum value for field typeOfBusiness from uk-property-non-fhl to uk-property for tax year before 2025-26 for the following endpoint:
+Renamed enum value for field `typeOfBusiness` from `uk-property-non-fhl` to `uk-property` for tax year before 2025-26 for the following endpoint:
 - List Business Source Adjustable Summaries
 
 Changed array `submissionPeriods` to object `submissionPeriod` and removed `periodId` field for tax year 2025-26 for the following endpoints:
@@ -253,7 +253,7 @@ Added error `RULE_BFL_NOT_SUPPORTED_FOR_FHL_PROPERTIES` and Gov-Test-Scenario `B
 
 Added error `RULE_CSFHL_CLAIM_NOT_SUPPORTED` and Gov-Test-Scenario `CSFHL_CLAIM_NOT_SUPPORTED` for tax year 2025-26 onwards for the following endpoints:
 - Create a Loss Claim
-  Amend a Loss Claim Type
+- Amend a Loss Claim Type
 ##### Changed
 Update `uk-property-non-fhl` enum values to `uk-property` for the following endpoints:
 - Create a Brought Forward Loss
