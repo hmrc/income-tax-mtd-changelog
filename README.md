@@ -18,6 +18,281 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 11 December 2024
+
+#### Self Employment Business API
+
+API version 4.0 is now available in Sandbox, with the following change.
+
+##### Added
+The following endpoints have been created for tax years 2025-26 onwards:
+- Retrieve a Self-Employment Cumulative Period Summary
+- Create and Amend Self-Employment Cumulative Period Summary
+##### Removed
+Removed `allowances.electricChargePointAllowance` field from request body for tax year 2025-26 onwards for the following endpoints:
+- Create and Amend Self-Employment Annual Submission
+- Retrieve a Self-Employment Annual Submission
+
+Removed HATEOAS links from all endpoints.
+##### Changed
+Changed success code from 200 to 204 and  for the following endpoints:
+- Amend a Self-Employment Period Summary
+- Create and Amend Self-Employment Annual Submission
+
+Changed `taxYear` from a query param to a path param for the following endpoints:
+- Retrieve a Self-Employment Period Summary
+- Amend a Self-Employment Period Summary
+- List Self-Employment Period Summaries
+
+#### Property Business API
+
+API version 5.0 is now available in Sandbox, with the following change.
+##### Added
+The following endpoints have been created for tax years 2025-26 onwards:
+- Create and Amend a UK Property Cumulative Period Summary
+- Create and Amend a Foreign Property Cumulative Period Summary
+- Retrieve a UK Property Cumulative Period Summary
+- Retrieve a Foreign Property Cumulative Period Summary
+
+Added `UK_ALL_OTHER_ALLOWANCES` and `UK_PROPERTY_ALLOWANCE` Gov-Test-Scenarios for the following endpoint:
+- Retrieve a UK Property Business Annual Submission
+
+Add Gov-Test-Scenarios `FOREIGN_ALL_OTHER_ALLOWANCES` and `FOREIGN_PROPERTY_ALLOWANCE` for the following endpoint:
+- Retrieve a Foreign Property Business Annual Submission
+##### Changed
+
+Rename `costOfReplacingDomesticGoods` field to `costOfReplacingDomesticItems` for the following endpoints:
+- Create and Amend a UK Property Business Annual Submission
+- Retrieve a UK Property Business Annual Submission
+
+Rename `foreignNonFhlProperty` object to `foreignProperty` for tax years before 2025-26 for the following endpoints:
+- Retrieve a Foreign Property Income & Expenses Period Summary
+- Create and Amend a Foreign Property Business Annual Submission
+
+Rename object `ukNonFhlProperty` to `ukProperty` for tax year 2025-26 for the following endpoint:
+- Create and Amend a UK Property Business Annual Submission
+
+Rename object `foreignNonFhlProperty` to `foreignProperty` for tax year before 2025-26 for the following endpoint:
+- Create and Amend a Foreign Property Business Annual Submission
+
+Change `ukProperty` object to be mandatory for tax year 2025-26 for the following endpoints:
+- Create and Amend a UK Property Annual Submission
+- Retrieve a UK Property Business Annual Submission
+
+Change `foreignProperty` array to be mandatory for tax year 2025-26 for the following endpoints:
+- Create and Amend a Foreign Property Annual Submission
+- Retrieve a Foreign Property Business Annual Submission
+
+The following endpoints no longer accept data for tax years 2025-26 onwards:
+- Create a Foreign Property Income & Expenses Period Summary
+- Amend a Foreign Property Income & Expenses Period Summary
+- Retrieve a Foreign Property Income & Expenses Period Summary
+
+Renamed Gov-Test-Scenario `UK_PROPERTY` to `UK_PROPERTY_FHL_NON_FHL` for the following endpoint:
+- Retrieve a UK Property Business Annual Submission
+
+##### Removed
+Removed `allowances.electricChargePointAllowance` field from request body for tax year 2025-26 for the following endpoints:
+- Create and Amend a UK Property Annual Submission
+- Create and Amend a Foreign Property Annual Submission
+- Retrieve a UK Property Business Annual Submission
+- Retrieve a Foreign Property Business Annual Submission
+
+Removed the object `UkFhlProperty` for tax year 2025-26 for the following endpoints:
+- Create and Amend a UK Property Business Annual Submission
+
+Removed the object `ForeignFhlEea` for tax year 2025-26 for the following endpoints:
+- Submit Foreign Property Accounting Adjustments
+- Create and Amend a Foreign Property Business Annual Submission
+
+Removed all FHL & Non-FHL related fields for the following endpoint:
+- Retrieve a UK Property Business Annual Submission
+
+Removed all FHL-EEA & Non-FHL related fields for the following endpoint:
+- Retrieve a Foreign Property Business Annual Submission
+
+Removed `FOREIGN_NON_FHL_ALL_OTHER_ALLOWANCES` and `FOREIGN_NON_FHL_PROPERTY_ALLOWANCE` Gov-Test-Scenarios for the following endpoint:
+- Retrieve a Foreign Property Income & Expenses Period Summary
+
+#### Individual Calculations API
+
+API version 7.0 is now available in Sandbox, with the following change.
+
+##### Added
+
+The following endpoint has been created where taxYear is a path param rather than query param:
+- List Self Assessment Tax Calculations
+
+Added optional fields `metadata.finalisationTimestamp` and `metadata.confirmationTimestamp` for the following endpoint:
+- Retrieve a Self Assessment Tax Calculation
+
+Added calculation type parameter `in-year` and `intent-to-finalise` for the following endpoint:
+- Trigger Tax Calculation
+- List Calculations
+
+Added calculation type parameter `intent-to-amend` for the tax year 2025-26 onwards for the following endpoint:
+- Trigger Tax Calculation
+- List Calculations
+
+Added new tax year specefic scehema for tax year 2023-24 onwards for the following endpoint:
+- List Calculations
+
+Added errors 
+`RULE_OUTSIDE_AMENDMENT_WINDOW`, 
+`RULE_DECLARATION_NOT_RECEIVED`, 
+`INVALID_CALCULATION_TYPE`, 
+`FORMAT_CALCULATION_TYPE`
+for the following endpoint:
+- Trigger Tax Calculation
+
+Added error `RULE_CALCULATION_TYPE_NOT_ALLOWED` when a calculation type does not apply to the tax year requested for the following endpoint:
+- Trigger Tax Calculation
+- List Calculations
+
+Added tax year specific schemas for tax year 2025-26 onwards for the following endpoint:
+- List Calculations
+##### Changed
+
+Changed `submissionPeriods` to `submissionPeriod`, its type to object and `periodId` to `submissionId` for tax years 2025-26 onwards for the following endpoint:
+- Retrieve a Self Assessment Tax Calculation
+
+Updated CalculationType enum to:
+"IY" => `in-year`,
+"IF" => `intent-to-finalise`,
+"IA" => `intent-to-amend`,
+"DF" => `declare-finalisation`,
+"CA" => `confirm-amendment`
+for the following endpoint:
+- Retrieve a Self Assessment Tax Calculation
+##### Removed
+Removed fields `metadata.intentToSubmitFinalDeclaration`, `metadata.finalDeclaration` and `metadata.finalDeclarationTimestamp` from the response for the following endpoint:
+- Retrieve a Self Assessment Tax Calculation
+
+#### Business Source Adjustable Summary (BSAS) API
+
+API version 6.0 is now available in Sandbox, with the following change.
+
+##### Added
+Added object `ukProperty` for tax year 2025-26 onwards for the following endpoint:
+- Submit UK Property Accounting Adjustments
+##### Changed
+Renamed `nonFurnishedHolidayLet` to `ukProperty` for tax years before 2025-26 for the following endpoint:
+- Submit UK Property Accounting Adjustments
+
+Renamed object `nonFurnishedHolidayLet` to `foreignProperty` for tax years before 2025-26 for the following endpoint:
+- Submit Foreign Property Accounting Adjustments
+
+Rename `typeOfBusiness` enum `uk-property-non-fhl` to `uk-property` for tax year before 2025-26 for the following endpoints:
+- Trigger a Business Source Adjustable Summary
+- List Business Source Adjustable Summaries
+
+Change enum values in request query parameters and response for field `typeOfBusiness` to `self-employment`, `foreign-property` and `uk-property` for tax year 2025-26 for the following endpoint:
+- List Business Source Adjustable Summaries
+
+Renamed enum value for field typeOfBusiness from uk-property-non-fhl to uk-property for tax year before 2025-26 for the following endpoint:
+- List Business Source Adjustable Summaries
+
+Changed array `submissionPeriods` to object `submissionPeriod` and removed `periodId` field for tax year 2025-26 for the following endpoints:
+- Retrieve a UK Property Business Source Adjustable Summary
+- Retrieve a Foreign Property Business Source Adjustable Summary
+- Retrieve a Self-Employment Property Business Source Adjustable Summary
+
+Renamed error `RULE_PERIODIC_DATA_INCOMPLETE` to `RULE_OBLIGATIONS_NOT_MET` for the following endpoint:
+- Trigger a Business Source Adjustable Summary
+##### Removed
+`nonFurnishedHolidayLet` and `furnishedHolidayLet` objects removed for tax year 2025-26 for the following endpoint:
+- Submit UK Property Accounting Adjustments
+
+Error `RULE_BOTH_PROPERTIES_SUPPLIED` removed for tax year 2025-26 for the following endpoints:
+- Submit UK Property Accounting Adjustments
+- Submit Foreign Property Accounting Adjustments
+
+Removed all `NON_FHL` Gov-Test-Scenarios for the following endpoints:
+- Submit UK Property Accounting Adjustments
+- Retrieve a Foreign Property Business Source Adjustable Summary (BSAS)
+- Trigger a Business Source Adjustable Summary
+- List Business Source Adjustable Summaries
+
+Removed object `foreignFhlEea` for tax year 2025-26 for the following endpoint:
+- Submit Foreign Property Accounting Adjustments
+
+Removed `inputs.typeOfBusiness` field for tax year 2025-26 for the following endpoints:
+- Retrieve a UK Property Business Source Adjustable Summary (BSAS)
+- Retrieve a Foreign Property Business Source Adjustable Summary (BSAS)
+
+Remove field `summaryCalculation.deductions.electricChargePointAllowance` for tax year 2025-26 onwards for the following endpoint:
+- Retrieve a UK Property Business Source Adjustable Summary
+- Retrieve a Foreign Property Business Source Adjustable Summary
+- Retrieve a Self-Employment Business Source Adjustable Summary
+
+#### Business Income Source Summary (BISS) API
+
+API version 3.0 is now available in Sandbox, with the following change.
+
+##### Added
+Added error `REQUESTED_TAX_YEAR_NOT_SUPPORTED` for tax year 2025-26 for the following endpoint:
+- Retrieve a Business Income Source Summary
+##### Changed
+Changed `uk-property-non-fhl` enum value to `uk-property` for the following endpoint:
+- Retrieve a Business Income Source Summary
+
+Renamed error `INVALID_INCOMESOURCE_ID` to `INVALID_INCOME_SOURCE_ID` for tax year 2025-26 for the following endpoint:
+- Retrieve a Business Income Source Summary
+##### Removed
+Remove `typeOfBusiness` enum values `uk-property-fhl` and `foreign-property-fhl-eea` for tax year 2025-26 for the following endpoint:
+- Retrieve a Business Income Source Summary
+
+#### Individuals Losses API
+
+API version 5.0 is now available in Sandbox, with the following change.
+
+##### Added
+
+Added error `RULE_BFL_NOT_SUPPORTED_FOR_FHL_PROPERTIES` and Gov-Test-Scenario `BFL_NOT_SUPPORTED_FOR_FHL_PROPERTIES` for the following endpoint:
+- Create a Brought Forward Loss
+
+Added error `RULE_CSFHL_CLAIM_NOT_SUPPORTED` and Gov-Test-Scenario `CSFHL_CLAIM_NOT_SUPPORTED` for tax year 2025-26 onwards for the following endpoints:
+- Create a Loss Claim
+  Amend a Loss Claim Type
+##### Changed
+Update `uk-property-non-fhl` enum values to `uk-property` for the following endpoints:
+- Create a Brought Forward Loss
+- Amend a Brought Forward Loss Amount
+- Retrieve a Brought Forward Loss
+- List Brought Forward Losses
+- Create a Loss Claim
+- Amend a Loss Claim Type
+- Retrieve a Loss Claim
+- List Loss Claims
+
+Update Gov-Test-Scenario `UK_PROPERTY_NON_FHL` to `UK_PROPERTY` for the following endpoints:
+- Amend a Brought Forward Loss Amount
+
+Update Gov-Test-Scenario `UK_PROPERTY` to `UK_PROPERTY_FHL` for the following endpoints:
+- Retrieve a Brought Forward Loss
+##### Removed
+Remove FHL data from static and dynamic responses for tax year 2025-26 onwards, while retaining FHL data in the dynamic responses for earlier tax years for the following endpoints:
+- List Brought Forward Losses
+- List Loss Claims
+
+#### Obligations API
+
+API version 3.0 is now available in Sandbox, with the following change.
+
+##### Added
+Add `CUMULATIVE` Gov-Test-Scenario for the following endpoint:
+- Retrieve Income Tax (Self Assessment) Income and Expenditure Obligation
+##### Changed
+Query parameter `status` now accepts `fulfilled` and `open` instead of `Fulfilled` and `Open` for the following endpoint:
+- Retrieve Income Tax (Self Assessment) End of Period Statement (EOPS) Obligations
+- Retrieve Income Tax (Self Assessment) Final Declaration Obligations
+- Retrieve Income Tax (Self Assessment) Income and Expenditure Obligations
+
+Update Sandbox data with cumulative dates to reflect changes in quarterly responses for tax years 2025-26 onwards for the following endpoint:
+- Retrieve Income Tax (Self Assessment) Income and Expenditure Obligation
+
+---
+
 ### 7 November 2024
 
 #### CIS Deductions API
