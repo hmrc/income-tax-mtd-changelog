@@ -18,6 +18,29 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 17 December 2024
+
+#### Individual Calculations API
+
+New API version 6.0 added in Sandbox and Production with the following changes.
+
+Retrieve a Self Assessment Tax Calculation endpoint:
+
+##### Added
+
+The `advanced-rate` value representing the Scottish Advanced Rate tax band was added to the Retrieve a Self Assessment Tax Calculation endpoint, from tax year 2024-25 onwards in the following places:
+  - `calculation.taxCalculation.incomeTax.payPensionsProfit.taxBands.name`
+  - `calculation.pensionSavingsTaxCharges.pensionSavingsTaxChargesDetail.pensionContributionsInExcessOfTheAnnualAllowance.pensionBands.name`
+  - `calculation.taxCalculation.incomeTax.lumpSums.taxBands.name`
+
+#### Removed
+
+The following object was removed from the Retrieve a Self Assessment Tax Calculation endpoint, from tax year 2024-25 onwards:
+
+- `calculation.pensionSavingsTaxCharges.pensionSavingsTaxChargesDetail.excessOfLifeTimeAllowance`
+
+---
+
 ### 11 December 2024
 
 #### Self Employment Business API
