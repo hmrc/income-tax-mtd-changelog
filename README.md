@@ -28,14 +28,14 @@ Retrieve a Self Assessment Tax Calculation endpoint:
 
 ##### Added
 
-The `advanced-rate` value representing the Scottish Advanced Rate tax band was added to the Retrieve a Self Assessment Tax Calculation endpoint, from tax year 2024-25 onwards in the following places:
+The `advanced-rate` value representing the Scottish Advanced Rate tax band was added to the Retrieve a Self Assessment Tax Calculation endpoint for tax year 2024-25 onwards in the following places:
   - `calculation.taxCalculation.incomeTax.payPensionsProfit.taxBands.name`
   - `calculation.pensionSavingsTaxCharges.pensionSavingsTaxChargesDetail.pensionContributionsInExcessOfTheAnnualAllowance.pensionBands.name`
   - `calculation.taxCalculation.incomeTax.lumpSums.taxBands.name`
 
 #### Removed
 
-The following object was removed from the Retrieve a Self Assessment Tax Calculation endpoint, from tax year 2024-25 onwards:
+The following object was removed from the Retrieve a Self Assessment Tax Calculation endpoint for tax year 2024-25 onwards:
 
 - `calculation.pensionSavingsTaxCharges.pensionSavingsTaxChargesDetail.excessOfLifeTimeAllowance`
 
