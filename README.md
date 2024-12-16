@@ -22,7 +22,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 #### Individual Calculations API
 
-New API version 6.0 added in Sandbox and Production with the following changes.
+New API version 6.0 added in Production with the following changes.
 
 Retrieve a Self Assessment Tax Calculation endpoint:
 
