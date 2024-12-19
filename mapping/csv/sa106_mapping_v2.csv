@@ -1,5 +1,5 @@
 "Section Heading","Box number","Box name","API","Endpoint","Path","Data Item"
-"Unremittable Income","FOR1","If you were unable to transfer any of your overseas income to the UK, put 'X' in the box","Not available","","",""
+"Unremittable Income","FOR1","If you were unable to transfer any of your overseas income to the UK, put 'X' in the box – and give details in the ‘Any other information’ box on your tax return or on a separate sheet","Individuals Foreign Income","Create and Amend Foreign Income","unremittableForeignIncome","unremittableForeignIncome"
 "Foreign Tax Credit Relief","FOR2","If you're calculating your tax, enter the total Foreign Tax Credit Relief on your income","Individuals Reliefs","Create and Amend Foreign Reliefs","foreignTaxCreditRelief > amount",""
 "Income From Overseas Sources Interest and other","FOR4A","Country or territory code","Individuals Savings Income","Create and Amend Savings Income","foreignInterest > countryCode","countryCode"
 "Income From Overseas Sources Interest and other","FOR4B","Amount of income arising or received before any tax taken off","Individuals Savings Income","Create and Amend Savings Income","foreignInterest > amountBeforeTax","amountBeforeTax"
