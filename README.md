@@ -18,10 +18,17 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 7 January 2025
+
+#### Business Source Adjustable Summary (BSAS) API
+
+Version 4.0 of this API, which had previously been deprecated, has now been retired and is no longer available in Sandbox or Production. The documentation for version 4.0 has also been removed.
+
+---
+
 ### 6 January 2025
 
-### Property Business API
-
+#### Property Business API
 Version 3.0 of this API, which had previously been deprecated, has now been retired and is no longer available in Sandbox or Production. The documentation for version 3.0 has also been removed.
 
 ---
