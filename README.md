@@ -24,6 +24,10 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 Version 4.0 of this API, which had previously been deprecated, has now been retired and is no longer available in Sandbox or Production. The documentation for version 4.0 has also been removed.
 
+#### Individuals Income Received API
+
+Version 2.0 of this API, which had previously been deprecated, has now been retired and is no longer available in Sandbox or Production.
+
 ---
 
 ### 6 January 2025
