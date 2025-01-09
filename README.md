@@ -20,9 +20,11 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ### 9 January 2025
 
-#### SELF ASSESSMENT INDIVIDUAL DETAILS API
+#### Self Assessment Individual Details API
 
-Version 1.0 of this API, which had previously been deprecated, has now been retired and is no longer available in Sandbox or Production.
+Version 1.0 of this API, which had previously been deprecated, has now been retired and is no longer available in Sandbox or Production. The documentation for version 1.0 has also been removed.
+
+---
 
 ### 8 January 2025
 
