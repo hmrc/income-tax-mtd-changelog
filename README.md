@@ -22,7 +22,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 #### Self Assessment Accounts API
 
-Existing API version 3.0 and 4.0 updated with the following change.
+Existing API version 3.0 updated with the following change.
 
 ##### Changed
 `fromDate` and `toDate` query parameters to be inclusive for the following endpoints:
