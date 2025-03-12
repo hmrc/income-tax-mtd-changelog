@@ -33,6 +33,16 @@ Update the datetime format to YYYY-MM-DDThh:mm:ss:SSSZ for `dateIgnored`, `submi
 - Retrieve an Employment and its Financial Details
 - Retrieve Other Employment Income
 
+#### Other Deductions API
+#### Documentation update
+
+The following change is now available in Sandbox and Production.
+
+##### Changed
+
+Change success code from `200` to `204` in the documentation for the following endpoint:
+- Delete Deductions
+
 ---
 
 ### 11 March 2025
