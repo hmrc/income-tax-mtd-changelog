@@ -18,6 +18,23 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 12 March 2025
+
+#### Individuals Employments Income API
+#### Documentation update
+
+The following change is now available in Sandbox and Production.
+
+##### Changed
+
+Update the datetime format to YYYY-MM-DDThh:mm:ss:SSSZ for `dateIgnored`, `submittedOn` and `customerAdded` fields in the following endpoints:
+- List Employments
+- Retrieve an Employment
+- Retrieve an Employment and its Financial Details
+- Retrieve Other Employment Income
+
+---
+
 ### 11 March 2025
 
 #### Self Assessment Accounts API
