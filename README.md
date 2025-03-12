@@ -43,6 +43,16 @@ The following change is now available in Sandbox and Production.
 Change success code from `200` to `204` in the documentation for the following endpoint:
 - Delete Deductions
 
+#### Individuals Expenses API
+#### Documentation update
+
+The following change is now available in Sandbox and Production.
+
+##### Changed
+
+Remove `404 NOT_FOUND` from the documentation for the following endpoint:
+- Create and Amend Other Expenses
+
 ---
 
 ### 11 March 2025
