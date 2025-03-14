@@ -17,6 +17,22 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 14 March 2025
+
+#### Individuals Disclosures API
+
+Existing API version 2.0 updated with the following change.
+
+##### Removed
+
+Remove HATEOAS links from all endpoints.
+
+##### Changed
+
+Changed success code from 200 to 204 for the following endpoints:
+- Create and Amend Disclosures (non-TYS & TYS)
+
+---
 
 ### 12 March 2025
 
