@@ -23,7 +23,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 #### Individuals Employments Income API
 #### Documentation update
 
-For versions 1.0 and 2.0 of the API, the following changes are now available in Sandbox and Production.
+The following changes are now available in Sandbox and Production.
 
 ##### Fixed
 
