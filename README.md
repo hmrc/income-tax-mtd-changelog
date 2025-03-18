@@ -18,6 +18,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 18 March 2025
+
+#### Individuals Employments Income API
+#### Documentation update
+
+The following changes are now available in Sandbox and Production.
+
+##### Fixed
+
+Remove `404 - Not Found` error from documentation for the following endpoint:
+- Add a Custom Employment
+
+---
+
 ### 12 March 2025
 
 #### Individuals Employments Income API
