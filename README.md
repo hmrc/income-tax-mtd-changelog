@@ -304,22 +304,6 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 - Delete a Loss Claim
 - Amend Loss Claims Order
 
-#### Business Source Adjustable Summary API
-
-The following change is now available in Sandbox
-
-#### Changed
-
-Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v7.0 for tax years 2025-26 onwards for the following endpoints:
-
-- Trigger a Business Source Adjustable Summary
-- Submit Foreign Property Accounting Adjustments
-- Submit Self-Employment Accounting Adjustments
-- Submit UK Property Accounting Adjustments
-
-Changed the expenses object fields in the response body to remove the word "Allowable" for all tax years in v7.0. For example, `expenses.costOfGoodsAllowable` changes to `expenses.costOfGoods` in the following endpoint:
-- Retrieve a Self-Employment Business Source Adjustable Summary
-
 #### Self Employment Business API
 
 The following change is now available in Sandbox
