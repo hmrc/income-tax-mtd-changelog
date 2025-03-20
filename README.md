@@ -111,7 +111,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v2.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -122,7 +122,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v2.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -133,7 +133,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v3.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -144,7 +144,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following changes are now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v2.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -175,7 +175,7 @@ Removed HATEOAS links from all endpoints in v2.0.
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v2.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -187,7 +187,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v3.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -205,7 +205,7 @@ Removed HATEOAS links from all endpoints in v3.0.
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v2.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -216,7 +216,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v2.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -231,7 +231,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v2.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -247,7 +247,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v2.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -258,7 +258,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v2.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -271,7 +271,7 @@ The URL for the Delete CIS Deductions for Subcontractor endpoint has been update
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v6.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -283,7 +283,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following changes are now available in Sandbox
 
-#### Added
+##### Added
 Added a tax year URL path parameter in v6.0 for the following endpoints:
 
 - Create a Brought Forward Loss
@@ -292,7 +292,7 @@ Added a tax year URL path parameter in v6.0 for the following endpoints:
 - Amend a Loss Claim Type
 - Delete a Loss Claim
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v6.0 for tax years 2025-26 onwards for the following endpoints:
 
@@ -308,7 +308,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 The following change is now available in Sandbox
 
-#### Changed
+##### Changed
 
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v5.0 for tax years 2025-26 onwards for the following endpoints:
 
