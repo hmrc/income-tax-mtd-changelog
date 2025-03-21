@@ -34,7 +34,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 - Create and Amend Other Expenses
 - Delete Other Expenses
 
-#### Self Assessment Accounts Api
+#### Self Assessment Accounts API
 
 New API version 4.0 added in Sandbox with the following changes:
 
@@ -113,7 +113,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 - Create and Amend Dividends Income
 - Delete Dividends Income
 
-#### Individuals Insurance Policies income
+#### Individuals Insurance Policies Income API
 
 New API version 2.0 added in Sandbox with the following changes:
 
