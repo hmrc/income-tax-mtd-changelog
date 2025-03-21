@@ -346,7 +346,13 @@ New API version 5.0 added in Sandbox with the following changes:
 Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
 
 - Create and Amend Self-Employment Annual Submission
-- Delete Self-Employment Annual Submission
+- Delete a Self-Employment Annual Submission
+
+##### Changed
+
+Change success code from `200` to `204` for the following endpoint:
+
+- Create and Amend a Self-Employment Cumulative Period Summary
 
 ---
 
