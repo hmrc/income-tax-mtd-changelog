@@ -311,9 +311,9 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 - Delete a Property Annual Submission
 - Create and Amend a Foreign Property Annual Submission
-- Create and Amend a UK Property Annual Submission
+- Create and Amend a UK Property Business Annual Submission
 
-#### Individuals Losses API
+#### Individual Losses API
 
 New API version 6.0 added in Sandbox with the following changes:
 
