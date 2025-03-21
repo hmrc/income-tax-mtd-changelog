@@ -175,7 +175,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 - Create and Amend Other Reliefs
 - Delete Relief Investments
 - Create and Amend Relief Investments
-- Delete Pension Reliefs
+- Delete Pensions Reliefs
 - Create and Amend Pensions Reliefs
 - Create and Amend Charitable Giving Tax Relief
 
