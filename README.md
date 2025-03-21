@@ -249,7 +249,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 - Delete CGT Residential Property Disposals (non-PPD)
 - Delete 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
 - Delete Other Capital Gains and Disposals
-- Create and Amend CGT on Residential Property overrides (PPD)
+- Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
 - Create and Amend CGT Residential Property Disposals (non-PPD)
 - Create and Amend Other Capital Gains and Disposals
 
