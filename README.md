@@ -52,7 +52,7 @@ New API version 4.0 added in Sandbox with the following changes:
 
 ##### Added
 
-Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` in v4.0 for tax years 2025-26 onwards for the following endpoints:
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
 
 - Create or Amend Coding Out Underpayments and Debt Amounts
 - Delete Coding Out Underpayments and Debt Amounts
