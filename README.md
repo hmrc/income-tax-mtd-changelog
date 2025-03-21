@@ -124,6 +124,8 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 - Create and Amend Dividends Income
 - Delete Dividends Income
+- Create and Amend a UK Dividends Income Annual Summary
+- Delete a UK Dividends Income Annual Summary
 
 #### Individuals Insurance Policies Income API
 
