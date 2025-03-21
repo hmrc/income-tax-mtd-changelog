@@ -114,7 +114,7 @@ Change success code from `200` to `204` for the following endpoint:
 
 Removed HATEOAS links from all endpoints.
 
-#### Individuals Dividends API
+#### Individuals Dividends Income API
 
 New API version 2.0 added in Sandbox with the following changes:
 
