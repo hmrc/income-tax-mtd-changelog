@@ -282,7 +282,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 #### Other Deductions API
 
-New API version 3.0 added in Sandbox with the following changes:
+New API version 2.0 added in Sandbox with the following changes:
 
 ##### Added
 
@@ -293,7 +293,13 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 ##### Changed
 
-The URL for the Delete CIS Deductions for Subcontractor endpoint has been updated so that the tax year is supplied as a path parameter rather than a query parameter
+Change success code from `200` to `204` for the following endpoint:
+
+- Create and Amend Deductions
+
+##### Removed
+
+Removed HATEOAS links from all endpoints.
 
 #### Property Business API
 
