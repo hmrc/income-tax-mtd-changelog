@@ -219,7 +219,9 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 ##### Changed
 
-The URL for the Delete CIS Deductions for Subcontractor endpoint has been updated so that the tax year is supplied as a path parameter rather than a query parameter
+Change `taxYear` from a query parameter to a path parameter for the following endpoint:
+
+- Delete CIS Deductions for Subcontractor
 
 ##### Removed
 
