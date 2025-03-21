@@ -34,6 +34,18 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 - Create and Amend Other Expenses
 - Delete Other Expenses
 
+##### Changed
+
+Change success code from `200` to `204` for the following endpoints:
+
+- Create and Amend Employment Expenses
+- Ignore Employment Expenses
+- Create and Amend Other Expenses
+
+##### Removed
+
+Remove HATEOAS links from all endpoints.
+
 #### Self Assessment Accounts API
 
 New API version 4.0 added in Sandbox with the following changes:
@@ -47,7 +59,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 ##### Changed
 
-Changed success code from `200` to `204` for the following endpoint:
+Change success code from `200` to `204` for the following endpoint:
 
 - Create or Amend Coding Out Underpayments and Debt Amounts
 
@@ -77,7 +89,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 ##### Changed
 
-Changed success code from `200` to `204` for the following endpoint:
+Change success code from `200` to `204` for the following endpoint:
 
 - Create and Amend Non-PAYE Employment Income
 
@@ -167,7 +179,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 
 ##### Changed
 
-Changed success code from `200` to `204` for the following endpoints:
+Change success code from `200` to `204` for the following endpoints:
 
 - Create and Amend Charitable Giving Tax Relief
 - Create and Amend Foreign Reliefs
