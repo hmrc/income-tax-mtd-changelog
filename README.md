@@ -238,7 +238,7 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 - Create and Amend Other Income
 - Delete Other Income
 
-#### Individuals Capital Gains API
+#### Individuals Capital Gains Income API
 
 New API version 2.0 added in Sandbox with the following changes:
 
