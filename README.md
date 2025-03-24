@@ -18,6 +18,344 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 24 March 2025
+
+#### Individuals Expenses API
+
+New API version 3.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Delete Employment Expenses
+- Create and Amend Employment Expenses
+- Ignore Employment Expenses
+- Create and Amend Other Expenses
+- Delete Other Expenses
+
+##### Changed
+
+Change success code from `200` to `204` for the following endpoints:
+
+- Create and Amend Employment Expenses
+- Ignore Employment Expenses
+- Create and Amend Other Expenses
+
+##### Removed
+
+Remove HATEOAS links from all endpoints.
+
+#### Self Assessment Accounts API
+
+New API version 4.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Create or Amend Coding Out Underpayments and Debt Amounts
+- Delete Coding Out Underpayments and Debt Amounts
+
+##### Changed
+
+Change success code from `200` to `204` for the following endpoint:
+
+- Create or Amend Coding Out Underpayments and Debt Amounts
+
+##### Removed
+
+Removed HATEOAS links from all endpoints.
+
+#### Individuals Employments Income API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Create and Amend Employment Financial Details
+- Amend a Custom Employment
+- Delete Employment Financial Details
+- Add a Custom Employment
+- Delete a Custom Employment
+- Unignore Employment
+- Delete non-PAYE Employment Income
+- Delete Other Employment Income
+- Create and Amend Non-PAYE Employment Income
+- Create and Amend Other Employment Income
+- Ignore Employment
+
+##### Changed
+
+Change success code from `200` to `204` for the following endpoint:
+
+- Create and Amend Non-PAYE Employment Income
+
+#### Individuals Disclosures API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Delete Disclosures
+- Create and Amend Disclosures
+
+##### Changed
+
+Change success code from `200` to `204` for the following endpoint:
+
+- Create and Amend Disclosures
+
+##### Removed
+
+Removed HATEOAS links from all endpoints.
+
+#### Individuals Dividends Income API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Create and Amend Dividends Income
+- Delete Dividends Income
+- Create and Amend a UK Dividends Income Annual Summary
+- Delete a UK Dividends Income Annual Summary
+
+#### Individuals Insurance Policies Income API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Create and Amend Insurance Policies Income
+- Delete Insurance Policies Income
+
+#### Individuals Foreign Income API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Delete Foreign Income
+- Create and Amend Foreign Income
+
+#### Individuals Charges API
+
+New API version 3.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Delete Pension Charges
+- Create and Amend Pension Charges
+
+#### Individuals Reliefs API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Delete Charitable Giving Tax Relief
+- Delete Foreign Reliefs
+- Create and Amend Foreign Reliefs
+- Delete Other Reliefs
+- Create and Amend Other Reliefs
+- Delete Relief Investments
+- Create and Amend Relief Investments
+- Delete Pensions Reliefs
+- Create and Amend Pensions Reliefs
+- Create and Amend Charitable Giving Tax Relief
+
+##### Changed
+
+Change success code from `200` to `204` for the following endpoints:
+
+- Create and Amend Charitable Giving Tax Relief
+- Create and Amend Foreign Reliefs
+- Create and Amend Other Reliefs
+- Create and Amend Pensions Reliefs
+- Create and Amend Relief Investments
+
+##### Removed
+
+Removed HATEOAS links from all endpoints.
+
+#### Individuals Savings Income API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Create and Amend Savings Income
+- Delete Savings Income
+- Create and Amend a UK Savings Account Annual Summary
+
+#### CIS Deductions API
+
+New API version 3.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Amend CIS Deductions for Subcontractor
+- Create CIS Deductions for Subcontractor
+- Delete CIS Deductions for Subcontractor
+
+##### Changed
+
+Change `taxYear` from a query parameter to a path parameter for the following endpoint:
+
+- Delete CIS Deductions for Subcontractor
+
+##### Removed
+
+Removed HATEOAS links from all endpoints.
+
+#### Individuals Other Income API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Create and Amend Other Income
+- Delete Other Income
+
+#### Individuals Capital Gains Income API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Delete CGT Residential Property Disposals (non-PPD)
+- Delete 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Delete Other Capital Gains and Disposals
+- Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Create and Amend CGT Residential Property Disposals (non-PPD)
+- Create and Amend Other Capital Gains and Disposals
+
+#### Individuals State Benefits API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Create State Benefit
+- Delete State Benefit Amounts
+- Delete State Benefit
+- Unignore State Benefit
+- Amend State Benefit Amounts
+- Amend State Benefit
+- Ignore State Benefit
+
+#### Individuals Pensions Income API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Delete Pensions Income
+- Create and Amend Pensions Income
+
+#### Other Deductions API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Delete Deductions
+- Create and Amend Deductions
+
+##### Changed
+
+Change success code from `200` to `204` for the following endpoint:
+
+- Create and Amend Deductions
+
+##### Removed
+
+Removed HATEOAS links from all endpoints.
+
+#### Property Business API
+
+New API version 6.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Delete a Property Annual Submission
+- Create and Amend a Foreign Property Annual Submission
+- Create and Amend a UK Property Business Annual Submission
+
+#### Individual Losses API
+
+New API version 6.0 added in Sandbox with the following changes:
+
+##### Added
+
+Added a tax year URL path parameter for the following endpoints:
+
+- Create a Brought Forward Loss
+- Amend a Brought Forward Loss Amount
+- Delete a Brought Forward Loss
+- Amend a Loss Claim Type
+- Delete a Loss Claim
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Create a Brought Forward Loss
+- Amend a Brought Forward Loss Amount
+- Delete a Brought Forward Loss
+- Create a Loss Claim
+- Amend a Loss Claim Type
+- Delete a Loss Claim
+- Amend Loss Claims Order
+
+#### Self Employment Business API
+
+New API version 5.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Create and Amend Self-Employment Annual Submission
+- Delete a Self-Employment Annual Submission
+
+##### Changed
+
+Change success code from `200` to `204` for the following endpoint:
+
+- Create and Amend a Self-Employment Cumulative Period Summary
+
+---
+
 ### 18 March 2025
 
 #### Individuals Employments Income API
