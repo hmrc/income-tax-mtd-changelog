@@ -18,6 +18,88 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 28 March 2025
+
+#### Business Source Adjustable Summary API
+
+New API version 7.0 added in Sandbox with the following changes:
+
+##### Added
+
+Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for tax years 2025-26 onwards for the following endpoints:
+
+- Trigger a Business Source Adjustable Summary
+- Submit Self-Employment Accounting Adjustments
+- Submit UK Property Accounting Adjustments
+- Submit Foreign Property Accounting Adjustments
+
+Add a new field `zeroAdjustments` in the `adjustments` object of the response body for tax years 2024-25 onwards for the following endpoints:
+
+- Retrieve a Self-Employment Business Source Adjustable Summary
+- Retrieve a UK Property Business Source Adjustable Summary
+- Retrieve a Foreign Property Business Source Adjustable Summary
+
+Add a new Gov-Test-Scenario `SELF_EMPLOYMENT_ZERO_ADJUSTMENTS` for tax years 2024-25 onwards for the following endpoint:
+
+- Retrieve a Self-Employment Business Source Adjustable Summary
+
+Add a new Gov-Test-Scenario `UK_PROPERTY_ZERO_ADJUSTMENTS` for tax years 2024-25 onwards for the following endpoint:
+
+- Retrieve a UK Property Business Source Adjustable Summary
+
+Add a new Gov-Test-Scenario `FOREIGN_PROPERTY_ZERO_ADJUSTMENTS` for tax years 2024-25 onwards for the following endpoint:
+
+- Retrieve a Foreign Property Business Source Adjustable Summary
+
+Add a new array `countryLevelDetail` in the response body within the `adjustments` object for tax years 2025-26 onwards for the following endpoint:
+
+- Retrieve a Foreign Property Business Source Adjustable Summary
+
+Add a new field `zeroAdjustments` in the request body for tax years 2024-25 onwards for the following endpoint:
+
+- Submit Self-Employment Accounting Adjustments
+
+Add a new field `zeroAdjustments` in the request body within the `furnishedHolidayLet` object for tax year 2024-25 only and
+within the `ukProperty` object for tax years 2024-25 onwards for the following endpoint:
+
+- Submit UK Property Accounting Adjustments
+
+Add a new field `zeroAdjustments` in the request body within the `foreignFhlEea` object for tax year 2024-25 only and
+within the `foreignProperty` object for tax years 2024-25 onwards for the following endpoint:
+
+- Submit Foreign Property Accounting Adjustments
+
+Add a new array `countryLevelDetail` in the request body within the `foreignProperty` object for tax years 2024-25 onwards for the following endpoint:
+
+- Submit Foreign Property Accounting Adjustments
+
+Add new errors `RULE_ZERO_ADJUSTMENTS_INVALID` and `RULE_BOTH_ADJUSTMENTS_SUPPLIED` for tax years 2024-25 onwards for the following endpoints:
+
+- Submit Self-Employment Accounting Adjustments
+- Submit UK Property Accounting Adjustments
+- Submit Foreign Property Accounting Adjustments
+
+##### Changed
+
+Change the `adjustments` array to an object for tax years 2025-26 onwards for the following endpoint:
+
+- Retrieve a Foreign Property Business Source Adjustable Summary
+
+Change the `foreignProperty` array to an object for tax years 2024-25 onwards for the following endpoint:
+
+- Submit Foreign Property Accounting Adjustments
+
+Change the fields in the response body within `adjustableSummaryCalculation.expenses`, `adjustments.expenses`, and 
+`adjustedSummaryCalculation.expenses` by removing the word *Allowable* for all tax years in the following endpoint: 
+
+- Retrieve a Self-Employment Business Source Adjustable Summary
+
+Change the fields in the request body within `expenses` object by removing the word *Allowable* for all tax years in the following endpoint:
+
+- Submit Self-Employment Accounting Adjustments
+
+---
+
 ### 24 March 2025
 
 #### Individuals Expenses API
