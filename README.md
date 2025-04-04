@@ -18,6 +18,45 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 04 April 2025
+
+#### Individuals Calculation API
+#### Documentation update
+
+The following changes are now available in Sandbox and Production.
+
+##### Fixed
+
+update the OAS to display the enum values in the correct format for all the version in the following endpoint
+
+- Retrieve a Self Assessment Tax Calculation
+
+from
+
+`"vctSubscriptions",
+"eisSubscriptions",
+"communityInvestment",
+"seedEnterpriseInvestment",
+"socialEnterpriseInvestment",
+"maintenancePayments",
+"deficiencyRelief",
+"nonDeductibleLoanInterest",
+"qualifyingDistributionRedemptionOfSharesAndSecurities"`
+
+to
+
+`"vct-subscriptions",
+"eis-subscriptions",
+"community-investment",
+"seed-enterprise-investment",
+"social-enterprise-investment",
+"maintenance-payments",
+"deficiency-relief",
+"non-deductible-loan-interest",
+"qualifying-distribution-redemption-of-shares-and-securities"`
+
+---
+
 ### 28 March 2025
 
 #### Business Source Adjustable Summary API
@@ -435,45 +474,6 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 Change success code from `200` to `204` for the following endpoint:
 
 - Create and Amend a Self-Employment Cumulative Period Summary
-
----
-
-### 04 April 2025
-
-#### Individuals Calculation API
-#### Documentation update
-
-The following changes are now available in Sandbox and Production.
-
-##### Fixed
-
-update the OAS to display the enum values in the correct format for all the version in the following endpoint 
-
-- Retrieve a Self Assessment Tax Calculation
-
-from
-
-`"vctSubscriptions",
-"eisSubscriptions",
-"communityInvestment",
-"seedEnterpriseInvestment",
-"socialEnterpriseInvestment",
-"maintenancePayments",
-"deficiencyRelief",
-"nonDeductibleLoanInterest",
-"qualifyingDistributionRedemptionOfSharesAndSecurities"` 
-
-to 
-
-`"vct-subscriptions",
-"eis-subscriptions",
-"community-investment",
-"seed-enterprise-investment",
-"social-enterprise-investment",
-"maintenance-payments",
-"deficiency-relief",
-"non-deductible-loan-interest",
-"qualifying-distribution-redemption-of-shares-and-securities"`
 
 ---
 ### 18 March 2025
