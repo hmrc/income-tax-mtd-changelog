@@ -18,7 +18,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
-### 04 April 2025
+### 07 April 2025
 
 #### Individuals Calculation API
 #### Documentation update
@@ -27,33 +27,20 @@ The following changes are now available in Sandbox and Production.
 
 ##### Fixed
 
-update the OAS to display the enum values in the correct format for all the version in the following endpoint
+Change enum values in the type field of the calculation.reliefs.reliefsClaimed array to the following:
 
+`vctSubscriptions` to `vct-subscriptions`
+`eisSubscriptions` to `eis-subscriptions`
+`communityInvestment` to `community-investment`
+`seedEnterpriseInvestment` to `seed-enterprise-investment`
+`socialEnterpriseInvestment` to `social-enterprise-investment`
+`maintenancePayments` to `maintenance-payments`
+`deficiencyRelief` to `deficiency-relief`
+`nonDeductibleLoanInterest` to `non-deductible-loan-interests`
+`qualifyingDistributionRedemptionOfSharesAndSecurities` to `qualifying-distribution-redemption-of-shares-and-securities`
+
+for the following endpoint:
 - Retrieve a Self Assessment Tax Calculation
-
-from
-
-`"vctSubscriptions",
-"eisSubscriptions",
-"communityInvestment",
-"seedEnterpriseInvestment",
-"socialEnterpriseInvestment",
-"maintenancePayments",
-"deficiencyRelief",
-"nonDeductibleLoanInterest",
-"qualifyingDistributionRedemptionOfSharesAndSecurities"`
-
-to
-
-`"vct-subscriptions",
-"eis-subscriptions",
-"community-investment",
-"seed-enterprise-investment",
-"social-enterprise-investment",
-"maintenance-payments",
-"deficiency-relief",
-"non-deductible-loan-interest",
-"qualifying-distribution-redemption-of-shares-and-securities"`
 
 ---
 
