@@ -18,10 +18,10 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
-### 07 April 2025
+### 7 April 2025
 
 #### Individual Calculations API
-#### Documentation update
+##### Documentation update
 
 The following changes are now available in Sandbox and Production.
 
