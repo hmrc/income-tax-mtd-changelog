@@ -18,6 +18,32 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 7 April 2025
+
+#### Individual Calculations API
+##### Documentation update
+
+The following changes are now available in Sandbox and Production.
+
+##### Fixed
+
+Change response body enum values in the type field of the `calculation.reliefs.reliefsClaimed` array to the following:
+
+`vctSubscriptions` to `vct-subscriptions`
+`eisSubscriptions` to `eis-subscriptions`
+`communityInvestment` to `community-investment`
+`seedEnterpriseInvestment` to `seed-enterprise-investment`
+`socialEnterpriseInvestment` to `social-enterprise-investment`
+`maintenancePayments` to `maintenance-payments`
+`deficiencyRelief` to `deficiency-relief`
+`nonDeductibleLoanInterest` to `non-deductible-loan-interests`
+`qualifyingDistributionRedemptionOfSharesAndSecurities` to `qualifying-distribution-redemption-of-shares-and-securities`
+
+for the following endpoint:
+- Retrieve a Self Assessment Tax Calculation
+
+---
+
 ### 28 March 2025
 
 #### Business Source Adjustable Summary API
@@ -437,7 +463,6 @@ Change success code from `200` to `204` for the following endpoint:
 - Create and Amend a Self-Employment Cumulative Period Summary
 
 ---
-
 ### 18 March 2025
 
 #### Individuals Employments Income API
