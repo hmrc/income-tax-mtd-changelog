@@ -20,14 +20,14 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ### 07 April 2025
 
-#### Individuals Calculation API
+#### Individual Calculations API
 #### Documentation update
 
 The following changes are now available in Sandbox and Production.
 
 ##### Fixed
 
-Change enum values in the type field of the calculation.reliefs.reliefsClaimed array to the following:
+Change response body enum values in the type field of the `calculation.reliefs.reliefsClaimed` array to the following:
 
 `vctSubscriptions` to `vct-subscriptions`
 `eisSubscriptions` to `eis-subscriptions`
