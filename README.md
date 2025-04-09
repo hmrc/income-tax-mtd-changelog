@@ -18,6 +18,21 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 9 April 2025
+
+#### Individual Calculations API
+##### Documentation update
+
+The following change is now available in Sandbox version 7.0.
+
+##### Added
+
+Add a cautionary note to the description advising against the use of the following endpoint:
+
+- List Self Assessment Tax Calculations Old
+
+---
+
 ### 7 April 2025
 
 #### Individual Calculations API
