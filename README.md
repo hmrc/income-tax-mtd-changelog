@@ -29,7 +29,7 @@ The `INCONSISTENT_QUERY_PARAMS` and `INVALID_DATE_RANGE` Gov-Test-Scenarios are 
 
 The errors that these test scenarios represented can now be triggered in the sandbox.
 
-The `INCONSISTENT_QUERY_PARAMS` error can be triggered using the following combinations of query parameter values:
+The `INCONSISTENT_QUERY_PARAMS` error can be triggered in the following scenarios:
 
 - providing values for `fromDate` and `toDate`, or `docNumber` (or all three), whilst `onlyOpenItems` is true
 - providing no values the `fromDate` and `toDate`, or `docNumber` (or none of them), whilst `onlyOpenItems` is false (omitting the `onlyOpenItems` parameter will default its value to false)
