@@ -18,6 +18,26 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 23 April 2025
+
+#### Self Assessment Individual Details API
+
+The following change is now available in Sandbox for API version 2.0.
+
+##### Added
+Add enum values `MTD ITSA Opt-In` and `Digitally Exempt` to the `statusReason` field for the following endpoint:
+- Retrieve ITSA Status
+
+#### Self Assessment Test Support API
+
+The following change is now available in Sandbox for API version 1.0.
+
+##### Added
+Add enum values `MTD ITSA Opt-In` and `Digitally Exempt` to the `statusReason` field for the following endpoint:
+- Create and Amend Test ITSA Status
+
+---
+
 ### 14 April 2025
 
 #### Self Employment Business API
