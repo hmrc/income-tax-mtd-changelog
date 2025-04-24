@@ -58,7 +58,6 @@
 "Tax (capital) Allowances","FSE 52.1 SSE 24.1","52.1","Zero-emission car allowance","Self Employment Business","Create and Amend Self-Employment Annual Submission","allowances > zeroEmissionsCarAllowance"
 "Tax (capital) Allowances","FSE53","53","The Structures and Buildings Allowance","Self Employment Business","Create and Amend Self-Employment Annual Submission","allowances > structuredBuildingAllowance > amount"
 "Tax (capital) Allowances","FSE 53.1 SSE 25.2","53.1","Freeport Structures and Buildings Allowance","Self Employment Business","Create and Amend Self-Employment Annual Submission","allowances > enhancedStructuredBuildingAllowance > amount"
-"Tax (capital) Allowances","FSE54","54","Electric charge-point allowance","Self Employment Business","Create and Amend Self-Employment Annual Submission","allowances > electricChargePointAllowance"
 "Tax (capital) Allowances","FSE55","55","100% and other enhanced capital allowances","Self Employment Business","Create and Amend Self-Employment Annual Submission","allowances > enhancedCapitalAllowance | allowances > businessPremisesRenovationAllowance"
 "Tax (capital) Allowances","FSE56","56","Allowances on sale or cessation of business use (where you've disposed of assets for less than their tax value)","Self Employment Business","Create and Amend Self-Employment Annual Submission","allowances > allowanceOnSales"
 "Tax (capital) Allowances","FSE57 SSE25","57","Total capital allowances","Not available. Calculated by HMRC","",""

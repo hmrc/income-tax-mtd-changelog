@@ -73,7 +73,6 @@
 "Income from Land & Property Abroad","FOR 21.1","Zero-emission car allowance","Property Business","Create and Amend a Foreign Property Annual Submission","foreignNonFhlProperty > allowances > zeroEmissionsCarAllowance",""
 "Income from Land & Property Abroad","FOR22","Zero-emission goods vehicle allowance","Property Business","Create and Amend a Foreign Property Annual Submission","foreignNonFhlProperty > allowances > zeroEmissionsGoodsVehicleAllowance",""
 "Income from Land & Property Abroad","FOR22.1","The Structures and Buildings Allowance","Property Business","Create and Amend a Foreign Property Annual Submission","foreignNonFhlProperty > allowances > structuredBuildingAllowance > amount",""
-"Income from Land & Property Abroad","FOR22.2","Electric charge-point allowance","Property Business","Create and Amend a Foreign Property Annual Submission","foreignNonFhlProperty > allowances > electricChargePointAllowance",""
 "Income from Land & Property Abroad","FOR23","Costs of replacing domestic items","Property Business","Create and Amend a Foreign Property Annual Submission","foreignNonFhlProperty > allowances > costOfReplacingDomesticItems",""
 "Income from Land & Property Abroad","FOR24","Adjusted profit or loss for the year","Not available. Calculated by HMRC","","",""
 "Income from Land & Property Abroad","FOR24.1","Residential property finance costs","Property Business","Create a Foreign Property Income & Expenses Period Summary","foreignNonFhlProperty >  residentialFinancialCost",""
