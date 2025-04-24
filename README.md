@@ -18,6 +18,33 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 24 April 2025
+
+#### Deprecation of API versions
+
+The below API versions are deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
+
+- Self Employment Business API v3.0
+- Property Business API v4.0
+- Business Source Adjustable Summary API v5.0
+- Business Income Source Summary API v2.0
+- Obligations API v2.0
+
+#### Business Income Source Summary API
+
+The following changes are now available in Sandbox and Production for all versions.
+
+##### Added
+
+Deprecated endpoints return the following response headers:
+- Deprecation - the deprecation date/time
+- Link - a link to the relevant API documentation
+- Sunset (if available) - date/time after which the endpoint may not be available
+
+For more details, see the [service guide](https://developer.service.hmrc.gov.uk/guides/income-tax-mtd-end-to-end-service-guide/documentation/how-to-integrate.html#indicating-deprecation-in-headers).
+
+---
+
 ### 23 April 2025
 
 #### Self Assessment Individual Details API
