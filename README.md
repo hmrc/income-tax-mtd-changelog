@@ -17,7 +17,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
-### 15 April 2025 ###
+### 25 April 2025 ###
 
 #### Self Assessment Accounts API ####
 
@@ -34,7 +34,7 @@ The `INCONSISTENT_QUERY_PARAMS` error can be triggered in the following scenario
 - providing values for `fromDate` and `toDate`, or `docNumber` (or all three), whilst `onlyOpenItems` is true
 - providing no values the `fromDate` and `toDate`, or `docNumber` (or none of them), whilst `onlyOpenItems` is false (omitting the `onlyOpenItems` parameter will default its value to false)
 
-The `INVALID_DATE_RANGE` error can be triggered by providing values `fromDate` and `toDate` which are more than 732 days apart
+The `INVALID_DATE_RANGE` error can be triggered by providing values for `fromDate` and `toDate` which are more than 732 days apart
 
 ### 24 April 2025
 
