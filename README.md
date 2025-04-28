@@ -17,22 +17,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
-### 25 April 2025 ###
+### 28 April 2025 ###
 
 #### Self Assessment Accounts API ####
 
 #### Removed ####
 
-The `INCONSISTENT_QUERY_PARAMS` and `INVALID_DATE_RANGE` Gov-Test-Scenarios are no longer available in the Sandbox for the following endpoint:
-
-- Retrieve Self Assessment Balance and Transactions
+The `INCONSISTENT_QUERY_PARAMS` and `INVALID_DATE_RANGE` Gov-Test-Scenarios are no longer available in the Sandbox for the '[Retrieve Self Assessment Balance and Transactions](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/4.0/oas/page#tag/Payments-and-Liabilities/paths/~1accounts~1self-assessment~1%7Bnino%7D~1balance-and-transactions/get)' endpoint.
 
 The errors that these test scenarios represented can now be triggered in the sandbox.
 
 The `INCONSISTENT_QUERY_PARAMS` error can be triggered in the following scenarios:
 
-- providing values for `fromDate` and `toDate`, or `docNumber` (or all three), whilst `onlyOpenItems` is true
-- providing no values the `fromDate` and `toDate`, or `docNumber` (or none of them), whilst `onlyOpenItems` is false (omitting the `onlyOpenItems` parameter will default its value to false)
+- providing values for `fromDate` and `toDate`, or `docNumber` (or all 3), whilst `onlyOpenItems` is true
+- providing no values for `fromDate` and `toDate`, or `docNumber` (or none of them), whilst `onlyOpenItems` is false (omitting the `onlyOpenItems` parameter will default its value to false)
 
 The `INVALID_DATE_RANGE` error can be triggered by providing values for `fromDate` and `toDate` which are more than 732 days apart
 
