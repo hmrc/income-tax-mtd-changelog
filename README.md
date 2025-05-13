@@ -16,12 +16,28 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 13 May 2025
+
+#### Individual Calculations API
+
+The following change is now available in Sandbox and Production version 5.0 and 6.0.
+
+##### Added
+
+Add a new error `RULE_TAX_YEAR_FOR_VERSION_NOT_SUPPORTED` restricting requests to only support tax years up to 2024-25 for version 5.0 and 6.0. Version 7.0 must be used for tax years 2025-26 onwards for the following endpoints:
+
+- Trigger a Self Assessment Tax Calculation
+- Retrieve a Self Assessment Tax Calculation
+- List Self Assessment Tax Calculations
+- Submit a Self Assessment Final Declaration
+
 ---
-### 28 April 2025 ###
 
-#### Self Assessment Accounts API ####
+### 28 April 2025
 
-#### Removed ####
+#### Self Assessment Accounts API
+
+##### Removed
 
 The `INCONSISTENT_QUERY_PARAMS` and `INVALID_DATE_RANGE` Gov-Test-Scenarios are no longer available in the Sandbox for the '[Retrieve Self Assessment Balance and Transactions](https://developer.service.hmrc.gov.uk/api-documentation/docs/api/service/self-assessment-accounts-api/4.0/oas/page#tag/Payments-and-Liabilities/paths/~1accounts~1self-assessment~1%7Bnino%7D~1balance-and-transactions/get)' endpoint.
 
@@ -33,6 +49,8 @@ The `INCONSISTENT_QUERY_PARAMS` error can be triggered in the following scenario
 - providing no values for `fromDate` and `toDate`, or `docNumber` (or none of them), whilst `onlyOpenItems` is false (omitting the `onlyOpenItems` parameter will default its value to false)
 
 The `INVALID_DATE_RANGE` error can be triggered by providing values for `fromDate` and `toDate` which are more than 732 days apart
+
+---
 
 ### 24 April 2025
 
