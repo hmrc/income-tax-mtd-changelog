@@ -16,6 +16,24 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 28 May 2025
+
+#### Individual Employments Income API
+
+#### Retrieve Other Employment Income & Create and Amend Other Employment Income 
+
+The below fields have been changed from mandatory to optional in version 2.0
+
+- shareOption.optionNotExercisedButConsiderationReceived
+- shareOption.classOfSharesAcquired
+- lumpSums.taxableLumpSumsAndCertainIncome.taxTakenOffInEmployment
+- lumpSums.benefitFromEmployerFinancedRetirementScheme.taxTakenOffInEmployment
+- lumpSums.redundancyCompensationPaymentsOverExemption.taxTakenOffInEmployment
+
+The below fields have been changed from optional to mandatory in version 2.0
+
+- lumpSums.redundancyCompensationPaymentsUnderExemption.amount 
+
 ### 27 May 2025
 
 #### Deprecation of API versions
