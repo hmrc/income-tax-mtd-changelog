@@ -16,11 +16,47 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 30 May 2025
+
+#### Property Business API
+
+The following change is now available in Sandbox for versions 5.0 and 6.0.
+
+##### Changed
+
+Update `STATEFUL` Gov-Test-Scenario and description to reflect enhanced functionality based on ITSA status and income source simulated via specific business IDs.
+The description also clarifies that support is limited to standard cumulative quarterly updates where no `commencementDate` is present.
+This update applies to the following endpoints:
+- Create or Amend a UK Property Cumulative Period Summary
+- Create or Amend a Foreign Property Cumulative Period Summary
+
+#### Self Employment Business API
+
+The following change is now available in Sandbox for versions 4.0 and 5.0.
+
+##### Changed
+
+Update `STATEFUL` Gov-Test-Scenario and description to reflect enhanced functionality based on ITSA status and income source simulated via specific business IDs.
+The description also clarifies that support is limited to standard cumulative quarterly updates where no `commencementDate` is present.
+This update applies to the following endpoint:
+- Create or Amend a Self-Employment Cumulative Period Summary
+
+#### Business Source Adjustable Summary API
+
+The following change is now available in Sandbox for versions 6.0 and 7.0.
+
+##### Fixed
+
+Fix `STATEFUL` Gov-Test-Scenario to support cumulative submissions for tax years 2025-26 onwards for the following endpoint:
+- Trigger a Business Source Adjustable Summary
+
+---
+
 ### 28 May 2025
 
 #### Individual Employments Income API
 
-#### Retrieve Other Employment Income & Create and Amend Other Employment Income 
+#### Retrieve Other Employment Income & Create and Amend Other Employment Income
 
 The below fields have been changed from mandatory to optional in version 2.0
 
@@ -32,7 +68,9 @@ The below fields have been changed from mandatory to optional in version 2.0
 
 The below fields have been changed from optional to mandatory in version 2.0
 
-- lumpSums.redundancyCompensationPaymentsUnderExemption.amount 
+- lumpSums.redundancyCompensationPaymentsUnderExemption.amount
+
+---
 
 ### 27 May 2025
 
