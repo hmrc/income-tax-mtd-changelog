@@ -46,7 +46,7 @@ The below API versions are deprecated in Sandbox and Production and will no long
 
 ### 13 May 2025
 
-#### Individuals Calculations API
+#### Individual Calculations API
 
 The following change is now available in Sandbox and Production version 5.0 and 6.0.
 
