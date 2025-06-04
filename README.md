@@ -16,6 +16,40 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 4 June 2025
+
+#### Individuals Charges API
+
+The following change is now available in Sandbox for versions 3.0
+
+##### Added
+
+The following endpoints have been created for tax years 2025-26 onwards:
+- Create or Amend High Income Child Benefit Charge Submission
+- Retrieve High Income Child Benefit Charge Submission
+- Delete High Income Child Benefit Charge Submission
+
+#### Individual Calculations API
+
+The following change is now available in Sandbox for versions 7.0
+
+##### Added
+
+Add a new `highIncomeChildBenefitCharge` object within the calculation object and a new `highIncomeBenefitCharge` field within `calculation.taxCalculation.incomeTax` for tax years 2025–26 onwards for the following endpoint:
+- Retrieve a Self Assessment Tax Calculation
+
+#### Individuals Dividends Income API
+
+The following change is now available in Sandbox for versions 2.0
+
+##### Added
+
+The following endpoints have been created for tax years 2025-26 onwards:
+- Create or Amend Additional Directorship and Dividend Information
+- Retrieve Additional Directorship and Dividend Information
+- Delete Additional Directorship and Dividend Information
+
+
 ### 30 May 2025
 
 #### Property Business API
