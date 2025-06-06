@@ -1693,6 +1693,23 @@ The following endpoint no longer accepts data for tax years 2025-26 onwards:
 
 ---
 
+### 27 August 2024
+
+#### Individual Calculations API
+
+New API version 6.0 added in Sandbox and Production with the following changes.
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation endpoint:
+
+- New value adding the Scottish Advanced Rate tax band `advanced-rate` into the following enums
+  - `calculation.taxCalculation.incomeTax.payPensionsProfit.taxBands.name` 
+  - `calculation.pensionSavingsTaxCharges.pensionSavingsTaxChargesDetail.pensionContributionsInExcessOfTheAnnualAllowance.pensionBands.name`
+  - `calculation.taxCalculation.incomeTax.lumpSums.taxBands.name`
+
+---
+
 ### 30 July 2024
 
 #### Updated error code (all APIs)
