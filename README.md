@@ -432,6 +432,34 @@ Change success code from `200` to `204` for the following endpoint:
 
 ---
 
+### 13 June 2025
+
+#### Individual Calculations API
+
+New API version 8.0 added in Sandbox with the following changes:
+
+##### Added
+
+The following change is now available in Sandbox for version 8.0
+
+Add a new `highIncomeChildBenefitCharge` object within the calculation object and a new `highIncomeBenefitCharge` field within `calculation.taxCalculation.incomeTax` for tax years 2025–26 onwards for the following endpoint:
+- Retrieve a Self Assessment Tax Calculation
+
+##### Removed
+
+Removed 'List Self Assessment Tax Calculations Old' endpoint where taxYear is a query parameter rather than path parameter.
+
+#### Individuals Savings Income API
+
+The following change is now available in Sandbox for version 2.0
+
+##### Added
+
+The following endpoint has been created:
+- Update a UK Savings Account Name
+
+---
+
 ### 4 June 2025
 
 #### Individuals Charges API
@@ -465,6 +493,7 @@ The following endpoints have been created for tax years 2025-26 onwards:
 - Retrieve Additional Directorship and Dividend Information
 - Delete Additional Directorship and Dividend Information
 
+---
 
 ### 30 May 2025
 
