@@ -24,7 +24,7 @@ The following change is now available in Sandbox for version 2.0
 
 ##### Added
 
-The following endpoint have been created:
+The following endpoint has been created:
 - Update UK Savings Account Name
 
 
