@@ -20,7 +20,11 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 #### Individual Calculations API
 
-The following change is now available in Sandbox for versions 8.0
+New API version 8.0 added in Sandbox with the following changes:
+
+##### Added
+
+The following change is now available in Sandbox for version 8.0
 
 Add a new `highIncomeChildBenefitCharge` object within the calculation object and a new `highIncomeBenefitCharge` field within `calculation.taxCalculation.incomeTax` for tax years 2025–26 onwards for the following endpoint:
 - Retrieve a Self Assessment Tax Calculation
