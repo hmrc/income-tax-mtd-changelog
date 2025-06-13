@@ -20,11 +20,11 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 #### Individuals Savings Income API
 
-The following change is now available in Sandbox for versions 2.0
+The following change is now available in Sandbox for version 2.0
 
 ##### Added
 
-The following endpoints have been created:
+The following endpoint have been created:
 - Update UK Savings Account Name
 
 
