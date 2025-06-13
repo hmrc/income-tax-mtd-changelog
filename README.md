@@ -16,6 +16,19 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 13 June 2025
+
+#### Individuals Savings Income API
+
+The following change is now available in Sandbox for version 2.0
+
+##### Added
+
+The following endpoint has been created:
+- Update a UK Savings Account Name
+
+---
+
 ### 4 June 2025
 
 #### Individuals Charges API
@@ -49,6 +62,7 @@ The following endpoints have been created for tax years 2025-26 onwards:
 - Retrieve Additional Directorship and Dividend Information
 - Delete Additional Directorship and Dividend Information
 
+---
 
 ### 30 May 2025
 
