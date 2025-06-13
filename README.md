@@ -29,6 +29,10 @@ The following change is now available in Sandbox for version 8.0
 Add a new `highIncomeChildBenefitCharge` object within the calculation object and a new `highIncomeBenefitCharge` field within `calculation.taxCalculation.incomeTax` for tax years 2025–26 onwards for the following endpoint:
 - Retrieve a Self Assessment Tax Calculation
 
+##### Removed
+
+Removed 'List Self Assessment Tax Calculations Old' endpoint where taxYear is a query parameter rather than path parameter.
+
 #### Individuals Savings Income API
 
 The following change is now available in Sandbox for version 2.0
