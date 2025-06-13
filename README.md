@@ -25,8 +25,9 @@ The following change is now available in Sandbox for version 2.0
 ##### Added
 
 The following endpoint has been created:
-- Update UK Savings Account Name
+- Update a UK Savings Account Name
 
+---
 
 ### 4 June 2025
 
@@ -61,6 +62,7 @@ The following endpoints have been created for tax years 2025-26 onwards:
 - Retrieve Additional Directorship and Dividend Information
 - Delete Additional Directorship and Dividend Information
 
+---
 
 ### 30 May 2025
 
