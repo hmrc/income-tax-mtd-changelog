@@ -329,14 +329,6 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 - Create and Amend CGT Residential Property Disposals (non-PPD)
 - Create and Amend Other Capital Gains and Disposals
 
-#### Individual Calculations API
-
-New API version 8.0 added in Production with the following changes:
-
-### Removed
-
-Removed old list endpoint where `taxYear` is a query parameter
-
 #### Individuals State Benefits API
 
 New API version 2.0 added in Production with the following changes:
