@@ -16,6 +16,18 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 13 June 2025
+
+#### Individuals Savings Income API
+
+The following change is now available in Sandbox for versions 2.0
+
+##### Added
+
+The following endpoints have been created:
+- Update UK Savings Account Name
+
+
 ### 4 June 2025
 
 #### Individuals Charges API
