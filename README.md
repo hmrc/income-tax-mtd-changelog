@@ -16,7 +16,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
-### 17 June 2025
+### 16 June 2025
 
 #### Business Source Adjustable Summary API
 
@@ -328,6 +328,14 @@ Add a new error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSI
 - Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
 - Create and Amend CGT Residential Property Disposals (non-PPD)
 - Create and Amend Other Capital Gains and Disposals
+
+#### Individual Calculations API
+
+New API version 8.0 added in Production with the following changes:
+
+### Removed
+
+Removed old list endpoint where `taxYear` is a query parameter
 
 #### Individuals State Benefits API
 
