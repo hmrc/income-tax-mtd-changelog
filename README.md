@@ -18,6 +18,21 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ### 16 June 2025
 
+#### Business Details API
+
+New API version 2.0 added in Sandbox with the following changes:
+
+##### Added
+
+The following endpoints have been created for tax years 2025-26 onwards:
+- Retrieve Accounting Type
+- Update Accounting Type
+- Retrieve Periods of Account
+- Create or Update Periods of Account
+
+Add a new error `RULE_REQUEST_CANNOT_BE_FULFILLED` for the following endpoint:
+- Create and Amend Quarterly Period Type for a Business
+
 #### Business Source Adjustable Summary API
 
 New API version 7.0 added in Production with the following changes:
@@ -458,6 +473,8 @@ The following change is now available in Sandbox for version 2.0
 The following endpoint has been created:
 - Update a UK Savings Account Name
 
+---
+
 ### 12 June 2024
 
 ### Individual Calculations API
@@ -467,6 +484,8 @@ The following endpoint has been created:
 The below API versions are deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
 
 - Individual Calculations API v6.0
+
+---
 
 ### 4 June 2025
 
