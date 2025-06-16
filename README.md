@@ -33,6 +33,11 @@ The following endpoints have been created for tax years 2025-26 onwards:
 Add a new error `RULE_REQUEST_CANNOT_BE_FULFILLED` for the following endpoint:
 - Create and Amend Quarterly Period Type for a Business
 
+##### Changed
+
+Update the warning note in the documentation to state that the 'Create and Amend Quarterly Period Type for a Business' endpoint
+will return a `RULE_REQUEST_CANNOT_BE_FULFILLED` error response if an invalid tax year or business ID is provided.
+
 #### Business Source Adjustable Summary API
 
 New API version 7.0 added in Production with the following changes:
