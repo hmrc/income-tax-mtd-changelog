@@ -16,6 +16,36 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+
+### 19 June 2025
+
+#### Deprecation of API versions
+
+The below API versions are deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
+
+- CIS Deductions API v2.0
+- Individual Losses API v5.0
+- Individuals Capital Gains Income API v1.0
+- Individuals Charges API v2.0
+- Individuals Disclosures API v1.0
+- Individuals Dividends Income API v1.0
+- Individuals Employments Income API v1.0
+- Individuals Expenses API v2.0
+- Individuals Foreign Income API v1.0
+- Individuals Insurance Policies Income API v1.0
+- Individuals Other Income API v1.0
+- Individuals Pensions Income API v1.0
+- Individuals Reliefs API v1.0
+- Individuals Savings Income API v1.0
+- Individuals State Benefits API v1.0
+- Other Deductions API v1.0
+- Property Business API v5.0
+- Self Assessment Accounts API v3.0
+- Business Source Adjustable Summary API v6.0
+- Self Employment Business API v4.0
+
+---
+
 ### 16 June 2025
 
 #### Business Details API
