@@ -19,7 +19,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ### 30 June 2025
 
-Update to the regex for the `payrollId` field in Individual Calculations API v5.0, v6.0, v7.0 and v8.0
+Update to the regex for the `payrollId` field in the Retrieve a Self Assessment Tax Calculation endpoint of Individual Calculations API v5.0, v6.0, v7.0 and v8.0
 
 ### 19 June 2025
 
