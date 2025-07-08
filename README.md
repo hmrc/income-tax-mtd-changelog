@@ -26,7 +26,7 @@ Existing version 2.0 updated in Sandbox with the following change:
 
 Retrieve Business Details endpoint: 
 
-accountingPeriods field in the response body is now `optional`.
+`accountingPeriods` array in the response body is now optional.
 
 ---
 
