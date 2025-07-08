@@ -16,11 +16,6 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
-
-### 1 July 2025
-
-Update to the regex for the `payrollId` field in the Retrieve a Self Assessment Tax Calculation endpoint of Individual Calculations API v5.0, v6.0, v7.0 and v8.0
-
 ### 19 June 2025
 
 #### Deprecation of API versions
