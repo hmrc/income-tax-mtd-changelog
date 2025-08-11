@@ -17,6 +17,18 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ### 11 August 2025
+#### Individual Calculations API
+Existing Retrieve a Self Assessment Tax Calculation endpoint updated in Sandbox and Production with the following change:
+##### Added
+Two new fields in the retrieve response body:
+`calculation/businessProfitAndLoss/adjustedProfit`
+`calculation/businessProfitAndLoss/outstandingBusinessIncome`
+
+Applies only to tax years 2025-26 onwards.
+
+---
+
+### 11 August 2025
 
 #### Business Details API
 
