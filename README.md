@@ -16,6 +16,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 11 August 2025
+
+#### Business Details API
+
+Existing version 2.0 updated in Sandbox with the following change:
+
+##### Removed
+
+Retrieve Accounting Type endpoint:
+
+Remove the minimum tax year restriction which triggered the error `RULE_TAX_YEAR_NOT_SUPPORTED`.
+
+---
+
 ### 8 July 2025
 
 #### Business Details API
