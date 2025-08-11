@@ -28,6 +28,17 @@ Retrieve Accounting Type endpoint:
 
 Remove the minimum tax year restriction which triggered the error `RULE_TAX_YEAR_NOT_SUPPORTED`.
 
+#### Individual Calculations API
+
+Existing version 8.0 updated in Sandbox with the following change:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation endpoint:
+
+Add two new optional fields, `calculation.businessProfitAndLoss.adjustedProfit` and `calculation.businessProfitAndLoss.outstandingBusinessIncome`
+to the response body for tax years 2025-26 onwards.
+
 ---
 
 ### 8 July 2025
