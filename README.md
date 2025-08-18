@@ -16,6 +16,23 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 18 August 2025
+
+#### Business Income Source Summary (BISS) API
+
+Existing version 3.0 updated in Sandbox and Production with the following changes:
+
+##### Added
+
+Retrieve a Business Income Source Summary:
+
+Add the following optional fields to the response body for tax years 2025-26 onwards:
+
+- `adjustedProfit`
+- `outstandingBusinessIncome`
+
+---
+
 ### 15 August 2025
 
 #### Business Source Adjustable Summary (BSAS) API
