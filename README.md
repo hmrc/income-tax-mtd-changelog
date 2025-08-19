@@ -20,7 +20,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 #### Business Income Source Summary (BISS) API
 
-Existing version 3.0 updated in Sandbox and Production with the following changes:
+Existing version 3.0 updated in Sandbox with the following changes:
 
 ##### Added
 
@@ -28,7 +28,7 @@ Retrieve a Business Income Source Summary:
 
 Add the following optional fields to the response body for tax years 2025-26 onwards:
 
-- `adjustedProfit`
+- `profit.adjusted`
 - `outstandingBusinessIncome`
 
 ---
