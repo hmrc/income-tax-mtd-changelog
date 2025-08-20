@@ -16,6 +16,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 20 August 2025
+
+#### Obligations API
+
+All versions updated in Sandbox and Production:
+
+##### Removed
+
+Retrieve Income Tax (Self Assessment) End of Period Statement Obligations:
+
+Endpoint and Documentation removed from Obligations API.
+
+---
+
 ### 18 August 2025
 
 #### Business Income Source Summary (BISS) API
