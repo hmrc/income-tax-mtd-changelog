@@ -26,7 +26,7 @@ All versions updated in Sandbox and Production:
 
 Retrieve Income Tax (Self Assessment) End of Period Statement Obligations:
 
-Endpoint and Documentation removed ffrom Obligations API.
+Endpoint and Documentation removed from Obligations API.
 
 ---
 
