@@ -18,21 +18,168 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ### 15 September 2025
 
+#### Business Details API
+
+New API version 2.0 added in Production with the following changes:
+
+##### Added
+
+The following endpoint has been created with no minimum tax year restriction:
+- Retrieve Accounting Type
+
+The following endpoints have been created for tax years 2025-26 onwards:
+- Update Accounting Type
+- Retrieve Periods of Account
+- Create or Update Periods of Account
+
+Create and Amend Quarterly Period Type for a Business:
+- Add a new error `RULE_REQUEST_CANNOT_BE_FULFILLED`
+
+##### Changed
+
+Retrieve Business Details:
+- `accountingPeriods` array in the response body is now optional
+
+Existing version 2.0 updated in Sandbox with the following changes:
+
+##### Added
+
+The following endpoint has been created with no minimum tax year restriction:
+- Retrieve Late Accounting Date Rule Election
+
+The following endpoints have been added for tax years 2025-26 onwards:
+- Withdrawal of Late Accounting Date Rule Disapplication
+- Disapply Late Accounting Date Rule
+
+All versions updated in Sandbox and Production with the following change:
+
+##### Changed
+
+Retrieve Business Details:
+- The `accountingType` field in the response body has been deprecated
+
+#### Individual Calculations API
+
+All versions updated in Production for tax years 2024–25 onwards with the following change:
+
+##### Changed
+
+Retrieve a Self Assessment Tax Calculation:
+- Update `payrollId` regex to set character limit to 35 and allow `#`
+
+Existing version 7.0 updated in Production for tax years 2025-26 onwards with the following changes:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation:
+- Add a new object `highIncomeChildBenefitCharge` within the calculation object
+- Add a new field `highIncomeBenefitCharge` within `calculation.taxCalculation.incomeTax`
+
+New API version 8.0 added in Production with the following changes:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation for tax years 2025-26 onwards:
+- Add a new object `highIncomeChildBenefitCharge` within the calculation object
+- Add a new field `highIncomeBenefitCharge` within `calculation.taxCalculation.incomeTax`
+
+##### Removed
+
+Remove 'List Self Assessment Tax Calculations Old' endpoint where taxYear is a query parameter rather than path parameter.
+
+Existing versions 7.0 and 8.0 updated in Sandbox with the following changes:
+
+##### Changed
+
+Retrieve a Self Assessment Tax Calculation:
+
+Deprecations in the response body for tax years 2025–26 onwards:
+- Field: `calculation.reliefs.reliefsClaimed[].reliefsClaimedDetail[].socialEnterpriseName`
+- Enum value: `social-enterprise-investment` for `calculation.reliefs.reliefsClaimed[].type`
+
+All versions updated in Sandbox and Production with the following change:
+
+##### Changed
+
+Retrieve a Self Assessment Tax Calculation:
+
+Updated documentation to remove the regex pattern and add minimum and maximum string length to the description of the following field:
+
+- `inputs.constructionIndustryScheme[].contractorName`
+
+#### Individuals Employments Income API
+
+All versions updated in Production with the following changes:
+
+##### Changed
+
+Add a Custom Employment:
+- Update `payrollId` regex to allow `#`
+- Update `payrollId` description to state that up to 38 characters are allowed, but only 35 will be retained during submission
+
+Amend a Custom Employment:
+- Update `payrollId` regex to allow `#`
+- Update `payrollId` description to state that up to 38 characters are allowed, but only 35 will be retained during submission
+
+Retrieve an Employment:
+- Update `payrollId` regex to set character limit to 35 and allow `#`
+
+Retrieve an Employment and its Financial Details:
+- Update `payrollId` regex for tax years 2024–25 onwards to set character limit to 35 and allow `#`
+
+Existing version 2.0 updated in Sandbox with the following changes:
+
+##### Added
+
+The following endpoints have been added for tax years 2025-26 onwards:
+- Create or Amend Student Loan Benefits in Kind
+- Retrieve Student Loan Benefits In Kind
+- Delete Student Loan Benefits in Kind
+
+#### Individuals Charges API
+
+Existing version 3.0 updated in Production with the following changes:
+
+##### Added
+
+The following endpoints have been created for tax years 2025-26 onwards:
+- Create or Amend High Income Child Benefit Charge Submission
+- Retrieve High Income Child Benefit Charge Submission
+- Delete High Income Child Benefit Charge Submission
+
+#### Individuals Dividends Income API
+
+Existing version 2.0 updated in Production with the following changes:
+
+##### Added
+
+The following endpoints have been created for tax years 2025-26 onwards:
+- Create or Amend Additional Directorship and Dividend Information
+- Retrieve Additional Directorship and Dividend Information
+- Delete Additional Directorship and Dividend Information
+
+#### Individuals Savings Income API
+
+Existing version 2.0 updated in Production with the following change:
+
+##### Added
+
+The following endpoint has been created:
+- Update a UK Savings Account Name
+
 #### Individuals Reliefs API
 
 New API version 3.0 added in Sandbox with the following changes:
 
-#### Removed
+##### Removed
 
 Create and Amend Relief Investments:
-
-The optional array `socialEnterpriseInvestment` has been removed from the request body for tax years 2025-26 onwards
+- The optional array `socialEnterpriseInvestment` has been removed from the request body for tax years 2025-26 onwards
 
 Retrieve Relief Investments:
+- The optional array `socialEnterpriseInvestment` has been removed from the response body for tax years 2025-26 onwards
 
-The optional array `socialEnterpriseInvestment` has been removed from the response body for tax years 2025-26 onwards
-
-#### Changed
+##### Changed
 
 Create and Amend Relief Investments:
 
@@ -73,74 +220,19 @@ Tax years after 2024-25 are no longer supported for the following endpoints:
 - Retrieve Relief Investments
 - Create and Amend Relief Investments
 
-#### Individual Calculations API
-
-Existing versions 7.0 and 8.0 updated in Sandbox with the following changes:
-
-#### Changed
-
-Retrieve a Self Assessment Tax Calculation:
-
-Deprecations in the response body for tax years 2025–26 onwards:
-- Field: `calculation.reliefs.reliefsClaimed[].reliefsClaimedDetail.socialEnterpriseName`
-- Enum value: `social-enterprise-investment` for `calculation.reliefs.reliefsClaimed[].type`
-
-All versions updated in Sandbox and Production with the following change:
-
-#### Changed
-
-Retrieve a Self Assessment Tax Calculation:
-
-Updated documentation to remove the regex pattern and add minimum and maximum string length to the description of the following field:
-
-- `inputs.constructionIndustryScheme[].contractorName`
-
-#### Individuals Employments Income API
-
-Existing version 2.0 updated in Sandbox with the following changes:
-
-#### Added
-
-The following endpoints have been added for tax years 2025-26 onwards:
-
-- Create or Amend Student Loan Benefits in Kind
-- Retrieve Student Loan Benefits In Kind
-- Delete Student Loan Benefits in Kind
-
-#### Business Details API
-
-Existing version 2.0 updated in Sandbox with the following changes:
-
-#### Added
-
-The following endpoint has been created with no minimum tax year restriction:
-
-- Retrieve Late Accounting Date Rule Election
-
-The following endpoints have been added for tax years 2025-26 onwards:
-
-- Withdrawal of Late Accounting Date Rule Disapplication
-- Disapply Late Accounting Date Rule
-
-All versions updated in Sandbox and Production with the following change:
-
-#### Changed
-
-Retrieve Business Details:
-
-The `accountingType` field in the response body has been deprecated
-
 #### CIS Deductions API
 
 All versions updated in Sandbox and Production with the following changes:
 
-#### Changed
+##### Changed
 
 Retrieve CIS Deductions for Subcontractor:
 
 Updated documentation to add minimum and maximum string length to the description of the following field:
 
 - `cisDeductions[].contractorName`
+
+---
 
 ### 3 September 2025
 
