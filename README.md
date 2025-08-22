@@ -16,6 +16,98 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 16 September 2025
+
+#### Business Details API
+
+New API version 2.0 added in Production with the following changes:
+
+##### Added
+
+The following endpoints have been created for tax years 2025-26 onwards:
+- Retrieve Accounting Type
+- Update Accounting Type
+- Retrieve Periods of Account
+- Create or Update Periods of Account
+
+Add a new error `RULE_REQUEST_CANNOT_BE_FULFILLED` for the following endpoint:
+- Create and Amend Quarterly Period Type for a Business
+
+##### Changed
+
+Update the warning note in the documentation to state that the 'Create and Amend Quarterly Period Type for a Business' endpoint
+will return a `RULE_REQUEST_CANNOT_BE_FULFILLED` error response if an invalid tax year or business ID is provided.
+
+`accountingPeriods` array in the response body is now optional in Retrieve Business Details endpoint.
+
+#### Individual Calculations API
+
+The following change is now available in Production for all versions:
+
+##### Changed
+
+Update `payrollId` regex to set character limit to 35 and add `#` to allowed characters for the following endpoint:
+- Retrieve a Self Assessment Tax Calculation
+
+The following change is now available in Production for version 7.0:
+
+##### Added
+
+Add a new `highIncomeChildBenefitCharge` object within the calculation object and a new `highIncomeBenefitCharge` field within `calculation.taxCalculation.incomeTax` for tax years 2025–26 onwards for the following endpoint:
+- Retrieve a Self Assessment Tax Calculation
+
+New API version 8.0 added in Production.
+
+This version includes the changes introduced in version 7.0 and the following additional change:
+
+##### Removed
+
+Remove 'List Self Assessment Tax Calculations Old' endpoint where taxYear is a query parameter rather than path parameter.
+
+#### Individuals Charges API
+
+The following change is now available in Production for version 3.0:
+
+##### Added
+
+The following endpoints have been created for tax years 2025-26 onwards:
+- Create or Amend High Income Child Benefit Charge Submission
+- Retrieve High Income Child Benefit Charge Submission
+- Delete High Income Child Benefit Charge Submission
+
+#### Individuals Dividends Income API
+
+The following change is now available in Production for version 2.0:
+
+##### Added
+
+The following endpoints have been created for tax years 2025-26 onwards:
+- Create or Amend Additional Directorship and Dividend Information
+- Retrieve Additional Directorship and Dividend Information
+- Delete Additional Directorship and Dividend Information
+
+#### Individuals Employments Income API
+
+The following change is now available in Production for all versions:
+
+##### Changed
+
+Update `payrollId` regex for the following endpoints:
+- Retrieve an Employment endpoint: character limit set to 35 and `#` added to allowed characters
+- Add a Custom Employment and Amend a Custom Employment endpoints: `#` added to allowed characters and field description updated
+to state that up to 38 characters are allowed, but only 35 will be retained during submission
+
+#### Individuals Savings Income API
+
+The following change is now available in Production for version 2.0:
+
+##### Added
+
+The following endpoint has been created:
+- Update a UK Savings Account Name
+
+---
+
 ### 20 August 2025
 
 #### Obligations API
