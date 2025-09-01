@@ -16,6 +16,25 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 3 September 2025
+
+#### Self Assessment Accounts API
+
+Existing versions 3.0 and 4.0 updated in Sandbox with the following changes:
+
+#### Added
+
+
+Add new field `chargeDetails.changeTimestamp` to the `chargeHistoryDetails` array in the response body for the following endpoints:
+
+- Retrieve History of a Self Assessment Charge
+- Retrieve History of a Self Assessment Charge by Transaction ID
+- Retrieve History of a Self Assessment Charge by Charge Reference
+
+Deprecated field `chargeDetails.changeDate` to be replaced by the new field `chargeDetails.changeTimestamp` for the mentioned endpoints.
+
+---
+
 ### 2 September 2025
 
 #### Self Assessment Accounts API
