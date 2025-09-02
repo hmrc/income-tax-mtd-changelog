@@ -16,6 +16,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 2 September 2025
+
+#### Self Assessment Accounts API
+
+Existing version 4.0 updated in Sandbox with the following changes:
+
+##### Added
+
+Add new optional field `codedOutStatus` to the array `items` inside the array `financialDetails` to the response body for the following endpoint:
+
+- Retrieve Self Assessment Balance and Transactions
+
+---
+
 ### 20 August 2025
 
 #### Obligations API
