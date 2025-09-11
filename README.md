@@ -66,6 +66,13 @@ The following field in the response body schema is now optional for TY 25-26 onw
 
 - `vctSubscription[].uniqueInvestmentRef`
 
+Existing versions 1.0 and 2.0 have been updated in Sandbox and Production with the following changes:
+
+Tax years after 2024-25 are no longer supported for the following endpoints:
+
+- Retrieve Relief Investments
+- Create and Amend Relief Investments
+
 #### Individual Calculations API
 
 Existing versions 7.0 and 8.0 updated in Sandbox with the following changes:
