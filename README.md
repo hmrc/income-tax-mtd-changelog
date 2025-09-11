@@ -16,6 +16,106 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 15 September 2025
+
+#### Individuals Reliefs API
+
+New API version 3.0 added in Sandbox with the following changes:
+
+#### Removed
+
+Create and Amend Relief Investments:
+
+The optional array `socialEnterpriseInvestment` has been removed from the request body for tax years 2025-26 onwards
+
+Retrieve Relief Investments:
+
+The optional array `socialEnterpriseInvestment` has been removed from the response body for tax years 2025-26 onwards
+
+#### Changed
+
+Create and Amend Relief Investments:
+
+The following fields in the request body schema are now mandatory for TY 25-26 onwards:
+
+- `vctSubscription[].name`
+- `vctSubscription[].dateOfInvestment`
+- `eisSubscription[].name`
+- `eisSubscription[].knowledgeIntensive`
+- `eisSubscription[].dateOfInvestment`
+- `seedEnterpriseInvestment[].companyName`
+- `seedEnterpriseInvestment[].dateOfInvestment`
+
+The following field in the request body schema is now optional for TY 25-26 onwards:
+
+- `vctSubscription[].uniqueInvestmentRef`
+
+Retrieve Relief Investments:
+
+The following fields in the response body schema are now mandatory for TY 25-26 onwards:
+
+- `vctSubscription[].name`
+- `vctSubscription[].dateOfInvestment`
+- `eisSubscription[].name`
+- `eisSubscription[].knowledgeIntensive`
+- `eisSubscription[].dateOfInvestment`
+- `seedEnterpriseInvestment[].companyName`
+- `seedEnterpriseInvestment[].dateOfInvestment`
+
+The following field in the response body schema is now optional for TY 25-26 onwards:
+
+- `vctSubscription[].uniqueInvestmentRef`
+
+#### Individual Calculations API
+
+Existing versions 7.0 and 8.0 updated in Sandbox with the following changes:
+
+#### Removed
+
+Retrieve a Self Assessment Tax Calculation:
+
+The following field has been removed in the response body for tax years 2025-26 onwards: 
+
+- `calculation.reliefs.reliefsClaimed[].reliefsClaimedDetail.socialEnterpriseName`
+
+The enum value `social-enterprise-investment` has been removed from the following field in the response body for tax years 2025-26 onwards:
+
+- `calculation.reliefs.reliefsClaimed[].type`
+
+All versions updated in Sandbox and Production with the following change:
+
+### Changed
+
+Retrieve a Self Assessment Tax Calculation:
+
+Updated documentation to remove the regex pattern and add minimum and maximum string length to the description of the following field:
+
+- `inputs.constructionIndustryScheme[].contractorName`
+
+### Individuals Employments Income API
+
+Existing version 2.0 updated in Sandbox with the following changes:
+
+### Added
+
+The following endpoints have been added for tax years 2025-26 onwards:
+
+- Create or Amend Student Loan Benefits in Kind
+- Retrieve Student Loan Benefits In Kind
+- Delete Student Loan Benefits in Kind
+
+### Business Details API
+
+Existing version 2.0 updated in Sandbox with the following changes:
+
+### Added
+
+The following endpoints have been added for tax years 2025-26 onwards:
+
+- Withdrawal of Late Accounting Date Rule Disapplication
+- Retrieve Late Accounting Date Rule Election
+- Disapply Late Accounting Date Rule
+
 ### 3 September 2025
 
 #### Self Assessment Accounts API
