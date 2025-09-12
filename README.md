@@ -97,14 +97,21 @@ Add the following optional fields to the response body for tax years 2025-26 onw
 - `adjustableSummaryCalculation.outstandingBusinessIncome`
 - `adjustedSummaryCalculation.outstandingBusinessIncome`
 
-##### Removed
+##### Changed
 
 Retrieve a Self-Employment Business Source Adjustable Summary:
 
-Remove the following optional fields from the response body for tax years 2025-26 onwards:
+Deprecate the following optional fields from the response body for tax years 2025-26 onwards 
+(these fields are deprecated and will be removed in a future release):
 
 - `adjustableSummaryCalculation.additions.outstandingBusinessIncome`
 - `adjustedSummaryCalculation.additions.outstandingBusinessIncome`
+
+~~##### Removed
+Retrieve a Self-Employment Business Source Adjustable Summary:
+Remove the following optional fields from the response body for tax years 2025-26 onwards:
+`adjustableSummaryCalculation.additions.outstandingBusinessIncome` and  `adjustedSummaryCalculation.additions.outstandingBusinessIncome`~~
+(Note: These fields are deprecated, not yet removed, and remain supported until a future release.)
 
 ---
 
