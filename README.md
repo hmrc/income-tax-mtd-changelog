@@ -77,21 +77,17 @@ Tax years after 2024-25 are no longer supported for the following endpoints:
 
 Existing versions 7.0 and 8.0 updated in Sandbox with the following changes:
 
-#### Removed
+#### Changed
 
 Retrieve a Self Assessment Tax Calculation:
 
-The following field has been removed in the response body for tax years 2025-26 onwards: 
-
-- `calculation.reliefs.reliefsClaimed[].reliefsClaimedDetail.socialEnterpriseName`
-
-The enum value `social-enterprise-investment` has been removed from the following field in the response body for tax years 2025-26 onwards:
-
-- `calculation.reliefs.reliefsClaimed[].type`
+Deprecations in the response body for tax years 2025–26 onwards:
+- Field: `calculation.reliefs.reliefsClaimed[].reliefsClaimedDetail.socialEnterpriseName`
+- Enum value: `social-enterprise-investment` for `calculation.reliefs.reliefsClaimed[].type`
 
 All versions updated in Sandbox and Production with the following change:
 
-### Changed
+#### Changed
 
 Retrieve a Self Assessment Tax Calculation:
 
@@ -99,11 +95,11 @@ Updated documentation to remove the regex pattern and add minimum and maximum st
 
 - `inputs.constructionIndustryScheme[].contractorName`
 
-### Individuals Employments Income API
+#### Individuals Employments Income API
 
 Existing version 2.0 updated in Sandbox with the following changes:
 
-### Added
+#### Added
 
 The following endpoints have been added for tax years 2025-26 onwards:
 
@@ -111,17 +107,29 @@ The following endpoints have been added for tax years 2025-26 onwards:
 - Retrieve Student Loan Benefits In Kind
 - Delete Student Loan Benefits in Kind
 
-### Business Details API
+#### Business Details API
 
 Existing version 2.0 updated in Sandbox with the following changes:
 
-### Added
+#### Added
 
 The following endpoints have been added for tax years 2025-26 onwards:
 
 - Withdrawal of Late Accounting Date Rule Disapplication
 - Retrieve Late Accounting Date Rule Election
 - Disapply Late Accounting Date Rule
+
+#### CIS Deductions API
+
+All versions updated in Sandbox and Production with the following changes:
+
+#### Changed
+
+Retrieve CIS Deductions for Subcontractor:
+
+Updated documentation to add minimum and maximum string length to the description of the following field:
+
+- `cisDeductions[].contractorName`
 
 ### 3 September 2025
 
