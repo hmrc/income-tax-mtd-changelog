@@ -113,10 +113,13 @@ Existing version 2.0 updated in Sandbox with the following changes:
 
 #### Added
 
+The following endpoint has been created with no minimum tax year restriction:
+
+- Retrieve Late Accounting Date Rule Election
+
 The following endpoints have been added for tax years 2025-26 onwards:
 
 - Withdrawal of Late Accounting Date Rule Disapplication
-- Retrieve Late Accounting Date Rule Election
 - Disapply Late Accounting Date Rule
 
 #### CIS Deductions API
