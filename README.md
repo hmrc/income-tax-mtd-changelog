@@ -122,6 +122,14 @@ The following endpoints have been added for tax years 2025-26 onwards:
 - Withdrawal of Late Accounting Date Rule Disapplication
 - Disapply Late Accounting Date Rule
 
+All versions updated in Sandbox and Production with the following change:
+
+#### Changed
+
+Retrieve Business Details:
+
+The `accountingType` field in the response body has been deprecated
+
 #### CIS Deductions API
 
 All versions updated in Sandbox and Production with the following changes:
