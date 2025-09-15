@@ -61,7 +61,6 @@
 "Other Tax Reliefs","AOR 8.00","Payments to a trade union for death benefits","Individuals Expenses","Create and Amend Other Expenses","paymentsToTradeUnionsForDeathBenefits > expenseAmount"
 "Other Tax Reliefs","AOR 9.00","Relief claimed on a qualifying distribution on the redemption of bonus shares or securities","Individuals Reliefs","Create and Amend Other Reliefs","qualifyingDistributionRedemptionOfSharesAndSecurities > amount"
 "Other Tax Reliefs","AOR 10.00","Subscriptions for shares under the Seed Enterprise Investment Scheme","Individuals Reliefs","Create and Amend Relief Investments","seedEnterpriseInvestment > amountInvested"
-"Other Tax Reliefs","AOR 11.00","Social Investment Tax Relief","Individuals Reliefs","Create and Amend Relief Investments","socialEnterpriseInvestment > amountInvested"
 "Other Tax Reliefs","AOR 12.00","Non-deductible loan interest from investments into property letting partnerships","Individuals Reliefs","Create and Amend Other Reliefs","nonDeductibleLoanInterest > reliefClaimed"
 "Married Couples Allowance","MCA1","Your spouse's or civil partner's full name","Not available","",""
 "Married Couples Allowance","MCA2","Their date of birth if older than you (and at least one of you was born before 6 April 1935)","Not available","",""
