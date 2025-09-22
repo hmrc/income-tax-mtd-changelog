@@ -16,6 +16,21 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 22 September 2025
+
+#### Business Source Adjustable Summary (BSAS) API
+
+All versions updated in Sandbox and Production with the following changes:
+
+##### Changed
+
+Update validation for `residentialFinancialCost` in the request body to allow negative numbers for all tax years for the following endpoints:
+
+- Submit UK Property Accounting Adjustments
+- Submit Foreign Property Accounting Adjustments
+
+---
+
 ### 15 September 2025
 
 #### Business Details API
