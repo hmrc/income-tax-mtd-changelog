@@ -16,6 +16,14 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+### 25 September 2025
+
+#### Individual Calculations API
+
+Version 5.0 of this API, which had previously been deprecated, has now been retired and is no longer available in Sandbox or Production. The documentation for version 5.0 has also been removed.
+
+---
+
 ### 22 September 2025
 
 #### Business Source Adjustable Summary (BSAS) API
