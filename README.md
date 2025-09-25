@@ -16,6 +16,8 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
+---
+
 ### 25 September 2025
 
 #### Individual Calculations API
