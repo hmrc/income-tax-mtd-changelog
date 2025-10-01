@@ -17,6 +17,25 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 1 October 2025
+
+#### Individuals Capital Gains Income API
+
+Existing version 2.0 updated in Sandbox and Production with the following changes:
+
+##### Removed
+
+Remove error `RULE_OUTSIDE_AMENDMENT_WINDOW` and the Gov-Test-Scenario `OUTSIDE_AMENDMENT_WINDOW` for the following endpoints:
+
+- Create and Amend CGT Residential Property Disposals (non-PPD)
+- Delete CGT Residential Property Disposals (non-PPD)
+- Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Delete 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Create and Amend Other Capital Gains and Disposals
+- Delete Other Capital Gains and Disposals
+
+---
+
 ### 29 September 2025
 
 #### Individuals Capital Gains Income API
