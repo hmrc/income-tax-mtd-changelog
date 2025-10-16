@@ -17,6 +17,16 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 16 October 2025
+
+#### Deprecation of API versions
+
+The below API versions are deprecated in Sandbox and Production and will no longer accept new subscriptions. Existing subscriptions will continue to work.
+
+- Business Details API v1.0
+- Individual Calculations API v7.0
+
+---
 ### 1 October 2025
 
 #### Individuals Capital Gains Income API
