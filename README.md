@@ -29,6 +29,8 @@ The optional array `nonUkCharities` has been removed from the response body for 
 
 - Retrieve Charitable Giving Tax Relief
 
+---
+
 ### 16 October 2025
 
 #### Deprecation of API versions
