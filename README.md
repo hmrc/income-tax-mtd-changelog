@@ -25,9 +25,9 @@ All versions updated in Sandbox and Production with the following changes:
 
 ##### Removed
 
-The optional array `nonUkCharities` has been removed from the response body for tax years 2025-26 onwards for this endpoint:
+Retrieve Charitable Giving Tax Relief:
 
-- Retrieve Charitable Giving Tax Relief
+- The optional array `nonUkCharities` has been removed from the response body for tax years 2025-26 onwards
 
 ---
 
