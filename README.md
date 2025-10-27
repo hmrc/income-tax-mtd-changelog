@@ -15,6 +15,18 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 ## Changelog
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
+---
+### 27 October 2025
+
+#### Individuals Reliefs API
+
+All versions updated in Sandbox and Production with the following changes:
+
+##### Removed
+
+Create and Amend Charitable Giving Tax Relief:
+
+- The optional object `nonUkCharities` has been removed from the request body for tax years 2025-26 onwards
 
 ---
 ### 24 October 2025
