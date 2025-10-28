@@ -26,9 +26,9 @@ The below API versions, which had previously been deprecated, have now been reti
 
 - Obligations API v2.0
 - Property Business API v4.0
-- Self Assessment BISS API v2.0
-- Self Assessment BSAS API v5.0
-- Self-Employment Business API v3.0
+- Business Income Source Summary (BISS) API v2.0
+- Business Source Adjustable Summary (BSAS) API v5.0
+- Self Employment Business API v3.0
 
 ---
 
