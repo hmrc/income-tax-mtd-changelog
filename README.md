@@ -15,7 +15,23 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 ## Changelog
 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
+
 ---
+
+### 28 October 2025
+
+#### Retirement of API versions
+
+The below API versions, which had previously been deprecated, have now been retired and are no longer available in Sandbox or Production.
+
+- Obligations API v2.0
+- Property Business API v4.0
+- Self Assessment BISS API v2.0
+- Self Assessment BSAS API v5.0
+- Self-Employment Business API v3.0
+
+---
+
 ### 27 October 2025
 
 #### Individuals Reliefs API
