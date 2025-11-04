@@ -18,6 +18,19 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 4 November 2024
+
+#### Business Details API
+
+All versions updated in Sandbox and Production with the following changes:
+
+##### Changed
+
+Retrieve Business Details:
+- `accountingPeriods` array in the response body has been deprecated.
+
+---
+
 ### 30 October 2025
 
 #### Individual Calculations API
