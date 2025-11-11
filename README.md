@@ -18,6 +18,49 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 11 November 2025
+
+#### Individual Calculations API
+
+Existing versions 7.0 & 8.0 updated in Sandbox with the following changes for tax years 2025-26 onwards:
+
+##### Changed
+
+Retrieve a Self Assessment Tax Calculation:
+
+The minimum value has been set to -99999999999.99 for the following fields:
+- calculation/endOfYearEstimate/cgtAmount
+- calculation/endOfYearEstimate/incomeTaxNicAndCgtAmount
+- calculation/taxCalculation/totalIncomeTaxAndNicsAndCgt
+
+#### Individuals Capital Gains Income API
+
+New API version 3.0 added in Sandbox with the following changes:
+
+##### Added
+
+The following endpoints have been created for all supported tax years to replace the 'Retrieve All CGT Residential Property Disposals and Overrides' endpoint:
+- Retrieve 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Retrieve CGT Residential Property Disposals (non-PPD)
+
+These endpoints return data separately for payment for property disposal (PPD) and non payment for property disposal (non-PPD).
+
+The following endpoints have new schemas for tax year 2025–26 onwards:
+- Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Retrieve 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Create and Amend CGT Residential Property Disposals (non-PPD)
+- Retrieve CGT Residential Property Disposals (non-PPD)
+- Create and Amend Other Capital Gains and Disposals
+- Retrieve Other Capital Gains and Disposals
+
+##### Removed
+The 'Retrieve All CGT Residential Property Disposals and Overrides' endpoint, which returned both PPD and non-PPD data, has been removed and replaced by the following endpoints:
+
+- Retrieve CGT Residential Property Disposals (non-PPD)
+- Retrieve 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+
+---
+
 ### 30 October 2025
 
 #### Individual Calculations API
