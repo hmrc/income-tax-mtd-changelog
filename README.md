@@ -53,6 +53,14 @@ The following endpoints have new schemas for tax year 2025–26 onwards:
 - Create and Amend Other Capital Gains and Disposals
 - Retrieve Other Capital Gains and Disposals
 
+##### Changed
+
+Change success code from `200` to `204` for the following endpoints:
+(Note: This change was previously omitted and has now been added for completeness.)
+- Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Create and Amend CGT Residential Property Disposals (non-PPD)
+- Create and Amend Other Capital Gains and Disposals
+
 ##### Removed
 The 'Retrieve All CGT Residential Property Disposals and Overrides' endpoint, which returned both PPD and non-PPD data, has been removed and replaced by the following endpoints:
 
