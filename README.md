@@ -18,6 +18,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 10 December 2025
+
+#### Individual Calculations API
+
+Existing versions 7.0 and 8.0 updated in Sandbox & Production with the following changes:
+
+Retrieve a Self Assessment Tax Calculation:
+
+##### Added
+
+- Add new optional fields `incomeTaxChargedOnTransitionProfits` and `incomeTaxChargedAfterTransitionProfits` within `calculation.taxCalculation.incomeTax`
+
+---
+
 ### 11 November 2025
 
 #### Individual Calculations API
