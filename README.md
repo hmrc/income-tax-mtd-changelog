@@ -27,11 +27,11 @@ Retrieve a Self Assessment Tax Calculation:
 
 ##### Added
 
-Enum value: `Digitally Exempt` for inputs{}.personalInformation{}.itsaStatus 
+Enum value: `Digitally Exempt` for inputs{}.personalInformation{}.itsaStatus
 
 ##### Changed
 
-derprecated enum value: `Non Digital` for inputs{}.personalInformation{}.itsaStatus 
+derprecated enum value: `Non Digital` for inputs{}.personalInformation{}.itsaStatus
 
 Existing version 8.0 updated in Sandbox with the following changes:
 
@@ -47,11 +47,11 @@ Existing version 2.0 updated in Sandbox with the following changes:
 
 ##### Added
 
-Enum value: `Digitally Exempt` for itsaStatuses[].itsaStatusDetails[].status 
+Enum value: `Digitally Exempt` for itsaStatuses[].itsaStatusDetails[].status
 
 ##### Changed
 
-deprecated enum value: `Non Digital` for  itsaStatuses[].itsaStatusDetails[].status
+deprecated enum value: `Non Digital` for itsaStatuses[].itsaStatusDetails[].status
 
 #### Property Business API
 
