@@ -17,6 +17,163 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
+### 15 December 2025
+
+#### Individuals Employments Income API
+
+Existing version 2.0 updated in Production with the following changes:
+
+##### Added
+
+The following endpoints have been added for tax years 2025-26 onwards:
+
+- Create or Amend Student Loan Benefits in Kind
+- Retrieve Student Loan Benefits In Kind
+- Delete Student Loan Benefits in Kind
+
+#### Business Details API
+
+Existing version 2.0 updated in Production with the following changes:
+
+##### Added
+
+The following endpoint has been created with no minimum tax year restriction:
+
+- Retrieve Late Accounting Date Rule Election
+
+The following endpoints have been added for tax years 2025-26 onwards:
+
+- Withdrawal of Late Accounting Date Rule Disapplication
+- Disapply Late Accounting Date Rule
+
+##### Removed
+
+Retrieve Accounting Type endpoint:
+
+Remove the minimum tax year restriction which triggered the error `RULE_TAX_YEAR_NOT_SUPPORTED`.
+
+#### Individuals Reliefs API
+
+New API version 3.0 added in Production with the following changes:
+
+##### Removed
+
+Create and Amend Relief Investments:
+
+The optional array `socialEnterpriseInvestment` has been removed from the request body for tax years 2025-26 onwards
+
+Retrieve Relief Investments:
+
+The optional array `socialEnterpriseInvestment` has been removed from the response body for tax years 2025-26 onwards
+
+##### Changed
+
+Create and Amend Relief Investments:
+
+The following fields in the request body schema are now mandatory for tax years 2025-26 onwards:
+
+- `vctSubscription[].name`
+- `vctSubscription[].dateOfInvestment`
+- `eisSubscription[].name`
+- `eisSubscription[].knowledgeIntensive`
+- `eisSubscription[].dateOfInvestment`
+- `seedEnterpriseInvestment[].companyName`
+- `seedEnterpriseInvestment[].dateOfInvestment`
+
+The following field in the request body schema is now optional for tax years 2025-26 onwards:
+
+- `vctSubscription[].uniqueInvestmentRef`
+
+Retrieve Relief Investments:
+
+The following fields in the response body schema are now mandatory for tax years 2025-26 onwards:
+
+- `vctSubscription[].name`
+- `vctSubscription[].dateOfInvestment`
+- `eisSubscription[].name`
+- `eisSubscription[].knowledgeIntensive`
+- `eisSubscription[].dateOfInvestment`
+- `seedEnterpriseInvestment[].companyName`
+- `seedEnterpriseInvestment[].dateOfInvestment`
+
+The following field in the response body schema is now optional for tax years 2025-26 onwards:
+
+- `vctSubscription[].uniqueInvestmentRef`
+
+#### Business Source Adjustable Summary (BSAS) API
+
+Existing version 7.0 updated in Production with the following changes:
+
+##### Added
+
+Retrieve a Self-Employment Business Source Adjustable Summary:
+
+Add the following optional fields to the response body for tax years 2025-26 onwards:
+
+- `adjustableSummaryCalculation.adjustedProfit`
+- `adjustedSummaryCalculation.adjustedProfit`
+- `adjustableSummaryCalculation.outstandingBusinessIncome`
+- `adjustedSummaryCalculation.outstandingBusinessIncome`
+
+#### Business Income Source Summary (BISS) API
+
+Existing version 3.0 updated in Production with the following changes:
+
+##### Added
+
+Retrieve a Business Income Source Summary:
+
+Add the following optional fields to the response body for tax years 2025-26 onwards:
+
+- `profit.adjusted`
+- `outstandingBusinessIncome`
+
+#### Self Assessment Accounts API
+
+Existing versions 3.0 and 4.0 updated in Production with the following changes:
+
+#### Added
+
+Add new field `chargeDetails.changeTimestamp` to the `chargeHistoryDetails` array in the response body for the following endpoints:
+
+- Retrieve History of a Self Assessment Charge
+- Retrieve History of a Self Assessment Charge by Transaction ID
+- Retrieve History of a Self Assessment Charge by Charge Reference
+
+Existing version 4.0 updated in Production with the following changes:
+
+##### Added
+
+Add new optional field `codedOutStatus` to the array `items` inside the array `financialDetails` to the response body for the following endpoint:
+
+- Retrieve Self Assessment Balance and Transactions
+
+Deprecated field `chargeDetails.changeDate` to be replaced by the new field `chargeDetails.changeTimestamp` for the mentioned endpoints.
+
+#### Individual Calculations API
+
+Existing versions 7.0 and 8.0 updated in Production with the following changes:
+
+#### Changed
+
+Retrieve a Self Assessment Tax Calculation:
+
+Deprecations in the response body for tax years 2025–26 onwards:
+- Field: `calculation.reliefs.reliefsClaimed[].reliefsClaimedDetail.socialEnterpriseName`
+- Enum value: `social-enterprise-investment` for `calculation.reliefs.reliefsClaimed[].type`
+
+Existing version 8.0 updated in Production with the following change:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation endpoint:
+
+Add two new optional fields, `calculation.businessProfitAndLoss.adjustedProfit` and `calculation.businessProfitAndLoss.outstandingBusinessIncome`
+to the response body for tax years 2025-26 onwards.
+
+---
+
 ### 15 December 2025
 
 #### Individual Calculations API
