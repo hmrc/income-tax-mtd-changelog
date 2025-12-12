@@ -17,6 +17,118 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 15 December 2025
+
+### Individual Calculations API
+
+All versions updated in Sandbox with the following changes:
+
+Retrieve a Self Assessment Tax Calculation:
+
+#### Added
+
+Enum value: `Digitally Exempt` for inputs{}.personalInformation{}.itsaStatus 
+
+#### Changed
+
+derprecated enum value: `Non Digital` for inputs{}.personalInformation{}.itsaStatus 
+
+Existing version 8.0 updated in Sandbox with the following changes:
+
+#### Added
+
+Added new tax year specific schemas for tax years 2026-27 onwards for the following endpoint:
+
+Retrieve a Self Assessment Tax Calculation
+
+### Self Assessment Individual Details API
+
+Existing version 2.0 updated in Sandbox with the following changes:
+
+#### Added
+
+Enum value: `Digitally Exempt` for itsaStatuses[].itsaStatusDetails[].status 
+
+#### Changed
+
+deprecated enum value: `Non Digital` for  itsaStatuses[].itsaStatusDetails[].status
+
+### Property Business API
+
+Existing version 6.0 updated in Sandbox with the following changes:
+
+#### Added
+
+The following endpoints have been added for tax years 2026-27 onwards:
+
+- Create Foreign Property Details
+- Retrieve Foreign Property Details
+- Update Foreign Property Details
+
+The following endpoints have new schemas for tax year 2026–27 onwards:
+
+- Create and Amend a Foreign Property Annual Submission
+- Retrieve a Foreign Property Annual Submission
+- Create and Amend a Foreign Property Cumulative Period Summary
+- Retrieve a Foreign Property Cumulative Period Summary
+
+Add a new query parameter propertyId for tax years 2026–27 onwards for the following endpoints:
+
+- Retrieve a Foreign Property Annual Submission
+- Retrieve a Foreign Property Cumulative Period Summary
+
+Add a new error FORMAT_PROPERTY_ID for tax years 2026–27 onwards for the following endpoints:
+
+- Create and Amend a Foreign Property Annual Submission
+- Retrieve a Foreign Property Annual Submission
+- Create and Amend a Foreign Property Cumulative Period Summary
+- Retrieve a Foreign Property Cumulative Period Summary
+
+Add a new error RULE_PROPERTY_ID_MISMATCH and the Gov-Test-Scenario PROPERTY_ID_MISMATCH for tax years 2026–27 onwards for the following endpoints:
+
+- Create and Amend a Foreign Property Annual Submission
+- Create and Amend a Foreign Property Cumulative Period Summary
+
+### Business Source Adjustable Summary (BSAS) API
+
+Existing version 7.0 updated in Sandbox with the following changes:
+
+#### Added
+
+The following endpoints have new schemas for tax year 2026–27 onwards:
+
+- Retrieve a Foreign Property Business Source Adjustable Summary
+- Submit Foreign Property Accounting Adjustments
+
+Add a new error FORMAT_PROPERTY_ID for tax years 2026–27 onwards for the following endpoint:
+
+- Submit Foreign Property Accounting Adjustments
+
+### Individuals State Benefits API
+
+Version 2 updated in Sandbox with the following changes:
+
+#### Added
+
+Amend State Benefit Amounts:
+
+Add a new error 'RULE_TAX_DEDUCTION_NOT_ALLOWED' for tax years 2024-25 onwards
+
+### Individuals Reliefs API
+
+All versions updated in Sandbox and Production with the following changes:
+
+#### Removed
+
+Retrieve Charitable Giving Tax Relief:
+
+The optional object `nonUkCharities` has been removed from the response body for tax years 2025-26 onwards
+
+Create and Amend Charitable Giving Tax Relief:
+
+The optional object `nonUkCharities` has been removed from the request body for tax years 2025-26 onwards
+
+---
 
 ### 10 December 2025
 
