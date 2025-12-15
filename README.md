@@ -135,13 +135,13 @@ Existing versions 3.0 and 4.0 updated in Production with the following changes:
 
 #### Added
 
-Add new field `changeTimestamp` to the `chargeHistoryDetails` array in the response body for the following endpoints:
+Add new field `changeTimestamp` in the `chargeHistoryDetails` array in the response body for the following endpoints:
 
 - Retrieve History of a Self Assessment Charge
 - Retrieve History of a Self Assessment Charge by Transaction ID
 - Retrieve History of a Self Assessment Charge by Charge Reference
 
-Deprecated field `changeDate` to be replaced by the new field `changeTimestamp` to the `chargeHistoryDetails` array for the mentioned endpoints.
+Deprecated field `changeDate` to be replaced by the new field `changeTimestamp` in the `chargeHistoryDetails` array for the mentioned endpoints.
 
 Existing version 4.0 updated in Production with the following changes:
 
