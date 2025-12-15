@@ -100,7 +100,8 @@ The following endpoints have new schemas for tax year 2026–27 onwards:
 - Retrieve a Foreign Property Business Source Adjustable Summary
 - Submit Foreign Property Accounting Adjustments
 
-Add a new error `FORMAT_PROPERTY_ID` for tax years 2026–27 onwards for the following endpoint:
+Add new errors `FORMAT_PROPERTY_ID`, `RULE_PROPERTY_ID_MISMATCH`, `DUPLICATE_PROPERTY_ID` 
+and the Gov-Test-Scenario `PROPERTY_ID_MISMATCH` for tax years 2026–27 onwards for the following endpoint:
 
 - Submit Foreign Property Accounting Adjustments
 
@@ -113,20 +114,6 @@ Version 2.0 updated in Sandbox with the following changes:
 Amend State Benefit Amounts:
 
 Add a new error `RULE_TAX_DEDUCTION_NOT_ALLOWED` for tax years 2024-25 onwards
-
-#### Individuals Reliefs API
-
-All versions updated in Sandbox and Production with the following changes:
-
-##### Removed
-
-Retrieve Charitable Giving Tax Relief:
-
-The optional object `nonUkCharities` has been removed from the response body for tax years 2025-26 onwards
-
-Create and Amend Charitable Giving Tax Relief:
-
-The optional object `nonUkCharities` has been removed from the request body for tax years 2025-26 onwards
 
 #### Obligations API
 
