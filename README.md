@@ -31,7 +31,7 @@ Enum value: `Digitally Exempt` for inputs{}.personalInformation{}.itsaStatus
 
 ##### Changed
 
-derprecated enum value: `Non Digital` for inputs{}.personalInformation{}.itsaStatus
+Deprecated enum value: `Non Digital` for inputs{}.personalInformation{}.itsaStatus
 
 Existing version 8.0 updated in Sandbox with the following changes:
 
@@ -51,7 +51,7 @@ Enum value: `Digitally Exempt` for itsaStatuses[].itsaStatusDetails[].status
 
 ##### Changed
 
-deprecated enum value: `Non Digital` for itsaStatuses[].itsaStatusDetails[].status
+Deprecated enum value: `Non Digital` for itsaStatuses[].itsaStatusDetails[].status
 
 #### Property Business API
 
