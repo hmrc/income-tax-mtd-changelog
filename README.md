@@ -18,7 +18,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
-### 15 December 2025
+### 16 December 2025
 
 #### Individuals Employments Income API
 
@@ -135,11 +135,13 @@ Existing versions 3.0 and 4.0 updated in Production with the following changes:
 
 #### Added
 
-Add new field `chargeDetails.changeTimestamp` to the `chargeHistoryDetails` array in the response body for the following endpoints:
+Add new field `changeTimestamp` to the `chargeHistoryDetails` array in the response body for the following endpoints:
 
 - Retrieve History of a Self Assessment Charge
 - Retrieve History of a Self Assessment Charge by Transaction ID
 - Retrieve History of a Self Assessment Charge by Charge Reference
+
+Deprecated field `changeDate` to be replaced by the new field `changeTimestamp` to the `chargeHistoryDetails` array for the mentioned endpoints.
 
 Existing version 4.0 updated in Production with the following changes:
 
@@ -148,8 +150,6 @@ Existing version 4.0 updated in Production with the following changes:
 Add new optional field `codedOutStatus` to the array `items` inside the array `financialDetails` to the response body for the following endpoint:
 
 - Retrieve Self Assessment Balance and Transactions
-
-Deprecated field `chargeDetails.changeDate` to be replaced by the new field `chargeDetails.changeTimestamp` for the mentioned endpoints.
 
 #### Individual Calculations API
 
