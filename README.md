@@ -113,7 +113,7 @@ Version 2.0 updated in Sandbox with the following changes:
 
 Amend State Benefit Amounts:
 
-Add a new error `RULE_TAX_DEDUCTION_NOT_ALLOWED` for tax years 2024-25 onwards
+Add a new error `RULE_TAX_DEDUCTION_NOT_ALLOWED` the Gov-Test-Scenario `TAX_DEDUCTION_NOT_ALLOWED` for tax years 2024-25 onwards 
 
 #### Obligations API
 
