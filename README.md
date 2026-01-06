@@ -45,7 +45,7 @@ The below API versions, which had previously been deprecated, have now been reti
 - Business Source Adjustable Summary (BSAS) API v6.0
 - CIS Deductions API v2.0
 - Individual Calculations API v6.0
-- Individual Losses API v5.0
+- Individual Losses API v4.0 and v5.0
 - Individuals Capital Gains Income API v1.0
 - Individuals Charges API v2.0
 - Individuals Disclosures API v1.0
