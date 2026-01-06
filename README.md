@@ -18,6 +18,24 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 8 January 2026
+
+#### Business Details API
+
+Existing version 2.0 updated in Sandbox and Production with the following change.
+
+##### Removed
+
+Remove HATEOAS links from all endpoints.
+
+#### Self Assessment Test Support API
+
+Existing version 1.0 updated in Sandbox with the following change.
+
+##### Removed
+
+Remove HATEOAS links from all endpoints.
+
 ### 16 December 2025
 
 #### Individuals Employments Income API
