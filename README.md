@@ -18,24 +18,6 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
-### 8 January 2026
-
-#### Business Details API
-
-Existing version 2.0 updated in Sandbox and Production with the following change.
-
-##### Removed
-
-Remove HATEOAS links from all endpoints.
-
-#### Self Assessment Test Support API
-
-Existing version 1.0 updated in Sandbox with the following change.
-
-##### Removed
-
-Remove HATEOAS links from all endpoints.
-
 ### 9 January 2026
 
 #### Retirement of API versions
@@ -63,6 +45,26 @@ The below API versions, which had previously been deprecated, have now been reti
 - Property Business API v5.0
 - Self Assessment Accounts API v3.0
 - Self Employment Business API v4.0
+
+---
+
+### 8 January 2026
+
+#### Business Details API
+
+Existing version 2.0 updated in Sandbox and Production with the following change.
+
+##### Removed
+
+Remove HATEOAS links from all endpoints.
+
+#### Self Assessment Test Support API
+
+Existing version 1.0 updated in Sandbox with the following change.
+
+##### Removed
+
+Remove HATEOAS links from all endpoints.
 
 ---
 
