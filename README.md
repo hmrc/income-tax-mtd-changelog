@@ -18,6 +18,36 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 9 January 2026
+
+#### Retirement of API versions
+
+The below API versions, which had previously been deprecated, have now been retired and are no longer available in Sandbox or Production.
+
+- Business Source Adjustable Summary (BSAS) API v6.0
+- CIS Deductions API v2.0
+- Individual Calculations API v6.0
+- Individual Losses API v4.0 and v5.0
+- Individuals Capital Gains Income API v1.0
+- Individuals Charges API v2.0
+- Individuals Disclosures API v1.0
+- Individuals Dividends Income API v1.0
+- Individuals Employments Income API v1.0
+- Individuals Expenses API v2.0
+- Individuals Foreign Income API v1.0
+- Individuals Insurance Policies Income API v1.0
+- Individuals Other Income API v1.0
+- Individuals Pensions Income API v1.0
+- Individuals Reliefs API v1.0
+- Individuals Savings Income API v1.0
+- Individuals State Benefits API v1.0
+- Other Deductions API v1.0
+- Property Business API v5.0
+- Self Assessment Accounts API v3.0
+- Self Employment Business API v4.0
+
+---
+
 ### 8 January 2026
 
 #### Business Details API
@@ -35,6 +65,8 @@ Existing version 1.0 updated in Sandbox with the following change.
 ##### Removed
 
 Remove HATEOAS links from all endpoints.
+
+---
 
 ### 16 December 2025
 
