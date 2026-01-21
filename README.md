@@ -18,6 +18,24 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 21 January 2026
+
+#### Business Source Adjustable Summary (BSAS) API
+
+##### Documentation update
+
+The following changes are now available in Sandbox and Production.
+
+##### Fixed
+
+Remove the field `electricChargePointAllowance` for tax years 2025-26 onwards for the following endpoints:
+
+- Retrieve a Self-Employment Business Source Adjustable Summary
+- Retrieve a UK Property Business Source Adjustable Summary
+- Retrieve a Foreign Property Business Source Adjustable Summary
+
+---
+
 ### 9 January 2026
 
 #### Retirement of API versions
