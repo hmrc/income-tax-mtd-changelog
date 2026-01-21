@@ -18,6 +18,29 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 22 January 2026
+
+#### Individuals Losses API
+
+The following change is now available in Sandbox and Production.
+
+##### Added
+
+Add a new error `RULE_TAX_YEAR_FOR_VERSION_NOT_SUPPORTED` restricting requests to only support tax years up to 2025-26 for version 6.0 for the following endpoints:
+- Create a Brought Forward Loss
+- Amend a Brought Forward Loss Amount
+- List Brought Forward Losses
+- Delete a Brought Forward Loss
+- Create a Loss Claim
+- List Loss Claims
+- Delete a Loss Claim
+- Amend a Loss Claim Type
+- Amend Loss Claims Order
+
+Version 7.0 which is in development must be used for tax years 2026-27 onwards.
+
+---
+
 ### 21 January 2026
 
 #### Business Source Adjustable Summary (BSAS) API
