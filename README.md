@@ -18,6 +18,18 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 29 January 2026
+
+#### Individuals Capital Gains Income API
+
+The following change is now available to existing versions 2.0 and 3.0 in Sandbox and Production.
+
+##### Added
+
+Added a new error `RULE_INCORRECT_NON_STANDARD_GAINS` restricting requests to supply at least one of `carriedInterestGain`, `attributedGains` or `otherGains` when a `nonStandardGains` is supplied for tax years 2024-25 and before for the following endpoint:
+ - Create and Amend Other Capital Gains and Disposals
+---
+
 ### 22 January 2026
 
 #### Individuals Losses API
