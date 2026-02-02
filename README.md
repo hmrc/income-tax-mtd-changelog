@@ -18,15 +18,15 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
-### 1 February 2026
+### 2 February 2026
 
 #### Business Details API
 
-Existing versions 1.0 and 2.0 updated in Production with the following changes:
+Existing versions 1.0 and 2.0 updated in Sandbox and Production with the following changes:
 
 ##### Removed
 
-Remove the field `accountingType` for the following endpoints:
+Remove the deprecated field `accountingType` for the following endpoint:
 
 - Retrieve Business Details
 
