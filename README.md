@@ -18,6 +18,23 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 2 February 2026
+
+#### Business Details API
+
+Existing versions 1.0 and 2.0 updated in Sandbox and Production with the following changes:
+
+##### Removed
+
+Remove the deprecated field `accountingType` for the following endpoint:
+
+- Retrieve Business Details
+
+To retrieve an accounting type, use the `Retrieve Accounting Type` endpoint available in version 2.0.
+To update an accounting type, use the `Update Accounting Type` endpoint available in version 2.0.
+
+---
+
 ### 29 January 2026
 
 #### Individuals Capital Gains Income API
