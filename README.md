@@ -18,6 +18,31 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 2 March 2026
+
+#### Individuals Dividends Income API
+
+Existing version 2.0 updated in Sandbox with the following change:
+
+##### Changed
+
+Changed the default Gov-Test-Scenario Header Value from `DELETE` to `N/A - DEFAULT` for the following endpoint:
+
+- Delete a UK Dividends Income Annual Summary
+
+
+#### Individuals Reliefs API
+
+Existing versions 2.0 and 3.0 updated in Sandbox with the following changes:
+
+##### Changed
+
+Changed the default Gov-Test-Scenario Header Value from `DELETE` to `N/A - DEFAULT` for the following endpoint:
+
+- Delete Charitable Giving Tax Relief
+
+---
+
 ### 2 February 2026
 
 #### Business Details API
