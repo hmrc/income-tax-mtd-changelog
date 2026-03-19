@@ -17,6 +17,70 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 20 March 2026
+
+#### Individuals Losses API
+
+The following change is now available in  versions 7.0 in Sandbox.
+
+##### Added
+The following endpoints have been created for tax years 2026-27 onwards:
+
+- Delete Losses And Claims
+- Retrieve Losses andAndClaims
+- Create or Amend Losses And Claims
+
+#### Individuals Tax Liability Adjustments API
+
+New API version 1.0 added in Sandbox with the following changes.
+
+##### Added
+The following endpoints have been created for tax years 2026-27 onwards:
+
+- Create or Amend Tax Liability Adjustments
+- Delete Tax Liability Adjustments
+- Retrieve Tax Liability Adjustments
+
+#### Individual Calculations API
+
+Existing version 8.0 updated in Sandbox with the following changes.
+
+- Retrieve a Self Assessment Tax Calculation
+
+##### Added
+
+- Enum value: `plan5` for `inputs{}.personalInformation{}.studentLoanPlan[].planType`
+- Added the optional fields `nic2Amount` and `nic4Amount` in path `calculation/taxCalculation/nics`
+- Added the optional field `calculation/taxCalculation/nics/class4Nics/adjustmentToProfitsForClass4`
+- Added new MTD enum value `partner-income` `('14' in downstream)` to the path `inputs/incomeSources/nonBusinessIncomeSources/incomeSourceType`
+- Added the optional object `calculation/partnerIncome`
+- Added the optional object `calculation/reliefs/residentialFinanceCosts/partnerIncome`
+- Added the optional field `calculation/taxDeductedAtSource/taxTakenOffPartnerIncome`
+- Added the optional field `calculation/allowancesAndDeductions/totalPartnershipLossesBroughtForward`
+
+
+##### Removed
+- Removed enum values, `new-claim-event`, `new-loss-event`, `updated-claim-event` and `updated-loss-event` from the path `metadata/calculationReason`
+- Removed the optional array `inputs/claims`
+- Removed the optional array `inputs/lossesBroughtForward`
+- Removed the optional object `calculation/lossesAndClaims`
+- Removed the optional fields `totalClass4LossesAvailable,` `totalClass4LossesCarriedForward` and `totalClass4LossesUsed` in path `calculation/taxCalculation/nics/class4Nics`
+- Removed the optional fields `nic2NetOfDeductions` and `nic4NetOfDeductions` in path `calculation/taxCalculation/nics`
+- Removed optional fields `broughtForwardCarrySidewaysIncomeTaxLossesUsed`, `broughtForwardClass4LossesUsed`, `carrySidewaysClass4LossesUsed`, `carrySidewaysIncomeTaxLossesUsed`, `class4Loss`, `totalBroughtForwardClass4Losses`, `totalClass4LossesCarriedForward` and `totalIncomeTaxLossesCarriedForward` in path `calculation/businessProfitAndLoss`.
+
+#### Individuals Partner Income API
+
+New API version 1.0 added in Sandbox with the following changes.
+
+##### Added
+The following endpoints have been created for tax years 2026-27 onwards:
+
+- Delete Partner Income
+- List All Partner Income Submissions
+- Retrieve Partner Income
+- Create or Amend Partner Income
+
+---
 
 ### 2 March 2026
 
