@@ -27,7 +27,7 @@ Existing version 8.0 updated in Sandbox for tax years 2026-27 onwards with the f
 
 Retrieve a Self Assessment Tax Calculation:
 
-- Add a new enum value `plan5` to `inputs.personalInformation.studentLoanPlan[].planType`
+- Add a new enum value `plan5` to `inputs.personalInformation.studentLoanPlan[].planType` and `calculation.studentLoans.[].planType`
 - Add new optional fields `nic2Amount` and `nic4Amount` to `calculation.taxCalculation.nics`
 - Add a new optional field `adjustmentToProfitsForClass4` to `calculation.taxCalculation.nics.class4Nics`
 - Add a new enum value `partner-income` to `inputs.incomeSources.nonBusinessIncomeSources[].incomeSourceType`
