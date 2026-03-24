@@ -17,6 +17,81 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 23 March 2026
+
+#### Individual Calculations API
+
+Existing version 8.0 updated in Sandbox for tax years 2026-27 onwards with the following changes:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation:
+
+- Add a new enum value `plan5` to `inputs.personalInformation.studentLoanPlan[].planType` and `calculation.studentLoans.[].planType`
+- Add new optional fields `nic2Amount` and `nic4Amount` to `calculation.taxCalculation.nics`
+- Add a new optional field `adjustmentToProfitsForClass4` to `calculation.taxCalculation.nics.class4Nics`
+- Add a new enum value `partner-income` to `inputs.incomeSources.nonBusinessIncomeSources[].incomeSourceType`
+- Add a new optional object `partnerIncome` to `calculation` and `calculation.reliefs.residentialFinanceCosts`
+- Add a new optional field `taxTakenOffPartnerIncome` to `calculation.taxDeductedAtSource`
+- Add a new optional field `totalPartnershipLossesBroughtForward` to `calculation.allowancesAndDeductions`
+
+##### Removed
+
+Retrieve a Self Assessment Tax Calculation:
+
+- Remove enum values `new-claim-event`, `new-loss-event`, `updated-claim-event` and `updated-loss-event` from `metadata.calculationReason`
+- Remove optional arrays `claims` and `lossesBroughtForward` from `inputs`
+- Remove optional object `lossesAndClaims` from `calculation`
+- Remove optional fields `totalClass4LossesAvailable,` `totalClass4LossesCarriedForward` and `totalClass4LossesUsed` from `calculation.taxCalculation.nics.class4Nics`
+- Remove optional fields `nic2NetOfDeductions` and `nic4NetOfDeductions` from `calculation.taxCalculation.nics`
+- Remove optional fields `broughtForwardCarrySidewaysIncomeTaxLossesUsed`, `broughtForwardClass4LossesUsed`,
+`carrySidewaysClass4LossesUsed`, `carrySidewaysIncomeTaxLossesUsed`, `class4Loss`, `totalBroughtForwardClass4Losses`,
+`totalClass4LossesCarriedForward` and `totalIncomeTaxLossesCarriedForward` from `calculation.businessProfitAndLoss`
+
+#### Individual Losses API
+
+New API version 7.0 added in Sandbox with the following changes:
+
+##### Added
+
+The following endpoints have been created for tax years 2026-27 onwards:
+
+- Retrieve Losses and Claims
+- Create or Amend Losses and Claims
+- Delete Losses and Claims
+
+Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`;
+otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error.
+
+#### Individuals Partner Income API
+
+New API version 1.0 added in Sandbox with the following changes:
+
+##### Added
+
+The following endpoints have been created for tax years 2026-27 onwards:
+
+- List All Partner Income Submissions
+- Create or Amend Partner Income
+- Retrieve Partner Income
+- Delete Partner Income
+
+#### Individuals Tax Liability Adjustments API
+
+New API version 1.0 added in Sandbox with the following changes:
+
+##### Added
+
+The following endpoints have been created for tax years 2026-27 onwards:
+
+- Retrieve Tax Liability Adjustments
+- Create or Amend Tax Liability Adjustments
+- Delete Tax Liability Adjustments
+
+Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`;
+otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error.
+
+---
 
 ### 2 March 2026
 
