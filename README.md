@@ -17,6 +17,139 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
+### 24 March 2026
+
+#### Self Assessment Individual Details API
+
+Existing version 2.0 updated in Production with the following changes:
+
+##### Added
+
+Enum value: `Digitally Exempt` for `itsaStatuses[].itsaStatusDetails[].status`
+
+##### Changed
+
+Deprecated enum value: `Non Digital` for `itsaStatuses[].itsaStatusDetails[].status`
+
+#### Individual Calculations API
+
+Existing version 8.0 updated in Production with the following changes:
+
+##### Added
+
+Added new tax year specific schemas for tax years 2026-27 onwards for the following endpoint:
+
+- Retrieve a Self Assessment Tax Calculation
+
+Existing versions 7.0 & 8.0 updated in Production with the following changes:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation:
+
+Enum value: `Digitally Exempt` for `inputs.personalInformation.itsaStatus`
+
+##### Changed
+
+Retrieve a Self Assessment Tax Calculation:
+
+The minimum value has been set to -99999999999.99 for tax years 2025-26 onwards for the following fields:
+- `calculation.endOfYearEstimate.cgtAmount`
+- `calculation.endOfYearEstimate.incomeTaxNicAndCgtAmount`
+- `calculation.taxCalculation.totalIncomeTaxAndNicsAndCgt`
+
+Deprecated enum value: `Non Digital` for `inputs.personalInformation.itsaStatus`
+
+#### Property Business API
+
+Existing version 6.0 updated in Production with the following changes:
+
+##### Added
+
+The following endpoints have been added for tax years 2026-27 onwards:
+
+- Create Foreign Property Details
+- Retrieve Foreign Property Details
+- Update Foreign Property Details
+
+The following endpoints have new schemas for tax year 2026–27 onwards:
+
+- Create and Amend a Foreign Property Annual Submission
+- Retrieve a Foreign Property Annual Submission
+- Create and Amend a Foreign Property Cumulative Period Summary
+- Retrieve a Foreign Property Cumulative Period Summary
+
+Add a new query parameter `propertyId` for tax years 2026–27 onwards for the following endpoints:
+
+- Retrieve a Foreign Property Annual Submission
+- Retrieve a Foreign Property Cumulative Period Summary
+
+Add a new error `FORMAT_PROPERTY_ID` for tax years 2026–27 onwards for the following endpoints:
+
+- Create and Amend a Foreign Property Annual Submission
+- Retrieve a Foreign Property Annual Submission
+- Create and Amend a Foreign Property Cumulative Period Summary
+- Retrieve a Foreign Property Cumulative Period Summary
+
+Add a new error `RULE_PROPERTY_ID_MISMATCH` for tax years 2026–27 onwards for the following endpoints:
+
+- Create and Amend a Foreign Property Annual Submission
+- Create and Amend a Foreign Property Cumulative Period Summary
+
+#### Business Source Adjustable Summary (BSAS) API
+
+Existing version 7.0 updated in Production with the following changes:
+
+##### Added
+
+The following endpoints have new schemas for tax year 2026–27 onwards:
+
+- Retrieve a Foreign Property Business Source Adjustable Summary
+- Submit Foreign Property Accounting Adjustments
+
+Add new errors `FORMAT_PROPERTY_ID`, `RULE_PROPERTY_ID_MISMATCH` and `DUPLICATE_PROPERTY_ID` for tax years 2026–27 onwards for the following endpoint:
+
+- Submit Foreign Property Accounting Adjustments
+
+#### Individuals State Benefits API
+
+Existing version 2.0 updated in Production with the following changes:
+
+##### Added
+
+Amend State Benefit Amounts:
+
+Add a new error `RULE_TAX_DEDUCTION_NOT_ALLOWED` for tax years 2024-25 onwards
+
+#### Individuals Capital Gains Income API
+
+New API version 3.0 added in Production with the following changes:
+
+##### Added
+
+The following endpoints have been created for all supported tax years to replace the 'Retrieve All CGT Residential Property Disposals and Overrides' endpoint:
+- Retrieve 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Retrieve CGT Residential Property Disposals (non-PPD)
+
+These endpoints return data separately for payment for property disposal (PPD) and non payment for property disposal (non-PPD).
+
+The following endpoints have new schemas for tax year 2025–26 onwards:
+- Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Retrieve 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Create and Amend CGT Residential Property Disposals (non-PPD)
+- Retrieve CGT Residential Property Disposals (non-PPD)
+- Create and Amend Other Capital Gains and Disposals
+- Retrieve Other Capital Gains and Disposals
+
+##### Removed
+The 'Retrieve All CGT Residential Property Disposals and Overrides' endpoint, which returned both PPD and non-PPD data, has been removed and replaced by the following endpoints:
+
+- Retrieve 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD)
+- Retrieve CGT Residential Property Disposals (non-PPD)
+
+---
+
 ### 23 March 2026
 
 #### Individual Calculations API
