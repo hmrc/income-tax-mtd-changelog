@@ -22,7 +22,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 #### Individuals Other Income API
 
-Existing version 2.0 updated in Production with the following changes:
+Existing version 2.0 updated in Sandbox and Production with the following changes:
 
 ##### Added
 
@@ -30,7 +30,7 @@ Create and Amend Other Income:
 
 Add new errors `FORMAT_CUSTOMER_REFERENCE`, `FORMAT_BUSINESS_NAME`, `FORMAT_BUSINESS_DESCRIPTION` and `FORMAT_INCOME_SOURCE` for tax years 2023–24 onwards
 
-The documentation has also been updated to clarify the expected format of the following fields within the `postCessationReceipts[]` array in the request body for tax years 2023–24 onwards.:  
+The documentation has also been updated to clarify the expected format of the following fields within the `postCessationReceipts[]` array in the request body for tax years 2023–24 onwards:  
 - `customerReference`
 - `businessName`
 - `businessDescription`
