@@ -18,6 +18,28 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 7 April 2026
+
+#### Self Assessment Individual Details API
+
+Existing version 2.0 updated in Sandbox and Production with the following changes:
+
+##### Added
+
+Retrieve ITSA Status:
+
+The following enum values have been added to `itsaStatuses[].itsaStatusDetails[].statusReason`:
+
+- `Capacitor`
+- `Residence and remittance`
+- `Ministers of religion`
+- `Lloyds underwriters`
+- `Blind persons allowance`
+- `Married couples allowance`
+- `Return not considered`
+
+---
+
 ### 2 April 2026
 
 #### Individuals Other Income API
