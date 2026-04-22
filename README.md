@@ -18,6 +18,21 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 22 April 2026
+
+#### Self Employment Business API
+
+Existing version 5.0 updated in Sandbox and Production with the following changes:
+
+##### Changed
+
+Deprecated field `adjustments.averagingAdjustment` for the following endpoints:
+
+- Create and Amend Self-Employment Annual Submission
+- Retrieve a Self-Employment Annual Submission
+
+---
+
 ### 16 April 2026
 
 #### Deprecation of API versions
