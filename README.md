@@ -18,6 +18,24 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 24 April 2026
+
+#### Business Source Adjustable Summary (BSAS) API
+
+Existing version 7.0 updated in Sandbox and Production with the following changes:
+
+##### Changed
+
+Retrieve a Self-Employment Business Source Adjustable Summary:
+
+Deprecate the following optional fields from the response body for all tax years
+(these fields are deprecated and will be reinstated in a future release):
+
+- `adjustableSummaryCalculation.accountingAdjustments.averagingAdjustment`
+- `adjustedSummaryCalculation.accountingAdjustments.averagingAdjustment`
+
+---
+
 ### 22 April 2026
 
 #### Self Employment Business API
