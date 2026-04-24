@@ -32,7 +32,7 @@ Deprecate the following optional fields from the response body for all tax years
 (these fields are deprecated and will be reinstated in a future release):
 
 - `adjustableSummaryCalculation.accountingAdjustments.averagingAdjustment`
-- `adjustedSummaryCalculation..accountingAdjustments.averagingAdjustment`
+- `adjustedSummaryCalculation.accountingAdjustments.averagingAdjustment`
 
 ---
 
