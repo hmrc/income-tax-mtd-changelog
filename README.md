@@ -18,6 +18,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 29 April 2026
+
+#### Individual Calculations API
+
+Existing version 8.0 updated in Sandbox for tax years 2026-27 onwards with the following changes:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation:
+
+- Add a new enum value `partner-income` to `calculation.endOfYearEstimate.incomeSource[].incomeSourceType[]`
+
+---
+
 ### 24 April 2026
 
 #### Business Source Adjustable Summary (BSAS) API
