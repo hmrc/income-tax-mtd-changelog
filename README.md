@@ -28,7 +28,7 @@ Existing version 8.0 updated in Sandbox for tax years 2026-27 onwards with the f
 
 Retrieve a Self Assessment Tax Calculation:
 
-- Add a new enum value `partner-income` to `calculation.endOfYearEstimate.incomeSource[].incomeSourceType[]`
+- Add a new enum value `partner-income` to `calculation.endOfYearEstimate.incomeSource[].incomeSourceType`
 
 ---
 
