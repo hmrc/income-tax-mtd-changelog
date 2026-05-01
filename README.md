@@ -18,6 +18,17 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 01 May 2026
+
+#### Retirement of API versions
+
+The below API versions, which had previously been deprecated, have now been retired and are no longer available in Sandbox or Production.
+
+- Individual Calculations API v7.0
+- Business Details API v1.0
+
+---
+
 ### 29 April 2026
 
 #### Individual Calculations API
