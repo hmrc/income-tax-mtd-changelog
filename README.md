@@ -17,7 +17,15 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
 ### 1 May 2026
+
+#### Retirement of API versions
+
+The below API versions, which had previously been deprecated, have now been retired and are no longer available in Sandbox or Production.
+
+- Individual Calculations API v7.0
+- Business Details API v1.0
 
 ### CIS Deductions API
 
@@ -29,17 +37,6 @@ Create CIS Deductions for Subcontractor:
 
 - Add new error `FORMAT_CONTRACTOR_NAME`
 - The documentation has also been updated to clarify the expected format of `contractorName` in the request body. Note that there is no additional validation being applied, the new error and documentation changes were added to provide more informative feedback to users regarding the pre-existing validation.
-
----
-
-### 1 May 2026
-
-#### Retirement of API versions
-
-The below API versions, which had previously been deprecated, have now been retired and are no longer available in Sandbox or Production.
-
-- Individual Calculations API v7.0
-- Business Details API v1.0
 
 ---
 
