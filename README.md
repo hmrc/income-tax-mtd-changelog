@@ -17,23 +17,22 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
-### 01 May 2026
+### 1 May 2026
 
 ### CIS Deductions API
 
-Existing version updated in Sandbox and Production with the following changes:
+Existing version 3.0 updated in Sandbox and Production with the following changes:
 
 ##### Added
 
-Create CIS Deductions for Subcontructor:
+Create CIS Deductions for Subcontractor:
 
-- Added validation for `contractorName` to enforce the regex pattern defined in the downstream specification
-- Introduced a new error code `FORMAT_CONTRACTOR_NAME` returned when the `contractorName` does not meet the required format
-- Updated the OpenAPI Specification (OAS) to document the regex constraint for `contractorName` and the new validation error
+- Add new error `FORMAT_CONTRACTOR_NAME`
+- The documentation has also been updated to clarify the expected format of `contractorName` in the request body. Note that there is no additional validation being applied, the new error and documentation changes were added to provide more informative feedback to users regarding the pre-existing validation.
 
 ---
 
-### 01 May 2026
+### 1 May 2026
 
 #### Retirement of API versions
 
