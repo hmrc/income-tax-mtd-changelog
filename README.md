@@ -20,22 +20,18 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 ### 12 May 2026
 
 #### Self Employment Business API
-Existing version 7.0 updated in Production with the following changes:
+Existing version 7.0 updated in Sandbox and Production with the following changes:
 
-##### changed
+##### Changed
 
-HIP Migration 
+Create and Amend Self-Employment Annual Submission:
 
-API#1803 - Get Self-Employment Annual Period was migrated to the Integration Hub Platform (HIP).
+* Deprecate optional field `adjustments.overlapReliefUsed` from the request body for tax years 2024-25 onwards
+* Add a new error `RULE_OVERLAP_RELIEF_USED_NOT_ALLOWED` for tax years 2024-25 onwards
 
-* `overlapReliefUsed` optional field removed from the response body for tax years 2024-25 onwards.
-* Added HIP url for TY 23-24 onwards.
+Retrieve a Self-Employment Annual Submission:
 
-API#1802 - Creates/Amends Self-Employment Annual Submission Period as migrated to the Integration Hub Platform (HIP).
-
-`overlapReliefUsed` was deprecated and added new RULE_OVERLAP_RELIEF_USED_NOT_ALLOWED error for deprecation
-
-Renamed error code `INVALID_INCOME_SOURCE_ID` → `INVALID_INCOMESOURCE_ID`
+* Deprecate optional field `adjustments.overlapReliefUsed` from the response body for tax years 2024-25 onwards
 
 ---
 
