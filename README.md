@@ -17,9 +17,42 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
 ### 12 May 2026
 
+#### Property Business API
+
+Existing version 6.0 updated in Sandbox with the following changes:
+
+##### Changed
+
+`RULE_DUPLICATE_COUNTRY_CODE` can now be returned without using Gov-Test-Scenario `DUPLICATE_COUNTRY_CODE` for the following endpoints:
+
+- Create and Amend a Foreign Property Annual Submission
+- Create or Amend a Foreign Property Cumulative Period Summary
+
+##### Removed
+
+Gov-Test-Scenario `DUPLICATE_COUNTRY_CODE` is no longer required to simulate `RULE_DUPLICATE_COUNTRY_CODE` for the following endpoints:
+
+- Create and Amend a Foreign Property Annual Submission
+- Create or Amend a Foreign Property Cumulative Period Summary
+
+#### Business Source Adjustable Summary (BSAS) API
+
+Existing version 7.0 updated in Sandbox and Production with the following changes:
+
+##### Added
+
+Trigger a Business Source Adjustable Summary:
+
+- Add a new error `RULE_ACCOUNTING_PERIOD_NOT_ALIGNED` for cases where the submitted accounting period does not align to a complete tax year
+- Update the documentation to include this error
+
+No additional validation is introduced. The new error and documentation updates provide more informative feedback for an existing validation rule.
+
 #### Self Employment Business API
+
 Existing version 5.0 updated in Sandbox and Production with the following changes:
 
 ##### Changed
