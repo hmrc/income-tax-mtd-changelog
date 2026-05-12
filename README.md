@@ -20,7 +20,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 ### 12 May 2026
 
 #### Self Employment Business API
-Existing version 7.0 updated in Sandbox and Production with the following changes:
+Existing version 5.0 updated in Sandbox and Production with the following changes:
 
 ##### Changed
 
