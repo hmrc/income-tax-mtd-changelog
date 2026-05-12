@@ -17,6 +17,23 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 12 May 2026
+
+#### Self Employment Business API
+Existing version 7.0 updated in Sandbox and Production with the following changes:
+
+##### Changed
+
+Create and Amend Self-Employment Annual Submission:
+
+* Deprecate optional field `adjustments.overlapReliefUsed` from the request body for tax years 2024-25 onwards
+* Add a new error `RULE_OVERLAP_RELIEF_USED_NOT_ALLOWED` for tax years 2024-25 onwards
+
+Retrieve a Self-Employment Annual Submission:
+
+* Deprecate optional field `adjustments.overlapReliefUsed` from the response body for tax years 2024-25 onwards
+
+---
 
 ### 11 May 2026
 
