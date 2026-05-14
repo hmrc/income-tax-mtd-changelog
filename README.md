@@ -18,6 +18,16 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 14 May 2026
+
+#### Self Assessment individual details API
+
+Existing version 6.0 updated in Sandbox and Production with the following changes:
+
+- Add a new error `CLIENT_NOT_MTD_ENROLLED` for cases where the submitted nino is not enrolled for MTD
+
+---
+
 ### 12 May 2026
 
 #### Property Business API
