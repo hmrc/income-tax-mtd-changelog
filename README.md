@@ -24,7 +24,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 Existing version 6.0 updated in Sandbox and Production with the following changes:
 
-- Add a new error `CLIENT_NOT_MTD_ENROLLED` for cases where the submitted nino is not enrolled for MTD
+- Add a new error `CLIENT_NOT_MTD_ENROLLED` and Gov-Test-Scenario `NOT_ENROLLED` for cases where the submitted nino is not enrolled for MTD
 
 ---
 
