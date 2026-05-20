@@ -18,6 +18,26 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 20 May 2026
+
+#### Individuals Other Income API
+
+Existing version 2.0 updated in Sandbox with the following changes:
+
+##### Changed
+
+`RULE_UNALIGNED_CESSATION_TAX_YEAR` can now be returned without using Gov-Test-Scenario `UNALIGNED_CESSATION_TAX_YEAR` for the following endpoint:
+
+- Create and Amend Other Income
+
+##### Removed
+
+Gov-Test-Scenario `UNALIGNED_CESSATION_TAX_YEAR` is no longer required to simulate `RULE_UNALIGNED_CESSATION_TAX_YEAR` for the following endpoint:
+
+- Create and Amend Other Income
+
+---
+
 ### 15 May 2026
 
 #### Self Assessment Individual Details API
