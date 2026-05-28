@@ -28,11 +28,9 @@ Existing version 3.0 updated in Sandbox and Production with the following change
 
 Retrieve Employment Expenses:
 
-The enum value `latest` has been removed as a possible value for the `source` field in the response body
+The enum value `latest` has been removed as a possible value for the `source` field in the response body, but valid  as a value for the `source` request query parameter
 
 The functionality of the API in Production is unchanged, as `latest` was not intended to be a valid value for the `source` field and was not being returned in responses. The documentation has been updated to reflect this.
-
-`latest` continues to be valid  as a value for the `source` request query parameter
 
 ---
 
