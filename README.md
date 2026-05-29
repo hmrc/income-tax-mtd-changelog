@@ -18,7 +18,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
-### 29 May 2026
+### 1 June 2026
 
 #### Individuals Expenses API
 
