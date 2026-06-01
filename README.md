@@ -18,6 +18,22 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 1 June 2026
+
+#### Individuals Expenses API
+
+Existing version 3.0 updated in Sandbox and Production with the following changes:
+
+##### Removed
+
+Retrieve Employment Expenses:
+
+The enum value `latest` has been removed as a possible value for the `source` field in the response body, but it remains a valid value for the `source` request query parameter
+
+The API's functionality in Production is unchanged, as `latest` was not intended to be a valid value for the `source` field and is not returned in responses. The documentation has been updated accordingly.
+
+---
+
 ### 20 May 2026
 
 #### Individuals Other Income API
