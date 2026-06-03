@@ -26,14 +26,14 @@ Existing version 2.0 updated in Sandbox and Production with the following change
 
 Retrieve an Employment and its Financial Details
 
-The enum value `latest` has been removed as a possible value for the `source` field in the response body, but it remains a valid value for the `source` request query parameter
+The enum value `latest` has been removed as a possible value for the `source` field in the response body, but it remains a valid value for the `source` request query parameter.
 
 The API's functionality in Production is unchanged, as `latest` was not intended to be a valid value for the `source` field and is not returned in responses. The documentation has been updated accordingly.
 
 
 Retrieve Non-PAYE Employment Income
 
-The enum value `latest` has been removed as a possible value for the `source` field in the response body, but it remains a valid value for the `source` request query parameter
+The enum value `latest` has been removed as a possible value for the `source` field in the response body, but it remains a valid value for the `source` request query parameter.
 
 The API's functionality in Production is unchanged, as `latest` was not intended to be a valid value for the `source` field and is not returned in responses. The documentation has been updated accordingly.
 
