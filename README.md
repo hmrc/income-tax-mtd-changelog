@@ -17,6 +17,29 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
+### 8 June 2026
+
+#### Individuals Employments Income API
+
+Existing version 2.0 updated in Sandbox and Production with the following changes:
+
+##### Changed
+
+Retrieve an Employment and its Financial Details:
+
+Update `source` field description to document removal of `latest` enum value from response body in a future release.
+
+##### Removed
+
+Retrieve Non-PAYE Employment Income:
+
+The enum value `latest` has been removed as a possible value for the `source` field in the response body, but it remains a valid value for the `source` request query parameter.
+
+The API's functionality in Production is unchanged, as `latest` was not intended to be a valid value for the `source` field and is not returned in responses. The documentation has been updated accordingly.
+
+---
+
 ~~### 3 Jun 2026~~
 ~~#### Individuals Employments Income API~~
 
@@ -51,7 +74,7 @@ Existing version 3.0 updated in Sandbox and Production with the following change
 
 Retrieve Employment Expenses:
 
-The enum value `latest` has been removed as a possible value for the `source` field in the response body, but it remains a valid value for the `source` request query parameter
+The enum value `latest` has been removed as a possible value for the `source` field in the response body, but it remains a valid value for the `source` request query parameter.
 
 The API's functionality in Production is unchanged, as `latest` was not intended to be a valid value for the `source` field and is not returned in responses. The documentation has been updated accordingly.
 
