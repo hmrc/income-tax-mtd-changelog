@@ -20,6 +20,16 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ### 18 June 2026
 
+#### Self Assessment Individual Details API
+
+Existing version 7.0 updated in Sandbox & Production with the following changes:
+
+##### Removed
+
+Retrieve ITSA Status
+
+- Remove deprecated enum value `Non Digital` from `itsaStatuses[].itsaStatusDetails[].status`.
+
 #### Business Source Adjustable Summary (BSAS) API
 
 Existing version 7.0 updated in Sandbox & Production with the following changes:
