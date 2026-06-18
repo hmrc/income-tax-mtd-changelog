@@ -40,6 +40,16 @@ Retrieve a Self-Employment Business Source Adjustable Summary
 
 - Remove deprecated optional fields `adjustableSummaryCalculation.additions.outstandingBusinessIncome` and `adjustedSummaryCalculation.additions.outstandingBusinessIncome` from the response body for tax years 2025-26 onwards
 
+#### Individual Calculations API
+
+Existing version 8.0 updated in Sandbox & Production with the following changes:
+
+##### Removed
+
+Retrieve a Self Assessment Tax Calculation
+- Removed deprecated enum value `Non Digital` from `inputs.personalInformation.itsaStatus` for tax year 2026–27.
+- Removed incorrect enum value `Digitally Exempt` from `inputs.personalInformation.itsaStatus` for tax year 2025–26.
+
 ---
 
 ### 16 June 2026
