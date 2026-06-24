@@ -107,5 +107,5 @@
 "Balance Sheet","FSE99","99","Balance at end of period","Not available","",""
 "Class 2 and 4 NIC","FSE100 SSE36","100","If your total profits for 2025-26 are less than £6,845 and you choose to pay Class 2 NICs voluntarily, put 'X' in the box","Individuals Disclosures","Create and Amend Disclosures","class2Nics > class2VoluntaryContributions"
 "Class 2 and 4 NIC","FSE101 SSE37","101","If you're exempt from paying Class 4 NICs, put 'X' in the box","Self-Employment Business","Create and Amend Self-Employment Annual Submission","nonFinancials > class4NicsExemptionReason"
-"Class 2 and 4 NIC","FSE102","102","Adjustment to profits chargeable to Class 4 NICs","Not available","",""
+"Class 2 and 4 NIC","FSE102","102","Adjustment to profits chargeable to Class 4 NICs","Self-Employment Business","Create and Amend Self-Employment Annual Submission","adjustmentToProfitsForClass4"
 "Any other info","FSE103","103","Please give any other information in this space","Not available","",""
