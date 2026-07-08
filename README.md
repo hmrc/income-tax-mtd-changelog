@@ -18,6 +18,23 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 10 July 2026
+
+#### Individuals Other Income API
+
+The following change is now available in Sandbox and Production.
+
+##### Added
+
+Add a new error `RULE_TAX_YEAR_FOR_VERSION_NOT_SUPPORTED` restricting requests to only support tax years up to 2025-26 for version 2.0 for the following endpoints:
+- Create and Amend Other Income
+- Retrieve Other Income
+- Delete Other Income
+
+Version 3.0 which is in development must be used for tax years 2026-27 onwards.
+
+---
+
 ### 18 June 2026
 
 
