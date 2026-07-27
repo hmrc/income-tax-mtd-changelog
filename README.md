@@ -18,6 +18,21 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 27 July 2026
+
+#### Business Details API
+
+Existing version 2.0 updated in Sandbox and Production with the following changes:
+
+##### Added
+
+Add a new optional field `tradingType` to the response body for the following endpoints:
+
+- Retrieve Business Details
+- List All Businesses
+
+---
+
 ### 10 July 2026
 
 #### Individuals Other Income API
