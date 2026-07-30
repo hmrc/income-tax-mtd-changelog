@@ -18,6 +18,149 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### [insert Sandbox release date]
+
+#### Business Source Adjustable Summary (BSAS) API
+
+Existing version 7.0 updated in Sandbox for tax years 2026-27 onwards with the following changes:
+
+##### Added
+
+Retrieve a Self-Employment Business Source Adjustable Summary:
+
+- Add new optional fields to the response body:
+  - `adjustableSummaryCalculation.deductions.firstYearAllowanceOnPlantAndMachinery`
+  - `adjustedSummaryCalculation.deductions.firstYearAllowanceOnPlantAndMachinery`
+
+Retrieve a UK Property Business Source Adjustable Summary:
+
+- Add new optional fields to the response body:
+  - `adjustableSummaryCalculation.deductions.firstYearAllowanceOnPlantAndMachinery`
+  - `adjustedSummaryCalculation.deductions.firstYearAllowanceOnPlantAndMachinery`
+
+#### Individual Calculations API
+
+New API version 9.0 added in Sandbox for tax years 2026-27 onwards with the following changes:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation:
+
+- Add a new optional array to `messages`:
+  - `customerServiceMessages`
+- Add a new optional field to `calculation.taxDeductedAtSource`:
+  - `taxTakenOffOtherIncome`
+- Add enum values to `metadata.calculationReason`:
+  - `auto-correction`
+  - `class2-national-insurance`
+  - `customerRejectionOfaCorrection`
+  - `devolved-residency`
+  - `enquiry-amendment`
+  - `manual-correction`
+  - `marriage-allowance`
+- Add new optional objects to `calculation.otherIncome`:
+  - `additionalIncome`
+  - `benefitFromPreOwnedAssets`
+- Add new optional fields to the response body:
+  - `calculation.taxCalculation.taxRefundedOrSetOff`
+  - `calculation.taxCalculation.totalTaxAndNicsDue`
+
+#### Individual Capital Gains Income API
+
+Existing version 3.0 updated in Sandbox for tax years 2026-27 onwards with the following changes:
+
+##### Added
+
+Retrieve CGT Residential Property Disposals (non-PPD):
+
+- Add a new enum value `INC` to `customerAddedDisposals{}.disposals[].{}.claimOrElectionCodes`
+
+Create and Amend CGT Residential Property Disposals (non-PPD):
+
+- Add a new enum value `INC` to `disposals[].claimOrElectionCodes`
+
+Retrieve Other Capital Gains and Disposals:
+
+- Add a new enum value `INC` to `cryptoassets[].{}.claimOrElectionCodes`
+- Add a new enum value `INC` to `otherGains[].{}.claimOrElectionCodes`
+- Add a new enum value `INC` to `unlistedShares[].claimOrElectionCodes`
+
+Create and Amend Other Capital Gains and Disposals:
+
+- Add a new enum value `INC` to `cryptoassets[].{}.claimOrElectionCodes`
+- Add a new enum value `INC` to `otherGains[].{}.claimOrElectionCodes`
+- Add a new enum value `INC` to `unlistedShares[].claimOrElectionCodes`
+
+##### Removed
+
+Retrieve Other Capital Gains and Disposals:
+
+- Remove `nonStandardGains` object and all fields within it
+
+Create and Amend Other Capital Gains and Disposals:
+
+- Remove `nonStandardGains` object and all fields within it
+
+##### Changed
+
+Retrieve Other Capital Gains and Disposals:
+
+- Update `adjustments.adjustmentAmount` to allow negative values
+
+Create and Amend Other Capital Gains and Disposals:
+
+- Update `adjustments.adjustmentAmount` to allow negative values
+
+#### Individuals Tax Liability Adjustments API
+
+Existing version 1.0 updated in Sandbox for tax years 2026–27 onwards with the following changes:
+
+##### Added
+
+Retrieve Tax Liability Adjustments:
+
+- Add a new optional object to the response body:
+  - `taxRefundedOrSetOff`
+
+Create or Amend Tax Liability Adjustments:
+
+- Add a new optional object to the request body:
+  - `taxRefundedOrSetOff`
+
+#### Property Business API
+
+Existing version 6.0 updated in Sandbox for tax years 2026-27 onwards with the following changes:
+
+##### Added
+
+Retrieve a UK Property Business Annual Submission:
+
+- Add a new optional field to the response body:
+  - `ukProperty.allowances.firstYearAllowanceOnPlantAndMachinery`
+
+Create and Amend a UK Property Business Annual Submission: 
+
+- Add a new optional field to the request body:
+  - `ukProperty.allowances.firstYearAllowanceOnPlantAndMachinery`
+
+#### Self Employment Business API
+
+Existing version 5.0 updated in Sandbox for tax years 2026-27 onwards with the following changes:
+
+##### Added
+
+Retrieve a Self-Employment Annual Submission:
+
+- Add a new optional field to the response body:
+  - `allowances.firstYearAllowanceOnPlantAndMachinery`
+
+Create and Amend Self-Employment Annual Submission:
+
+- Add a new optional field to the request body:
+  - `allowances.firstYearAllowanceOnPlantAndMachinery`
+
+---
+
 ### 27 July 2026
 
 #### Business Details API
