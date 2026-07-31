@@ -50,11 +50,11 @@ Retrieve Other Capital Gains and Disposals:
 
 Create and Amend Other Capital Gains and Disposals:
 
-- Remove `nonStandardGains` object and all fields within it
+- Remove optional `nonStandardGains` object from the request body
 
 Retrieve Other Capital Gains and Disposals:
 
-- Remove `nonStandardGains` object and all fields within it
+- Remove optional `nonStandardGains` object from the response body
 
 ##### Changed
 
