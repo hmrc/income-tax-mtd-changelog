@@ -18,7 +18,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
-### [insert Sandbox release date]
+### 3 August 2026
 
 #### Individual Capital Gains Income API
 
@@ -26,21 +26,21 @@ Existing version 3.0 updated in Sandbox for tax years 2026-27 onwards with the f
 
 ##### Added
 
-Retrieve CGT Residential Property Disposals (non-PPD):
-
-- Add a new enum value `INC` to `customerAddedDisposals{}.disposals[].{}.claimOrElectionCodes`
-
 Create and Amend CGT Residential Property Disposals (non-PPD):
 
 - Add a new enum value `INC` to `disposals[].claimOrElectionCodes`
 
-Retrieve Other Capital Gains and Disposals:
+Retrieve CGT Residential Property Disposals (non-PPD):
+
+- Add a new enum value `INC` to `customerAddedDisposals{}.disposals[].{}.claimOrElectionCodes`
+
+Create and Amend Other Capital Gains and Disposals:
 
 - Add a new enum value `INC` to `cryptoassets[].{}.claimOrElectionCodes`
 - Add a new enum value `INC` to `otherGains[].{}.claimOrElectionCodes`
 - Add a new enum value `INC` to `unlistedShares[].claimOrElectionCodes`
 
-Create and Amend Other Capital Gains and Disposals:
+Retrieve Other Capital Gains and Disposals:
 
 - Add a new enum value `INC` to `cryptoassets[].{}.claimOrElectionCodes`
 - Add a new enum value `INC` to `otherGains[].{}.claimOrElectionCodes`
@@ -48,21 +48,33 @@ Create and Amend Other Capital Gains and Disposals:
 
 ##### Removed
 
-Retrieve Other Capital Gains and Disposals:
+Create and Amend Other Capital Gains and Disposals:
 
 - Remove `nonStandardGains` object and all fields within it
 
-Create and Amend Other Capital Gains and Disposals:
+Retrieve Other Capital Gains and Disposals:
 
 - Remove `nonStandardGains` object and all fields within it
 
 ##### Changed
 
+Create and Amend Other Capital Gains and Disposals:
+
+- Update `adjustments.adjustmentAmount` to allow negative values
+
 Retrieve Other Capital Gains and Disposals:
 
 - Update `adjustments.adjustmentAmount` to allow negative values
 
+Existing version 3.0 updated in Sandbox for tax year 2025-26 with the following changes:
+
+##### Changed
+
 Create and Amend Other Capital Gains and Disposals:
+
+- Update `adjustments.adjustmentAmount` to allow negative values
+
+Retrieve Other Capital Gains and Disposals:
 
 - Update `adjustments.adjustmentAmount` to allow negative values
 
