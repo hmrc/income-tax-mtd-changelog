@@ -18,6 +18,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 7 August 2026
+
+#### Self Assessment Test Support API
+
+Existing version 1.0 updated in Sandbox with the following change:
+
+##### Added
+
+Create a Test Business:
+
+- Add a new `tradingType` field to the request body for self-employment businesses.
+
+---
+
 ### 3 August 2026
 
 #### Individual Capital Gains Income API
