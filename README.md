@@ -18,6 +18,55 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 13 August 2026
+
+#### CIS Deductions API
+
+Existing version 3.0 updated in Sandbox with the following changes:
+
+##### Added
+
+Create CIS Deductions for Subcontractor:
+
+- Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`;
+  otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error.
+
+##### Changed
+
+The following errors can now be returned without using Gov-Test-Scenarios:
+
+Create CIS Deductions for Subcontractor:
+
+- `RULE_UNALIGNED_DEDUCTIONS_PERIOD`
+- `RULE_DEDUCTIONS_DATE_RANGE_INVALID`
+- `RULE_TAX_YEAR_NOT_ENDED`
+- `RULE_DUPLICATE_PERIOD`
+
+Amend CIS Deductions for Subcontractor:
+
+- `RULE_TAX_YEAR_NOT_SUPPORTED`
+- `RULE_DEDUCTIONS_DATE_RANGE_INVALID`
+- `RULE_DUPLICATE_PERIOD`
+
+##### Removed
+
+The following Gov-Test-Scenarios have been removed as they are no longer required to simulate the errors listed above:
+
+Create CIS Deductions for Subcontractor:
+
+- `UNALIGNED_DEDUCTIONS_PERIOD`
+- `DEDUCTIONS_DATE_RANGE_INVALID`
+- `TAX_YEAR_NOT_ENDED`
+- `DUPLICATE_PERIOD`
+
+Amend CIS Deductions for Subcontractor:
+
+- `TAX_YEAR_NOT_SUPPORTED`
+- `DEDUCTIONS_DATE_RANGE_INVALID`
+- `DEDUCTIONS_DATE_RANGE_INVALID`
+
+---
+
 ### 7 August 2026
 
 #### Self Assessment Test Support API
