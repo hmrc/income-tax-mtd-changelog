@@ -18,6 +18,37 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 17 August 2026
+
+#### Self Employment Business API
+
+#### Changed
+
+Existing version 5.0 updated in Sandbox and Production with the following changes:
+
+**Changes for tax years 2025–26 and before**
+
+Create and Amend Self-Employment Annual Submission:
+
+Deprecate the field `nonFinancials.businessDetailsChangedRecently`. This field is now optional in the request body and will be removed from the documentation in a future release. It should no longer be provided in requests.
+
+Retrieve a Self-Employment Annual Submission:
+
+Deprecate the field `nonFinancials.businessDetailsChangedRecently`. This field will be removed in a future release. If not present in the response body, the value defaults to `false`.
+
+#### Removed
+
+Existing version 5.0 updated in Sandbox with the following changes:
+
+**Changes for tax years 2026–27 onwards**
+
+Remove the field `nonFinancials.businessDetailsChangedRecently` from the following endpoints:
+
+- Create and Amend Self-Employment Annual Submission
+- Retrieve a Self-Employment Annual Submission
+
+---
+
 ### 13 August 2026
 
 #### CIS Deductions API
