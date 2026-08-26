@@ -48,7 +48,7 @@ Retrieve CIS Deductions for Subcontractor:
 
 #### Self Employment Business API
 
-#### Changed
+##### Changed
 
 Existing version 5.0 updated in Sandbox and Production with the following changes:
 
@@ -62,7 +62,7 @@ Retrieve a Self-Employment Annual Submission:
 
 Deprecate the field `nonFinancials.businessDetailsChangedRecently`. This field will be removed in a future release. If not present in the response body, the value defaults to `false`.
 
-#### Removed
+##### Removed
 
 Existing version 5.0 updated in Sandbox with the following changes:
 
