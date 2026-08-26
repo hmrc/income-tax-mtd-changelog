@@ -18,11 +18,37 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 26 August 2026
+
+#### CIS Deductions API
+
+Existing version 3.0 updated in Sandbox with the following changes:
+
+##### Changed
+
+The following errors can now be returned without using Gov-Test-Scenarios:
+
+Retrieve CIS Deductions for Subcontractor:
+
+- `RULE_TAX_YEAR_NOT_SUPPORTED`
+- `RULE_TAX_YEAR_RANGE_INVALID`
+
+##### Removed
+
+The following Gov-Test-Scenarios have been removed as they are no longer required to simulate the errors listed above:
+
+Retrieve CIS Deductions for Subcontractor:
+
+- `TAX_YEAR_NOT_SUPPORTED`
+- `TAX_YEAR_RANGE_INVALID`
+
+---
+
 ### 17 August 2026
 
 #### Self Employment Business API
 
-#### Changed
+##### Changed
 
 Existing version 5.0 updated in Sandbox and Production with the following changes:
 
@@ -36,7 +62,7 @@ Retrieve a Self-Employment Annual Submission:
 
 Deprecate the field `nonFinancials.businessDetailsChangedRecently`. This field will be removed in a future release. If not present in the response body, the value defaults to `false`.
 
-#### Removed
+##### Removed
 
 Existing version 5.0 updated in Sandbox with the following changes:
 
