@@ -42,6 +42,8 @@ Retrieve CIS Deductions for Subcontractor:
 - `TAX_YEAR_NOT_SUPPORTED`
 - `TAX_YEAR_RANGE_INVALID`
 
+---
+
 ### 17 August 2026
 
 #### Self Employment Business API
