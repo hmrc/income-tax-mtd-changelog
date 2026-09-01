@@ -18,6 +18,30 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 1 September 2026
+
+#### Individual Calculations API
+
+Existing version 8.0 updated in Sandbox with the following changes:
+
+##### Changed
+
+The following error can now be returned without using Gov-Test-Scenarios:
+
+Submit a Self Assessment Final Declaration:
+
+- `RULE_TAX_YEAR_NOT_SUPPORTED`
+
+##### Removed
+
+The following Gov-Test-Scenario has been removed as it is no longer required to simulate the error listed above:
+
+Submit a Self Assessment Final Declaration:
+
+- `TAX_YEAR_NOT_SUPPORTED`
+
+---
+
 ### 26 August 2026
 
 #### CIS Deductions API
