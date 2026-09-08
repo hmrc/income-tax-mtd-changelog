@@ -97,3 +97,4 @@
 "Your share of the partnership's tax paid and deductions","FPS78","Share of Construction Industry Scheme (CIS) deductions made by contractors – from box 24 on the Partnership Statement","Create or Amend Partner Income","taxPaidAndDeductions > shareOfCisDeductionsByContractors"
 "Your share of the partnership's tax paid and deductions","FPS79","Share of any tax taken off trading income (not contractor deductions) – from box 24A on the Partnership Statement","Create or Amend Partner Income","taxPaidAndDeductions > shareOfTaxTakenOffTradingIncome"
 "Your share of the partnership's tax paid and deductions","FPS80","Share of total tax taken off (boxes 77 to 79)","Create or Amend Partner Income","taxPaidAndDeductions > shareOfTotalTaxTakenOff"
+
