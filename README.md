@@ -18,6 +18,53 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 15 September 2026
+
+#### Self Employment Business API
+
+Existing version 5.0 updated in Production with the following changes:
+
+##### Added
+
+The following endpoints have new schemas for tax year 2026–27 onwards, with a new optional `adjustmentToProfitsForClass4` field added to the `adjustments` object:
+
+- Create and Amend Self-Employment Annual Submission
+- Retrieve a Self-Employment Annual Submission
+
+#### Individuals Charges API
+
+Existing version 3.0 updated in Production with the following changes:
+
+##### Added
+
+The following endpoints have been created for tax years 2026-27 onwards:
+
+- Retrieve Winter Fuel Payment
+- Create or Amend Winter Fuel Payment
+- Delete Winter Fuel Payment
+
+#### Individual Calculations API
+
+Existing version 8.0 updated in Production for tax years 2026-27 onwards with the following changes:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation:
+
+- Add a new optional field `winterFuelPaymentCharge` to `calculation.taxCalculation.incomeTax`
+
+#### Self Assessment Accounts API
+
+Existing version 4.0 updated in Production with the following changes:
+
+##### Added
+
+The following endpoint has been created:
+
+- Retrieve ITSA Penalties
+
+---
+
 ### 1 September 2026
 
 #### Individual Calculations API
