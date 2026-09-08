@@ -18,6 +18,279 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 1 September 2026
+
+#### Individual Calculations API
+
+Existing version 8.0 updated in Sandbox with the following changes:
+
+##### Changed
+
+The following error can now be returned without using Gov-Test-Scenarios:
+
+Submit a Self Assessment Final Declaration:
+
+- `RULE_TAX_YEAR_NOT_SUPPORTED`
+
+##### Removed
+
+The following Gov-Test-Scenario has been removed as it is no longer required to simulate the error listed above:
+
+Submit a Self Assessment Final Declaration:
+
+- `TAX_YEAR_NOT_SUPPORTED`
+
+---
+
+### 26 August 2026
+
+#### CIS Deductions API
+
+Existing version 3.0 updated in Sandbox with the following changes:
+
+##### Changed
+
+The following errors can now be returned without using Gov-Test-Scenarios:
+
+Retrieve CIS Deductions for Subcontractor:
+
+- `RULE_TAX_YEAR_NOT_SUPPORTED`
+- `RULE_TAX_YEAR_RANGE_INVALID`
+
+##### Removed
+
+The following Gov-Test-Scenarios have been removed as they are no longer required to simulate the errors listed above:
+
+Retrieve CIS Deductions for Subcontractor:
+
+- `TAX_YEAR_NOT_SUPPORTED`
+- `TAX_YEAR_RANGE_INVALID`
+
+---
+
+### 17 August 2026
+
+#### Self Employment Business API
+
+##### Changed
+
+Existing version 5.0 updated in Sandbox and Production with the following changes:
+
+**Changes for tax years 2025–26 and before**
+
+Create and Amend Self-Employment Annual Submission:
+
+Deprecate the field `nonFinancials.businessDetailsChangedRecently`. This field is now optional in the request body and will be removed from the documentation in a future release. It should no longer be provided in requests.
+
+Retrieve a Self-Employment Annual Submission:
+
+Deprecate the field `nonFinancials.businessDetailsChangedRecently`. This field will be removed in a future release. If not present in the response body, the value defaults to `false`.
+
+##### Removed
+
+Existing version 5.0 updated in Sandbox with the following changes:
+
+**Changes for tax years 2026–27 onwards**
+
+Remove the field `nonFinancials.businessDetailsChangedRecently` from the following endpoints:
+
+- Create and Amend Self-Employment Annual Submission
+- Retrieve a Self-Employment Annual Submission
+
+---
+
+### 13 August 2026
+
+#### CIS Deductions API
+
+Existing version 3.0 updated in Sandbox with the following changes:
+
+##### Added
+
+Create CIS Deductions for Subcontractor:
+
+- Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`;
+  otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error.
+
+##### Changed
+
+The following errors can now be returned without using Gov-Test-Scenarios:
+
+Create CIS Deductions for Subcontractor:
+
+- `RULE_UNALIGNED_DEDUCTIONS_PERIOD`
+- `RULE_DEDUCTIONS_DATE_RANGE_INVALID`
+- `RULE_TAX_YEAR_NOT_ENDED`
+- `RULE_DUPLICATE_PERIOD`
+
+Amend CIS Deductions for Subcontractor:
+
+- `RULE_TAX_YEAR_NOT_SUPPORTED`
+- `RULE_DEDUCTIONS_DATE_RANGE_INVALID`
+- `RULE_DUPLICATE_PERIOD`
+
+##### Removed
+
+The following Gov-Test-Scenarios have been removed as they are no longer required to simulate the errors listed above:
+
+Create CIS Deductions for Subcontractor:
+
+- `UNALIGNED_DEDUCTIONS_PERIOD`
+- `DEDUCTIONS_DATE_RANGE_INVALID`
+- `TAX_YEAR_NOT_ENDED`
+- `DUPLICATE_PERIOD`
+
+Amend CIS Deductions for Subcontractor:
+
+- `TAX_YEAR_NOT_SUPPORTED`
+- `DEDUCTIONS_DATE_RANGE_INVALID`
+- `DUPLICATE_PERIOD`
+
+---
+
+### 7 August 2026
+
+#### Self Assessment Test Support API
+
+Existing version 1.0 updated in Sandbox with the following change:
+
+##### Added
+
+Create a Test Business:
+
+- Add a new `tradingType` field to the request body for self-employment businesses.
+
+---
+
+### 3 August 2026
+
+#### Individual Capital Gains Income API
+
+Existing version 3.0 updated in Sandbox for tax years 2026-27 onwards with the following changes:
+
+##### Added
+
+Create and Amend CGT Residential Property Disposals (non-PPD):
+
+- Add a new enum value `INC` to `disposals[].claimOrElectionCodes`
+
+Retrieve CGT Residential Property Disposals (non-PPD):
+
+- Add a new enum value `INC` to `customerAddedDisposals{}.disposals[].{}.claimOrElectionCodes`
+
+Create and Amend Other Capital Gains and Disposals:
+
+- Add a new enum value `INC` to `cryptoassets[].{}.claimOrElectionCodes`
+- Add a new enum value `INC` to `otherGains[].{}.claimOrElectionCodes`
+- Add a new enum value `INC` to `unlistedShares[].claimOrElectionCodes`
+
+Retrieve Other Capital Gains and Disposals:
+
+- Add a new enum value `INC` to `cryptoassets[].{}.claimOrElectionCodes`
+- Add a new enum value `INC` to `otherGains[].{}.claimOrElectionCodes`
+- Add a new enum value `INC` to `unlistedShares[].claimOrElectionCodes`
+
+##### Removed
+
+Create and Amend Other Capital Gains and Disposals:
+
+- Remove optional `nonStandardGains` object from the request body
+
+Retrieve Other Capital Gains and Disposals:
+
+- Remove optional `nonStandardGains` object from the response body
+
+##### Changed
+
+Create and Amend Other Capital Gains and Disposals:
+
+- Update `adjustments.adjustmentAmount` to allow negative values
+
+Retrieve Other Capital Gains and Disposals:
+
+- Update `adjustments.adjustmentAmount` to allow negative values
+
+Existing version 3.0 updated in Sandbox for tax year 2025-26 with the following changes:
+
+##### Changed
+
+Create and Amend Other Capital Gains and Disposals:
+
+- Update `adjustments.adjustmentAmount` to allow negative values
+
+Retrieve Other Capital Gains and Disposals:
+
+- Update `adjustments.adjustmentAmount` to allow negative values
+
+---
+
+### 27 July 2026
+
+#### Business Details API
+
+Existing version 2.0 updated in Sandbox and Production with the following changes:
+
+##### Added
+
+Add a new optional field `tradingType` to the response body for the following endpoints:
+
+- Retrieve Business Details
+- List All Businesses
+
+---
+
+### 10 July 2026
+
+#### Individuals Other Income API
+
+The following change is now available in Sandbox and Production.
+
+##### Added
+
+Add a new error `RULE_TAX_YEAR_FOR_VERSION_NOT_SUPPORTED` restricting requests to only support tax years up to 2025-26 for version 2.0 for the following endpoints:
+- Create and Amend Other Income
+- Retrieve Other Income
+- Delete Other Income
+
+Version 3.0 which is in development must be used for tax years 2026-27 onwards.
+
+---
+
+### 18 June 2026
+
+
+#### Individual Calculations API
+
+Existing version 8.0 updated in Sandbox & Production with the following changes:
+
+##### Removed
+
+Retrieve a Self Assessment Tax Calculation
+- Removed deprecated enum value `Non Digital` from `inputs.personalInformation.itsaStatus` for tax year 2026–27.
+- Removed incorrect enum value `Digitally Exempt` from `inputs.personalInformation.itsaStatus` for tax year 2025–26.
+
+#### Self Assessment Individual Details API
+
+Existing version 7.0 updated in Sandbox & Production with the following changes:
+
+##### Removed
+
+Retrieve ITSA Status
+
+- Remove deprecated enum value `Non Digital` from `itsaStatuses[].itsaStatusDetails[].status`.
+
+#### Business Source Adjustable Summary (BSAS) API
+
+Existing version 7.0 updated in Sandbox & Production with the following changes:
+
+##### Removed
+
+Retrieve a Self-Employment Business Source Adjustable Summary
+
+- Remove deprecated optional fields `adjustableSummaryCalculation.additions.outstandingBusinessIncome` and `adjustedSummaryCalculation.additions.outstandingBusinessIncome` from the response body for tax years 2025-26 onwards
+
+---
+
 ### 16 June 2026
 
 #### Individual Calculations API
