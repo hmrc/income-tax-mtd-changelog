@@ -18,6 +18,153 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 14 September 2026
+
+#### Self Assessment Accounts API
+
+Existing version 4.0 updated in Sandbox with the following changes:
+
+##### Added
+
+Retrieve Self Assessment Balance and Transactions:
+
+- Add a new optional field `totalFormalAndInformalStandovers` to `balanceDetails` 
+- Add new optional fields `chargeClassification`, `totalStandoverAmount` and `collectableAmount` to `documentDetails`
+
+Retrieve History of a Self Assessment Charge by Charge Reference:
+
+- Add a new optional field `chargeClassification` to `chargeHistoryDetails` 
+
+Retrieve History of a Self Assessment Charge by Transaction ID:
+
+- Add a new optional field `chargeClassification` to `chargeHistoryDetails`
+
+Retrieve History of a Self Assessment Charge:
+
+- Add a new optional field `chargeClassification` to `chargeHistoryDetails`
+
+#### Individual Calculations API
+
+New API version 9.0 added in Sandbox with the following changes for tax years 2026-27 onwards:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation:
+
+- Add a new optional array `customerServiceMessages` to `messages` 
+- Add new optional fields `taxRefundedOrSetOff` and `totalTaxAndNicsDue` to `calculation.taxCalculation`
+- Add new optional fields `taxRefundedOrSetOffAmount`, `totalTaxAndNicsDue`, `taxNicsDueThisPeriod` and `totalTaxAndNicsDueThisPeriod` to `calculation.previousCalculation`
+- Add new optional fields `taxRefundedOrSetOffAmount` and `totalTaxAndNicsAmount` to `calculation.endOfYearEstimate`
+- Add a new optional field `taxTakenOffOtherIncome` to `calculation.taxDeductedAtSource`
+- Add new optional objects `additionalIncome` and `benefitFromPreOwnedAssets` to `calculation.otherIncome`
+- Add new enum values `enquiry-amendment`, `auto-correction`, `manual-correction`, `marriage-allowance`, `class2-national-insurance`, `devolved-residency` and `customer-rejection-of-a-correction` to `metadata.calculationReason`
+
+#### Individuals Tax Liability Adjustments API
+
+Existing version 1.0 updated in Sandbox with the following changes for tax years 2026-27 onwards:
+
+##### Added
+
+Retrieve Tax Liability Adjustments:
+
+- Add a new optional object `taxRefundedOrSetOff` 
+
+Create or Amend Tax Liability Adjustments:
+
+- Add a new optional object `taxRefundedOrSetOff` 
+
+#### Self Employment Business API
+
+Existing version 5.0 updated in Sandbox with the following changes for tax years 2026-27 onwards:
+
+##### Added
+
+Retrieve a Self-Employment Annual Submission:
+
+- Add a new optional field `firstYearAllowanceOnPlantAndMachinery` to `allowances`
+
+Create and Amend Self-Employment Annual Submission:
+
+- Add a new optional field `firstYearAllowanceOnPlantAndMachinery` to `allowances`
+
+#### Property Business API
+
+Existing version 6.0 updated in Sandbox with the following changes for tax years 2026-27 onwards:
+
+##### Added
+
+Retrieve a UK Property Business Annual Submission:
+
+- Add a new optional field `firstYearAllowanceOnPlantAndMachinery` to `ukProperty.allowances`
+
+Create and Amend a UK Property Business Annual Submission:
+
+- Add a new optional field `firstYearAllowanceOnPlantAndMachinery` to `ukProperty.allowances`
+
+#### Business Source Adjustable Summary (BSAS) API
+
+Existing version 7.0 updated in Sandbox with the following changes for tax years 2026-27 onwards:
+
+##### Added
+
+Retrieve a UK Property Business Source Adjustable Summary:
+
+- Add a new optional field `firstYearAllowanceOnPlantAndMachinery` to `adjustableSummaryCalculation.deductions` 
+- Add a new optional field `firstYearAllowanceOnPlantAndMachinery` to `adjustedSummaryCalculation.deductions`
+
+Retrieve a Self-Employment Business Source Adjustable Summary:
+
+- Add a new optional field `firstYearAllowanceOnPlantAndMachinery` to `adjustableSummaryCalculation.deductions` 
+- Add a new optional field `firstYearAllowanceOnPlantAndMachinery` to `adjustedSummaryCalculation.deductions` 
+#### Individuals Other Income API
+
+New API version 3.0 added in Sandbox with the following changes for tax years 2026-27 onwards:
+
+##### Added
+
+Retrieve Other Income:
+
+- Add a new optional array `benefitFromPreOwnedAssets` to `otherIncome`
+- Add a new optional object `additionalIncome` to `otherIncome`
+
+Create and Amend Other Income:
+
+- Add a new optional array `benefitFromPreOwnedAssets` to `otherIncome`
+- Add a new optional object `additionalIncome` to `otherIncome`
+- Add new errors `FORMAT_TYPE_OF_ASSET`, `RULE_TAX_DEDUCTED_EXCEEDS_AMOUNT_BEFORE_TAX` and `RULE_INCORRECT_BUSINESS_CEASED_DATE`
+
+##### Changed
+
+Create and Amend Other Income:
+
+- Change success code from `200` to `204`
+- Restrict the minimum supported tax year to `2025-26`
+
+Delete Other Income:
+
+- Restrict the minimum supported tax year to `2025-26`
+
+##### Removed
+
+Retrieve Other Income:
+
+- Remove the optional array `businessReceipts`
+- Remove error `RULE_REQUEST_CANNOT_BE_FULFILLED`
+- Remove Gov-Test-Scenarios `DYNAMIC` and `REQUEST_CANNOT_BE_FULFILLED`
+
+Create and Amend Other Income:
+
+- Remove the optional array `businessReceipts`
+- Remove errors `RULE_DATE_RANGE_INVALID` and `RULE_REQUEST_CANNOT_BE_FULFILLED`
+- Remove Gov-Test-Scenario `REQUEST_CANNOT_BE_FULFILLED`
+
+Delete Other Income:
+
+- Remove error `RULE_REQUEST_CANNOT_BE_FULFILLED`
+- Remove Gov-Test-Scenario `REQUEST_CANNOT_BE_FULFILLED`
+
+---
+
 ### 1 September 2026
 
 #### Individual Calculations API
