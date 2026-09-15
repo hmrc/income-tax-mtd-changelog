@@ -63,6 +63,14 @@ The following endpoint has been created:
 
 - Retrieve ITSA Penalties
 
+Existing version 4.0 updated in Sandbox and Production with the following changes:
+
+##### Added
+
+Retrieve Self Assessment Balance and Transactions:
+
+- Add a new optional field `dunningLock` to `financialDetails[].items[].locks`
+
 ---
 
 ### 14 September 2026
