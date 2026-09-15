@@ -17,6 +17,13 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 15 September 2026
+#### Business Details API
+Existing version 2.0 updated in Sandbox and Production with the following change:
+
+##### Removed
+Optional field `yearOfMigration` has been removed from the response body for the following endpoint:
+- Retrieve Business Details
 
 ### 15 September 2026
 
