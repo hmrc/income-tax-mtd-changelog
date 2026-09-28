@@ -18,6 +18,35 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 
 ---
 
+### 28 September 2026
+
+#### Individuals State Benefits API
+
+Existing version 2.0 updated in Sandbox with the following changes:
+
+##### Added
+
+Create State Benefit:
+
+Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`; otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error.
+
+##### Changed
+
+The following errors can now be returned without using Gov-Test-Scenarios:
+
+Create State Benefit:
+
+- `RULE_END_DATE_BEFORE_TAX_YEAR_START`
+- `RULE_START_DATE_AFTER_TAX_YEAR_END`
+- `RULE_TAX_YEAR_NOT_ENDED`
+
+Amend State Benefit:
+
+- `RULE_START_DATE_AFTER_TAX_YEAR_END`
+- `RULE_END_DATE_BEFORE_TAX_YEAR_START`
+
+---
+
 ### 16 September 2026
 
 #### Business Details API
