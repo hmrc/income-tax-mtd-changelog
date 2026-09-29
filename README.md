@@ -37,6 +37,13 @@ The error `RULE_TAX_YEAR_NOT_ENDED` can now be returned without using Gov-Test-S
 - Ignore State Benefit
 - Unignore State Benefit
 
+##### Removed
+
+The `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario has been removed as it is no longer required to simulate the error for the following endpoints:
+
+- Ignore State Benefit
+- Unignore State Benefit
+
 ---
 
 ### 28 September 2026
@@ -65,6 +72,21 @@ Amend State Benefit:
 
 - `RULE_START_DATE_AFTER_TAX_YEAR_END`
 - `RULE_END_DATE_BEFORE_TAX_YEAR_START`
+
+##### Removed
+
+The following Gov-Test-Scenarios have been removed as they are no longer required to simulate the errors listed above:
+
+Create State Benefit:
+
+- `END_DATE_BEFORE_TAX_YEAR_START`
+- `START_DATE_AFTER_TAX_YEAR_END`
+- `TAX_YEAR_NOT_ENDED`
+
+Amend State Benefit:
+
+- `START_DATE_AFTER_TAX_YEAR_END`
+- `END_DATE_BEFORE_TAX_YEAR_START`
 
 ---
 
