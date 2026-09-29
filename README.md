@@ -32,7 +32,7 @@ Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow
 
 ##### Changed
 
-The error `RULE_TAX_YEAR_NOT_ENDED` can now be returned without using Gov-Test-Scenarios for the following endpoints:
+The error `RULE_TAX_YEAR_NOT_ENDED` can now be returned without using Gov-Test-Scenario for the following endpoints:
 
 - Ignore State Benefit
 - Unignore State Benefit
