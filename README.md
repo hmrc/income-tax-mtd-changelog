@@ -17,6 +17,31 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 2 October 2026
+
+#### Individuals Capital Gains Income API
+
+Existing version 3.0 updated in Sandbox with the following changes:
+
+##### Changed
+
+The following errors can now be returned without using Gov-Test-Scenarios:
+
+Create and Amend CGT Residential Property Disposals (non-PPD):
+
+- `RULE_DISPOSAL_DATE`
+- `RULE_ACQUISITION_DATE_AFTER_DISPOSAL_DATE`
+
+##### Removed
+
+The following Gov-Test-Scenarios have been removed as they are no longer required to simulate the errors listed above:
+
+Create and Amend CGT Residential Property Disposals (non-PPD):
+
+- `INVALID_DISPOSAL_DATE`
+- `ACQUISITION_DATE_AFTER_DISPOSAL_DATE`
+
+---
 ### 1 October 2026
 
 #### Individuals Capital Gains Income API
