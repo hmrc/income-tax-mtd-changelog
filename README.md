@@ -17,6 +17,37 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 1 October 2026
+
+#### Individuals Capital Gains Income API
+
+Existing version 3.0 updated in Sandbox with the following changes:
+
+##### Added
+
+Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD):
+
+Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`; otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error.
+
+##### Changed
+
+The following errors can now be returned without using Gov-Test-Scenarios:
+
+Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD):
+
+- `RULE_TAX_YEAR_NOT_ENDED`
+- `RULE_DUPLICATED_PPD_SUBMISSION_ID`
+
+##### Removed
+
+The following Gov-Test-Scenarios have been removed as they are no longer required to simulate the errors listed above:
+
+Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Overrides (PPD):
+
+- `TAX_YEAR_NOT_ENDED`
+- `DUPLICATED_PPD_SUBMISSION_ID`
+
+---
 ### 29 September 2026
 
 #### Individuals State Benefits API
