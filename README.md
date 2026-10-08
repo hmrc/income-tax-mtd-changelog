@@ -17,6 +17,27 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 9 October 2026
+
+#### Business Source Adjustable Summary (BSAS) API
+
+Existing version 7.0 updated in Sandbox with the following changes:
+
+##### Changed
+
+**Changes for tax years 2021-22 onwards**
+
+Submit Foreign Property Accounting Adjustments:
+
+- Deprecate the field `residentialFinancialCost`. This field is deprecated and will be removed in a future release. Values submitted through this field are accepted but are not reflected in summary calculations, where this value is returned as 0.
+
+Retrieve a Foreign Property Business Source Adjustable Summary:
+
+- Deprecate the field `residentialFinancialCost`. This field is deprecated and will be removed in a future release. Residential financial costs are treated as a tax relief rather than an expense and are therefore returned as 0 in summary calculations.
+- Deprecate the field `broughtFwdResidentialFinancialCost`. This field is deprecated and will be removed in a future release. Brought forward residential financial costs are not returned in summary calculations.
+
+
+---
 ### 7 October 2026
 
 #### Individuals State Benefits API
