@@ -17,6 +17,35 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 9 October 2026
+
+#### Individuals Expenses API
+
+Existing version 3.0 updated in Sandbox with the following changes:
+
+##### Added
+
+Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`; otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error for the following endpoints:
+
+- Create and Amend Employment Expenses
+- Ignore Employment Expenses
+
+##### Changed
+
+The error `RULE_TAX_YEAR_NOT_ENDED` can now be returned without using Gov-Test-Scenario for the following endpoints:
+
+- Create and Amend Employment Expenses
+- Ignore Employment Expenses
+
+##### Removed
+
+The `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario has been removed as it is no longer required to simulate the error for the following endpoints:
+
+- Create and Amend Employment Expenses
+- Ignore Employment Expenses
+
+
+---
 ### 7 October 2026
 
 #### Individuals State Benefits API
