@@ -25,7 +25,7 @@ Existing version 7.0 updated in Sandbox & Production with the following changes:
 
 ##### Removed
 
-Retrieve a Self-Employment Business Source Adjustable Summary
+Retrieve a Self-Employment Business Source Adjustable Summary:
 
 - Remove deprecated optional fields `adjustableSummaryCalculation.accountingAdjustments.overlapReliefUsed` and `adjustedSummaryCalculation.accountingAdjustments.overlapReliefUsed` from the response body for tax years 2024-25 onwards
 
