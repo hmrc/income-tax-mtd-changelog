@@ -47,6 +47,21 @@ Retrieve a Foreign Property Business Source Adjustable Summary:
 - Update the `residentialFinancialCost` field description in the API documentation with the note `Residential financial costs are treated as a tax relief rather than an expense and are therefore returned as 0 in summary calculations.`
 - Deprecate the field `broughtFwdResidentialFinancialCost`. This field is deprecated and will be removed in a future release. Brought forward residential financial costs are not returned in summary calculations.
 
+#### Self Employment Business API
+
+Existing version 5.0 updated in Sandbox & Production with the following changes:
+
+##### Removed
+
+Remove deprecated optional field `adjustments.overlapReliefUsed` for the following endpoints:
+
+- Create and Amend Self-Employment Annual Submission
+- Retrieve a Self-Employment Annual Submission
+
+The error `RULE_OVERLAP_RELIEF_USED_NOT_ALLOWED` has been removed for the following endpoint:
+
+- Create and Amend Self-Employment Annual Submission
+
 ---
 ### 12 October 2026
 
