@@ -53,12 +53,12 @@ Existing version 5.0 updated in Sandbox & Production with the following changes:
 
 ##### Removed
 
-Remove deprecated optional fields `adjustments.overlapReliefUsed` for the following endpoints:
+Remove deprecated optional field `adjustments.overlapReliefUsed` for the following endpoints:
 
 - Create and Amend Self-Employment Annual Submission
 - Retrieve a Self-Employment Annual Submission
 
-The error RULE_OVERLAP_RELIEF_USED_NOT_ALLOWED has been removed for the following endpoint:
+The error `RULE_OVERLAP_RELIEF_USED_NOT_ALLOWED` has been removed for the following endpoint:
 
 - Create and Amend Self-Employment Annual Submission
 
