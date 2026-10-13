@@ -25,7 +25,7 @@ Existing version 7.0 updated in Sandbox with the following changes:
 
 ##### Changed
 
-**Changes for tax years 2021-22 onwards**
+**Changes for tax years 2020-21 onwards**
 
 Submit Foreign Property Accounting Adjustments:
 
