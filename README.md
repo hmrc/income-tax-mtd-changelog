@@ -17,7 +17,20 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 20 October 2026
 
+#### Business Source Adjustable Summary (BSAS) API
+
+Existing version 7.0 updated in Sandbox and Production with the following changes:
+
+##### Added
+
+Add a new error `RULE_RESIDENTIAL_FINANCIAL_COST_NOT_ALLOWED` for tax years 2026–27 onwards for the following endpoints:
+
+- Submit UK Property Accounting Adjustments
+- Submit Foreign Property Accounting Adjustments
+
+---
 ### 16 October 2026
 
 #### Business Source Adjustable Summary (BSAS) API
@@ -30,7 +43,7 @@ Existing version 7.0 updated in Sandbox and Production with the following change
 
 Submit UK Property Accounting Adjustments:
 
-- Deprecate the field `residentialFinancialCost`. This field is deprecated and will be removed in a future release. Values submitted through this field are accepted but are not reflected in summary calculations, where this value is returned as 0.
+- Deprecate the field `residentialFinancialCost`. This field is deprecated and will be removed in a future release. ~~Values submitted through this field are accepted but are not reflected in summary calculations, where this value is returned as 0.~~ (Note: This change was added in error and should not have been included.)
 
 Retrieve a UK Property Business Source Adjustable Summary:
 
@@ -61,7 +74,7 @@ Existing version 7.0 updated in Sandbox and Production with the following change
 
 Submit Foreign Property Accounting Adjustments:
 
-- Deprecate the field `residentialFinancialCost`. This field is deprecated and will be removed in a future release. Values submitted through this field are accepted but are not reflected in summary calculations, where this value is returned as 0.
+- Deprecate the field `residentialFinancialCost`. This field is deprecated and will be removed in a future release. ~~Values submitted through this field are accepted but are not reflected in summary calculations, where this value is returned as 0~~. (Note: This change was added in error and should not have been included.)
 
 Retrieve a Foreign Property Business Source Adjustable Summary:
 
