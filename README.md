@@ -17,7 +17,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
-### 20 October 2026
+### 22 October 2026
 
 #### Business Source Adjustable Summary (BSAS) API
 
@@ -25,7 +25,7 @@ Existing version 7.0 updated in Sandbox and Production with the following change
 
 ##### Added
 
-Add a new error `RULE_RESIDENTIAL_FINANCIAL_COST_NOT_ALLOWED` for tax years 2026–27 onwards for the following endpoints:
+Add a new error `RULE_RESIDENTIAL_FINANCIAL_COST_NOT_ALLOWED` for tax years 2026–27 onwards for the following endpoints: (Note: The previous log incorrectly stated that the values submitted through the field `residentialFinancialCost` are accepted. The field is deprecated for tax years 2026-27 onwards and will return the stated error if supplied in the request body.)
 
 - Submit UK Property Accounting Adjustments
 - Submit Foreign Property Accounting Adjustments
