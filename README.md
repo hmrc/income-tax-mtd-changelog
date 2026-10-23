@@ -17,6 +17,40 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 23 October 2026
+
+#### Individuals Employment Income API
+
+Existing version 2.0 updated in Sandbox with the following changes:
+
+##### Added
+
+Add a new optional header suspend-temporal-validations (Sandbox only) to allow in-year submissions when set to true; otherwise, in-year submissions return RULE_TAX_YEAR_NOT_ENDED error for the following endpoints:
+
+- Add a Custom Employment
+- Amend a Custom Employment
+- Create and Amend Non-PAYE Employment Income
+- Create and Amend Employment Financial Details
+
+##### Changed
+
+The error RULE_TAX_YEAR_NOT_ENDED can now be returned without using Gov-Test-Scenario for the following endpoints:
+
+- Add a Custom Employment
+- Amend a Custom Employment
+- Create and Amend Non-PAYE Employment Income
+- Create and Amend Employment Financial Details
+
+###### Removed
+
+The TAX_YEAR_NOT_ENDED Gov-Test-Scenario has been removed as it is no longer required to simulate the error for the following endpoints:
+
+- Add a Custom Employment
+- Amend a Custom Employment
+- Create and Amend Non-PAYE Employment Income
+- Create and Amend Employment Financial Details
+
+---
 ### 22 October 2026
 
 #### Business Source Adjustable Summary (BSAS) API
