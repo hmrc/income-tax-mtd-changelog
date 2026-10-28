@@ -25,7 +25,7 @@ Existing version 2.0 updated in Sandbox with the following changes:
 
 ##### Added
 
-Add a new optional header suspend-temporal-validations (Sandbox only) to allow in-year submissions when set to true; otherwise, in-year submissions return RULE_TAX_YEAR_NOT_ENDED error for the following endpoints:
+Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`; otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error for the following endpoints:
 
 - Add a Custom Employment
 - Amend a Custom Employment
@@ -36,7 +36,7 @@ Add a new optional header suspend-temporal-validations (Sandbox only) to allow i
 
 ##### Changed
 
-The error RULE_TAX_YEAR_NOT_ENDED can now be returned without using Gov-Test-Scenario for the following endpoints:
+The error `RULE_TAX_YEAR_NOT_ENDED` can now be returned without using Gov-Test-Scenario for the following endpoints:
 
 - Add a Custom Employment
 - Amend a Custom Employment
@@ -47,7 +47,7 @@ The error RULE_TAX_YEAR_NOT_ENDED can now be returned without using Gov-Test-Sce
 
 ###### Removed
 
-The TAX_YEAR_NOT_ENDED Gov-Test-Scenario has been removed as it is no longer required to simulate the error for the following endpoints:
+The `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario has been removed as it is no longer required to simulate the error for the following endpoints:
 
 - Add a Custom Employment
 - Amend a Custom Employment
