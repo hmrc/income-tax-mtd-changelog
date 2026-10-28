@@ -17,9 +17,9 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
-### 23 October 2026
+### 28 October 2026
 
-#### Individuals Employment Income API
+#### Individuals Employments Income API
 
 Existing version 2.0 updated in Sandbox with the following changes:
 
@@ -29,8 +29,10 @@ Add a new optional header suspend-temporal-validations (Sandbox only) to allow i
 
 - Add a Custom Employment
 - Amend a Custom Employment
-- Create and Amend Non-PAYE Employment Income
 - Create and Amend Employment Financial Details
+- Create and Amend Non-PAYE Employment Income
+- Ignore Employment
+- Unignore Employment
 
 ##### Changed
 
@@ -38,8 +40,10 @@ The error RULE_TAX_YEAR_NOT_ENDED can now be returned without using Gov-Test-Sce
 
 - Add a Custom Employment
 - Amend a Custom Employment
-- Create and Amend Non-PAYE Employment Income
 - Create and Amend Employment Financial Details
+- Create and Amend Non-PAYE Employment Income
+- Ignore Employment
+- Unignore Employment
 
 ###### Removed
 
@@ -47,8 +51,10 @@ The TAX_YEAR_NOT_ENDED Gov-Test-Scenario has been removed as it is no longer req
 
 - Add a Custom Employment
 - Amend a Custom Employment
-- Create and Amend Non-PAYE Employment Income
 - Create and Amend Employment Financial Details
+- Create and Amend Non-PAYE Employment Income
+- Ignore Employment
+- Unignore Employment
 
 ---
 ### 22 October 2026
