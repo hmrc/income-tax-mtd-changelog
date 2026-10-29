@@ -17,6 +17,26 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 29 October 2026
+#### Self Assessment Accounts API
+Existing version 4.0 updated in Sandbox with the following changes:
+
+##### Added
+
+Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`; otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error for the following endpoint:
+- Create or Amend Coding Out Underpayments and Debt Amounts
+
+##### Changed
+
+The error `RULE_TAX_YEAR_NOT_ENDED` can now be returned without using Gov-Test-Scenario for the following endpoint:
+- Create or Amend Coding Out Underpayments and Debt Amounts
+
+##### Removed
+
+The `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario has been removed as it is no longer required to simulate the error for the following endpoint:
+- Create or Amend Coding Out Underpayments and Debt Amounts
+
+---
 ### 28 October 2026
 
 #### Individuals Employments Income API
