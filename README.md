@@ -19,7 +19,7 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 ---
 ### 30 October 2026
 #### Self Assessment Accounts API
-Existing version 4.0 updated in Sandbox with the following changes:
+Existing version 4.0 updated in Sandbox with the following change:
 
 ##### Added
 
