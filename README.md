@@ -17,6 +17,17 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+### 30 October 2026
+#### Self Assessment Accounts API
+Existing version 4.0 updated in Sandbox with the following change:
+
+##### Added
+
+Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`; otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error for the following endpoint:
+
+- Create or Amend Coding Out Underpayments and Debt Amounts
+
+---
 ### 28 October 2026
 
 #### Individuals Employments Income API
