@@ -17,8 +17,25 @@ Parameters in some Making Tax Digital for Income Tax APIs map to box numbers in 
 **Note:** The date shown is the date that the change was released to Sandbox or Production.
 
 ---
+
+### 9 November 2026
+
+#### Individual Calculations API
+
+Existing version 9.0 updated in Sandbox with the following change for tax year 2025-26:
+
+##### Added
+
+Retrieve a Self Assessment Tax Calculation:
+
+- Add new enum value `enquiry-amendment` to `metadata.calculationReason`
+
+---
+
 ### 30 October 2026
+
 #### Self Assessment Accounts API
+
 Existing version 4.0 updated in Sandbox with the following change:
 
 ##### Added
@@ -28,6 +45,7 @@ Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow
 - Create or Amend Coding Out Underpayments and Debt Amounts
 
 ---
+
 ### 28 October 2026
 
 #### Individuals Employments Income API
@@ -68,6 +86,7 @@ The `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario has been removed as it is no longer r
 - Unignore Employment
 
 ---
+
 ### 22 October 2026
 
 #### Business Source Adjustable Summary (BSAS) API
@@ -82,6 +101,7 @@ Add a new error `RULE_RESIDENTIAL_FINANCIAL_COST_NOT_ALLOWED` for tax years 2026
 - Submit Foreign Property Accounting Adjustments
 
 ---
+
 ### 16 October 2026
 
 #### Business Source Adjustable Summary (BSAS) API
@@ -113,6 +133,7 @@ Retrieve a UK Property Business Source Adjustable Summary:
 - Deprecate the field `broughtFwdResidentialFinancialCost`. This field is deprecated and will be removed in a future release. Brought forward residential financial costs are not returned in summary calculations.
 
 ---
+
 ### 13 October 2026
 
 #### Business Source Adjustable Summary (BSAS) API
@@ -159,6 +180,7 @@ The error `RULE_OVERLAP_RELIEF_USED_NOT_ALLOWED` has been removed for the follow
 - Create and Amend Self-Employment Annual Submission
 
 ---
+
 ### 12 October 2026
 
 #### Business Source Adjustable Summary (BSAS) API
@@ -172,6 +194,7 @@ Retrieve a Self-Employment Business Source Adjustable Summary:
 - Remove deprecated optional fields `adjustableSummaryCalculation.accountingAdjustments.overlapReliefUsed` and `adjustedSummaryCalculation.accountingAdjustments.overlapReliefUsed` from the response body for tax years 2024-25 onwards
 
 ---
+
 ### 9 October 2026
 
 #### Individuals Expenses API
@@ -199,8 +222,8 @@ The `TAX_YEAR_NOT_ENDED` Gov-Test-Scenario has been removed as it is no longer r
 - Create and Amend Employment Expenses
 - Ignore Employment Expenses
 
-
 ---
+
 ### 7 October 2026
 
 #### Individuals State Benefits API
@@ -212,7 +235,6 @@ Existing version 2.0 updated in Sandbox with the following changes:
 Amend State Benefits Amount:
 
 Add a new optional header `suspend-temporal-validations` (Sandbox only) to allow in-year submissions when set to `true`; otherwise, in-year submissions return `RULE_TAX_YEAR_NOT_ENDED` error.
-
 
 ##### Changed
 
@@ -231,6 +253,7 @@ Amend State Benefits Amount:
 - `TAX_YEAR_NOT_ENDED`
 
 ---
+
 ### 2 October 2026
 
 #### Individuals Capital Gains Income API
@@ -256,6 +279,7 @@ Create and Amend CGT Residential Property Disposals (non-PPD):
 - `ACQUISITION_DATE_AFTER_DISPOSAL_DATE`
 
 ---
+
 ### 1 October 2026
 
 #### Individuals Capital Gains Income API
@@ -287,6 +311,7 @@ Create and Amend 'Report and Pay Capital Gains Tax on Residential Property' Over
 - `DUPLICATED_PPD_SUBMISSION_ID`
 
 ---
+
 ### 29 September 2026
 
 #### Individuals State Benefits API
